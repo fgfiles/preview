@@ -1,0 +1,107 @@
+{
+    "hierarchy": {
+        "name": "tutorial_2",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "tap"
+                    },
+                    {
+                        "name": "character"
+                    },
+                    {
+                        "name": "arrows"
+                    },
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "hand"
+                            }
+                        ],
+                        "animations": [
+                            "tutorial_mobile",
+                            "tutorial_desktop"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "tutorial_fly"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "container"
+        },
+        "base/tap": {
+            "file": "tap.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.6,
+                "y": -11.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/character": {
+            "file": "stink_bouncy2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -41.7,
+                "y": -2.1
+            },
+            "type": "sprite"
+        },
+        "base/arrows": {
+            "file": "arrows.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39.7,
+                "y": 80.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/skin/hand": {
+            "file": "hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 113.6,
+                "y": 87.4
+            },
+            "angle": -10,
+            "scale": {
+                "x": 0.54,
+                "y": 0.54
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

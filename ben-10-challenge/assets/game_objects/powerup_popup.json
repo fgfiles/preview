@@ -1,0 +1,45 @@
+{
+    "hierarchy": {
+        "name": "powerup_popup",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "popup_anim_in",
+            "popup_anim_out"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "contenedor2 copia 3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 20
+            },
+            "text": "Aim at the blockers to destroy them \n(You can also use it against enemies)",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": -3.9
+            },
+            "type": "text"
+        }
+    }
+}

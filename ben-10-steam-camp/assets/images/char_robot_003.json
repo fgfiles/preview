@@ -1,0 +1,97 @@
+{
+"skeleton": { "hash": "oDkhIv2tyzbjvFuQbkZQYQoQzcg", "spine": "3.4.02", "width": 115, "height": 96.69, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "rotation": -0.01, "y": 10 },
+	{ "name": "cog_001", "parent": "body", "x": 12.14, "y": 2.43 },
+	{ "name": "cog_002", "parent": "body", "x": 23.49, "y": -21.05 },
+	{ "name": "wing_back", "parent": "body", "y": 17.82 }
+],
+"slots": [
+	{ "name": "cog_001", "bone": "cog_001", "attachment": "cog_001" },
+	{ "name": "wing_back", "bone": "wing_back", "attachment": "wing_back" },
+	{ "name": "cog_002", "bone": "cog_002", "attachment": "cog_002" },
+	{ "name": "body", "bone": "body", "attachment": "body" }
+],
+"skins": {
+	"default": {
+		"body": {
+			"body": { "y": -29.96, "rotation": 0.01, "width": 115, "height": 79 }
+		},
+		"cog_001": {
+			"cog_001": { "rotation": 0.01, "width": 35, "height": 34 }
+		},
+		"cog_002": {
+			"cog_002": { "rotation": 0.01, "width": 27, "height": 26 }
+		},
+		"wing_back": {
+			"wing_back": { "x": -8.9, "y": -8.1, "rotation": 0.01, "width": 96, "height": 35 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"wing_back": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"cog_001": {
+				"rotate": [
+					{ "time": 0, "angle": -0.98 },
+					{ "time": 1, "angle": 180.01 },
+					{ "time": 2, "angle": 1.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"cog_002": {
+				"rotate": [
+					{ "time": 0, "angle": 1.01 },
+					{ "time": 1, "angle": 180.01 },
+					{ "time": 2, "angle": 359.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

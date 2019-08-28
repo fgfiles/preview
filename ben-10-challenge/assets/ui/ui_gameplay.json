@@ -1,0 +1,380 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "ui",
+                "children": [
+                    {
+                        "name": "best_score"
+                    },
+                    {
+                        "name": "score"
+                    },
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "level_container"
+                    },
+                    {
+                        "name": "level"
+                    },
+                    {
+                        "name": "money_pivot"
+                    },
+                    {
+                        "name": "check_pivot"
+                    }
+                ]
+            },
+            {
+                "name": "pause_1"
+            },
+            {
+                "name": "map_pivot"
+            },
+            {
+                "name": "best_score_pivot"
+            },
+            {
+                "name": "overlay_pivot"
+            },
+            {
+                "name": "power_menu",
+                "children": [
+                    {
+                        "name": "popup_powerups",
+                        "children": [
+                            {
+                                "name": "description"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "powerup_1"
+                    },
+                    {
+                        "name": "powerup_2"
+                    },
+                    {
+                        "name": "powerup_3"
+                    },
+                    {
+                        "name": "powerup_4"
+                    }
+                ]
+            },
+            {
+                "name": "power-on",
+                "children": [
+                    {
+                        "name": "pivot_icon"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ]
+            },
+            {
+                "name": "container_pivot"
+            },
+            {
+                "name": "character_pivot"
+            },
+            {
+                "name": "center_pivot"
+            },
+            {
+                "name": "scroll_pivot"
+            },
+            {
+                "name": "level_message_pivot"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "ui": {
+            "file": "ui.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_LEFT",
+                "offset": {
+                    "x": -12.1,
+                    "y": -9.4
+                }
+            }
+        },
+        "ui/best_score": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 20
+            },
+            "text": "$530",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 26.8,
+                "y": 51.4
+            },
+            "type": "text"
+        },
+        "ui/score": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "$530",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 37.1,
+                "y": 18.4
+            },
+            "type": "text"
+        },
+        "ui/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "Throws Lefts",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 37.1,
+                "y": -26.2
+            },
+            "type": "text"
+        },
+        "ui/level_container": {
+            "file": "level_container_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -70.8,
+                "y": -24.5
+            },
+            "type": "sprite"
+        },
+        "ui/level": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 45
+            },
+            "text": "1",
+            "align": "center",
+            "position": {
+                "x": -71,
+                "y": -24.2
+            },
+            "type": "text"
+        },
+        "ui/money_pivot": {
+            "position": {
+                "x": -33.7,
+                "y": 21.4
+            },
+            "type": "container"
+        },
+        "ui/check_pivot": {
+            "position": {
+                "x": 89.5,
+                "y": 15.6
+            },
+            "type": "container"
+        },
+        "pause_1": {
+            "file": "pause_1.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -4.6,
+                    "y": -4.9
+                }
+            }
+        },
+        "map_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "TOP_LEFT",
+                "offset": {
+                    "x": -264,
+                    "y": -26
+                }
+            }
+        },
+        "best_score_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -26
+                }
+            }
+        },
+        "overlay_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "power_menu": {
+            "file": "button_powerups2.png",
+            "image": "SIMPLE",
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "button",
+            "alignment": {
+                "type": "LEFT_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": 20.4
+                }
+            }
+        },
+        "power_menu/popup_powerups": {
+            "file": "contenedor2 copia 3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 403.3,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "power_menu/popup_powerups/description": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "Touch the button to see\nthe available power-ups",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": -1.6
+            },
+            "type": "text"
+        },
+        "power_menu/powerup_1": {
+            "position": {
+                "x": 92.5,
+                "y": -126.4
+            },
+            "type": "container"
+        },
+        "power_menu/powerup_2": {
+            "position": {
+                "x": 92.5,
+                "y": -41.3
+            },
+            "type": "container"
+        },
+        "power_menu/powerup_3": {
+            "position": {
+                "x": 92.5,
+                "y": 43.2
+            },
+            "type": "container"
+        },
+        "power_menu/powerup_4": {
+            "position": {
+                "x": 92.5,
+                "y": 129.3
+            },
+            "type": "container"
+        },
+        "power-on": {
+            "file": "power-on.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "BOTTOM_LEFT"
+            }
+        },
+        "power-on/pivot_icon": {
+            "position": {
+                "x": -46.6,
+                "y": -0.8
+            },
+            "type": "container"
+        },
+        "power-on/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "Green goo",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 33,
+                "y": 16.9
+            },
+            "type": "text"
+        },
+        "container_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_RIGHT",
+                "offset": {
+                    "x": -124.9,
+                    "y": -41.1
+                }
+            }
+        },
+        "character_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": "-42%",
+                    "y": 5
+                }
+            }
+        },
+        "center_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "scroll_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -240.5,
+                    "y": -290.5
+                }
+            }
+        },
+        "level_message_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -262.5
+                }
+            }
+        }
+    }
+}

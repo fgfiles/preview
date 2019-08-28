@@ -1,0 +1,147 @@
+{
+	"home_link":"https://www.forestrygames.com/",
+
+	"playableCharacters" : ["ben", "cannonbolt", "heatblast", "overflow", "stinkfly", "xlr8"],
+
+	"characters" :
+	{
+		"ben" :
+		{
+			"id"                    : "ben",
+			"minSpecialAbilityTime" : 0.7,
+			"bulletSpeed"           : 100,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.5,
+			"thrust"                : 0,
+			"turboSpeed"            : 0,
+			"collisionCircleRadius" : 85,
+			"color"                 : "pink",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "Ben"
+			},
+			"description"        :
+			{
+				"en" : "Ben"
+			}
+		},		
+		"cannonbolt" :
+		{
+			"id"                    : "cannonbolt",
+			"minSpecialAbilityTime" : 0.7,
+			"bulletSpeed"           : 100,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.5,
+			"thrust"                : 0,
+			"turboSpeed"            : 0,
+			"collisionCircleRadius" : 110,
+			"color"                 : "pink",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "Cannonbolt"
+			},
+			"description"        :
+			{
+				"en" : "Cannonbolt"
+			}
+		},	
+		"heatblast" :
+		{
+			"id"                    : "heatblast",
+			"minSpecialAbilityTime" : 0.2,
+			"bulletSpeed"           : 2000,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.3,
+			"thrust"                : 0,
+			"turboSpeed"            : 0,
+			"collisionCircleRadius" : 82,
+			"color"                 : "green",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "Heatblast"
+			},
+			"description"        :
+			{
+				"en" : "Heatblast"
+			}
+		},	
+		"overflow" :
+		{
+			"id"                    : "overflow",
+			"minSpecialAbilityTime" : 0.3,
+			"bulletSpeed"           : 2000,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.4,
+			"thrust"                : 0,
+			"turboSpeed"            : 0,
+			"collisionCircleRadius" : 82,
+			"color"                 : "cyan",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "Overflow"
+			},
+			"description"        :
+			{
+				"en" : "Overflow"
+			}
+		},	
+		"stinkfly" :
+		{
+			"id"                    : "stinkfly",
+			"minSpecialAbilityTime" : 0.1,
+			"bulletSpeed"           : 100,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.5,
+			"thrust"                : 4500,
+			"turboSpeed"            : 0,
+			"collisionCircleRadius" : 88,
+			"color"                 : "purple",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "Stinkfly"
+			},
+			"description"        :
+			{
+				"en" : "Stinkfly"
+			}
+		},	
+		"xlr8" :
+		{
+			"id"                    : "xlr8",
+			"minSpecialAbilityTime" : 0.7,
+			"bulletSpeed"           : 100,
+			"bulletLife"            : 2,
+			"fireRate"              : 0.5,
+			"thrust"                : 0,
+			"turboSpeed"            : 2.1,
+			"collisionCircleRadius" : 75,
+			"color"                 : "green",
+			"jumpHeight"            : 400,
+			"doubleJumpHeight"      : 220,
+			"pickupCircleRadius"    : 110,
+			"name"                  :
+			{
+				"en" : "xlr8"
+			},
+			"description"        :
+			{
+				"en" : "xlr8"
+			}
+		}
+	}
+}

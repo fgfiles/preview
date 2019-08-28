@@ -1,0 +1,286 @@
+{
+    "hierarchy": {
+        "name": "character_main",
+        "children": [
+            {
+                "name": "wings_right"
+            },
+            {
+                "name": "wings_left"
+            },
+            {
+                "name": "lines_r1"
+            },
+            {
+                "name": "lines_l1"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "leg_r2"
+                    },
+                    {
+                        "name": "leg_l2"
+                    },
+                    {
+                        "name": "leg_r1"
+                    },
+                    {
+                        "name": "leg_l1"
+                    }
+                ]
+            },
+            {
+                "name": "arm_r1",
+                "children": [
+                    {
+                        "name": "arm_r2"
+                    }
+                ]
+            },
+            {
+                "name": "bottom",
+                "children": [
+                    {
+                        "name": "top",
+                        "children": [
+                            {
+                                "name": "arm_l1",
+                                "children": [
+                                    {
+                                        "name": "arm_l2"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "antena1"
+                                    },
+                                    {
+                                        "name": "antena2"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "character_main_menu"
+        ]
+    },
+    "properties": {
+        "wings_right": {
+            "file": "m_wings1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 85.7,
+                "y": -80.8
+            },
+            "type": "sprite"
+        },
+        "wings_left": {
+            "file": "m_wings1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -128,
+                "y": -91
+            },
+            "scale": {
+                "x": -0.73,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "lines_r1": {
+            "file": "lines_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 39,
+                "y": -101
+            },
+            "type": "sprite"
+        },
+        "lines_l1": {
+            "file": "lines_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -118,
+                "y": -76
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/leg_r2": {
+            "file": "m_leg_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.8,
+                "y": 68.9
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/leg_l2": {
+            "file": "m_leg_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 45.3,
+                "y": 78.4
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/leg_r1": {
+            "file": "m_leg_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -5.5,
+                "y": 16.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/leg_l1": {
+            "file": "m_leg_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 28.5,
+                "y": 4.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "arm_r1": {
+            "file": "m_arm_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -127.5,
+                "y": -77.6
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "arm_r1/arm_r2": {
+            "file": "m_arm_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -64.8,
+                "y": 5.6
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "bottom": {
+            "file": "m_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.2,
+                "y": -6.9
+            },
+            "type": "sprite"
+        },
+        "bottom/top": {
+            "file": "m_top.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -41.6,
+                "y": -60.3
+            },
+            "type": "sprite"
+        },
+        "bottom/top/arm_l1": {
+            "file": "m_arm_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48,
+                "y": -28.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "bottom/top/arm_l1/arm_l2": {
+            "file": "m_arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 90.5,
+                "y": 46.8
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "bottom/top/head": {
+            "file": "m_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -41.8,
+                "y": -25.7
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "bottom/top/head/antena1": {
+            "file": "m_antena1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.2,
+                "y": -81.6
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "bottom/top/head/antena2": {
+            "file": "m_antena2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16,
+                "y": -84.8
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

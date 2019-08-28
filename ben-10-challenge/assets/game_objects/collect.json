@@ -1,0 +1,215 @@
+{
+    "hierarchy": {
+        "name": "collect",
+        "children": [
+            {
+                "name": "shine"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "title",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "score",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "coin_1"
+                    },
+                    {
+                        "name": "coin_2"
+                    },
+                    {
+                        "name": "coin_3"
+                    },
+                    {
+                        "name": "coin_4"
+                    },
+                    {
+                        "name": "coin_5"
+                    },
+                    {
+                        "name": "coin_6"
+                    },
+                    {
+                        "name": "coin_7"
+                    },
+                    {
+                        "name": "coin_8"
+                    },
+                    {
+                        "name": "message_bag"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "collect_anim"
+        ]
+    },
+    "properties": {
+        "shine": {
+            "file": "omni_shine1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3,
+                "y": -16
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0.68,
+            "type": "sprite"
+        },
+        "base": {
+            "file": "message_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/title": {
+            "position": {
+                "x": -1,
+                "y": -89
+            },
+            "type": "container"
+        },
+        "base/title/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 58
+            },
+            "text": "Collect",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "base/score": {
+            "position": {
+                "x": -1,
+                "y": 76.9
+            },
+            "type": "container"
+        },
+        "base/score/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 73
+            },
+            "text": "$500",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "base/coin_1": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_2": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_3": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_4": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_5": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_6": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_7": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/coin_8": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/message_bag": {
+            "file": "money_game.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -8.7
+            },
+            "type": "sprite"
+        }
+    }
+}

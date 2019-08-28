@@ -1,0 +1,98 @@
+{
+    "hierarchy": {
+        "name": "best_score",
+        "children": [
+            {
+                "name": "shine"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "money_bag"
+                    },
+                    {
+                        "name": "score"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "best_score_anim"
+        ]
+    },
+    "properties": {
+        "shine": {
+            "file": "shine.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.4,
+                "y": 41.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 33
+            },
+            "text": "Complete!",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": 15.2,
+                "y": -46.2
+            },
+            "type": "text"
+        },
+        "base/money_bag": {
+            "file": "money1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -44.7,
+                "y": 3.7
+            },
+            "scale": {
+                "x": 0.94,
+                "y": 0.94
+            },
+            "type": "sprite"
+        },
+        "base/score": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 27
+            },
+            "text": "$500",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": 25.6,
+                "y": 1.7
+            },
+            "type": "text"
+        }
+    }
+}

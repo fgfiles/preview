@@ -1,0 +1,99 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "shine_pivot"
+                    },
+                    {
+                        "name": "text"
+                    },
+                    {
+                        "name": "base"
+                    },
+                    {
+                        "name": "home"
+                    }
+                ]
+            },
+            {
+                "name": "anim_pivot"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "l-screen.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/shine_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -71
+                }
+            }
+        },
+        "container/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 60
+            },
+            "text": "Game completed\nCongratulations!",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0.6,
+                "y": -80.4
+            },
+            "type": "text"
+        },
+        "container/base": {
+            "file": "base_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 259.5
+            },
+            "type": "sprite"
+        },
+        "container/home": {
+            "file": "end_home.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "end_home.png",
+                "pressed": "end_home2.png",
+                "hover": "end_home.png"
+            },
+            "position": {
+                "x": 0.5,
+                "y": 132
+            },
+            "type": "button"
+        },
+        "anim_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        }
+    }
+}

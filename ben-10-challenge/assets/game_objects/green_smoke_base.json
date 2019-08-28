@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "green_smoke_base",
+        "children": [
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "green_smoke_base_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "green_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.55,
+                "y": 0.6
+            },
+            "type": "sprite"
+        }
+    }
+}

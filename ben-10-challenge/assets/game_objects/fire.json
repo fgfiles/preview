@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "fire",
+        "children": [
+            {
+                "name": "fire_base"
+            }
+        ],
+        "animations": [
+            "fire_anim"
+        ]
+    },
+    "properties": {
+        "fire_base": {
+            "file": "fire_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -60,
+            "anchor": {
+                "x": 0.2,
+                "y": 0.6
+            },
+            "type": "sprite"
+        }
+    }
+}

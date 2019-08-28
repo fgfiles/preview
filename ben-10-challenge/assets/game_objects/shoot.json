@@ -1,0 +1,32 @@
+{
+    "hierarchy": {
+        "name": "shoot",
+        "children": [
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "shoot_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "shoot_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.45,
+                "y": 0.45
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

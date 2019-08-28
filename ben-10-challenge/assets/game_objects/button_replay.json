@@ -1,0 +1,50 @@
+{
+    "hierarchy": {
+        "name": "button_replay",
+        "children": [
+            {
+                "name": "replay",
+                "children": [
+                    {
+                        "name": "arrow"
+                    },
+                    {
+                        "name": "circle"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "replay_anim"
+        ]
+    },
+    "properties": {
+        "replay": {
+            "file": "re-play_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.8,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "replay/arrow": {
+            "file": "arrow_replay.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.3,
+                "y": 4.5
+            },
+            "type": "sprite"
+        },
+        "replay/circle": {
+            "file": "re-play_1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.8,
+                "y": -0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

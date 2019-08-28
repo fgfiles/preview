@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <!--CAR NAMES -->
+    <car>Supremo Dondai</car>
+    <car>Universe's Van</car>
+    <car>Mayor's Van</car>
+    <car>1985 Cabriolet</car>
+    <car>Himitsu X-12</car>
+
+    <tip animation="0">Remember you can always hold &#60;DOWN KEY&#62; to brake</tip>
+    <tip animation="0">Remember some cars are easier to practice with...</tip>
+    <tip animation="0">Pressing &#60;DOWN KEY&#62; for short periods will slow down the car</tip>
+
+    <!--Level 1 -->
+    <level>
+        <intro>
+            <!-- Question -->
+            <dialog character="ronaldo"    animation="0">Hi there, awesome driver!</dialog>
+            <dialog character="ronaldo"    animation="3">Think you’re ready for this course?</dialog>
+            <!-- Answer of all characters -->
+            <dialog character="stevonnie"  animation="0">I’ll give it a shot!</dialog>
+            <dialog character="greg"       animation="0">Let’s find out!</dialog>
+            <dialog character="buck"       animation="0">Sure…</dialog>
+            <dialog character="jenny"      animation="0">You know it!</dialog>
+            <dialog character="kevin"      animation="0">You’re kidding, right?</dialog>
+        </intro>
+
+        <win>
+            <dialog character="ronaldo"    animation="2">I see you’ve got some talent…</dialog>
+
+            <dialog character="stevonnie"  animation="2">I knew I could do it!</dialog>
+            <dialog character="greg"       animation="1">I did it!!</dialog>
+            <dialog character="buck"       animation="1">That was fun.</dialog>
+            <dialog character="jenny"      animation="1">My practice paid off!</dialog>
+            <dialog character="kevin"      animation="1">Piece of cake!</dialog>
+
+            <dialog character="ronaldo"    animation="2">It’s time you took on a bigger challenge.</dialog>
+
+            <dialog character="stevonnie"  animation="2">Let’s do it!</dialog>
+            <dialog character="greg"       animation="0">Sure, why not?</dialog>
+            <dialog character="buck"       animation="0">Sure thing, big guy.</dialog>
+            <dialog character="jenny"      animation="1">Yes, bring it on!</dialog>
+            <dialog character="kevin"      animation="1">Yeah, no kidding.</dialog>
+
+        </win>
+
+        <lose>
+            <dialog character="stevonnie"  animation="3">Whoa! No way!</dialog>
+            <dialog character="greg"       animation="2">Oops…</dialog>
+            <dialog character="buck"       animation="2">Ohh noo…</dialog>
+            <dialog character="jenny"      animation="2">What? Really?</dialog>
+            <dialog character="kevin"      animation="2">This can’t be happening…</dialog>
+
+            <dialog character="ronaldo"    animation="1">I guess you need more practice.</dialog>
+        </lose>
+    </level>
+
+    <!--Level 2 -->
+<level>
+    	   <intro>
+
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Great! Next one.</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+    <!--Level 3 -->
+<level>
+    	   <intro>
+
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">You did it!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+
+    <!--//////////////////////////// Track 2- Level 4 -->
+    <level>
+
+        <intro>
+            <!-- Question -->
+            <dialog character="ronaldo"    animation="3">Fasten you seat belt!</dialog>
+            <dialog character="ronaldo"    animation="2">Are you ready for the second track?</dialog>
+            <!-- Answer of all characters -->
+            <dialog character="stevonnie"  animation="1">I believe so!</dialog>
+            <dialog character="greg"       animation="1">I guess we’ll see.</dialog>
+            <dialog character="buck"       animation="1">I’m ready alright.</dialog>
+            <dialog character="jenny"      animation="1">Let’s find out!</dialog>
+            <dialog character="kevin"      animation="0">I’m always ready.</dialog>
+        </intro>
+
+        <win>
+            <dialog character="ronaldo"    animation="0">We may be dealing with a champion here…</dialog>
+
+            <dialog character="stevonnie"  animation="0">Haha! Thanks, Ronaldo!</dialog>
+            <dialog character="greg"       animation="0">Thanks! I think I’m getting the hang of it.</dialog>
+            <dialog character="buck"       animation="0">Hey, if you say so.</dialog>
+            <dialog character="jenny"      animation="0">You know it!</dialog>
+            <dialog character="kevin"      animation="0">I keep telling you.</dialog>
+
+            <dialog character="ronaldo"    animation="3">Let’s move on!</dialog>
+
+            <dialog character="stevonnie"  animation="1">Of course!</dialog>
+            <dialog character="greg"       animation="0">Yeah, let’s do it!</dialog>
+            <dialog character="buck"       animation="0">After you.</dialog>
+            <dialog character="jenny"      animation="1">I’m ready!</dialog>
+            <dialog character="kevin"      animation="0">Let’s.</dialog>
+
+        </win>
+
+        <lose>
+            <dialog character="stevonnie"  animation="3">Shoot! We almost had it.</dialog>
+            <dialog character="greg"       animation="2">These are some hard turns!</dialog>
+            <dialog character="buck"       animation="2">Yeap, I definitely hit that.</dialog>
+            <dialog character="jenny"      animation="2">Oh, I’ll get it next time!</dialog>
+            <dialog character="kevin"      animation="2">Hey, the sun was in my eyes!</dialog>
+
+            <dialog character="ronaldo"    animation="1">Don’t give up!</dialog>
+        </lose>
+
+    </level>
+    <!--Level 5 -->
+    <level>
+    	   <intro>
+
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">You’re doing great! Keep going!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+    <!--Level 6 -->
+<level>
+    	   <intro>
+   
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Excellent!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+
+    <!-- //////////////////////////// Track 3Level 7 -->
+    <level>
+
+        <intro>
+            <!-- Question -->
+            <dialog character="ronaldo"    animation="1">How are you liking it so far?</dialog>
+
+            <!-- Answer of all characters -->
+            <dialog character="stevonnie"  animation="1">You’ve outdone yourself, Ronaldo!</dialog>
+            <dialog character="greg"       animation="1">I think I’m really enjoying myself!</dialog>
+            <dialog character="buck"       animation="1">You did a fine job, big guy.</dialog>
+            <dialog character="jenny"      animation="0">This girl is having fun!</dialog>
+            <dialog character="kevin"      animation="0">I’m just waiting for the challenge to begin.</dialog>
+        </intro>
+
+        <win>
+            <dialog character="ronaldo"    animation="2">Whoa! There’s just no stopping you, is there?</dialog>
+
+            <dialog character="stevonnie"  animation="2">Never! I’ll stop when it’s bedtime!</dialog>
+            <dialog character="greg"       animation="1">I guess there isn’t!</dialog>
+            <dialog character="buck"       animation="1">I’m an unstoppable force of Nature…</dialog>
+            <dialog character="jenny"      animation="1">You know there ain’t!</dialog>
+            <dialog character="kevin"      animation="1">I don’t know the meaning of the word.</dialog>
+
+            <dialog character="ronaldo"    animation="0">Great! You’re going to love what’s ahead!</dialog>
+
+            <dialog character="stevonnie"  animation="1">Oh man, I can’t wait!</dialog>
+            <dialog character="greg"       animation="0">I’m sure I will!</dialog>
+            <dialog character="buck"       animation="0">No doubt.</dialog>
+            <dialog character="jenny"      animation="0">Well? What are we waiting for?</dialog>
+            <dialog character="kevin"      animation="0">What’s ahead is me winning, so you are correct.</dialog>
+        </win>
+
+        <lose>
+            <dialog character="stevonnie"  animation="3">Ouch!</dialog>
+            <dialog character="greg"       animation="2">Eek!</dialog>
+            <dialog character="buck"       animation="2">Let me try that again.</dialog>
+            <dialog character="jenny"      animation="2">Oh, Come on!</dialog>
+            <dialog character="kevin"      animation="2">The road is too darn slippery!</dialog>
+
+            <dialog character="ronaldo"    animation="3">Again!</dialog>
+        </lose>
+
+    </level>
+    <!--Level 8 -->
+<level>
+    	   <intro>
+
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Look at you go!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+    <!--Level 9 -->
+<level>
+    	   <intro>
+
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Fantastic!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+
+    <!-- //////////////////////////// Track 4Level 10 -->
+    <level>
+
+        <intro>
+            <!-- Question -->
+            <dialog character="ronaldo"    animation="2">This track is one of my favorites.</dialog>
+
+            <!-- Answer of all characters -->
+            <dialog character="stevonnie"  animation="1">Oh, let’s see!</dialog>
+            <dialog character="greg"       animation="2">Oh geez, I hope it’s not too hard.</dialog>
+            <dialog character="buck"       animation="0">I’m sure I’ll love it…</dialog>
+            <dialog character="jenny"      animation="1">Is it? Let’s go then!</dialog>
+            <dialog character="kevin"      animation="1">It better be worth it.</dialog>
+        </intro>
+
+        <win>
+            <dialog character="ronaldo"    animation="0">We’re almost at the end!</dialog>
+
+            <dialog character="stevonnie"  animation="2">We’re having a blast!</dialog>
+            <dialog character="greg"       animation="1">I am both sad and relieved.</dialog>
+            <dialog character="buck"       animation="1">No time to waste then.</dialog>
+            <dialog character="jenny"      animation="1">No going back now!</dialog>
+            <dialog character="kevin"      animation="1">Already?</dialog>
+
+            <dialog character="ronaldo"    animation="3">Go on and impress me!</dialog>
+
+            <dialog character="stevonnie"  animation="1">I won’t disappoint you, Ronaldo!</dialog>
+            <dialog character="greg"       animation="0">Yeah, Let’s do this!</dialog>
+            <dialog character="buck"       animation="1">You got it.</dialog>
+            <dialog character="jenny"      animation="0">You just wait and see!</dialog>
+            <dialog character="kevin"      animation="0">Couldn’t help it if I wanted.</dialog>
+
+        </win>
+
+        <lose>
+            <dialog character="stevonnie"  animation="3">Ow!</dialog>
+            <dialog character="greg"       animation="2">I’m getting too old for this.</dialog>
+            <dialog character="buck"       animation="2">My bad.</dialog>
+            <dialog character="jenny"      animation="2">Come on, Jenny!</dialog>
+            <dialog character="kevin"      animation="2">What? I barely touched it!</dialog>
+
+            <dialog character="ronaldo"    animation="0">I know you can do it!</dialog>
+        </lose>
+
+    </level>
+    <!--Level 11 -->
+<level>
+    	   <intro>
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Such grace!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+    <!--Level 12 -->
+<level>
+    	<intro>
+        </intro>
+
+        <win>
+          <dialog character="ronaldo"    animation="0">Superb!</dialog>
+        </win>
+
+        <lose></lose>
+    </level>
+
+    <!--  //////////////////////////// Track 5Last Level -->
+    <level>
+        <intro>
+            <!-- Question -->
+            <dialog character="ronaldo"    animation="0">Congratulations!</dialog>
+            <dialog character="ronaldo"    animation="3">You’ve made it to the last trial!</dialog>
+            <!-- Answer of all characters -->
+            <dialog character="stevonnie"  animation="1">Great! Wish us luck!</dialog>
+            <dialog character="greg"       animation="0">Oh, I might really make it after all!</dialog>
+            <dialog character="buck"       animation="0">Cool.</dialog>
+            <dialog character="jenny"      animation="0">Yes! Let’s finish this!</dialog>
+            <dialog character="kevin"      animation="0">Time to get this over with.</dialog>
+
+            <dialog character="ronaldo"    animation="0">I’m your biggest fan already!</dialog>
+        </intro>
+
+        <win>
+            <dialog character="ronaldo"    animation="0">Woooaahh… That was amazing!</dialog>
+
+            <dialog character="stevonnie"  animation="2">Yes! I knew we could do it!</dialog>
+            <dialog character="greg"       animation="1">I can’t believe it! I did it!</dialog>
+            <dialog character="buck"       animation="1">Man, that was so much fun.</dialog>
+            <dialog character="jenny"      animation="2">Oh my, I really did it!</dialog>
+            <dialog character="kevin"      animation="0">I have to admit that was pretty fun back there.</dialog>
+
+            <dialog character="ronaldo"    animation="1">So, what are you going to do with the trophy?</dialog>
+
+            <dialog character="stevonnie"  animation="1">I think I’ll put it on the top of…</dialog>
+            <dialog character="stevonnie"  animation="3">Wait a minute, who’s gonna keep it?</dialog>
+
+            <dialog character="greg"       animation="1">Well, this doesn’t exactly fit with my other few prizes.</dialog>
+            <dialog character="greg"       animation="0">Thematically, I mean. But I’ll find a place.</dialog>
+
+            <dialog character="buck"       animation="0">Oh, I hadn’t really thought about it.</dialog>
+            <dialog character="buck"       animation="1">I guess I have a fancy candy bowl now.</dialog>
+
+            <dialog character="jenny"      animation="1">Oh, I’m going to show it off around town!</dialog>
+
+            <dialog character="kevin"      animation="1">I think there’s some room left on my prize shelf.</dialog>
+
+            <dialog character="ronaldo"    animation="2">Any words for the welcoming crowd?</dialog>
+
+            <dialog character="stevonnie"  animation="1">Of course!</dialog>
+            <dialog character="stevonnie"  animation="0">Um… Thank you all for your support!</dialog>
+            <dialog character="stevonnie"  animation="1">Wear your seat belt and be nice to each other.</dialog>
+            <dialog character="stevonnie"  animation="2">Now let’s go get some pizza!</dialog>
+
+            <dialog character="greg"       animation="2">Well, gee, I did not think I’d made it this far.</dialog>
+            <dialog character="greg"       animation="1">But, um… That’s the lesson, I think?</dialog>
+            <dialog character="greg"       animation="0">When something’s really hard, just keep at it…</dialog>
+            <dialog character="greg"       animation="1">…and come to me when the car gets dirty!</dialog>
+
+            <dialog character="buck"       animation="0">Just keep on grooving, people.</dialog>
+            <dialog character="buck"       animation="1">I’ll park this thing and joing you shortly.</dialog>
+
+            <dialog character="jenny"      animation="1">Yes!</dialog>
+            <dialog character="jenny"      animation="2">Thanks for being here, guys.</dialog>
+            <dialog character="jenny"      animation="0">Yo, Kiki! Did you see how fast I was going?!</dialog>
+
+            <dialog character="kevin"      animation="0">Yes:</dialog>
+            <dialog character="kevin"      animation="1">I’m sure that was a thrilling feat to atest.</dialog>
+            <dialog character="kevin"      animation="2">You’re all very much welcome.</dialog>
+            <dialog character="kevin"      animation="0">I promiss you’ll see more of me soon.</dialog>
+
+            <dialog character="ronaldo"    animation="0">Well said!</dialog>
+        </win>
+
+        <lose>
+            <dialog character="stevonnie"  animation="3">Oops!</dialog>
+            <dialog character="greg"       animation="2">Good grief!</dialog>
+            <dialog character="buck"       animation="2">Ouchie.</dialog>
+            <dialog character="jenny"      animation="2">No! Just one more time.</dialog>
+            <dialog character="kevin"      animation="2">My seat belt’s too tight! Again!</dialog>
+            <dialog character="ronaldo"    animation="0">You’ve made this far! Keep it up!</dialog>
+        </lose>
+    </level>
+</data>

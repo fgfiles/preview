@@ -1,0 +1,87 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "text"
+                    },
+                    {
+                        "name": "no"
+                    },
+                    {
+                        "name": "yes"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "contenedor2 copia 3.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -32.8
+                }
+            }
+        },
+        "container/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 33
+            },
+            "text": "Are you sure\nyou want to quit?",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 4,
+            "position": {
+                "x": -4.6,
+                "y": -3.8
+            },
+            "type": "text"
+        },
+        "container/no": {
+            "file": "no_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "no_1.png",
+                "pressed": "no_2.png",
+                "hover": "no_1.png"
+            },
+            "position": {
+                "x": 64.2,
+                "y": 112
+            },
+            "type": "button"
+        },
+        "container/yes": {
+            "file": "yes_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "yes_1.png",
+                "pressed": "yes_2.png",
+                "hover": "yes_1.png"
+            },
+            "position": {
+                "x": -65.5,
+                "y": 113.1
+            },
+            "type": "button"
+        }
+    }
+}

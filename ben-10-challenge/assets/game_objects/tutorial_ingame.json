@@ -1,0 +1,210 @@
+{
+    "hierarchy": {
+        "name": "tutorial_ingame",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "point_1"
+                    },
+                    {
+                        "name": "point_2"
+                    },
+                    {
+                        "name": "point_3"
+                    },
+                    {
+                        "name": "point_4"
+                    },
+                    {
+                        "name": "point_5"
+                    },
+                    {
+                        "name": "point_6"
+                    },
+                    {
+                        "name": "point_7"
+                    },
+                    {
+                        "name": "character"
+                    },
+                    {
+                        "name": "canon"
+                    },
+                    {
+                        "name": "fire"
+                    },
+                    {
+                        "name": "swipe"
+                    },
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "hand"
+                            }
+                        ],
+                        "animations": [
+                            "tutorial_desktop",
+                            "tutorial_mobile"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "ui_tutorial_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 63
+            },
+            "type": "container"
+        },
+        "base/point_1": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 59.5,
+                "y": -85.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_2": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 80.9,
+                "y": -92.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_3": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 100.9,
+                "y": -100.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_4": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 122.8,
+                "y": -108.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_5": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 143.2,
+                "y": -116.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_6": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 164.3,
+                "y": -124.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/point_7": {
+            "file": "green_point.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 184.3,
+                "y": -132
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/character": {
+            "file": "stink1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 39,
+                "y": -83.4
+            },
+            "type": "sprite"
+        },
+        "base/canon": {
+            "file": "canon.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -12.1,
+                "y": -51.7
+            },
+            "angle": 65,
+            "type": "sprite"
+        },
+        "base/fire": {
+            "file": "fire_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 82.3,
+                "y": -97.4
+            },
+            "scale": {
+                "x": 0.58,
+                "y": 0.58
+            },
+            "type": "sprite"
+        },
+        "base/swipe": {
+            "file": "swipe8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -31.3,
+                "y": -66.1
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": -142.9,
+                "y": 32.7
+            },
+            "angle": -25,
+            "scale": {
+                "x": 0.73,
+                "y": 0.73
+            },
+            "type": "container"
+        },
+        "base/skin/hand": {
+            "file": "hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.2,
+                "y": 74.6
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

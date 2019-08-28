@@ -1,0 +1,139 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "play_pivot"
+            },
+            {
+                "name": "replay"
+            },
+            {
+                "name": "how_to_play"
+            },
+            {
+                "name": "home"
+            },
+            {
+                "name": "sound"
+            },
+            {
+                "name": "pivot"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "screen.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_CENTER"
+            }
+        },
+        "container/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 60
+            },
+            "text": "Pause",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 4,
+                "y": 108.9
+            },
+            "type": "text"
+        },
+        "play_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -141.3
+                }
+            }
+        },
+        "replay": {
+            "file": "re-star_1.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": "-14%",
+                    "y": -103.4
+                }
+            }
+        },
+        "how_to_play": {
+            "file": "how_1.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": "14%",
+                    "y": -103.1
+                }
+            }
+        },
+        "home": {
+            "file": "l-home_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "l-home_1.png",
+                "pressed": "l_home_2.png",
+                "hover": "l-home_1.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -113.1,
+                    "y": -10.5
+                }
+            }
+        },
+        "sound": {
+            "file": "sound_1.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -14.6,
+                    "y": -10.8
+                }
+            }
+        },
+        "pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": "-34%",
+                    "y": -75.1
+                }
+            }
+        }
+    }
+}

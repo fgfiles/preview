@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<tracking enabled="false">
+		<gameName></gameName>
+		
+		<deltaDNA>
+			<!-- DeltaDNA collection URL -->
+			<url>http://collect10101nckpt.deltadna.net/collect/api</url>
+			<!-- The tracking key to use for debug builds. -->
+			<debugKey>-0</debugKey>
+			<!-- The tracking key to use for release builds. -->
+			<releaseKey>-0</releaseKey>
+		</deltaDNA>
+
+		<!-- The localization region to load. Loads string files in strings/strings_<two letter locale>.xml. or, will load string.xml by default. -->
+		<!-- <locale>ru</locale> -->
+	</tracking>
+
+	<options>
+		<piracy><![CDATA[aHR0cDovL3d3dy5uaWNrLmNvbS9tYXNoLXVwcy9nYW1lcy9uaWNrZWxvZGVvbi1ibGFzdGVyLXNxdWFkLw==]]></piracy>
+	</options>
+
+</config>

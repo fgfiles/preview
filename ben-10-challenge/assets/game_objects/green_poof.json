@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "green_poof",
+        "children": [
+            {
+                "name": "smoke"
+            }
+        ],
+        "animations": [
+            "green_poof_anim"
+        ]
+    },
+    "properties": {
+        "smoke": {
+            "file": "green_poof_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "color": "#4dc748",
+            "type": "sprite"
+        }
+    }
+}

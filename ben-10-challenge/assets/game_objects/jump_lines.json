@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "jump_lines",
+        "children": [
+            {
+                "name": "jump"
+            }
+        ],
+        "animations": [
+            "jump_anim"
+        ]
+    },
+    "properties": {
+        "jump": {
+            "file": "jump_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -25,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

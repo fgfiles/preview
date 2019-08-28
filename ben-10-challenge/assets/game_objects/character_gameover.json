@@ -1,0 +1,268 @@
+{
+    "hierarchy": {
+        "name": "character_gameover",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "wings_r"
+                    },
+                    {
+                        "name": "wings_l"
+                    },
+                    {
+                        "name": "arm_r1",
+                        "children": [
+                            {
+                                "name": "arm_r2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "legs",
+                        "children": [
+                            {
+                                "name": "leg_r2"
+                            },
+                            {
+                                "name": "leg_r1"
+                            },
+                            {
+                                "name": "leg_l2"
+                            },
+                            {
+                                "name": "leg_l1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "arm_l1",
+                                "children": [
+                                    {
+                                        "name": "arm_l2"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "antena2"
+                                    },
+                                    {
+                                        "name": "antena1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "gameover_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/wings_r": {
+            "file": "go_wings.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.7,
+                "y": -130.7
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "base/wings_l": {
+            "file": "go_wings2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.4,
+                "y": -97
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "base/arm_r1": {
+            "file": "go_arm-d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 35.9,
+                "y": -105.6
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/arm_r1/arm_r2": {
+            "file": "go_arm-d-1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 51.9,
+                "y": 53.1
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/legs": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/legs/leg_r2": {
+            "file": "go_leg-d2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 62.1,
+                "y": 103.4
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/legs/leg_r1": {
+            "file": "go_leg-d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.6,
+                "y": 5.3
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/legs/leg_l2": {
+            "file": "go_leg-i2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.1,
+                "y": 114.4
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/legs/leg_l1": {
+            "file": "go_leg-i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.4,
+                "y": 12.7
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "go_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_l1": {
+            "file": "go_arm-i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.5,
+                "y": -113.6
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_l1/arm_l2": {
+            "file": "go_arm-i2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -54.5,
+                "y": 59.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "go_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.6,
+                "y": -158.1
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "base/body/head/antena2": {
+            "file": "go_antena2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.9,
+                "y": -36.5
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/antena1": {
+            "file": "go_antena1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.5,
+                "y": -36.4
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        }
+    }
+}

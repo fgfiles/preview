@@ -1,0 +1,61 @@
+{
+    "name": "re_shot_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "canon": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 200,
+                    "value": 1.16
+                },
+                {
+                    "frame": 350,
+                    "value": 0.88
+                },
+                {
+                    "frame": 683,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 200,
+                    "value": 0.7
+                },
+                {
+                    "frame": 350,
+                    "value": 1.18
+                },
+                {
+                    "frame": 683,
+                    "value": 1
+                }
+            ]
+        },
+        "green": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "elect": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "elect_9.png"
+                }
+            ]
+        }
+    }
+}

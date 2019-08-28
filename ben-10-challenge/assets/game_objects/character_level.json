@@ -1,0 +1,287 @@
+{
+    "hierarchy": {
+        "name": "character_level",
+        "children": [
+            {
+                "name": "base_body",
+                "children": [
+                    {
+                        "name": "arm-l1",
+                        "children": [
+                            {
+                                "name": "arm-l2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "leg-r1",
+                        "children": [
+                            {
+                                "name": "leg-r2",
+                                "children": [
+                                    {
+                                        "name": "foot-r"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "leg-l1",
+                        "children": [
+                            {
+                                "name": "leg-l2",
+                                "children": [
+                                    {
+                                        "name": "foot-l"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "eyes",
+                                        "children": [
+                                            {
+                                                "name": "right"
+                                            },
+                                            {
+                                                "name": "left"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "arm-r1",
+                                "children": [
+                                    {
+                                        "name": "arm-r2",
+                                        "children": [
+                                            {
+                                                "name": "shine"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "anim_level",
+            "anim_level_out ",
+            "anim_level_in",
+            "anim_level_out2"
+        ]
+    },
+    "properties": {
+        "base_body": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base_body/arm-l1": {
+            "file": "l_arm-l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.9,
+                "y": -89
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base_body/arm-l1/arm-l2": {
+            "file": "l_arm-l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -51.3,
+                "y": -16.5
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-r1": {
+            "file": "l_leg-r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15,
+                "y": 0.3
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-r1/leg-r2": {
+            "file": "l_leg-r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 42.5,
+                "y": 28.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-r1/leg-r2/foot-r": {
+            "file": "l_foot-r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 58.9,
+                "y": 91.5
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-l1": {
+            "file": "l_leg-l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.2,
+                "y": -0.7
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-l1/leg-l2": {
+            "file": "l_leg-l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -62.8,
+                "y": 32.7
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base_body/leg-l1/leg-l2/foot-l": {
+            "file": "l_foot-l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 20.5,
+                "y": 77.9
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base_body/body": {
+            "file": "l_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.1,
+                "y": -13
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base_body/body/head": {
+            "file": "l_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.4,
+                "y": -88.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base_body/body/head/eyes": {
+            "file": "l_eyes_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.1,
+                "y": -34.3
+            },
+            "type": "sprite"
+        },
+        "base_body/body/head/eyes/right": {
+            "file": "l_eyes_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 22.1,
+                "y": -4.6
+            },
+            "type": "sprite"
+        },
+        "base_body/body/head/eyes/left": {
+            "file": "l_eyes_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15.6,
+                "y": 7.9
+            },
+            "type": "sprite"
+        },
+        "base_body/body/arm-r1": {
+            "file": "l_arm-r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12.8,
+                "y": -70.4
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base_body/body/arm-r1/arm-r2": {
+            "file": "l_arm-r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.3,
+                "y": 26.5
+            },
+            "anchor": {
+                "x": 0.95,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base_body/body/arm-r1/arm-r2/shine": {
+            "file": "omni_shine7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -56.3,
+                "y": -34
+            },
+            "type": "sprite"
+        }
+    }
+}

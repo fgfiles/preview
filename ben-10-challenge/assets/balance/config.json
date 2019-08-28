@@ -1,0 +1,151 @@
+{
+  "debugEnable": false,
+  "levelUnlocks": 1,
+  "lastLevelUnlock": 1,
+  "dragMode": false,
+  "showBox2DBody": false,
+  "physicsConfig": {
+    "gravity": 500,
+    "restitution": 0.5,
+    "friction": 1
+  },
+  "configTimeAnim": {
+    "initCamDelay": 2,
+    "initCamTime": 1
+  },
+  "throwForce": {
+    "x": 5,
+    "y": 5
+  },
+  "throwRangeX": {
+    "min": -999,
+    "max": -50
+  },
+  "throwRangeY": {
+    "min": -300,
+    "max": 300
+  },
+  "floorHeight": 55,
+  "bodyDef": [
+    {
+      "name": "player",
+      "mass": 0.4096,
+      "restitution": 0.5,
+      "friction": 0.1
+    },
+    {
+      "name": "wallDown",
+      "mass": 0,
+      "restitution": 0.5,
+      "friction": 1.8
+    }
+  ],
+  "costPowerups" :[200, 300, 500, 1000],
+  "scrollPixel": 10,
+  "flyUpVelocity": {
+    "x": 0,
+    "y": -500
+  },
+  "bouncyPlayerBody": {
+    "name": "player bouncy",
+    "mass": 0.4096,
+    "restitution": 1,
+    "friction": 0
+  },
+  "bouncyTime": 8,
+  "greenGooRad": 300,
+  "greenGooVel": 3000,
+  "reShootRad": 100,
+  "throwRangeReshotX": {
+    "min": -999,
+    "max": 999
+  },
+  "throwRangeReshotY": {
+    "min": -999,
+    "max": 999
+  },
+  "lvlEnablePowerUp": [6, 10, 15, 20],
+  "levelTutorialFlipper": 22,
+  "gooSlowMotionFactor": 100,
+  "flipperConfig": {
+    "animVelocity": 0.75,
+	"torgue": 200,
+    "velocity": 1000,
+    "angle": {
+      "min": -35,
+      "max": -10
+    },
+    "throwVelocity": {
+      "x": 1000,
+      "y": -600
+    }
+  },
+  "trampolineConfig": {
+    "force": 200,
+    "velocity": 2000,
+    "distance": 5,
+    "minVelocityXJump": 0.1,
+    "extraXVelocity": 250
+  },
+  "rangeTutorialExtraX": [
+    {
+      "min": 0,
+      "max": -300
+    },
+    {
+      "min": 0,
+      "max": -300
+    },
+    {
+      "min": 0,
+      "max": 0
+    },
+    {
+      "min": 799,
+      "max": -150
+    }
+  ],
+  "rangeTutorialExtraY": [
+    {
+      "min": 420,
+      "max": -180
+    },
+    {
+      "min": 370,
+      "max": -280
+    },
+    {
+      "min": 0,
+      "max": 0
+    },
+    {
+      "min": 420,
+      "max": -180
+    }
+  ],
+  "rangeExtraTutorialreShootX": {
+    "min": 699,
+    "max": -1299
+  },
+  "rangeExtraTutorialreShootY": {
+    "min": 1025,
+    "max": -939
+  },
+  "rangeGooTutorialY": {
+    "min": 0.25,
+    "max": 0.40
+  },
+
+  "rangeTutorialFlipperExtraX":   {
+    "min": 619,
+    "max": -310
+  },
+  "rangeTutorialFlipperExtraY":   {
+    "min": 420,
+    "max": -180
+  },
+  "timeGooHold": 1,
+  "positionTutorialFlyX": 2450,
+  "minLauchX": 300,
+  "flipperTutorialY": 505
+}

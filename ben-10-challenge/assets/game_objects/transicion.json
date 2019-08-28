@@ -1,0 +1,81 @@
+{
+    "hierarchy": {
+        "name": "transicion",
+        "children": [
+            {
+                "name": "base_2"
+            },
+            {
+                "name": "base_3"
+            },
+            {
+                "name": "base_1"
+            },
+            {
+                "name": "logo"
+            }
+        ],
+        "animations": [
+            "transicion_anim_in",
+            "transicion_anim_loop",
+            "transicion_anim_out"
+        ]
+    },
+    "properties": {
+        "base_2": {
+            "file": "transicion.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 462,
+                "y": -1169
+            },
+            "scale": {
+                "x": 1,
+                "y": 1.46
+            },
+            "color": "#0be00f",
+            "type": "sprite"
+        },
+        "base_3": {
+            "file": "transicion.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -307,
+                "y": -1354
+            },
+            "scale": {
+                "x": 1,
+                "y": 1.71
+            },
+            "color": "#03c006",
+            "type": "sprite"
+        },
+        "base_1": {
+            "file": "transicion.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -1072
+            },
+            "scale": {
+                "x": 1.54,
+                "y": 1.19
+            },
+            "color": "#00ee05",
+            "type": "sprite"
+        },
+        "logo": {
+            "file": "logo_main1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

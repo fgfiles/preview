@@ -1,0 +1,137 @@
+{
+    "hierarchy": {
+        "name": "throws",
+        "children": [
+            {
+                "name": "shine"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "description",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "message_bag"
+                    },
+                    {
+                        "name": "number",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "fire"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "throws_anim",
+            "throws_anim2"
+        ]
+    },
+    "properties": {
+        "shine": {
+            "file": "omni_shine1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -16
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0.31,
+            "type": "sprite"
+        },
+        "base": {
+            "file": "message_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/description": {
+            "position": {
+                "x": 0.6,
+                "y": 72.1
+            },
+            "type": "container"
+        },
+        "base/description/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 65
+            },
+            "text": "Thows left",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "base/message_bag": {
+            "file": "canon.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.8,
+                "y": -1.8
+            },
+            "angle": 64,
+            "type": "sprite"
+        },
+        "base/number": {
+            "position": {
+                "x": -1,
+                "y": -6.1
+            },
+            "type": "container"
+        },
+        "base/number/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 70
+            },
+            "text": "4",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "base/fire": {
+            "file": "fire_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 90.6,
+                "y": -49.3
+            },
+            "scale": {
+                "x": 0.55,
+                "y": 0.55
+            },
+            "type": "sprite"
+        }
+    }
+}

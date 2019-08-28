@@ -1,0 +1,202 @@
+{
+    "hierarchy": {
+        "name": "money_effect",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "effect_base"
+                    },
+                    {
+                        "name": "circle_1"
+                    },
+                    {
+                        "name": "circle_2"
+                    },
+                    {
+                        "name": "money_icon"
+                    },
+                    {
+                        "name": "money1"
+                    },
+                    {
+                        "name": "money2"
+                    },
+                    {
+                        "name": "money3"
+                    },
+                    {
+                        "name": "money4"
+                    },
+                    {
+                        "name": "money5"
+                    },
+                    {
+                        "name": "money"
+                    },
+                    {
+                        "name": "number_container",
+                        "children": [
+                            {
+                                "name": "100"
+                            }
+                        ]
+                    }
+                ],
+                "animations": [
+                ]
+            }
+        ],
+        "animations": [
+            "money_loop"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/effect_base": {
+            "file": "inv_effect.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/circle_1": {
+            "file": "circle_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/circle_2": {
+            "file": "circle_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/money_icon": {
+            "file": "money3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -5.5
+            },
+            "type": "sprite"
+        },
+        "skin/money1": {
+            "file": "money_small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.7,
+                "y": -4.9
+            },
+            "scale": {
+                "x": 0,
+                "y": 10
+            },
+            "type": "sprite"
+        },
+        "skin/money2": {
+            "file": "money_small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7,
+                "y": -41.6
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/money3": {
+            "file": "money_small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.4,
+                "y": -28.6
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/money4": {
+            "file": "money_small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11.8,
+                "y": -19.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/money5": {
+            "file": "money_small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -21.6,
+                "y": -7.6
+            },
+            "scale": {
+                "x": 0,
+                "y": 10
+            },
+            "type": "sprite"
+        },
+        "skin/money": {
+            "file": "money_out6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/number_container": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/number_container/100": {
+            "file": "100.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

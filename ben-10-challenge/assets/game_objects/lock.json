@@ -1,0 +1,180 @@
+{
+    "hierarchy": {
+        "name": "lock",
+        "children": [
+            {
+                "name": "pivot",
+                "children": [
+                    {
+                        "name": "layer"
+                    },
+                    {
+                        "name": "circle_1"
+                    },
+                    {
+                        "name": "circle_2"
+                    },
+                    {
+                        "name": "circle_3"
+                    },
+                    {
+                        "name": "circle_4"
+                    },
+                    {
+                        "name": "green_circle"
+                    },
+                    {
+                        "name": "green_circle2"
+                    },
+                    {
+                        "name": "base"
+                    },
+                    {
+                        "name": "up"
+                    },
+                    {
+                        "name": "mask"
+                    },
+                    {
+                        "name": "select"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lock_anim"
+        ]
+    },
+    "properties": {
+        "pivot": {
+            "position": {
+                "x": 0,
+                "y": 4.7
+            },
+            "type": "container"
+        },
+        "pivot/layer": {
+            "file": "Capa 13.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -4.7
+            },
+            "type": "sprite"
+        },
+        "pivot/circle_1": {
+            "file": "yellow_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "pivot/circle_2": {
+            "file": "yellow_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "pivot/circle_3": {
+            "file": "yellow_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "pivot/circle_4": {
+            "file": "yellow_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "pivot/green_circle": {
+            "file": "green_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -4.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "pivot/green_circle2": {
+            "file": "green_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -4.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "pivot/base": {
+            "file": "lock1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 9.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "pivot/up": {
+            "file": "lock2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.7,
+                "y": -7.16
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "pivot/mask": {
+            "file": "mask.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.14,
+                "y": -6.09
+            },
+            "type": "sprite"
+        },
+        "pivot/select": {
+            "file": "select.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -5
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "hierarchy": {
+        "name": "play_pause",
+        "children": [
+            {
+                "name": "replay",
+                "children": [
+                    {
+                        "name": "circle"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "play_pause_anim"
+        ]
+    },
+    "properties": {
+        "replay": {
+            "file": "Play_inv.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.9,
+                "y": -0.8
+            },
+            "scale": {
+                "x": 0.79,
+                "y": 0.79
+            },
+            "type": "sprite"
+        },
+        "replay/circle": {
+            "file": "re-play_1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.9,
+                "y": 3.2
+            },
+            "scale": {
+                "x": 1.24,
+                "y": 1.24
+            },
+            "type": "sprite"
+        }
+    }
+}

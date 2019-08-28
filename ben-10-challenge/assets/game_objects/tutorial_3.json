@@ -1,0 +1,141 @@
+{
+    "hierarchy": {
+        "name": "tutorial_3",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "wall_1"
+                    },
+                    {
+                        "name": "wall_2"
+                    },
+                    {
+                        "name": "character"
+                    },
+                    {
+                        "name": "smoke_right"
+                    },
+                    {
+                        "name": "smoke_left"
+                    },
+                    {
+                        "name": "smoke_up_r"
+                    },
+                    {
+                        "name": "smoke_up_l"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "tutorial_bouncy"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "container"
+        },
+        "base/wall_1": {
+            "file": "wall.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -151.3,
+                "y": 13.7
+            },
+            "type": "sprite"
+        },
+        "base/wall_2": {
+            "file": "wall.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 136.5,
+                "y": 13.7
+            },
+            "type": "sprite"
+        },
+        "base/character": {
+            "file": "stink_bouncy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.2,
+                "y": -5.3
+            },
+            "angle": -30,
+            "type": "sprite"
+        },
+        "base/smoke_right": {
+            "file": "green_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 118.9,
+                "y": 30.5
+            },
+            "angle": -90,
+            "scale": {
+                "x": 0.42,
+                "y": 0.42
+            },
+            "type": "sprite"
+        },
+        "base/smoke_left": {
+            "file": "green_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -131.6,
+                "y": 34
+            },
+            "angle": 90,
+            "scale": {
+                "x": 0.42,
+                "y": 0.42
+            },
+            "type": "sprite"
+        },
+        "base/smoke_up_r": {
+            "file": "green_up9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 114.2,
+                "y": 27.2
+            },
+            "angle": -67,
+            "scale": {
+                "x": 0.4,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/smoke_up_l": {
+            "file": "green_up9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -129.6,
+                "y": 35.6
+            },
+            "angle": 58,
+            "scale": {
+                "x": 0.4,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "hierarchy": {
+        "name": "power_4",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "icon",
+                                "children": [
+                                    {
+                                        "name": "icon",
+                                        "children": [
+                                            {
+                                                "name": "fire"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "animations": [
+                                    "canon_icon_anim"
+                                ]
+                            }
+                        ],
+                        "animations": [
+                            "skin_powerup4"
+                        ]
+                    },
+                    {
+                        "name": "price"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "shine"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "shine_powerup"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "boost1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -88.5,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 39.4,
+                "y": 0.8
+            },
+            "angle": -27,
+            "type": "container"
+        },
+        "base/skin/icon": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": 27,
+            "type": "container"
+        },
+        "base/skin/icon/icon": {
+            "file": "re_shot_h.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -27,
+            "type": "sprite"
+        },
+        "base/skin/icon/icon/fire": {
+            "file": "fire_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 36.4,
+                "y": -0.3
+            },
+            "angle": 29,
+            "scale": {
+                "x": 0.16,
+                "y": 0.16
+            },
+            "type": "sprite"
+        },
+        "base/price": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "$150",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 80,
+                "y": 17.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "Re-shot",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 74.4,
+                "y": -17.5
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/shine": {
+            "file": "brillo9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "hierarchy": {
+        "name": "power_1",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "icon",
+                                "children": [
+                                    {
+                                        "name": "green_goo"
+                                    }
+                                ],
+                                "animations": [
+                                    "goo_icon_anim"
+                                ]
+                            }
+                        ],
+                        "animations": [
+                            "skin_powerup1"
+                        ]
+                    },
+                    {
+                        "name": "price"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "shine"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "shine_powerup"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "boost1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -88.5,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/skin/icon": {
+            "position": {
+                "x": 39.4,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "base/skin/icon/green_goo": {
+            "file": "green_goo.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/price": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "$40",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 80,
+                "y": 17.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "Green goo",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 74.4,
+                "y": -17.3
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/shine": {
+            "file": "brillo9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

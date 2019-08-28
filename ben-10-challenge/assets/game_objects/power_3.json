@@ -1,0 +1,132 @@
+{
+    "hierarchy": {
+        "name": "power_3",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "icon",
+                                "children": [
+                                    {
+                                        "name": "icon"
+                                    }
+                                ],
+                                "animations": [
+                                    "bouncy_powerup_anim"
+                                ]
+                            }
+                        ],
+                        "animations": [
+                            "skin_powerup3"
+                        ]
+                    },
+                    {
+                        "name": "price"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "shine"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "shine_powerup"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "boost1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -88.5,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 42.2,
+                "y": -7.3
+            },
+            "type": "container"
+        },
+        "base/skin/icon": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/skin/icon/icon": {
+            "file": "bouncy_anim_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.3,
+                "y": 4.3
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/price": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "$120",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 80,
+                "y": 17.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "Bouncy",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 74.4,
+                "y": -17.5
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/shine": {
+            "file": "brillo9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

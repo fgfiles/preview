@@ -1,0 +1,160 @@
+{
+    "hierarchy": {
+        "name": "power_2",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "icon",
+                                "children": [
+                                    {
+                                        "name": "wing_back"
+                                    },
+                                    {
+                                        "name": "wing_front"
+                                    },
+                                    {
+                                        "name": "lines"
+                                    }
+                                ],
+                                "animations": [
+                                    "fly_icon_anim"
+                                ]
+                            }
+                        ],
+                        "animations": [
+                            "skin_powerup2"
+                        ]
+                    },
+                    {
+                        "name": "price"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "shine"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "shine_powerup"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "boost1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -88.5,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 39,
+                "y": -3.1
+            },
+            "type": "container"
+        },
+        "base/skin/icon": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/skin/icon/wing_back": {
+            "file": "fly_wing.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.3,
+                "y": 0.2
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin/icon/wing_front": {
+            "file": "fly_wing.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15.8,
+                "y": 5
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/skin/icon/lines": {
+            "file": "fly_lines_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.8,
+                "y": 4.6
+            },
+            "type": "sprite"
+        },
+        "base/price": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "$80",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 80,
+                "y": 17.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 23
+            },
+            "text": "Green goo",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 74.4,
+                "y": -14.7
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base/shine": {
+            "file": "brillo9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

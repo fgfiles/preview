@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Games</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <style>
+        body,html {
+      text-align: center;
+      margin:0px;
+      padding:0px;
+      width:100%;
+      height:100%;
+    }
+  </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="embedTarget">
+            <script type="text/javascript" src="jsembed.js"></script>
+            <script type="text/javascript">
+            var params = {
+                //base: "/games/data/spongebob/spongebob-bikini-bottom-bop-em/html5/", // base url of all content. Defaults ""
+                base: "",
+                api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+                autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+                indexroot: "true", // use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+                libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+            };
+            jsembed.embed("flambe.js", "embedTarget", "960", "560", params, {});
+            </script>
+        </div>
+    </div>
+</body>
+<script language="JavaScript">
+function trackFlashEvent(gameTitle, gameEvent, playEvent) {
+    window.alert('tracking:' + gameTitle + gameEvent + playEvent);
+}
+</script>
+
+</html>

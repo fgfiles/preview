@@ -1,0 +1,185 @@
+{
+	"path":
+	{
+		"fill":
+		[
+			"theme_01_fill",
+			"theme_02_fill",
+			"theme_03_fill"
+		],
+		"ground":
+		[
+			"theme_01_ground",
+			"theme_02_ground",
+			"theme_03_ground"
+		],
+		"ground_edge":
+		[
+			"theme_01_ground_edge",
+			"theme_02_ground_edge",
+			"theme_03_ground_edge"
+		],
+		"wall":
+		[
+			"theme_01_wall",
+			"theme_02_wall",
+			"theme_03_wall"
+		]
+	},
+	"objects":
+	[
+		{
+			"id"      : "camera_zoom",
+			"texture" : "camera_zoom",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"zoom\":1,\"time\":0.0}",
+			"scale"   : 5
+		},
+		{
+			"id"      : "level_end",
+			"texture" : "level_end",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		{
+			"id"      : "level_gameover",
+			"texture" : "level_gameover",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		{
+			"id"      : "hint",
+			"texture" : "hint",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},		
+		{
+			"id"      : "coin",
+			"texture" : "pick_up",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "time",
+			"texture" : "pick_up_time",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "sumocard",
+			"texture" : "pick_up_card",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},	
+		{
+			"id"      : "key_blue",
+			"texture" : "key_blue_radial",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "key_green",
+			"texture" : "key_green_radial",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},
+		{
+			"id"      : "key_red",
+			"texture" : "key_red_radial",
+			"anchor"  : {"x":0.5, "y":0.5}
+		},		
+                                                                                            
+		{"id" : "jump_platform",            "texture" : "jump_platform",                                 "anchor" : {"x":0.5, "y":1}},
+					
+		{"id" : "rock01_01",                "texture" : "theme_001_obstacle_rock",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock04_01",                "texture" : "theme_001_scenery_rock_001",                    "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock05_01",                "texture" : "theme_001_scenery_rock_002",                    "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock06_01",                "texture" : "theme_001_scenery_rock_003",                    "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock07_01",                "texture" : "theme_001_scenery_rock_004",                    "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock08_01",                "texture" : "theme_001_scenery_rock_005",                    "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock09_01",                "texture" : "theme_001_scenery_rock_006",                    "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "cactus01_01",              "texture" : "theme_001_scenery_cacti_001",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "cactus02_01",              "texture" : "theme_001_scenery_cacti_002",                   "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "barrel01_01",              "texture" : "theme_001_scenery_barrel_001",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "barrel02_01",              "texture" : "theme_001_scenery_barrel_002",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "barrel03_01",              "texture" : "theme_001_scenery_barrel_003",                  "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "brick_01",                 "texture" : "theme_001_scenery_brick_sign",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "skull_01",                 "texture" : "theme_001_scenery_skull",                       "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "gate_blue01",              "texture" : "theme_001_obstacle_gate_blue_back",             "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_green01",             "texture" : "theme_001_obstacle_gate_green_back",            "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_red01",               "texture" : "theme_001_obstacle_gate_red_back",              "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "fire_on_01",               "texture" : "theme_001_obstacle_flame_on",                   "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "teleport_01",              "texture" : "theme_001_obstacle_teleport_off",               "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "platform_01",              "texture" : "theme_001_obstacle_falling_platform",           "anchor" : {"x":0.5, "y":0}},
+		
+		{"id" : "spike01_01",               "texture" : "theme_001_obstacle_spike_small_off",            "anchor" : {"x":0.5, "y":1}},
+		{"id" : "spike02_01",               "texture" : "theme_001_obstacle_spike_large_off",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "maggot_01",                "texture" : "maggot_01",                                     "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "finish_01",                "texture" : "theme_001_obstacle_finish",                     "anchor" : {"x":0.5, "y":1}},
+		
+		
+		
+		
+		
+		{"id" : "rock01_02",                "texture" : "theme_002_obstacle_rock",                       "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "bin_02",                   "texture" : "theme_002_scenery_bin",                         "anchor" : {"x":0.5, "y":1}},
+		{"id" : "posts_02",                 "texture" : "theme_002_scenery_posts",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "shrubs_02",                "texture" : "theme_002_scenery_shrubs",                      "anchor" : {"x":0.5, "y":1}},
+		{"id" : "sign_02",                  "texture" : "theme_002_scenery_sign",                        "anchor" : {"x":0.5, "y":1}},
+		{"id" : "support01_02",             "texture" : "theme_002_scenery_support_001",                 "anchor" : {"x":0.5, "y":1}},
+		{"id" : "support02_02",             "texture" : "theme_002_scenery_support_002",                 "anchor" : {"x":0.5, "y":1}},
+		{"id" : "wall_02",                  "texture" : "theme_002_scenery_wall",                        "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "gate_blue02",              "texture" : "theme_002_obstacle_gate_blue_closed",           "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_green02",             "texture" : "theme_002_obstacle_gate_green_closed",          "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_red02",               "texture" : "theme_002_obstacle_gate_red_closed",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "fire_on_02",               "texture" : "theme_002_obstacle_flame_on",                   "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "teleport_02",              "texture" : "theme_002_obstacle_teleport_off",               "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "platform_02",              "texture" : "theme_002_obstacle_falling_platform",           "anchor" : {"x":0.5, "y":0}},
+		
+		{"id" : "spike01_02",               "texture" : "theme_002_obstacle_spike_small_off",            "anchor" : {"x":0.5, "y":1}},
+		{"id" : "spike02_02",               "texture" : "theme_002_obstacle_spike_large_off",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "mascot_02",                "texture" : "mascot_02",                                     "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "finish_02",                "texture" : "theme_002_obstacle_finish",                     "anchor" : {"x":0.5, "y":1}},
+		
+		
+		
+		
+		
+		{"id" : "rock01_03",                "texture" : "theme_003_obstacle_rock",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "rock02_03",                "texture" : "theme_003_obstacle_rock_002",                   "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "chair02_03",               "texture" : "theme_003_scenery_chair",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "money_03",                 "texture" : "theme_003_scenery_money",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "ropes_03",                 "texture" : "theme_003_scenery_ropes",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "desk_03",                  "texture" : "theme_003_scenery_desk",                        "anchor" : {"x":0.5, "y":1}},
+		{"id" : "plant_03",                 "texture" : "theme_003_scenery_plant",                       "anchor" : {"x":0.5, "y":1}},		
+
+		{"id" : "gate_blue03",              "texture" : "theme_003_obstacle_gate_blue_closed",           "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_green03",             "texture" : "theme_003_obstacle_gate_green_closed",          "anchor" : {"x":0.5, "y":1}},
+		{"id" : "gate_red03",               "texture" : "theme_003_obstacle_gate_red_closed",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "fire_on_03",               "texture" : "theme_003_obstacle_flame_on",                   "anchor" : {"x":0.5, "y":1}},
+		                                                                                                 
+		{"id" : "teleport_03",              "texture" : "theme_003_obstacle_teleport_off",               "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "platform_03",              "texture" : "theme_003_obstacle_falling_platform",           "anchor" : {"x":0.5, "y":0}},
+		
+		{"id" : "spike01_03",               "texture" : "theme_003_obstacle_spike_small_off",            "anchor" : {"x":0.5, "y":1}},
+		{"id" : "spike02_03",               "texture" : "theme_003_obstacle_spike_large_off",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "bandit_03",                "texture" : "bandit_03",                                     "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "finish_03",                "texture" : "theme_003_obstacle_finish",                     "anchor" : {"x":0.5, "y":1}}
+	]
+}

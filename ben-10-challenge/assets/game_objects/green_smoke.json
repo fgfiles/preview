@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "green_smoke",
+        "children": [
+            {
+                "name": "green_up"
+            }
+        ],
+        "animations": [
+            "green_smoke_up"
+        ]
+    },
+    "properties": {
+        "green_up": {
+            "file": "green_up9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.95
+            },
+            "type": "sprite"
+        }
+    }
+}

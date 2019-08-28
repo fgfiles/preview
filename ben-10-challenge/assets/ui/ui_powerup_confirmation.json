@@ -1,0 +1,119 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "price"
+                    },
+                    {
+                        "name": "no"
+                    },
+                    {
+                        "name": "yes"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "confirmation.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/name": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "GREEN GOO",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": -116.3,
+                "y": -54.3
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "container/description": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "Bounce more\nagainst objects\n",
+            "align": "left",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": -116.3,
+                "y": -40.6
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "container/price": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "Buy for $40",
+            "align": "center",
+            "stroke": "#00e200",
+            "strokeThickness": 1,
+            "position": {
+                "x": 81.5,
+                "y": 38.5
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "container/no": {
+            "file": "No.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 137.5,
+                "y": 25.7
+            },
+            "type": "button"
+        },
+        "container/yes": {
+            "file": "Yes.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 133.2,
+                "y": -46.8
+            },
+            "type": "button"
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "hierarchy": {
+        "name": "character_gameplay",
+        "children": [
+            {
+                "name": "hair"
+            },
+            {
+                "name": "arm-right1",
+                "children": [
+                    {
+                        "name": "arm-right2"
+                    }
+                ]
+            },
+            {
+                "name": "body",
+                "children": [
+                    {
+                        "name": "head"
+                    },
+                    {
+                        "name": "arm-left1",
+                        "children": [
+                            {
+                                "name": "arm-left2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "character_gameplay_anim"
+        ]
+    },
+    "properties": {
+        "hair": {
+            "file": "gw_hair.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -324.3,
+                "y": -155.1
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "arm-right1": {
+            "file": "gw_armr_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -330.3,
+                "y": -84
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "arm-right1/arm-right2": {
+            "file": "gw_armr_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.7,
+                "y": 72.7
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "body": {
+            "file": "gw_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -372,
+                "y": 32
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/head": {
+            "file": "gw_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 45.4,
+                "y": -162.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/arm-left1": {
+            "file": "gw_arml_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.1,
+                "y": -130.8
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/arm-left1/arm-left2": {
+            "file": "gw_arml_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.7,
+                "y": -91.6
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

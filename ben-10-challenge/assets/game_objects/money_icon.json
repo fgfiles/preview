@@ -1,0 +1,357 @@
+{
+    "hierarchy": {
+        "name": "money_icon",
+        "children": [
+            {
+                "name": "border"
+            },
+            {
+                "name": "shine"
+            },
+            {
+                "name": "best"
+            },
+            {
+                "name": "base"
+            },
+            {
+                "name": "level_icon",
+                "children": [
+                    {
+                        "name": "level_container"
+                    },
+                    {
+                        "name": "level_container_red"
+                    }
+                ]
+            },
+            {
+                "name": "circle"
+            },
+            {
+                "name": "money_1"
+            },
+            {
+                "name": "money_2"
+            },
+            {
+                "name": "money_3"
+            },
+            {
+                "name": "money_4"
+            },
+            {
+                "name": "money_5"
+            },
+            {
+                "name": "money_6"
+            },
+            {
+                "name": "money_7"
+            },
+            {
+                "name": "money_8"
+            },
+            {
+                "name": "money_9"
+            },
+            {
+                "name": "number_container",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "star_1"
+            },
+            {
+                "name": "star_2"
+            },
+            {
+                "name": "star_3"
+            },
+            {
+                "name": "star_4"
+            },
+            {
+                "name": "star_5"
+            },
+            {
+                "name": "star_6"
+            }
+        ],
+        "animations": [
+            "money_gp_anim",
+            "money_gp_out",
+            "level_alert",
+            "gp_container_anim"
+        ]
+    },
+    "properties": {
+        "border": {
+            "file": "green_border_ui.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 33.4,
+                "y": -20.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "shine": {
+            "file": "shine_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48.6,
+                "y": -12.8
+            },
+            "type": "sprite"
+        },
+        "best": {
+            "file": "best.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 109.1,
+                "y": 29.9
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "money1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.4,
+                "y": 5.6
+            },
+            "type": "sprite"
+        },
+        "level_icon": {
+            "position": {
+                "x": -37.6,
+                "y": -46.4
+            },
+            "type": "container"
+        },
+        "level_icon/level_container": {
+            "file": "level_container.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "level_icon/level_container_red": {
+            "file": "level_container_red.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "circle": {
+            "file": "score_circle_14.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3,
+                "y": 10
+            },
+            "type": "sprite"
+        },
+        "money_1": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -36.8,
+                "y": 23.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_2": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63.1,
+                "y": -14
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_3": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 143.8,
+                "y": 26.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_4": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_5": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_6": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_7": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_8": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "money_9": {
+            "file": "money_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.1,
+                "y": -16.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "number_container": {
+            "position": {
+                "x": 157.7,
+                "y": -0.7
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "number_container/text": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 60
+            },
+            "text": "-40",
+            "align": "left",
+            "stroke": "#00e200",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "star_1": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 128.7,
+                "y": -73.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_2": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.5,
+                "y": -72.3
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_3": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -48.5,
+                "y": 6.8
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_4": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.3,
+                "y": 52.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_5": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 162.5,
+                "y": -28.7
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_6": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 121.3,
+                "y": -8.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

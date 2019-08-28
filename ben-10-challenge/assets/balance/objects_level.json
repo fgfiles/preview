@@ -1,0 +1,119 @@
+{
+  "walls": {
+    "type_a":{
+      "mass": 0,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "frame":"plataforma_3.png",
+      "atlas": "atlas_screen"
+    },
+    "type_a2":{
+      "mass": 0,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "frame":"plataforma_1.png",
+      "atlas": "atlas_screen"
+    },
+    "type_b":{
+      "mass": 0,
+      "lives": 1,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "frame":"panal.png",
+      "atlas": "atlas_screen"
+    },
+    "bumper":{
+      "mass": 0,
+      "lives": 3,
+      "restitution": 1,
+      "friction": 0.5,
+      "special": 3
+    },
+    "trampoline":{
+      "mass": 0.02,
+      "restitution": 0.9,
+      "friction": 0,
+      "special": 2
+    },
+    "flipper_left":{
+      "mass": 1,
+      "restitution": 0.1,
+      "friction": 1,
+      "special": 1
+    },
+    "flipper_right":{
+      "mass": 1,
+      "restitution": 0.1,
+      "friction": 1,
+      "special": 0
+    }
+  },
+  "moneys": {
+    "type_a":{
+      "key": "money1.png",
+      "value": 100
+    },
+    "type_b":{
+      "key": "money2.png",
+      "value": 200
+    },
+    "type_c":{
+      "key": "money3.png",
+      "value": 300
+    },
+    "type_d":{
+      "key": "money4.png",
+      "value": 500
+    },
+    "type_e":{
+      "key": "money5.png",
+      "value": 1000
+    },
+    "e":{
+      "key": "money5.png",
+      "value": 1000
+    },
+    "f":{
+      "key": "money6.png",
+      "value": 2000
+    },
+    "g":{
+      "key": "money7.png",
+      "value": 5000
+    }
+  },
+  "enemys": {
+    "type_a":{
+      "key": "enemy_1",
+      "mass": 0,
+      "lives": 1,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "move": { "x": 0, "y": -450, "time": 2, "delay": 0.5}
+    },
+    "type_b":{
+      "key": "enemy_1",
+      "mass": 0,
+      "lives": 1,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "move": { "x": 0, "y": 500, "time": 2, "delay": 0.5}
+    },
+    "type_c":{
+      "key": "enemy_2",
+      "mass": 0,
+      "lives": 1,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "move": { "x": 0, "y": -450, "time": 2, "delay": 0.5}
+    },
+    "type_d":{
+      "key": "enemy_2",
+      "mass": 0,
+      "lives": 1,
+      "restitution": 0.5,
+      "friction": 0.5,
+      "move": { "x": 0, "y": 500, "time": 2, "delay": 0.5}
+    }
+  }
+}

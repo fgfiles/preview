@@ -1,0 +1,184 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "arrow_right"
+                    },
+                    {
+                        "name": "arrow_left"
+                    },
+                    {
+                        "name": "anim_pivot"
+                    },
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "point_1"
+                    },
+                    {
+                        "name": "point_2"
+                    },
+                    {
+                        "name": "point_3"
+                    },
+                    {
+                        "name": "point_4"
+                    },
+                    {
+                        "name": "point_5"
+                    },
+                    {
+                        "name": "check"
+                    }
+                ]
+            },
+            {
+                "name": "home"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "t_container.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": 1.5
+                }
+            }
+        },
+        "container/arrow_right": {
+            "file": "arrow_r_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "arrow_r_1.png",
+                "pressed": "arrow_r_2.png",
+                "hover": "arrow_r_1.png"
+            },
+            "position": {
+                "x": 260,
+                "y": 45
+            },
+            "type": "button"
+        },
+        "container/arrow_left": {
+            "file": "arrow_l_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "arrow_l_1.png",
+                "pressed": "arrow_l_2.png",
+                "hover": "arrow_l_1.png"
+            },
+            "position": {
+                "x": -260,
+                "y": 45
+            },
+            "type": "button"
+        },
+        "container/anim_pivot": {
+            "position": {
+                "x": 0,
+                "y": 43
+            },
+            "type": "container"
+        },
+        "container/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 51
+            },
+            "text": "How to play",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": -90.1
+            },
+            "type": "text"
+        },
+        "container/point_1": {
+            "file": "point_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -38.4,
+                "y": 181.4
+            },
+            "type": "sprite"
+        },
+        "container/point_2": {
+            "file": "point_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -18.5,
+                "y": 181.4
+            },
+            "type": "sprite"
+        },
+        "container/point_3": {
+            "file": "point_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": 181.4
+            },
+            "type": "sprite"
+        },
+        "container/point_4": {
+            "file": "point_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 20.5,
+                "y": 181.4
+            },
+            "type": "sprite"
+        },
+        "container/point_5": {
+            "file": "point_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 40.4,
+                "y": 181.4
+            },
+            "type": "sprite"
+        },
+        "container/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": 284
+            },
+            "type": "button"
+        },
+        "home": {
+            "file": "l-home_1.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -14.6,
+                    "y": -10.8
+                }
+            }
+        }
+    }
+}

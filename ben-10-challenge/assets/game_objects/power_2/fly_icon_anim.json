@@ -1,0 +1,155 @@
+{
+    "name": "fly_icon_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "wing_back": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 83,
+                    "value": 0.5
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        14.3,
+                        0.2
+                    ]
+                },
+                {
+                    "frame": 250,
+                    "value": [
+                        14.3,
+                        0.2
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "fly_wing.png"
+                }
+            ]
+        },
+        "wing_front": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        15.8,
+                        5
+                    ]
+                },
+                {
+                    "frame": 250,
+                    "value": [
+                        15.8,
+                        5
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 83,
+                    "value": 0.58
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 83,
+                    "value": 1.09
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "fly_wing.png"
+                }
+            ]
+        },
+        "lines": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "fly_lines_0.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "fly_lines_1.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "fly_lines_2.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "fly_lines_0.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "fly_lines_1.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "fly_lines_2.png"
+                }
+            ]
+        }
+    }
+}

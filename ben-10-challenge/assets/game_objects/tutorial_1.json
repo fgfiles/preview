@@ -1,0 +1,175 @@
+{
+    "hierarchy": {
+        "name": "tutorial_1",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "character"
+                    },
+                    {
+                        "name": "arrow"
+                    },
+                    {
+                        "name": "enemy"
+                    },
+                    {
+                        "name": "tap"
+                    },
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "hand"
+                            }
+                        ],
+                        "animations": [
+                            "tutorial_desktop",
+                            "tutorial_mobile"
+                        ]
+                    },
+                    {
+                        "name": "goo_in"
+                    },
+                    {
+                        "name": "goo_end"
+                    },
+                    {
+                        "name": "smoke_enemy"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "tutorialgoo_1_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "container"
+        },
+        "base/character": {
+            "file": "stink_bouncy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -139.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/arrow": {
+            "file": "arrow_goo.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -101.5,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.05,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/enemy": {
+            "file": "enemy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 128,
+                "y": 12.2
+            },
+            "type": "sprite"
+        },
+        "base/tap": {
+            "file": "tap.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.7,
+                "y": 0
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/skin/hand": {
+            "file": "hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 95.5,
+                "y": 66.3
+            },
+            "angle": -29,
+            "scale": {
+                "x": 0.54,
+                "y": 0.54
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/goo_in": {
+            "file": "goo_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.3,
+                "y": -1.8
+            },
+            "scale": {
+                "x": 0.65,
+                "y": 0.65
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/goo_end": {
+            "file": "goo_final_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 104.7,
+                "y": -6.2
+            },
+            "scale": {
+                "x": 0.44,
+                "y": 0.44
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/smoke_enemy": {
+            "file": "green_poof_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 127.9,
+                "y": 6.4
+            },
+            "scale": {
+                "x": 0.48,
+                "y": 0.48
+            },
+            "color": "#4dc748",
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

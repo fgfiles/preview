@@ -1,0 +1,594 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "decorate"
+            },
+            {
+                "name": "player_group",
+                "children": [
+                    {
+                        "name": "player"
+                    }
+                ]
+            },
+            {
+                "name": "cannon",
+                "children": [
+                    {
+                        "name": "cannon"
+                    },
+                    {
+                        "name": "plataforma"
+                    }
+                ]
+            },
+            {
+                "name": "walls",
+                "children": [
+                    {
+                        "name": "type_a"
+                    },
+                    {
+                        "name": "type_b"
+                    },
+                    {
+                        "name": "type_a2",
+                        "children": [
+                            {
+                                "name": "wall_2"
+                            },
+                            {
+                                "name": "wall_3"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "moneys",
+                "children": [
+                    {
+                        "name": "type_a",
+                        "children": [
+                            {
+                                "name": "money_2"
+                            },
+                            {
+                                "name": "money_3"
+                            },
+                            {
+                                "name": "money_4"
+                            },
+                            {
+                                "name": "money_5"
+                            },
+                            {
+                                "name": "money_6"
+                            },
+                            {
+                                "name": "money_7"
+                            },
+                            {
+                                "name": "money_8"
+                            },
+                            {
+                                "name": "money_9"
+                            },
+                            {
+                                "name": "money_10"
+                            },
+                            {
+                                "name": "money_11"
+                            },
+                            {
+                                "name": "money_12"
+                            },
+                            {
+                                "name": "money_13"
+                            },
+                            {
+                                "name": "money_14"
+                            },
+                            {
+                                "name": "money_15"
+                            },
+                            {
+                                "name": "money_16"
+                            },
+                            {
+                                "name": "money_17"
+                            },
+                            {
+                                "name": "money_18"
+                            },
+                            {
+                                "name": "money_19"
+                            },
+                            {
+                                "name": "money_20"
+                            },
+                            {
+                                "name": "money_21"
+                            },
+                            {
+                                "name": "money_22"
+                            },
+                            {
+                                "name": "money_23"
+                            },
+                            {
+                                "name": "money_24"
+                            },
+                            {
+                                "name": "money_25"
+                            },
+                            {
+                                "name": "money_26"
+                            },
+                            {
+                                "name": "money_27"
+                            },
+                            {
+                                "name": "money_28"
+                            },
+                            {
+                                "name": "29"
+                            },
+                            {
+                                "name": "30"
+                            },
+                            {
+                                "name": "31"
+                            },
+                            {
+                                "name": "32"
+                            },
+                            {
+                                "name": "33"
+                            },
+                            {
+                                "name": "34"
+                            },
+                            {
+                                "name": "35"
+                            },
+                            {
+                                "name": "36"
+                            },
+                            {
+                                "name": "37"
+                            },
+                            {
+                                "name": "38"
+                            },
+                            {
+                                "name": "39"
+                            },
+                            {
+                                "name": "40"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "enemys",
+                "children": [
+                    {
+                        "name": "type_a"
+                    },
+                    {
+                        "name": "type_b"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 3000,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "decorate": {
+            "position": {
+                "x": 0,
+                "y": 320
+            },
+            "type": "container"
+        },
+        "player_group": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "container"
+        },
+        "player_group/player": {
+            "position": {
+                "x": 342,
+                "y": 403
+            },
+            "type": "container"
+        },
+        "cannon": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "cannon/cannon": {
+            "position": {
+                "x": 342.2,
+                "y": 467.2
+            },
+            "type": "container"
+        },
+        "cannon/plataforma": {
+            "position": {
+                "x": 271,
+                "y": 527
+            },
+            "type": "container"
+        },
+        "walls": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_b": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a2": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a2/wall_2": {
+            "position": {
+                "x": 1138,
+                "y": 366
+            },
+            "type": "container"
+        },
+        "walls/type_a2/wall_3": {
+            "position": {
+                "x": 2436,
+                "y": 359
+            },
+            "type": "container"
+        },
+        "moneys": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_2": {
+            "position": {
+                "x": 737,
+                "y": 272
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_3": {
+            "position": {
+                "x": 958,
+                "y": 181
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_4": {
+            "position": {
+                "x": 1241,
+                "y": 167
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_5": {
+            "position": {
+                "x": 1551,
+                "y": 321
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_6": {
+            "position": {
+                "x": 1834,
+                "y": 457
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_7": {
+            "position": {
+                "x": 2160,
+                "y": 505
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_8": {
+            "position": {
+                "x": 2429,
+                "y": 510
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_9": {
+            "position": {
+                "x": 2670,
+                "y": 508
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_10": {
+            "position": {
+                "x": 843,
+                "y": 219
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_11": {
+            "position": {
+                "x": 1084,
+                "y": 155
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_12": {
+            "position": {
+                "x": 1376,
+                "y": 219
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_13": {
+            "position": {
+                "x": 1675,
+                "y": 398
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_14": {
+            "position": {
+                "x": 1999,
+                "y": 490
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_15": {
+            "position": {
+                "x": 2277,
+                "y": 511
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_16": {
+            "position": {
+                "x": 2560,
+                "y": 506
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_17": {
+            "position": {
+                "x": 996,
+                "y": 102
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_18": {
+            "position": {
+                "x": 881,
+                "y": 150
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_19": {
+            "position": {
+                "x": 1152,
+                "y": 93
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_20": {
+            "position": {
+                "x": 1285,
+                "y": 240
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_21": {
+            "position": {
+                "x": 1435,
+                "y": 320
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_22": {
+            "position": {
+                "x": 1573,
+                "y": 415
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_23": {
+            "position": {
+                "x": 1718,
+                "y": 472
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_24": {
+            "position": {
+                "x": 1904,
+                "y": 524
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_25": {
+            "position": {
+                "x": 2073,
+                "y": 531
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_26": {
+            "position": {
+                "x": 2373,
+                "y": 288
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_27": {
+            "position": {
+                "x": 2481,
+                "y": 286
+            },
+            "type": "container"
+        },
+        "moneys/type_a/money_28": {
+            "position": {
+                "x": 2426,
+                "y": 224
+            },
+            "type": "container"
+        },
+        "moneys/type_a/29": {
+            "position": {
+                "x": 1467,
+                "y": 66
+            },
+            "type": "container"
+        },
+        "moneys/type_a/30": {
+            "position": {
+                "x": 1467,
+                "y": 141
+            },
+            "type": "container"
+        },
+        "moneys/type_a/31": {
+            "position": {
+                "x": 1608,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "moneys/type_a/32": {
+            "position": {
+                "x": 1608,
+                "y": 72
+            },
+            "type": "container"
+        },
+        "moneys/type_a/33": {
+            "position": {
+                "x": 1718,
+                "y": 154
+            },
+            "type": "container"
+        },
+        "moneys/type_a/34": {
+            "position": {
+                "x": 1718,
+                "y": 79
+            },
+            "type": "container"
+        },
+        "moneys/type_a/35": {
+            "position": {
+                "x": 1830,
+                "y": 163
+            },
+            "type": "container"
+        },
+        "moneys/type_a/36": {
+            "position": {
+                "x": 1830,
+                "y": 88
+            },
+            "type": "container"
+        },
+        "moneys/type_a/37": {
+            "position": {
+                "x": 1943,
+                "y": 185
+            },
+            "type": "container"
+        },
+        "moneys/type_a/38": {
+            "position": {
+                "x": 1943,
+                "y": 110
+            },
+            "type": "container"
+        },
+        "moneys/type_a/39": {
+            "position": {
+                "x": 2078,
+                "y": 215
+            },
+            "type": "container"
+        },
+        "moneys/type_a/40": {
+            "position": {
+                "x": 2078,
+                "y": 140
+            },
+            "type": "container"
+        },
+        "enemys": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_b": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        }
+    }
+}

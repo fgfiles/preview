@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="icon" href="assets/images/favicon.png" type="image/jpg">
+
+		<title>Ben 10 Hero Time - HTML5 Game</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/game.css">
+		
+		<script type="text/javascript" src="scripts/pixi.min.js"></script>
+		<script type="text/javascript" src="scripts/pixi-particles.min.js"></script>
+		<script type="text/javascript" src="scripts/pixi-spine.js"></script>
+		<script type="text/javascript" src="scripts/pixi-ext.js"></script>
+		<script type="text/javascript" src="scripts/signals.min.js"></script>
+		<script type="text/javascript" src="scripts/tweenmax.min.js"></script>
+		<script type="text/javascript" src="scripts/howler.min.js"></script>
+		<script type="text/javascript" src="scripts/bowser.min.js"></script>
+		<script type="text/javascript" src="scripts/poly2tri.min.js"></script>
+		<script type="text/javascript" src="scripts/md5.min.js"></script>
+        
+		<script type="text/javascript" src="scripts/p3.min.js"></script>
+		<script type="text/javascript" src="scripts/ben10herotime.js"></script>
+	</head>
+
+	<body>
+		<p class='hidden'>.</p>
+		<div id="og-game-holder"></div>
+
+		<script>
+			var params = {
+				gid              : "Ben10HeroTime",
+				gameContainerId  : "og-game-holder",
+				gameDir          : "",
+				language         : "en",
+				resolutionSuffix : "hd"
+			};
+			
+			var main = new BP.Main(1024, 768, params);
+		</script>
+	</body>
+</html>

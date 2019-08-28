@@ -1,0 +1,52 @@
+{
+    "hierarchy": {
+        "name": "canon",
+        "children": [
+            {
+                "name": "green"
+            },
+            {
+                "name": "canon"
+            },
+            {
+                "name": "elect"
+            }
+        ],
+        "animations": [
+            "re_shot_anim",
+            "green_shine"
+        ]
+    },
+    "properties": {
+        "green": {
+            "file": "canon_verde.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": 90,
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "canon": {
+            "file": "canon.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "elect": {
+            "file": "elect_9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.7,
+                "y": 6.5
+            },
+            "angle": -65,
+            "type": "sprite"
+        }
+    }
+}

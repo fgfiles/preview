@@ -1,0 +1,804 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "decorate"
+            },
+            {
+                "name": "player_group",
+                "children": [
+                    {
+                        "name": "player"
+                    }
+                ]
+            },
+            {
+                "name": "cannon",
+                "children": [
+                    {
+                        "name": "cannon"
+                    },
+                    {
+                        "name": "plataforma"
+                    }
+                ]
+            },
+            {
+                "name": "walls",
+                "children": [
+                    {
+                        "name": "type_a",
+                        "children": [
+                            {
+                                "name": "wallV_1"
+                            },
+                            {
+                                "name": "wallV_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type_b",
+                        "children": [
+                            {
+                                "name": "1"
+                            },
+                            {
+                                "name": "2"
+                            },
+                            {
+                                "name": "3"
+                            },
+                            {
+                                "name": "4"
+                            },
+                            {
+                                "name": "5"
+                            },
+                            {
+                                "name": "6"
+                            },
+                            {
+                                "name": "7"
+                            },
+                            {
+                                "name": "8"
+                            },
+                            {
+                                "name": "9"
+                            },
+                            {
+                                "name": "10"
+                            },
+                            {
+                                "name": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type_a2",
+                        "children": [
+                            {
+                                "name": "wallH_1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "moneys",
+                "children": [
+                    {
+                        "name": "type_a",
+                        "children": [
+                            {
+                                "name": "2"
+                            },
+                            {
+                                "name": "3"
+                            },
+                            {
+                                "name": "4"
+                            },
+                            {
+                                "name": "5"
+                            },
+                            {
+                                "name": "6"
+                            },
+                            {
+                                "name": "7"
+                            },
+                            {
+                                "name": "8"
+                            },
+                            {
+                                "name": "9"
+                            },
+                            {
+                                "name": "10"
+                            },
+                            {
+                                "name": "11"
+                            },
+                            {
+                                "name": "12"
+                            },
+                            {
+                                "name": "13"
+                            },
+                            {
+                                "name": "14"
+                            },
+                            {
+                                "name": "15"
+                            },
+                            {
+                                "name": "16"
+                            },
+                            {
+                                "name": "17"
+                            },
+                            {
+                                "name": "21"
+                            },
+                            {
+                                "name": "22"
+                            },
+                            {
+                                "name": "26"
+                            },
+                            {
+                                "name": "27"
+                            },
+                            {
+                                "name": "28"
+                            },
+                            {
+                                "name": "29"
+                            },
+                            {
+                                "name": "30"
+                            },
+                            {
+                                "name": "32"
+                            },
+                            {
+                                "name": "33"
+                            },
+                            {
+                                "name": "34"
+                            },
+                            {
+                                "name": "35"
+                            },
+                            {
+                                "name": "36"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type_b"
+                    },
+                    {
+                        "name": "type_c",
+                        "children": [
+                            {
+                                "name": "1"
+                            },
+                            {
+                                "name": "2"
+                            },
+                            {
+                                "name": "3"
+                            },
+                            {
+                                "name": "5"
+                            },
+                            {
+                                "name": "6"
+                            },
+                            {
+                                "name": "7"
+                            },
+                            {
+                                "name": "9"
+                            },
+                            {
+                                "name": "10"
+                            },
+                            {
+                                "name": "11"
+                            },
+                            {
+                                "name": "12"
+                            },
+                            {
+                                "name": "13"
+                            },
+                            {
+                                "name": "14"
+                            },
+                            {
+                                "name": "15"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "enemys",
+                "children": [
+                    {
+                        "name": "type_a",
+                        "children": [
+                            {
+                                "name": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type_b",
+                        "children": [
+                            {
+                                "name": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type_c"
+                    },
+                    {
+                        "name": "type_d"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 3000,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "decorate": {
+            "position": {
+                "x": 0,
+                "y": 320
+            },
+            "type": "container"
+        },
+        "player_group": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "container"
+        },
+        "player_group/player": {
+            "position": {
+                "x": 342,
+                "y": 403
+            },
+            "type": "container"
+        },
+        "cannon": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "cannon/cannon": {
+            "position": {
+                "x": 342.2,
+                "y": 467.2
+            },
+            "type": "container"
+        },
+        "cannon/plataforma": {
+            "position": {
+                "x": 271,
+                "y": 527
+            },
+            "type": "container"
+        },
+        "walls": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a/wallV_1": {
+            "position": {
+                "x": 2582,
+                "y": 226
+            },
+            "type": "container"
+        },
+        "walls/type_a/wallV_2": {
+            "position": {
+                "x": 2582,
+                "y": 459
+            },
+            "type": "container"
+        },
+        "walls/type_b": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_b/1": {
+            "position": {
+                "x": 2736,
+                "y": 248
+            },
+            "type": "container"
+        },
+        "walls/type_b/2": {
+            "position": {
+                "x": 2738,
+                "y": 312
+            },
+            "type": "container"
+        },
+        "walls/type_b/3": {
+            "position": {
+                "x": 2846,
+                "y": 248
+            },
+            "type": "container"
+        },
+        "walls/type_b/4": {
+            "position": {
+                "x": 2792,
+                "y": 248
+            },
+            "type": "container"
+        },
+        "walls/type_b/5": {
+            "position": {
+                "x": 2794,
+                "y": 312
+            },
+            "type": "container"
+        },
+        "walls/type_b/6": {
+            "position": {
+                "x": 2848,
+                "y": 312
+            },
+            "type": "container"
+        },
+        "walls/type_b/7": {
+            "position": {
+                "x": 2953,
+                "y": 248
+            },
+            "type": "container"
+        },
+        "walls/type_b/8": {
+            "position": {
+                "x": 2899,
+                "y": 248
+            },
+            "type": "container"
+        },
+        "walls/type_b/9": {
+            "position": {
+                "x": 2901,
+                "y": 312
+            },
+            "type": "container"
+        },
+        "walls/type_b/10": {
+            "position": {
+                "x": 2955,
+                "y": 312
+            },
+            "type": "container"
+        },
+        "walls/type_b/11": {
+            "position": {
+                "x": 1512,
+                "y": 442
+            },
+            "type": "container"
+        },
+        "walls/type_a2": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "walls/type_a2/wallH_1": {
+            "position": {
+                "x": 2073,
+                "y": 413
+            },
+            "type": "container"
+        },
+        "moneys": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_a/2": {
+            "position": {
+                "x": 760,
+                "y": 362
+            },
+            "type": "container"
+        },
+        "moneys/type_a/3": {
+            "position": {
+                "x": 760,
+                "y": 438
+            },
+            "type": "container"
+        },
+        "moneys/type_a/4": {
+            "position": {
+                "x": 1844,
+                "y": 61
+            },
+            "type": "container"
+        },
+        "moneys/type_a/5": {
+            "position": {
+                "x": 1844,
+                "y": 151
+            },
+            "type": "container"
+        },
+        "moneys/type_a/6": {
+            "position": {
+                "x": 1947,
+                "y": 61
+            },
+            "type": "container"
+        },
+        "moneys/type_a/7": {
+            "position": {
+                "x": 863,
+                "y": 438
+            },
+            "type": "container"
+        },
+        "moneys/type_a/8": {
+            "position": {
+                "x": 863,
+                "y": 362
+            },
+            "type": "container"
+        },
+        "moneys/type_a/9": {
+            "position": {
+                "x": 1947,
+                "y": 151
+            },
+            "type": "container"
+        },
+        "moneys/type_a/10": {
+            "position": {
+                "x": 2168,
+                "y": 61
+            },
+            "type": "container"
+        },
+        "moneys/type_a/11": {
+            "position": {
+                "x": 1006,
+                "y": 438
+            },
+            "type": "container"
+        },
+        "moneys/type_a/12": {
+            "position": {
+                "x": 1006,
+                "y": 362
+            },
+            "type": "container"
+        },
+        "moneys/type_a/13": {
+            "position": {
+                "x": 2168,
+                "y": 151
+            },
+            "type": "container"
+        },
+        "moneys/type_a/14": {
+            "position": {
+                "x": 1105,
+                "y": 438
+            },
+            "type": "container"
+        },
+        "moneys/type_a/15": {
+            "position": {
+                "x": 1105,
+                "y": 362
+            },
+            "type": "container"
+        },
+        "moneys/type_a/16": {
+            "position": {
+                "x": 1221,
+                "y": 354
+            },
+            "type": "container"
+        },
+        "moneys/type_a/17": {
+            "position": {
+                "x": 1221,
+                "y": 430
+            },
+            "type": "container"
+        },
+        "moneys/type_a/21": {
+            "position": {
+                "x": 1319,
+                "y": 354
+            },
+            "type": "container"
+        },
+        "moneys/type_a/22": {
+            "position": {
+                "x": 1319,
+                "y": 430
+            },
+            "type": "container"
+        },
+        "moneys/type_a/26": {
+            "position": {
+                "x": 1256,
+                "y": 218
+            },
+            "type": "container"
+        },
+        "moneys/type_a/27": {
+            "position": {
+                "x": 1256,
+                "y": 142
+            },
+            "type": "container"
+        },
+        "moneys/type_a/28": {
+            "position": {
+                "x": 1449,
+                "y": 97
+            },
+            "type": "container"
+        },
+        "moneys/type_a/29": {
+            "position": {
+                "x": 1449,
+                "y": 173
+            },
+            "type": "container"
+        },
+        "moneys/type_a/30": {
+            "position": {
+                "x": 2402,
+                "y": 82
+            },
+            "type": "container"
+        },
+        "moneys/type_a/32": {
+            "position": {
+                "x": 2500,
+                "y": 172
+            },
+            "type": "container"
+        },
+        "moneys/type_a/33": {
+            "position": {
+                "x": 1586,
+                "y": 50
+            },
+            "type": "container"
+        },
+        "moneys/type_a/34": {
+            "position": {
+                "x": 1586,
+                "y": 126
+            },
+            "type": "container"
+        },
+        "moneys/type_a/35": {
+            "position": {
+                "x": 2500,
+                "y": 82
+            },
+            "type": "container"
+        },
+        "moneys/type_a/36": {
+            "position": {
+                "x": 2402,
+                "y": 172
+            },
+            "type": "container"
+        },
+        "moneys/type_b": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_c": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "moneys/type_c/1": {
+            "position": {
+                "x": 2745,
+                "y": 412
+            },
+            "type": "container"
+        },
+        "moneys/type_c/2": {
+            "position": {
+                "x": 2841,
+                "y": 412
+            },
+            "type": "container"
+        },
+        "moneys/type_c/3": {
+            "position": {
+                "x": 2938,
+                "y": 412
+            },
+            "type": "container"
+        },
+        "moneys/type_c/5": {
+            "position": {
+                "x": 2938,
+                "y": 517
+            },
+            "type": "container"
+        },
+        "moneys/type_c/6": {
+            "position": {
+                "x": 2841,
+                "y": 517
+            },
+            "type": "container"
+        },
+        "moneys/type_c/7": {
+            "position": {
+                "x": 2745,
+                "y": 517
+            },
+            "type": "container"
+        },
+        "moneys/type_c/9": {
+            "position": {
+                "x": 2169,
+                "y": 244
+            },
+            "type": "container"
+        },
+        "moneys/type_c/10": {
+            "position": {
+                "x": 2072,
+                "y": 244
+            },
+            "type": "container"
+        },
+        "moneys/type_c/11": {
+            "position": {
+                "x": 1976,
+                "y": 244
+            },
+            "type": "container"
+        },
+        "moneys/type_c/12": {
+            "position": {
+                "x": 1424,
+                "y": 410
+            },
+            "type": "container"
+        },
+        "moneys/type_c/13": {
+            "position": {
+                "x": 2169,
+                "y": 338
+            },
+            "type": "container"
+        },
+        "moneys/type_c/14": {
+            "position": {
+                "x": 2072,
+                "y": 338
+            },
+            "type": "container"
+        },
+        "moneys/type_c/15": {
+            "position": {
+                "x": 1976,
+                "y": 338
+            },
+            "type": "container"
+        },
+        "enemys": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_a": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_a/2": {
+            "position": {
+                "x": 2666,
+                "y": 504
+            },
+            "type": "container"
+        },
+        "enemys/type_b": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_b/1": {
+            "position": {
+                "x": 1700,
+                "y": 58
+            },
+            "type": "container"
+        },
+        "enemys/type_c": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "enemys/type_d": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        }
+    }
+}

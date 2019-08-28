@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Adventures in Babysitting - HTML5 Game</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+      
+        <link rel="stylesheet" href="assets/fonts/placardmt/stylesheet.css">
+        <link rel="stylesheet" href="assets/fonts/mandali/stylesheet.css">
+
+        <script src="js/libs/pixi/pixi.min.js"></script>
+        <script src="js/libs/pixi/pixi-particles.min.js"></script>
+
+        <script src="js/libs/signals.min.js"></script>
+        <script src="js/libs/greensock/tweenmax.min.js"></script>
+        <script src="js/libs/howler.min.js"></script>
+        <script src="js/libs/bowser/bowser.min.js"></script>
+        <script src="js/libs/md5.min.js"></script>
+        <script src="js/libs/jquery-2.1.3.min.js"></script>
+
+        <script src="js/levels.js"></script>
+
+        <script src="p3.min.js"></script>
+        <script src="bundle.dev.js"></script>
+
+        <script src="strings/config.js"></script>
+        <script src="strings/strings.js"></script>
+        
+        <script src="assets/particles/air.js"></script>
+        <script src="assets/particles/bubbles.js"></script>
+        <script src="assets/particles/coin_loss.js"></script>
+        <script src="assets/particles/collectable.js"></script>
+        <script src="assets/particles/levelend_starburst.js"></script>
+        <script src="assets/particles/magnet.js"></script>
+        <script src="assets/particles/particle_airvent_verticle_2.js"></script>
+        <script src="assets/particles/particle_emitter_menu_steam_00.js"></script>
+        <script src="assets/particles/particle_emitter_steam_edges.js"></script>
+        <script src="assets/particles/particle_enemy_clothes_burst.js"></script>
+        <script src="assets/particles/particle_gang_hitground_00.js"></script>
+        <script src="assets/particles/particle_gate_sparks.js"></script>
+        <script src="assets/particles/particle_rail_sparks.js"></script>
+        <script src="assets/particles/particle_steam.js"></script>
+        <script src="assets/particles/particle_steam_opposite.js"></script>
+        <script src="assets/particles/star.js"></script>
+        <script src="assets/particles/water.js"></script>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #000000;
+            }
+            #og-game-holder {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #FFFFFF;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="og-game-holder"></div>
+        <script>
+
+            if (navigator.isCocoonJS) {
+              window.ext.IDTK_APP.makeCall("setWebGLEnabled", true);
+            }
+
+            window.og = {};
+            window.og.gameDir = "";
+
+            var main = new Main(1024, 768);
+            main.init();
+
+        </script>
+    </body>
+</html>
+    

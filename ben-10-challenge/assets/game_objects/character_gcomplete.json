@@ -1,0 +1,160 @@
+{
+    "hierarchy": {
+        "name": "character_gcomplete",
+        "children": [
+            {
+                "name": "arm_back",
+                "children": [
+                    {
+                        "name": "c_arm-back2"
+                    }
+                ]
+            },
+            {
+                "name": "hair"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "eyes"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "arm_front1",
+                                "children": [
+                                    {
+                                        "name": "arm_front2"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "gwen_gcomplete",
+            "gwen_complete_in",
+            "gwen_complete_out"
+        ]
+    },
+    "properties": {
+        "arm_back": {
+            "file": "c_arm-back1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.8,
+                "y": -108.5
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "arm_back/c_arm-back2": {
+            "file": "c_arm-back2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 72,
+                "y": -17.4
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "hair": {
+            "file": "c_hair.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15,
+                "y": -182.3
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "c_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3.9,
+                "y": 19.7
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "c_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.9,
+                "y": -19.7
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "c_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.1,
+                "y": -159.1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/eyes": {
+            "file": "c_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15.2,
+                "y": -44.1
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_front1": {
+            "file": "c_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42,
+                "y": -119.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_front1/arm_front2": {
+            "file": "c_arm-phone.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 67.8,
+                "y": 33.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        }
+    }
+}

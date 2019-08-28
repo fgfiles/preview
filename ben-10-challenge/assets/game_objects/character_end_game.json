@@ -1,0 +1,516 @@
+{
+    "hierarchy": {
+        "name": "character_end_game",
+        "children": [
+            {
+                "name": "character_3",
+                "children": [
+                    {
+                        "name": "m_arm_left1",
+                        "children": [
+                            {
+                                "name": "m_arm_left2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "m_bottom",
+                        "children": [
+                            {
+                                "name": "m_body",
+                                "children": [
+                                    {
+                                        "name": "m_arm_right1",
+                                        "children": [
+                                            {
+                                                "name": "m_arm_right2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "character_2",
+                "children": [
+                    {
+                        "name": "g_hair"
+                    },
+                    {
+                        "name": "g_arm_right1",
+                        "children": [
+                            {
+                                "name": "g_arm_right2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "g_legs",
+                        "children": [
+                            {
+                                "name": "g_body",
+                                "children": [
+                                    {
+                                        "name": "g_head"
+                                    },
+                                    {
+                                        "name": "g_arm_left1",
+                                        "children": [
+                                            {
+                                                "name": "g_arm_left2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "character_1",
+                "children": [
+                    {
+                        "name": "arm_right1",
+                        "children": [
+                            {
+                                "name": "amr_right2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "b_bottom",
+                        "children": [
+                            {
+                                "name": "b_leg_left1",
+                                "children": [
+                                    {
+                                        "name": "b_pocket"
+                                    },
+                                    {
+                                        "name": "b_leg_left2",
+                                        "children": [
+                                            {
+                                                "name": "b_foot_left"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "b_leg_right1",
+                                "children": [
+                                    {
+                                        "name": "b_leg_right2",
+                                        "children": [
+                                            {
+                                                "name": "b_foot_right"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "b_body",
+                                "children": [
+                                    {
+                                        "name": "b_cabeza"
+                                    },
+                                    {
+                                        "name": "arm_left1",
+                                        "children": [
+                                            {
+                                                "name": "arm_left2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "final_anim"
+        ]
+    },
+    "properties": {
+        "character_3": {
+            "position": {
+                "x": 309,
+                "y": 150
+            },
+            "type": "container"
+        },
+        "character_3/m_arm_left1": {
+            "file": "m_arm_left1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42.7,
+                "y": -134
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character_3/m_arm_left1/m_arm_left2": {
+            "file": "m_arm_left2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.6,
+                "y": -81.3
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character_3/m_bottom": {
+            "file": "m_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.1,
+                "y": 52.3
+            },
+            "type": "sprite"
+        },
+        "character_3/m_bottom/m_body": {
+            "file": "m_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.2,
+                "y": -70.3
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_3/m_bottom/m_body/m_arm_right1": {
+            "file": "m_arm_right1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 96.4,
+                "y": -111.8
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_3/m_bottom/m_body/m_arm_right1/m_arm_right2": {
+            "file": "m_arm_right2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17.7,
+                "y": -74.9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character_2": {
+            "position": {
+                "x": -395.7,
+                "y": 187.3
+            },
+            "type": "container"
+        },
+        "character_2/g_hair": {
+            "file": "g_hair.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.2,
+                "y": -125.3
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "character_2/g_arm_right1": {
+            "file": "g_arm_right1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 18.1,
+                "y": -86.6
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_2/g_arm_right1/g_arm_right2": {
+            "file": "g_arm_right2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.8,
+                "y": 51.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_2/g_legs": {
+            "file": "g_legs.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.4,
+                "y": 2.3
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "character_2/g_legs/g_body": {
+            "file": "g_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.1,
+                "y": -16.9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_2/g_legs/g_body/g_head": {
+            "file": "g_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.9,
+                "y": -99.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_2/g_legs/g_body/g_arm_left1": {
+            "file": "g_arm_left1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9.9,
+                "y": -73.3
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_2/g_legs/g_body/g_arm_left1/g_arm_left2": {
+            "file": "g_arm_left2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -24,
+                "y": -68.6
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_1": {
+            "position": {
+                "x": -245,
+                "y": 187
+            },
+            "type": "container"
+        },
+        "character_1/arm_right1": {
+            "file": "arm_right1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10,
+                "y": -93
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_1/arm_right1/amr_right2": {
+            "file": "arm_right2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.5,
+                "y": -68.6
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom": {
+            "file": "b_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.9,
+                "y": 1.8
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_left1": {
+            "file": "b_leg_left1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.2,
+                "y": -6.1
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_left1/b_pocket": {
+            "file": "b_pocket.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -33.4,
+                "y": 23.5
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_left1/b_leg_left2": {
+            "file": "b_leg_left2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -27.3,
+                "y": 39
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_left1/b_leg_left2/b_foot_left": {
+            "file": "b_foot_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.8,
+                "y": 67
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_right1": {
+            "file": "b_leg_right1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.1,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_right1/b_leg_right2": {
+            "file": "b_leg_right2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 40.8,
+                "y": 34.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_leg_right1/b_leg_right2/b_foot_right": {
+            "file": "b_foot_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.6,
+                "y": 64
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_body": {
+            "file": "b_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.3,
+                "y": -10.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_body/b_cabeza": {
+            "file": "b_cabeza.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -110.6
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_body/arm_left1": {
+            "file": "arm_left1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23,
+                "y": -84.2
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "character_1/b_bottom/b_body/arm_left1/arm_left2": {
+            "file": "arm_left2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42.6,
+                "y": -63.1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

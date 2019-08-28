@@ -1,0 +1,109 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container_ingame",
+                "children": [
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "green_goo"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "anim_pivot"
+                    },
+                    {
+                        "name": "check"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container_ingame": {
+            "file": "container_ingame.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -44.9
+                }
+            }
+        },
+        "container_ingame/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 30
+            },
+            "text": "Green goo",
+            "align": "center",
+            "position": {
+                "x": -127.9,
+                "y": -110.9
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "container_ingame/green_goo": {
+            "file": "green_goo.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -171.7,
+                "y": -111.3
+            },
+            "scale": {
+                "x": 0.84,
+                "y": 0.84
+            },
+            "type": "sprite"
+        },
+        "container_ingame/description": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 25
+            },
+            "text": "New power-up unlocked! \nTo use it you have to spend $9999\nwe'll give you a free one this time\n",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 3,
+            "position": {
+                "x": -1,
+                "y": -39.1
+            },
+            "type": "text"
+        },
+        "container_ingame/anim_pivot": {
+            "position": {
+                "x": 0,
+                "y": 58
+            },
+            "type": "container"
+        },
+        "container_ingame/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 193
+            },
+            "type": "button"
+        }
+    }
+}

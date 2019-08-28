@@ -1,0 +1,52 @@
+{
+    "hierarchy": {
+        "name": "money_bag",
+        "children": [
+            {
+                "name": "bag"
+            },
+            {
+                "name": "score_icon"
+            },
+            {
+                "name": "button"
+            }
+        ],
+        "animations": [
+            "level_bag"
+        ]
+    },
+    "properties": {
+        "bag": {
+            "file": "money_game.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 5.3
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "score_icon": {
+            "file": "score.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 245,
+                "y": 6.7
+            },
+            "type": "sprite"
+        },
+        "button": {
+            "file": "Play.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 113,
+                "y": 167.9
+            },
+            "type": "sprite"
+        }
+    }
+}

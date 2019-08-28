@@ -1,0 +1,112 @@
+{
+    "hierarchy": {
+        "name": "tutorial_flipper",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "tap"
+                    },
+                    {
+                        "name": "skin",
+                        "children": [
+                            {
+                                "name": "hand"
+                            }
+                        ],
+                        "animations": [
+                            "tutorial_mobile",
+                            "tutorial_desktop"
+                        ]
+                    },
+                    {
+                        "name": "fliper"
+                    },
+                    {
+                        "name": "character"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "tutorial_flipper_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": -0.85,
+                "y": 0.85
+            },
+            "type": "container"
+        },
+        "base/tap": {
+            "file": "tap.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 128.7,
+                "y": -3.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/skin": {
+            "position": {
+                "x": 14.7,
+                "y": -25.6
+            },
+            "type": "container"
+        },
+        "base/skin/hand": {
+            "file": "hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 90.5,
+                "y": 102.8
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.56,
+                "y": 0.56
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/fliper": {
+            "file": "fliper2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -163.5,
+                "y": -29.4
+            },
+            "angle": 25,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/character": {
+            "file": "stink_bouncy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -25.4,
+                "y": -16.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

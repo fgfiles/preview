@@ -1,0 +1,48 @@
+{
+    "hierarchy": {
+        "name": "lights",
+        "children": [
+            {
+                "name": "light_left"
+            },
+            {
+                "name": "light_right"
+            }
+        ],
+        "animations": [
+            "light_anim"
+        ]
+    },
+    "properties": {
+        "light_left": {
+            "file": "light.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -352,
+                "y": -31
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "light_right": {
+            "file": "light.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 362,
+                "y": -45
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

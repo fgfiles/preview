@@ -1,0 +1,63 @@
+{
+    "hierarchy": {
+        "name": "level",
+        "children": [
+            {
+                "name": "level_circle",
+                "children": [
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "number"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "level_message_anim"
+        ]
+    },
+    "properties": {
+        "level_circle": {
+            "file": "level_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "level_circle/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 60
+            },
+            "text": "Level",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 5,
+            "position": {
+                "x": -2.2,
+                "y": -48.4
+            },
+            "type": "text"
+        },
+        "level_circle/number": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 120
+            },
+            "text": "2",
+            "align": "center",
+            "stroke": "#000000",
+            "strokeThickness": 6,
+            "position": {
+                "x": -1.9,
+                "y": 22.4
+            },
+            "type": "text"
+        }
+    }
+}

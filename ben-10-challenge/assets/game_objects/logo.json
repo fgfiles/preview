@@ -1,0 +1,52 @@
+{
+    "hierarchy": {
+        "name": "logo",
+        "children": [
+            {
+                "name": "image"
+            },
+            {
+                "name": "base_logo"
+            },
+            {
+                "name": "text_logo"
+            }
+        ],
+        "animations": [
+            "logo_anim"
+        ]
+    },
+    "properties": {
+        "image": {
+            "file": "logo_main1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -108.2,
+                "y": 291.9
+            },
+            "scale": {
+                "x": 0.83,
+                "y": 0.83
+            },
+            "type": "sprite"
+        },
+        "base_logo": {
+            "file": "logo1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11,
+                "y": -75
+            },
+            "type": "sprite"
+        },
+        "text_logo": {
+            "file": "logo2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11,
+                "y": -90
+            },
+            "type": "sprite"
+        }
+    }
+}

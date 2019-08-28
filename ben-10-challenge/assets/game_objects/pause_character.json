@@ -1,0 +1,154 @@
+{
+    "hierarchy": {
+        "name": "pause_character",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "hair"
+                    },
+                    {
+                        "name": "arm_back_1",
+                        "children": [
+                            {
+                                "name": "arm_back_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "arm_front_2"
+                            },
+                            {
+                                "name": "arm_front_1"
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "eyes"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "gwen_pause",
+            "gwen_pause_in",
+            "gwen_pause_out"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "p_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 53.3
+            },
+            "type": "sprite"
+        },
+        "base/hair": {
+            "file": "p_hair.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.9,
+                "y": -173
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "base/arm_back_1": {
+            "file": "p_arm-back.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.2,
+                "y": -139.3
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/arm_back_1/arm_back_2": {
+            "file": "p_arm_back2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 50.4,
+                "y": 31
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "p_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -92.6
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_front_2": {
+            "file": "p_celphone.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 41.3,
+                "y": 3.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/arm_front_1": {
+            "file": "p_arm1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.3,
+                "y": -49.1
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "p_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -77
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/eyes": {
+            "file": "eyes_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8,
+                "y": -46.5
+            },
+            "type": "sprite"
+        }
+    }
+}

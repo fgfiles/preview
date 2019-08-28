@@ -1,0 +1,92 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "title"
+                    }
+                ]
+            },
+            {
+                "name": "replay_pivot"
+            },
+            {
+                "name": "pivot"
+            },
+            {
+                "name": "home"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "screen.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": 5.6
+                }
+            }
+        },
+        "container/title": {
+            "font": {
+                "name": "boogalooregular",
+                "fontSize": 60
+            },
+            "text": "Game Over",
+            "align": "left",
+            "stroke": "#000000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": 104.9
+            },
+            "type": "text"
+        },
+        "replay_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -142.4
+                }
+            }
+        },
+        "pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": "-33%",
+                    "y": -128
+                }
+            }
+        },
+        "home": {
+            "file": "l-home_1.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -14.6,
+                    "y": -10.8
+                }
+            }
+        }
+    }
+}

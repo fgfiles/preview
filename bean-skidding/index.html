@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mr Bean - Bean Skidding - HTML5 Game</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/webtextoverlay.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/114x114.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="icons/128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/144x144.png">
+    <script src="js/jsembed.js"></script>
+    <script src="js/wp.js"></script>
+    <script type="text/javascript">
+    // CONFIGURATION VARIABLES **********************************************************
+    var runOnDisneyServer = false;
+    var fitToScreen = false;
+    // *********************** **********************************************************
+
+    var pathArray = window.location.pathname.split('/');
+    var newPathname = "";
+    for (i = 0; i < pathArray.length - 1; i++) {
+        newPathname += pathArray[i];
+        newPathname += "/";
+    }
+
+    var params = {
+        base: newPathname, // base url of all content. Defaults "" 
+        api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+        autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+        libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+    }
+
+    // Attributes will be set on the embed target for use by the app. "base" will be set as well.
+    var attr = {};
+
+    if (fitToScreen == true)
+        params.scaletype = "fill";
+
+    jsembed.embed("flambe.js", "embedtarget", "768", "461", params, attr);
+    </script>
+</head>
+
+<body style="padding: 0; margin: 0; background-color: black; height: 100%;">
+    <!--; display: none"> -->
+    <div id="embedtarget"></div>
+    <div id="webtextoverlaytarget"></div>
+</body>
+
+</html>

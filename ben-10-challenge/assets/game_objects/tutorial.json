@@ -1,0 +1,91 @@
+{
+    "hierarchy": {
+        "name": "tutorial",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "circle"
+                    },
+                    {
+                        "name": "tap"
+                    },
+                    {
+                        "name": "swipe"
+                    },
+                    {
+                        "name": "hand"
+                    }
+                ],
+                "animations": [
+                    "tutorial_desktop",
+                    "tutorial_mobile"
+                ]
+            }
+        ],
+        "animations": [
+            "tutorial_anim2",
+            "tutorial_anim"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/circle": {
+            "file": "t_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.5,
+                "y": -106.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/tap": {
+            "file": "tap.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.9,
+                "y": -104.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/swipe": {
+            "file": "swipe8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -154,
+                "y": -80
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "skin/hand": {
+            "file": "hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.1,
+                "y": 36.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

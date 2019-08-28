@@ -1,0 +1,48 @@
+.mainScreen {
+    position : absolute;
+    height   : 100vh;
+    width    : 100vw;
+    
+    pointer-events : none;
+}    
+
+/* Skip Button */
+
+.skip {
+    position : absolute;
+    width    : 64px;
+    height   : 64px;
+    right    : 2vw;
+    bottom   : 2vw;
+    
+    background         : url([button-img-skip]) no-repeat;
+    backgroun-position : center;
+    
+    pointer-events : auto;
+}
+
+.skip:hover, .skip:focus {
+    position : absolute;
+    width    : 64px;
+    height   : 64px;
+    right    : 2vw;
+    bottom   : 2vw;
+
+    background      : url([button-img-skip:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}
+
+.skip:active {
+    position : absolute;
+    width    : 64px;
+    height   : 64px;
+    right    : 2vw;
+    bottom   : 2vw;
+
+    background      : url([button-img-skip:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}

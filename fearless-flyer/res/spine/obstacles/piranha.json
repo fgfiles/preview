@@ -1,0 +1,240 @@
+{
+"skeleton": {
+	"hash": "DRN99c0i7Okhs9xt8FeSUtDtXeU",
+	"spine": "2.1.27",
+	"width": 74,
+	"height": 23,
+	"images": "./../PNG/Anim_obstaculos/piraña/"
+},
+"bones": [
+	{ "name": "root", "y": 18.16 },
+	{ "name": "agua_base", "parent": "root", "x": 51.66, "y": -27.06 },
+	{ "name": "base", "parent": "root", "x": -3.75, "y": -100.95 }
+],
+"slots": [
+	{ "name": "stand2/piranha-stand_1", "bone": "root" },
+	{ "name": "stand/stand1", "bone": "root" },
+	{ "name": "stand/stand2", "bone": "root" },
+	{ "name": "attack/attack1", "bone": "root" },
+	{ "name": "base_agua", "bone": "base", "attachment": "base_agua" },
+	{ "name": "agua_in1", "bone": "root" },
+	{ "name": "agua_out1", "bone": "root" },
+	{ "name": "agua_base1", "bone": "agua_base", "attachment": "agua_base4" },
+	{ "name": "limitador", "bone": "base" },
+	{ "name": "stand2/piranha-stand_0", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"agua_base1": {
+			"agua_base1": { "x": -2.52, "y": -1.69, "width": 74, "height": 23 },
+			"agua_base2": { "x": -2.52, "y": -1.68, "width": 74, "height": 23 },
+			"agua_base3": { "x": -2.52, "y": -1.68, "width": 74, "height": 23 },
+			"agua_base4": { "x": -2.52, "y": -1.68, "width": 74, "height": 23 }
+		},
+		"agua_in1": {
+			"agua_in1": { "x": -49.42, "y": -15.37, "width": 90, "height": 54 },
+			"agua_in2": { "x": -49.41, "y": -15.38, "width": 90, "height": 54 },
+			"agua_in3": { "x": -49.41, "y": -15.38, "width": 90, "height": 54 },
+			"agua_in4": { "x": -49.41, "y": -15.38, "width": 90, "height": 54 }
+		},
+		"agua_out1": {
+			"agua_out1": { "x": 60.65, "y": -17.47, "width": 83, "height": 54 },
+			"agua_out2": { "x": 60.65, "y": -17.48, "width": 83, "height": 54 },
+			"agua_out3": { "x": 60.65, "y": -17.48, "width": 83, "height": 54 },
+			"agua_out4": { "x": 60.65, "y": -17.48, "width": 66, "height": 54 }
+		},
+		"attack/attack1": {
+			"attack/attack1": { "width": 124, "height": 61 },
+			"attack/attack2": { "y": 14.38, "width": 169, "height": 94 },
+			"attack/attack3": { "x": -8.32, "y": 24.22, "width": 209, "height": 140 },
+			"attack/attack4": { "y": 40.12, "width": 264, "height": 179 },
+			"attack/attack5": { "x": 15.13, "y": 52.23, "width": 346, "height": 187 },
+			"attack/attack6": { "x": 15.89, "y": 18.92, "width": 352, "height": 118 },
+			"attack/attack7": { "x": 37.85, "y": 28.76, "width": 315, "height": 123 },
+			"attack/attack8": { "x": 50.71, "y": 28, "width": 360, "height": 136 },
+			"attack/attack9": { "x": 59.8, "y": 41.63, "width": 387, "height": 157 },
+			"attack/attack10": { "x": 53.74, "y": 45.41, "width": 417, "height": 177 },
+			"attack/attack11": { "x": 44.66, "y": 121.11, "width": 422, "height": 90 }
+		},
+		"base_agua": {
+			"base_agua": { "x": -2.42, "y": -1.97, "width": 307, "height": 157 }
+		},
+		"stand/stand1": {
+			"stand/stand1": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand2": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand3": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand4": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand5": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand6": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand7": { "scaleX": -1, "width": 275, "height": 65 },
+			"stand/stand8": { "scaleX": -1, "width": 275, "height": 65 }
+		},
+		"stand/stand2": {
+			"stand/stand1": { "width": 275, "height": 65 },
+			"stand/stand2": { "width": 275, "height": 65 },
+			"stand/stand3": { "width": 275, "height": 65 },
+			"stand/stand4": { "width": 275, "height": 65 },
+			"stand/stand5": { "width": 275, "height": 65 },
+			"stand/stand6": { "width": 275, "height": 65 },
+			"stand/stand7": { "width": 275, "height": 65 },
+			"stand/stand8": { "width": 275, "height": 65 }
+		},
+		"stand2/piranha-stand_1": {
+			"stand2/piranha-stand_0": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_1": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_2": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_3": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_4": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_5": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_6": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_7": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_8": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_9": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_10": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_11": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_12": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_13": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_14": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_15": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_16": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_17": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_18": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_19": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 },
+			"stand2/piranha-stand_20": { "x": 6.17, "y": 11.65, "width": 126, "height": 71 }
+		}
+	}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"attack/attack1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "attack/attack1" },
+					{ "time": 0.1333, "name": "attack/attack2" },
+					{ "time": 0.2, "name": "attack/attack3" },
+					{ "time": 0.2666, "name": "attack/attack4" },
+					{ "time": 0.3333, "name": "attack/attack5" },
+					{ "time": 0.4, "name": "attack/attack6" },
+					{ "time": 0.4666, "name": "attack/attack7" },
+					{ "time": 0.5333, "name": "attack/attack8" },
+					{ "time": 0.6, "name": "attack/attack9" },
+					{ "time": 0.6666, "name": "attack/attack10" },
+					{ "time": 0.7333, "name": "attack/attack11" }
+				]
+			},
+			"base_agua": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"stand/stand1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"stand/stand2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": "agua_base1" },
+					{ "time": 0.0666, "name": "agua_base2" },
+					{ "time": 0.1333, "name": "agua_base3" },
+					{ "time": 0.2, "name": "agua_base4" },
+					{ "time": 0.2666, "name": "agua_base1" },
+					{ "time": 0.3333, "name": "agua_base2" },
+					{ "time": 0.4, "name": "agua_base3" },
+					{ "time": 0.4666, "name": "agua_base4" },
+					{ "time": 0.5333, "name": "agua_base1" },
+					{ "time": 0.6, "name": "agua_base2" },
+					{ "time": 0.6666, "name": "agua_base3" },
+					{ "time": 0.7333, "name": "agua_base4" },
+					{ "time": 0.8, "name": "agua_base1" },
+					{ "time": 0.8666, "name": "agua_base2" },
+					{ "time": 0.9333, "name": "agua_base3" },
+					{ "time": 1, "name": "agua_base4" },
+					{ "time": 1.0666, "name": "agua_base1" },
+					{ "time": 1.1333, "name": "agua_base2" },
+					{ "time": 1.2, "name": "agua_base3" },
+					{ "time": 1.2666, "name": "agua_base4" },
+					{ "time": 1.3333, "name": "agua_base1" }
+				]
+			},
+			"stand2/piranha-stand_1": {
+				"attachment": [
+					{ "time": 0, "name": "stand2/piranha-stand_0" },
+					{ "time": 0.0666, "name": "stand2/piranha-stand_1" },
+					{ "time": 0.1333, "name": "stand2/piranha-stand_2" },
+					{ "time": 0.2, "name": "stand2/piranha-stand_3" },
+					{ "time": 0.2666, "name": "stand2/piranha-stand_4" },
+					{ "time": 0.3333, "name": "stand2/piranha-stand_5" },
+					{ "time": 0.4, "name": "stand2/piranha-stand_6" },
+					{ "time": 0.4666, "name": "stand2/piranha-stand_7" },
+					{ "time": 0.5333, "name": "stand2/piranha-stand_8" },
+					{ "time": 0.6, "name": "stand2/piranha-stand_9" },
+					{ "time": 0.6666, "name": "stand2/piranha-stand_10" },
+					{ "time": 0.7333, "name": "stand2/piranha-stand_11" },
+					{ "time": 0.8, "name": "stand2/piranha-stand_12" },
+					{ "time": 0.8666, "name": "stand2/piranha-stand_13" },
+					{ "time": 0.9333, "name": "stand2/piranha-stand_14" },
+					{ "time": 1, "name": "stand2/piranha-stand_15" },
+					{ "time": 1.0666, "name": "stand2/piranha-stand_16" },
+					{ "time": 1.1333, "name": "stand2/piranha-stand_17" },
+					{ "time": 1.2, "name": "stand2/piranha-stand_18" },
+					{ "time": 1.2666, "name": "stand2/piranha-stand_19" },
+					{ "time": 1.3333, "name": "stand2/piranha-stand_20" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"agua_base": {
+				"translate": [
+					{ "time": 0, "x": -44.71, "y": -0.4 },
+					{ "time": 0.2666, "x": -36.65, "y": -0.4 },
+					{ "time": 0.6, "x": -45.55, "y": -0.4 },
+					{ "time": 0.7666, "x": -52.59, "y": -0.4 },
+					{ "time": 1.3333, "x": -44.71, "y": -0.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.137, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1.137, "y": 1 }
+				]
+			},
+			"base": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 11.41, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.41, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

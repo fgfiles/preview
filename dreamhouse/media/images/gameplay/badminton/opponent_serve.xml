@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:e395e2e7148537aa90f5c06e39fcca70$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="opponent_serve.png" width="256" height="512">
+    <sprite n="opponent-serve-01.png" x="2" y="2" w="143" h="249" oX="26" oY="0" oW="199" oH="253"/>
+    <sprite n="opponent-serve-02.png" x="2" y="253" w="109" h="249" oX="26" oY="0" oW="199" oH="253"/>
+</TextureAtlas>

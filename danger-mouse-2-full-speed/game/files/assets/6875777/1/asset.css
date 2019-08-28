@@ -1,0 +1,192 @@
+html {
+  touch-action: manipulation;
+}
+
+.gameHud {
+    position     : absolute;    
+    width        : 100vw;
+    height       : 100vh;
+    font-family  : 'Rubik', sans-serif;
+    
+    pointer-events : none;
+}
+
+/* ======================================= */
+/* ==========   PROGRESS BAR   =========== */
+/* ======================================= */
+
+.progressBar {
+    position    : absolute;
+    top         : 0px;
+    left        : calc(4vw + 64px + 8vh);
+    width       : calc(100vw - 8vw - 128px - 28vh); 
+    height      : 5vh;
+   
+    background        : url("[asset-dir]/ui/mobile/progressbar_empty_mobile.png");
+    background-size   : contain;
+    background-repeat : repeat-x;     
+}
+
+.progressStartImage {
+    position    : absolute;
+    top         : 0px;
+    left        : calc(4vw + 64px);
+    width       : 8vh; 
+    height      : 5vh;
+   
+    background          : url("[asset-dir]/ui/mobile/progressbar_start_mobile.png");
+    background-size     : contain;
+    background-position : right top;  
+    background-repeat   : no-repeat;  
+}
+
+.progressEndImage {
+    position    : absolute;
+    top         : 0px;
+    right       : calc(4vw + 64px + 15vh);
+    width       : 8vh; 
+    height      : 5vh;
+   
+    background          : url("[asset-dir]/ui/mobile/progressbar_end_mobile.png");
+    background-size     : contain;
+    background-position : right top; 
+    background-repeat   : no-repeat; 
+}
+
+.progressFlagImage {
+    position    : absolute;
+    top         : 0px;
+    right       : calc(4vw + 64px);
+    width       : 18vh; 
+    height      : 6vh;
+   
+    background          : url("[asset-dir]/ui/mobile/checkeredflag_mobile.png");
+    background-size     : cover;
+    background-position : right top;  
+    background-repeat   : no-repeat;
+}
+
+.progressFill {
+    position      : absolute;
+    width         : 0%;
+    height        : 100%;  
+    padding-right : 10vh; 
+
+    background          : url("[asset-dir]/ui/mobile/progressbar_fill_mobile.png");
+    background-size     : contain;
+    background-repeat   : repeat-x;   
+}
+
+.progressIcon {
+    position : absolute;
+    left     : 0%;
+    width    : 20vh;
+    height   : 20vh;   
+
+    background          : url("[asset-dir]/ui/mobile/dmpointer_head_mobile.png");
+    background-size     : contain;
+    background-repeat   : no-repeat;
+}
+
+/* ======================================= */
+/* =========== MOBILE CONTROLS =========== */
+/* ======================================= */
+
+/* Right Button */
+
+.buttonRight {        
+    position : absolute;
+    bottom   : 0px;
+    right    : 0px;
+    
+    width    : 45vw;
+    height   : 50vh;
+    margin   : 2vw;
+    
+    background          : url([button-img-right]) no-repeat;
+    background-position : right bottom;
+    
+    pointer-events : auto;
+}
+
+.buttonRightActive {        
+    position : absolute;
+    bottom   : 0px;
+    right    : 0px;
+    
+    width    : 45vw;
+    height   : 50vh;
+    margin   : 2vw;
+    
+    background          : url([button-img-right:pressed]) no-repeat;
+    background-position : right bottom;
+    
+    pointer-events : auto;
+}
+
+/* Left Button */
+
+.buttonLeft {
+    position : absolute;
+    bottom   : 0px;
+    left     : 0px;
+    
+    width    : 45vw;
+    height   : 50vh;  
+    margin   : 2vw;
+    
+    background          : url([button-img-left]) no-repeat;
+    background-position : left bottom;
+    
+    pointer-events : auto;
+}
+
+.buttonLeftActive {
+    position : absolute;
+    bottom   : 0px;
+    left     : 0px;
+    
+    width    : 45vw;
+    height   : 50vh;   
+    margin   : 2vw;
+    
+    background          : url([button-img-left:pressed]) no-repeat;
+    background-position : left bottom;
+    
+    pointer-events : auto;
+}
+
+/* ======================================= */
+/* ======== DESKTOP INSTRUCTIONS ========= */
+/* ======================================= */
+
+@keyframes tip-display {
+    0% {
+        background : url([img-keyboard-arrows]) no-repeat;
+    }
+    
+    50% {
+        background : url([img-keyboard-wasd]) no-repeat;
+    }
+    
+    90% {
+        background : none;
+    }
+}
+
+.desktopTipDisplay {
+    position    : absolute;
+    bottom      : 0px;
+    left        : 50%;    
+    width       : 384px;
+    height      : 150px;
+    
+    margin-left   : -192px;
+    margin-bottom : 2vw;    
+
+    background-position : left bottom;
+
+    animation-name            : tip-display;
+    animation-duration        : 10s;
+    animation-iteration-count : 2;
+}

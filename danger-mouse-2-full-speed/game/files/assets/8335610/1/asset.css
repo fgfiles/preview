@@ -1,0 +1,457 @@
+/* ====================================== */
+/* ============  TITLE UI  ============== */
+/* ====================================== */
+
+* {
+    -webkit-tap-highlight-color : rgba(0,0,0,0);
+    -webkit-touch-callout       : none;
+    -webkit-user-select         : none;
+    border                      : none;    
+    outline                     : 0;        
+    font-family                 : 'Rubik', sans-serif;   
+}
+
+/* Hidden Tab Focus Element */
+
+.tabFocus {
+    position : absolute;
+    display  : block;
+    top      : 0px;
+    left     : 0px;
+    width    : 0px;                                                                                                                               
+    height   : 0px;
+    opacity  : 0;    
+}
+
+
+/* How To Button */
+
+.howto {
+    position        : absolute;
+    width           : 237px;
+    height          : 65px;
+    right           : 2vw;
+    bottom          : 2vw;
+
+    background      : url([button-img-howto]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.howto:hover, .howto:focus {
+    position         : absolute;
+    width            : 237px;
+    height           : 65px;
+    right            : 2vw;
+    bottom           : 2vw;
+
+    background       : url([button-img-howto:hover]) no-repeat;
+    background-size  : 100%;
+
+    pointer-events : auto; 
+}
+
+.howto:active {
+    position         : absolute;
+    width            : 237px;
+    height           : 65px;
+    right            : 2vw;
+    bottom           : 2vw;
+
+    background       : url([button-img-howto:pressed]) no-repeat;
+    background-size  : 100%;
+    
+    pointer-events : auto; 
+}
+
+/* Pause Button */
+
+.pause {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-pause]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.pause:hover, .pause:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-pause:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.pause:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-pause:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+/* Home Button */
+
+.home {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background: url([button-img-home]) no-repeat;
+    background-size: 100%;
+    
+    pointer-events : auto; 
+}
+
+.home:hover, .home:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background: url([button-img-home:hover]) no-repeat;
+    background-size: 100%;
+    
+    pointer-events : auto; 
+}
+
+.home:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background: url([button-img-home:pressed]) no-repeat;
+    background-size: 100%;
+    
+    pointer-events : auto; 
+}
+    
+/* Settings Button */
+
+.settings {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    top      : 2vw;
+    right    : 2vw;
+    
+    background      : url([button-img-settings]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.settings:hover, .settings:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    top      : 2vw;
+    right    : 2vw;
+    
+    background      : url([button-img-settings:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.settings:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    top      : 2vw;
+    right    : 2vw;
+
+    background      : url([button-img-settings:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+/* Back Button */
+
+.back {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-back]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.back:hover, .back:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-back:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+.back:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-back:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}
+
+/* Sound Button - On */
+
+.soundOn {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    top      : 2vw;
+    right    : calc(2vw + 100px);
+
+    background: url([button-img-soundOn]) no-repeat;
+    background-size: 100%;
+    
+    pointer-events : auto;
+}  
+
+.soundOn:hover, .soundOn:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : calc(2vw + 100px);
+    top      : 2vw;
+    
+    background      : url([button-img-soundOn:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto; 
+}   
+
+.soundOn:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : calc(2vw + 100px);
+    top      : 2vw;
+
+    background      : url([button-img-soundOn:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+} 
+
+/* Sound Button - Off */
+
+.soundOff {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : calc(2vw + 100px);
+    top      : 2vw;
+
+    background      : url([button-img-soundOff]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}  
+
+.soundOff:hover, .soundOff:focus {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : calc(2vw + 100px);
+    top      : 2vw;
+
+    background      : url([button-img-soundOff:hover]) no-repeat;
+    background-size : 100%;
+}   
+
+.soundOff:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    right    : calc(2vw + 100px);
+    top      : 2vw;
+
+    background      : url([button-img-soundOff:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+} 
+
+
+/* Start Button */
+
+.start {
+    position    : absolute;
+    width       : 180px;
+    height      : 180px;
+    left        : 50%;
+    margin-left : -90px;
+    bottom      : calc(2vw + 65px);
+    
+    background      : url([button-img-start]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}    
+
+.start:hover, .start:focus {
+    position    : absolute;
+    width       : 190px;
+    height      : 190px;
+    left        : 50%;
+    margin-left : -95px;
+    bottom      : calc(2vw + 60px);
+
+    background      : url([button-img-start:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}  
+
+.start:active {
+    position    : absolute;
+    width       : 180px;
+    height      : 180px;
+    left        : 50%;
+    margin-left : -90px;
+    bottom      : calc(2vw + 65px);
+    
+    background      : url([button-img-start:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}  
+
+/* Exit Button */
+
+.exit {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+
+    background      : url([button-img-exit]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}
+
+.exit:hover, .exit:hover {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+    
+    background      : url([button-img-exit:hover]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}
+
+.exit:active {
+    position : absolute;
+    width    : 70px;
+    height   : 70px;
+    left     : 2vw;
+    top      : 2vw;
+    
+    background      : url([button-img-exit:pressed]) no-repeat;
+    background-size : 100%;
+    
+    pointer-events : auto;
+}
+
+/* Previous Chapter */
+
+.prevChapter {
+    position : absolute;
+    width    : 108px;
+    height   : 104px;
+    left     : 0;
+    bottom   : 50vh;
+    
+    background      : url("[asset-dir]/ui/tabletweb/tabletweb_half-oblong_left.png") no-repeat;
+    background-size : cover;
+
+    pointer-events : auto;
+}
+
+.prevChapter:hover, .prevChapter:focus {
+    position : absolute;
+    width    : 108px;
+    height   : 104px;
+    left     : 0;
+    bottom   : 50vh;
+    
+    background      : url("[asset-dir]/ui/tabletweb/tabletweb_half-oblong_left_tabbed.png") no-repeat;
+    background-size : cover;
+
+    pointer-events : auto;
+}
+
+
+/* Next Chapter */
+
+.nextChapter {
+    position : absolute;
+    width    : 108px;
+    height   : 104px;
+    right    : 0;
+    bottom   : 50vh;
+    
+    background      : url("[asset-dir]/ui/tabletweb/tabletweb_half-oblong_right.png") no-repeat;
+    background-size : cover;
+
+    pointer-events : auto;
+}
+
+.nextChapter:hover, .nextChapter:focus {
+    position : absolute;
+    width    : 108px;
+    height   : 104px;
+    right    : 0;
+    bottom   : 50vh;
+    
+    background      : url("[asset-dir]/ui/tabletweb/tabletweb_half-oblong_right_tabbed.png") no-repeat;
+    background-size : cover;
+
+    pointer-events : auto;
+}
+
+
+
+   

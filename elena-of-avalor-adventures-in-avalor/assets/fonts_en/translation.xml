@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<!--Preloader-->
+	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--scarys-->
+	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Elena of Avalor]]></string>
+	<string id="tap_anywhere"			fontName="elena_font_simple"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="click_anywhere"			fontName="elena_font_simple"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+	<string id="tap_anywhere_again"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play Again]]></string>
+	<string id="click_anywhere_again"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play Again]]></string>	
+	<string id="tap_anywhere_skip"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Skip]]></string>
+	<string id="click_anywhere_skip"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Skip]]></string>	
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
+	<string id="back"					fontName="elena_font_simple"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
+	<string id="continue"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
+	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="printable"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Game Buttons-->
+	<string id="yes"					fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"						fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<string id="skip"					fontName="elena_font_simple"	fontScale=".6"	offsetX="0"	offsetY="0"><![CDATA[Skip]]></string>
+	<!--Game Menu Screen-->
+	<string id="menu"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<!--Help Screen-->
+	<string id="help"					fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Help]]></string>
+	<!--Quit Screen-->
+	<string id="quit"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="elena_font_simple"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Really Quit?]]></string>
+	<!--End Screen-->
+	<string id="game_over"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<string id="gems_collected"			fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Gems Collected]]></string>
+	<string id="soar_times"				fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Times Soared]]></string>
+	<string id="platforms_landed_on"	fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Times On Platforms]]></string>
+	<string id="distance_needed"		fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Distance Needed]]></string>
+	<string id="time_left"				fontName="elena_font_simple"	fontScale=".6"	offsetX="0"	offsetY="0"><![CDATA[Time]]></string>
+	<string id="time_best"				fontName="elena_font_simple"	fontScale=".6"	offsetX="0"	offsetY="0"><![CDATA[Best Time]]></string>
+	<string id="time_best_new"			fontName="elena_font_simple"	fontScale=".6"	offsetX="0"	offsetY="0"><![CDATA[NEW Best Time!]]></string>
+	<string id="none"					fontName="elena_font_simple"	fontScale=".6"	offsetX="0"	offsetY="0"><![CDATA[None]]></string>
+	<string id="play_again"				fontName="elena_font_simple"	fontScale=".4"	offsetX="0"	offsetY="0"><![CDATA[Play<br>Again]]></string>
+	<string id="next_level"				fontName="elena_font_simple"	fontScale=".4"	offsetX="0"	offsetY="0"><![CDATA[Next<br>Level]]></string>
+	<string id="head_to_maze"			fontName="elena_font_simple"	fontScale=".4"	offsetX="0"	offsetY="0"><![CDATA[Go To<br>Maze]]></string>
+	<string id="unlocks"				fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Unlocks]]></string>
+	<string id="back_to_map"			fontName="elena_font_simple"	fontScale=".4"	offsetX="0"	offsetY="0"><![CDATA[Back<br>To Map]]></string>
+	<!--Gameplay-->
+	<string id="level"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
+	<string id="score"					fontName="elena_font_simple"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Score:]]></string>
+	<string id="keys"					fontName="elena_font_fancy"		fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Keys:]]></string>
+	<string id="distance"				fontName="elena_font_simple"	fontScale=".65"	offsetX="0"	offsetY="0"><![CDATA[Distance]]></string>
+	<string id="distance_best"			fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[Best Distance]]></string>
+	<string id="distance_best_new"		fontName="elena_font_simple"	fontScale=".5"	offsetX="0"	offsetY="0"><![CDATA[NEW Best Distance!]]></string>
+	<string id="time"					fontName="Basic"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Time:]]></string>
+	<string id="points"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Points:]]></string>
+	<string id="miniscore"				fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Score:]]></string>
+	<!-- Tutorial -->
+	<string id="tutorial_firstplay"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Welcome to The Game!<br>CLICK to continue]]></string>
+	<string id="tutorial_firstplay_mobile"		fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Welcome to The Game!<br>TAP to continue]]></string>
+	<string id="tutorial_firstplay2"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Just sit back and relax!<br>SWIPE right to continue.]]></string>
+	<string id="tutorial_firstplay3"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Let the ball guide you!<br>CLICK here to<br>end this tutorial.]]></string>
+	<string id="tutorial_firstplay3_mobile"	fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Let the ball guide you!<br>TAP here to<br>end this tutorial.]]></string>
+	<string id="tutorial_flying_1"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Ok, Skylar -<br>better get a running start!]]></string>
+	<string id="tutorial_flying_2"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Way to fly high!<br>You can go EVEN higher...]]></string>
+	<string id="tutorial_flying_3"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[...Or go down low!]]></string>
+	<string id="tutorial_flying_4"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Careful. Don't wanna run<br>out of energy!]]></string>
+	<string id="tutorial_flying_5"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[That rock might give<br>you a boost!]]></string>
+	<string id="tutorial_flying_6"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Aw, yea, swoop through that hoop.<br>It'll give you energy.]]></string>
+	<string id="tutorial_flying_7"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Yea, you'll wanna watch out<br>for those spiky things...]]></string>
+	<string id="tutorial_flying_8"		fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Aw, c'mon you can go<br>higher than that!]]></string>
+	<!-- Shop -->
+	<string id="buy"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Buy]]></string>
+	<string id="shop"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Shop]]></string>
+	<string id="currency"				fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[$]]></string>
+	<string id="next_rank"				fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Next Rank:]]></string>
+	<string id="item_unowned"			fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[-]]></string>
+	<string id="item_name_default"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Item Name]]></string>
+	<string id="item_name_sword"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Master's Sword]]></string>
+	<string id="item_name_shield"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Tower Shield]]></string>
+	<string id="item_name_candle"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Azure Candle]]></string>
+	<string id="item_name_gloves"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Gauntlets]]></string>
+	<string id="item_desc_default"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Item Description]]></string>
+	<string id="item_desc_sword_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +10% damage]]></string>
+	<string id="item_desc_sword_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +20% damage]]></string>
+	<string id="item_desc_sword_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +30% damage]]></string>
+	<string id="item_desc_shield_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 10% of damage]]></string>
+	<string id="item_desc_shield_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 20% of damage]]></string>
+	<string id="item_desc_shield_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 30% of damage]]></string>
+	<string id="item_desc_candle_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[10 ft light radius]]></string>
+	<string id="item_desc_candle_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[15 ft light radius]]></string>
+	<string id="item_desc_candle_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[20 ft light radius]]></string>
+	<string id="item_desc_gloves_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Carry light items]]></string>
+	<string id="item_desc_gloves_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Carry heavy items]]></string>
+	<!-- Achievements -->
+	<string id="achievement_unlocked"		fontName="Basic"	fontScale=".2"	offsetX="0" offsetY="0"><![CDATA[ACHIEVEMENT UNLOCKED]]></string>
+	<string id="achievement_name_default"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Achievement Name]]></string>
+	<string id="achievement_desc_default"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Achievement Description]]></string>
+	<string id="achievement_name_level2"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Level 2]]></string>
+	<string id="achievement_name_level5"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Level 5]]></string>
+	<string id="achievement_name_score100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[100]]></string>
+	<string id="achievement_name_score1000"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[1000]]></string>
+	<string id="achievement_name_codeunlocked"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Code Mode]]></string>
+	<string id="achievement_name_firstplay"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Baby Steps]]></string>
+	<string id="achievement_desc_level2"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Reach level 2]]></string>
+	<string id="achievement_desc_level5"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Reach level 5]]></string>
+	<string id="achievement_desc_score100"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Get 100 points]]></string>
+	<string id="achievement_desc_score1000"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Get 1000 points]]></string>
+	<string id="achievement_desc_codeunlocked"	fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Use the code to unlock new game features]]></string>
+	<string id="achievement_desc_firstplay"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Play the game once]]></string>
+	<!--Leaderboard-->
+	<string id="you"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You:]]></string>
+	<string id="top"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[High Scores]]></string>
+	<string id="submit_score"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>
+	<!-- Debug Text -->			
+	<string id="debugtext"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[THIS TEXT IS LOCALIZED!]]></string>
+	<!-- Minigame Names -->	
+	<string id="dress_up"				fontName="elena_font_fancy"	fontScale="0.85"	offsetX="0" offsetY="0"><![CDATA[Dress Up]]></string>
+	<string id="flying"					fontName="elena_font_fancy"	fontScale="1.25"	offsetX="0" offsetY="0"><![CDATA[Flying]]></string>
+	<string id="duende"					fontName="elena_font_fancy"	fontScale="1.25"	offsetX="0" offsetY="0"><![CDATA[Duende]]></string>
+	<string id="mazeone"				fontName="elena_font_fancy"	fontScale="1.25"	offsetX="0" offsetY="0"><![CDATA[Magic<br>Maze]]></string>
+	<string id="mazetwo"				fontName="elena_font_fancy"	fontScale="1.25"	offsetX="0" offsetY="0"><![CDATA[Docks]]></string>
+	<!-- Level Numbers -->
+	<string id="level_1"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 1]]></string>
+	<string id="level_2"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 2]]></string>
+	<string id="level_3"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 3]]></string>
+	<string id="level_4"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 4]]></string>
+	<string id="level_5"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 5]]></string>
+	<string id="level_6"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 6]]></string>
+	<string id="level_7"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 7]]></string>
+	<string id="level_8"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 8]]></string>
+	<string id="level_9"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 9]]></string>
+	<string id="level_10"				fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Level 10]]></string>
+	<!-- Treasure room -->
+	<string id="unlock_message"			fontName="elena_font_simple"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You unlocked]]></string>
+	
+	<!-- Flying -->
+	<string id="tap_to_charge"			fontName="elena_font_simple"	fontScale="1"	offsetX="0"	offsetY="0"><![CDATA[TAP! TAP! TAP!]]></string>
+	<string id="out_of_energy"			fontName="elena_font_fancy"		fontScale=".85"	offsetX="0" offsetY="0"><![CDATA[Out of energy!]]></string>
+	<string id="mission_complete"		fontName="elena_font_simple"	fontScale="0.6"	offsetX="0"	offsetY="0"><![CDATA[Mission Complete!]]></string>
+	<string id="not_unlocked"			fontName="elena_font_simple"	fontScale="1"	offsetX="0"	offsetY="0"><![CDATA[?????]]></string>
+	<string id="flying_game_0"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Endless]]></string>
+	<string id="flying_game_1"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Collect 50 gems]]></string>
+	<string id="flying_game_2"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Collect 100 gems]]></string>
+	<string id="flying_game_3"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Collect 200 gems]]></string>
+	<string id="flying_game_4"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Collect 400 gems]]></string>
+	<string id="flying_game_5"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Collect 1000 gems]]></string>
+	<string id="flying_game_6"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Travel 1000ft]]></string>
+	<string id="flying_game_7"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Travel 2000ft]]></string>
+	<string id="flying_game_8"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Travel 5000ft]]></string>
+	<string id="flying_game_9"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Soar 2 times]]></string>
+	<string id="flying_game_10"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Soar 3 times]]></string>
+	<string id="flying_game_11"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Soar 5 times]]></string>
+	<string id="flying_game_12"			fontName="elena_font_simple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Soar 10 times]]></string>
+	<string id="flying_game_13"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Flap Skylar's wings 200 times]]></string>
+	<string id="flying_game_14"			fontName="elena_font_simple"	fontScale=".8"	offsetX="0" offsetY="0"><![CDATA[Fly 500ft without going through a hoop]]></string>
+	<string id="flying_game_15"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Splash through 5 waterfalls]]></string>
+	<string id="flying_game_16"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Splash through 10 waterfalls]]></string>
+	<string id="flying_game_17"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Land on 20 platforms]]></string>
+	<string id="flying_game_18"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Land on 50 platforms]]></string>
+	<string id="flying_game_19"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Travel 500ft without collecting gems]]></string>
+	<string id="flying_game_20"			fontName="elena_font_simple"	fontScale=".9"	offsetX="0" offsetY="0"><![CDATA[Travel 1000ft without collecting gems]]></string>
+	<string id="flying_game_21"			fontName="elena_font_simple"	fontScale=".95"	offsetX="0" offsetY="0"><![CDATA[Narrowly avoid danger 10 times]]></string>
+	<string id="flying_game_22"			fontName="elena_font_simple"	fontScale=".95"	offsetX="0" offsetY="0"><![CDATA[Narrowly avoid danger 20 times]]></string>
+	
+	
+	<!-- Maze -->
+	<string id="maze_tutorial_movement_1" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[It looks like I can go this way...]]></string>
+	<string id="maze_tutorial_movement_2" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Or this way!]]></string>
+	<string id="maze_tutorial_movement_3" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Just hurry!  You must get<br>the potion before the door closes!]]></string>
+	<string id="maze_tutorial_blast" 		fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Try blast power.]]></string>
+	<string id="maze_tutorial_blast_here" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Blast the switch to activate the platform.]]></string>
+	<string id="maze_tutorial_reveal" 		fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[If you ask me, this calls for reveal power.]]></string>
+	<string id="maze_tutorial_reveal_here" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Use Reveal power here!]]></string>
+	<string id="maze_tutorial_glow" 		fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[I'd try glow power if I were you.]]></string>
+	<string id="maze_tutorial_glow_here_1" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Whoa, it's, uh, pretty dark in here.]]></string>
+	<string id="maze_tutorial_glow_here_2" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Use your glow power, Elena! And don't let it run out!]]></string>
+	<string id="maze_tutorial_vines" 		fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Watch out for those enchanted vines.]]></string>
+	<string id="maze_tutorial_spirit" 		fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[You may need some assistance from<br>the spirit world to get past this.]]></string>
+	<string id="maze_tutorial_energy_refill" fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Ah, yes.<br>These will help to rebuild your magic!]]></string>
+	<string id="maze_tutorial_time_low" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Hurry, time is running out.]]></string>
+	<string id="maze_tutorial_time_out" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Darn - I missed it!]]></string>
+	<string id="maze_tutorial_good_job" 	fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Good work!]]></string>
+	<string id="maze_energy_out" 			fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Oh! I don't have enough magic power.]]></string>
+	
+	<!-- Treasure Screen -->
+	<string id="treasure_screen_header"	fontName="elena_font_simple"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Your<br>Treasure Chest]]></string> <!-- Old scale 0.9 -->
+	<string id="dress_button"			fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Dress Up]]></string>
+	<string id="chest_room"				fontName="elena_font_simple"	fontScale=".45"	offsetX="0" offsetY="0"><![CDATA[Use Key]]></string>
+	
+	<!-- Warning Pop Up for Low End Devices -->
+	<string id="warning_message"	fontName="elena_font_simple"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[This game may not be optimized<br>for this device.]]></string>
+	
+</strings>

@@ -1,0 +1,162 @@
+{
+"skeleton": { "hash": "KAiNmOPgfzBvJd3EXVYwaMot96U", "spine": "3.2.01", "width": 316, "height": 903.99, "images": "./dressup_assets/" },
+"bones": [
+	{ "name": "root", "x": -1.93, "y": 572.08 },
+	{ "name": "eyes", "parent": "root", "x": 4.02, "y": 234.92, "color": "9b2621ff" }
+],
+"slots": [
+	{ "name": "Hairstyles", "bone": "root", "attachment": "Hair Hero" },
+	{ "name": "Earrings", "bone": "root", "attachment": "Earrings Hero" },
+	{ "name": "Hair Accessory -Behind head", "bone": "root" },
+	{ "name": "top of head", "bone": "root", "attachment": "top of head" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "Necklaces", "bone": "root" },
+	{ "name": "Outfits", "bone": "root" },
+	{ "name": "Shoes", "bone": "root", "attachment": "Shoes Hero" },
+	{ "name": "Dresses", "bone": "root", "attachment": "Dress Hero" },
+	{ "name": "Bracelets", "bone": "root", "attachment": "Bracelet Hero" },
+	{ "name": "Hair Accessories -Behind bangs", "bone": "root", "attachment": "Hair Accessory Hero" },
+	{ "name": "bangs", "bone": "root", "attachment": "bangs" },
+	{ "name": "Hair Accessory -In front of bangs", "bone": "root" },
+	{ "name": "body -hands", "bone": "root", "attachment": "body -hands" },
+	{ "name": "eyes", "bone": "eyes" }
+],
+"skins": {
+	"default": {
+		"Bracelets": {
+			"Bracelet 1": { "x": 82.04, "y": -20.46, "width": 32, "height": 36 },
+			"Bracelet 2": { "x": 82.04, "y": -20.48, "width": 32, "height": 36 },
+			"Bracelet 3": { "x": 81.45, "y": -20.48, "width": 32, "height": 36 },
+			"Bracelet Ballgown": { "x": 82.48, "y": -22, "width": 30, "height": 34 },
+			"Bracelet Hero": { "x": 81.48, "y": -20.5, "width": 30, "height": 37 }
+		},
+		"Dresses": {
+			"Dress Ballgown": { "x": -21.01, "y": -211.49, "width": 813, "height": 719 },
+			"Dress Hero": { "x": 6.48, "y": -172.99, "width": 316, "height": 662 },
+			"Dress Navidad": { "x": 38.48, "y": -217.49, "width": 630, "height": 757 },
+			"Dress Presto": { "x": 53.06, "y": -156.91, "width": 524, "height": 651 },
+			"Dress Satu": { "x": 14.75, "y": -200.63, "width": 520, "height": 765 }
+		},
+		"Earrings": {
+			"Earrings Ballgown": { "x": 6.48, "y": 209.49, "width": 90, "height": 35 },
+			"Earrings Hero": { "x": 5.48, "y": 208.49, "width": 110, "height": 45 }
+		},
+		"Hair Accessories -Behind bangs": {
+			"Hair Accessory Hero": { "x": -42.01, "y": 291.99, "width": 55, "height": 60 },
+			"Hair Accessory Navidad": { "x": -52.01, "y": 292.49, "width": 65, "height": 63 },
+			"Hair Accessory Navidad 2": { "x": -52.02, "y": 292.51, "width": 67, "height": 65 }
+		},
+		"Hair Accessory -Behind head": {
+			"Hair Accessory Satu": { "x": 5.71, "y": 328.5, "width": 80, "height": 47 }
+		},
+		"Hair Accessory -In front of bangs": {
+			"Hair Accessory Ballgown": { "x": 4.48, "y": 310.99, "width": 96, "height": 40 },
+			"Hair Accessory Crown 1": { "x": 4.47, "y": 311.01, "width": 98, "height": 42 },
+			"Hair Accessory Crown 2": { "x": 4.47, "y": 311.01, "width": 98, "height": 42 },
+			"Hair Accessory Flower Crown 1": { "x": 4.35, "y": 307.61, "width": 101, "height": 53 },
+			"Hair Accessory Flower Crown 2": { "x": 4.35, "y": 307.61, "width": 101, "height": 53 }
+		},
+		"Hairstyles": {
+			"Hair Adventure": { "x": 5.61, "y": 227.32, "width": 133, "height": 117 },
+			"Hair Ballgown": { "x": -85.01, "y": 115.99, "width": 129, "height": 358 },
+			"Hair Hero": { "x": -78.51, "y": 121.49, "width": 144, "height": 387 },
+			"Hair Satu": { "x": 5.61, "y": 340.09, "width": 98, "height": 88 }
+		},
+		"Necklaces": {
+			"Necklace Choker 1": { "x": 9.68, "y": 162.21, "width": 50, "height": 37 },
+			"Necklace Choker 2": { "x": 9.68, "y": 162.21, "width": 50, "height": 37 },
+			"Necklace Choker 3": { "x": 9.68, "y": 162.16, "width": 52, "height": 36 },
+			"Necklace Turquoise 1": { "x": 9.33, "y": 151.23, "width": 58, "height": 45 },
+			"Necklace Turquoise 2": { "x": 9.33, "y": 151.21, "width": 58, "height": 45 }
+		},
+		"Outfits": {
+			"Outfit Adventure": { "x": 13.49, "y": -167.45, "width": 301, "height": 659 },
+			"Outfit Fencing": { "x": 18.26, "y": -192.25, "width": 296, "height": 754 }
+		},
+		"Shoes": {
+			"Shoes Adventure": { "x": 15.07, "y": -435.78, "width": 243, "height": 274 },
+			"Shoes Ballgown": { "x": 13.98, "y": -528.99, "width": 229, "height": 82 },
+			"Shoes Fencing": { "x": 12.29, "y": -530.17, "width": 228, "height": 81 },
+			"Shoes Hero": { "x": 13.48, "y": -519.49, "width": 230, "height": 103 },
+			"Shoes Presto": { "x": 12.75, "y": -521.36, "width": 229, "height": 102 },
+			"Shoes Red": { "x": 13.19, "y": -521.58, "width": 229, "height": 101 },
+			"Shoes Red Flowers": { "x": 13.49, "y": -533.63, "width": 229, "height": 83 },
+			"Shoes Ruling 1": { "x": 12.69, "y": -517.64, "width": 228, "height": 118 },
+			"Shoes Ruling 2": { "x": 12.69, "y": -517.64, "width": 228, "height": 118 }
+		},
+		"bangs": {
+			"bangs": { "x": 2.98, "y": 249.99, "width": 147, "height": 118 }
+		},
+		"body": {
+			"body": { "x": 13.98, "y": -132.49, "width": 267, "height": 873 }
+		},
+		"body -hands": {
+			"body -hands": { "x": 2.48, "y": -12.5, "width": 170, "height": 57 }
+		},
+		"eyes": {
+			"eyes closed": { "x": -8.19, "y": -0.02, "width": 112, "height": 46 },
+			"eyes half": { "x": -8.19, "y": -0.02, "width": 112, "height": 46 }
+		},
+		"top of head": {
+			"top of head": { "x": 5.98, "y": 298.99, "width": 117, "height": 68 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"eyes": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6666, "name": "eyes half" },
+					{ "time": 1.7333, "name": "eyes closed" },
+					{ "time": 1.8666, "name": "eyes half" },
+					{ "time": 1.9, "name": null },
+					{ "time": 3.4666, "name": "eyes half" },
+					{ "time": 3.5333, "name": "eyes closed" },
+					{ "time": 3.6666, "name": "eyes half" },
+					{ "time": 3.7, "name": null },
+					{ "time": 3.9666, "name": "eyes half" },
+					{ "time": 4.0333, "name": "eyes closed" },
+					{ "time": 4.1666, "name": "eyes half" },
+					{ "time": 4.2, "name": null },
+					{ "time": 6.9333, "name": "eyes half" },
+					{ "time": 7, "name": "eyes closed" },
+					{ "time": 7.1333, "name": "eyes half" },
+					{ "time": 7.1666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"eyes": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

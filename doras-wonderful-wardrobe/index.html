@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dora's Wonderful Wardrobe</title>
+    <!-- Use this jsembed.js for the deployment files to be uploaded to the Nick server -->
+    <script src="jsembed.js"></script>
+    <!-- JS Embed Call -->
+    <!-- <script src="scripts/jsembed.js"></script>	-->
+    <script type="text/javascript">
+    var pathArray = window.location.pathname.split('/');
+    var newPathname = "";
+    for (i = 0; i < pathArray.length - 1; i++) {
+        newPathname += pathArray[i];
+        newPathname += "/";
+    }
+
+    // Parameters configure jsembed itself.
+    var params = {
+        base: newPathname, // base url of all content. Defaults ""
+        api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+        autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+        //indexroot: "true", 	// use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+        libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+    }
+    // Attributes will be set on the embed target for use by the app. "base" will be set as well.
+    var attr = {};
+    jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+    </script>
+</head>
+
+<body style="padding: 0; margin: 0;">
+    <div id="embedtarget"></div>
+</body>
+<!-- Canada Tracking Call -->
+<!-- <script language="JavaScript">
+	function trackFlashEvent(gameTitle,gameEvent,playEvent)
+	{
+		window.alert('tracking:' + gameTitle + gameEvent + playEvent);
+	}
+</script>
+-->
+<!--  -->
+
+</html>

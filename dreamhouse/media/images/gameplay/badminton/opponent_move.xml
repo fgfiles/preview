@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:a8670955d2245d659fdd97625a047706$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="opponent_move.png" width="512" height="1024">
+    <sprite n="move-01.png" x="146" y="412" w="128" h="205" oX="75" oY="48" oW="250" oH="257"/>
+    <sprite n="move-02.png" x="308" y="209" w="138" h="201" oX="65" oY="49" oW="250" oH="257"/>
+    <sprite n="move-03.png" x="162" y="2" w="158" h="203" oX="45" oY="49" oW="250" oH="257"/>
+    <sprite n="move-04.png" x="2" y="209" w="142" h="205" oX="61" oY="49" oW="250" oH="257"/>
+    <sprite n="move-05.png" x="2" y="416" w="120" h="207" oX="83" oY="47" oW="250" oH="257"/>
+    <sprite n="move-06.png" x="322" y="2" w="148" h="205" oX="55" oY="48" oW="250" oH="257"/>
+    <sprite n="move-07.png" x="2" y="2" w="158" h="205" oX="45" oY="48" oW="250" oH="257"/>
+    <sprite n="move-08.png" x="162" y="207" w="144" h="203" oX="59" oY="48" oW="250" oH="257"/>
+</TextureAtlas>

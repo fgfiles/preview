@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:1e73b0e56531e0432ebd3f44f46e2774$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="fx_fail.png" width="1024" height="1024">
+    <sprite n="fail-fx-01.png" x="2" y="773" w="199" h="169" oX="71" oY="49" oW="337" oH="279"/>
+    <sprite n="fail-fx-02.png" x="2" y="540" w="275" h="231" oX="29" oY="19" oW="337" oH="279"/>
+    <sprite n="fail-fx-03.png" x="676" y="275" w="311" h="263" oX="10" oY="3" oW="337" oH="279"/>
+    <sprite n="fail-fx-04.png" x="676" y="2" w="321" h="271" oX="4" oY="7" oW="337" oH="279"/>
+    <sprite n="fail-fx-05.png" x="2" y="2" w="337" h="279"/>
+    <sprite n="fail-fx-06.png" x="341" y="2" w="333" h="279" oX="0" oY="0" oW="337" oH="279"/>
+</TextureAtlas>

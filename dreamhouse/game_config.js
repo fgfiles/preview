@@ -1,0 +1,20 @@
+{
+	"gameWidth" : 1024,
+	"gameHeight" : 768,
+	"keyUp" : "38",
+	"keyDown" : "40",
+	"keyLeft" : "37",
+	"keyRight" : "39",
+	"keySpace" : "32",
+	"speechMode" : "1",		
+	"isLandscapeAllowed" : "1",
+	"isPortraitAllowed" : "0",
+	"debugDraw" : "0",
+	"debugCheats" : "1",
+	"forceOrientation" : "NONE",
+	"scaleToScreenOnDesktop" : "1",
+	"isLandscapeAllowedIPad" : "1",
+	"isPortraitAllowedIPad" : "0",
+	"isLandscapeAllowedIPhone" : "1",
+	"isPortraitAllowedIPhone" : "0"
+}

@@ -1,0 +1,180 @@
+{
+"skeleton": { "hash": "4VQDm+wGLRaf1yxpE9mwAaIrFGA", "spine": "3.4.02", "width": 920, "height": 1280, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ui_char_olaf", "bone": "root", "attachment": "ui_char_olaf" },
+	{ "name": "ui_char_olaf_eyes_1", "bone": "root", "attachment": "ui_char_olaf_eyes_3" }
+],
+"skins": {
+	"default": {
+		"ui_char_olaf": {
+			"ui_char_olaf": { "y": 640, "width": 920, "height": 1280 }
+		},
+		"ui_char_olaf_eyes_1": {
+			"ui_char_olaf_eyes_1": { "x": 54.5, "y": 752, "width": 173, "height": 144 },
+			"ui_char_olaf_eyes_2": { "x": 54.5, "y": 752, "width": 173, "height": 144 },
+			"ui_char_olaf_eyes_3": { "x": 54.5, "y": 752, "width": 173, "height": 144 }
+		}
+	}
+},
+"animations": {
+	"look_left": {
+		"slots": {
+			"ui_char_olaf": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_olaf" }
+				]
+			},
+			"ui_char_olaf_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_olaf_eyes_3" },
+					{ "time": 1.6333, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 1.7333, "name": "ui_char_olaf_eyes_2" },
+					{ "time": 2.5666, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 2.6666, "name": "ui_char_olaf_eyes_2" },
+					{ "time": 4.7666, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 4.8666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 1, 0.88 ]
+					},
+					{ "time": 1.8, "angle": -2.03, "curve": "stepped" },
+					{
+						"time": 4.7,
+						"angle": -2.03,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "angle": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.5666,
+						"x": 1,
+						"y": 1.004,
+						"curve": [ 0.331, 0.32, 0.664, 0.66 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 1,
+						"y": 0.988,
+						"curve": [ 0.332, 0.33, 0.668, 0.67 ]
+					},
+					{
+						"time": 1.8,
+						"x": 1,
+						"y": 1.002,
+						"curve": [ 0.38, 0.53, 0.743, 1 ]
+					},
+					{ "time": 2.3, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 4.7,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.309, 0, 0.644, 0.35 ]
+					},
+					{
+						"time": 4.8,
+						"x": 1,
+						"y": 0.984,
+						"curve": [ 0.315, 0.23, 0.65, 0.57 ]
+					},
+					{
+						"time": 4.9,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.309, 0.24, 0.756, 1 ]
+					},
+					{
+						"time": 5.9333,
+						"x": 1,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"look_right": {
+		"slots": {
+			"ui_char_olaf": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_olaf" }
+				]
+			},
+			"ui_char_olaf_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.5666, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 1.7, "name": "ui_char_olaf_eyes_3" },
+					{ "time": 2.8666, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 2.9666, "name": null },
+					{ "time": 3.7666, "name": "ui_char_olaf_eyes_1" },
+					{ "time": 3.9, "name": "ui_char_olaf_eyes_3" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 1, 0.88 ]
+					},
+					{ "time": 1.8, "angle": -2.03, "curve": "stepped" },
+					{
+						"time": 3.8666,
+						"angle": -2.03,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "angle": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.5666,
+						"x": 1,
+						"y": 1.004,
+						"curve": [ 0.331, 0.32, 0.664, 0.66 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 1,
+						"y": 0.988,
+						"curve": [ 0.332, 0.33, 0.668, 0.67 ]
+					},
+					{
+						"time": 1.8,
+						"x": 1,
+						"y": 1.002,
+						"curve": [ 0.38, 0.53, 0.743, 1 ]
+					},
+					{ "time": 2.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

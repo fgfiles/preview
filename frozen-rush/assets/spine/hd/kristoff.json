@@ -1,0 +1,126 @@
+{
+"skeleton": { "hash": "QvUOVd0UIN7rNdlthVy08pq7T54", "spine": "3.4.02", "width": 920, "height": 1280, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ui_char_kristoff", "bone": "root", "attachment": "ui_char_kristoff" },
+	{ "name": "ui_char_kristoff_eyes_1", "bone": "root", "attachment": "ui_char_kristoff_eyes_3" }
+],
+"skins": {
+	"default": {
+		"ui_char_kristoff": {
+			"ui_char_kristoff": { "y": 640, "width": 920, "height": 1280 }
+		},
+		"ui_char_kristoff_eyes_1": {
+			"ui_char_kristoff_eyes_1": { "x": 153, "y": 1143.17, "width": 142, "height": 117 },
+			"ui_char_kristoff_eyes_2": { "x": 153, "y": 1143.17, "width": 142, "height": 117 },
+			"ui_char_kristoff_eyes_3": { "x": 153, "y": 1143.17, "width": 142, "height": 117 }
+		}
+	}
+},
+"animations": {
+	"look_left": {
+		"slots": {
+			"ui_char_kristoff": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_kristoff" }
+				]
+			},
+			"ui_char_kristoff_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.6333, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 2.7, "name": "ui_char_kristoff_eyes_2" },
+					{ "time": 3.3333, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 3.4333, "name": "ui_char_kristoff_eyes_2" },
+					{ "time": 5.3666, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 5.4666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 1.01,
+						"y": 1.005,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 5.2333,
+						"x": 1.01,
+						"y": 1.005,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"look_right": {
+		"slots": {
+			"ui_char_kristoff": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_kristoff" }
+				]
+			},
+			"ui_char_kristoff_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.6666, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 1.7666, "name": "ui_char_kristoff_eyes_3" },
+					{ "time": 2.6, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 2.7, "name": "ui_char_kristoff_eyes_3" },
+					{ "time": 4.8333, "name": "ui_char_kristoff_eyes_1" },
+					{ "time": 4.9333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 1.01,
+						"y": 1.005,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 5.2333,
+						"x": 1.01,
+						"y": 1.005,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

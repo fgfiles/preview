@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:5c34c8c3726d4ff611d644e9ca7bf63a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="horse_jump.png" width="1024" height="1024">
+    <sprite n="horse-jump-01.png" x="2" y="588" w="335" h="275" oX="70" oY="44" oW="443" oH="349"/>
+    <sprite n="horse-jump-02.png" x="2" y="2" w="341" h="307" oX="68" oY="17" oW="443" oH="349"/>
+    <sprite n="horse-jump-03.png" x="2" y="311" w="361" h="275" oX="63" oY="3" oW="443" oH="349"/>
+    <sprite n="horse-jump-04.png" x="339" y="735" w="353" h="217" oX="60" oY="3" oW="443" oH="349"/>
+    <sprite n="horse-jump-05.png" x="345" y="2" w="359" h="219" oX="53" oY="0" oW="443" oH="349"/>
+    <sprite n="horse-jump-06.png" x="339" y="735" w="353" h="217" oX="60" oY="3" oW="443" oH="349"/>
+    <sprite n="horse-jump-07.png" x="365" y="500" w="353" h="233" oX="70" oY="45" oW="443" oH="349"/>
+    <sprite n="horse-jump-08.png" x="365" y="223" w="347" h="275" oX="92" oY="45" oW="443" oH="349"/>
+</TextureAtlas>

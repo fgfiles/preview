@@ -1,0 +1,125 @@
+{
+"skeleton": {
+	"hash": "vPptoh24Bw9azTNp9yAktlfU4Io",
+	"spine": "2.1.27",
+	"width": 132.23,
+	"height": 129.79,
+	"images": "./../PNG/Anim_obstaculos/bote/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "boat", "parent": "root", "length": 60.68, "x": -2.82, "y": -46.59, "rotation": 92.25 },
+	{ "name": "explosion", "parent": "root", "length": 63.9, "x": 1.34, "y": -42.92, "rotation": 90.45 }
+],
+"slots": [
+	{ "name": "bote", "bone": "boat", "attachment": "bote" },
+	{ "name": "water1", "bone": "root", "attachment": "water3" },
+	{ "name": "explosion1", "bone": "explosion" }
+],
+"skins": {
+	"default": {
+		"bote": {
+			"bote": { "x": 46.45, "y": -4.64, "rotation": -92.25, "width": 121, "height": 101 }
+		},
+		"explosion1": {
+			"explosion1": { "x": 34.17, "y": 9.97, "rotation": -90.45, "width": 208, "height": 168 },
+			"explosion2": { "x": 42.93, "y": 1.01, "rotation": -90.45, "width": 73, "height": 128 },
+			"explosion3": { "x": 70.57, "y": -5.26, "rotation": -90.45, "width": 154, "height": 174 },
+			"explosion4": { "x": 80.09, "y": -4.47, "rotation": -90.45, "width": 228, "height": 188 },
+			"explosion5": { "x": 78.31, "y": -11.37, "rotation": -90.45, "width": 287, "height": 192 }
+		},
+		"water1": {
+			"water1": { "x": -7.72, "y": -61.27, "width": 128, "height": 36 },
+			"water2": { "x": -7.72, "y": -61.27, "width": 128, "height": 36 },
+			"water3": { "x": -7.72, "y": -61.27, "width": 128, "height": 36 }
+		}
+	}
+},
+"animations": {
+	"explosion": {
+		"slots": {
+			"bote": {
+				"attachment": [
+					{ "time": 0, "name": "bote" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "explosion1" },
+					{ "time": 0.2333, "name": "explosion2" },
+					{ "time": 0.3, "name": "explosion3" },
+					{ "time": 0.3666, "name": "explosion4" },
+					{ "time": 0.4333, "name": "explosion5" },
+					{ "time": 0.8333, "name": "explosion5" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"water1": {
+				"attachment": [
+					{ "time": 0, "name": "water1" },
+					{ "time": 0.0666, "name": "water2" },
+					{ "time": 0.1333, "name": "water3" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"boat": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 0.05, "y": -1.51 }
+				]
+			},
+			"explosion": {
+				"scale": [
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.043, "y": 1.043 }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"water1": {
+				"attachment": [
+					{ "time": 0, "name": "water1" },
+					{ "time": 0.1, "name": "water2" },
+					{ "time": 0.2, "name": "water3" },
+					{ "time": 0.3, "name": "water1" },
+					{ "time": 0.4, "name": "water2" },
+					{ "time": 0.5, "name": "water3" },
+					{ "time": 0.6, "name": "water1" },
+					{ "time": 0.7, "name": "water2" },
+					{ "time": 0.8, "name": "water3" },
+					{ "time": 0.9, "name": "water1" }
+				]
+			}
+		},
+		"bones": {
+			"boat": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 0.14, "y": -3.66 },
+					{ "time": 0.9, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

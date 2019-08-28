@@ -1,0 +1,142 @@
+.howToOverlay {
+    position                : absolute;
+    height                  : 100vh;
+    width                   : 100vw;
+
+    background              : url([background-img-howTo]) no-repeat center center fixed;
+    background-size         : cover;
+
+    -webkit-background-size : cover;
+    -moz-background-size    : cover;
+    -o-background-size      : cover;    
+    
+    pointer-events : auto;
+}
+
+.howToOverlay .header {
+    position   : relative;
+    top        : 10px;
+    height     : 80px;
+    width      : 500px;
+    margin     : auto;
+    text-align : center;
+    font-size  : 32px;
+}
+
+.howToOverlay .infoPanel {
+    position   : absolute;
+    width      : 650px;
+    height     : 400px;
+    left       : 50%;
+    top        : 50%;
+    margin     : -200px 0 0 -325px;
+}
+
+.howToOverlay .infoPanel .infoImage0 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo0]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .infoImage1 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo1]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .infoImage2 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo2]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .infoImage3 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo3]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .infoImage4 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo4]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .infoImage5 {  
+    width  : 650px;
+    height : 400px;
+    
+    background      : url([button-img-howToInfo5]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .prevButton {
+    position    : absolute;
+    width       : 64px;
+    height      : 64px;
+    top         : 50%;
+    left        : 0px;
+    margin-top  : -31px;
+    margin-left : -32px;
+    
+    background      : url([button-img-prev]) no-repeat;
+    background-size : 100%;
+}
+
+.howToOverlay .infoPanel .nextButton {
+    position     : absolute;
+    width        : 64px;
+    height       : 64px;
+    top          : 50%;
+    right        : 0px;
+    margin-top   : -31px;
+    margin-right : -32px;
+    
+    background      : url([button-img-next]) no-repeat;
+    background-size : 100%;
+} 
+
+.howToOverlay .dotsPanel {
+    position : absolute;
+    width    : 240px;
+    height   : 32px;
+    
+    left   : 50%;
+    top    : 100%;
+    margin : 10px 0 0 -120px;
+}
+
+.howToOverlay .dotsPanel .dotHolder {
+    position     : relative;
+    width        : 32px;
+    height       : 32px;
+    float        : left;
+    margin-right : 8px;
+    
+    background   : url([img-dot-holder]) no-repeat center;
+}
+
+
+.howToOverlay .dotsPanel .dotFill {
+    position      : absolute;
+    width         : 32px;
+    height        : 32px;
+    top           : 50%;
+    left          : 50%;
+    margin        : -16px 0 0 -16px;
+    display       : none;
+    
+    background    : url([img-dot-fill]) no-repeat center;
+}
+
+

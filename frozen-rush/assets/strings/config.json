@@ -1,0 +1,195 @@
+{
+	"locale"   : "en",
+	"r2l"      : false,
+	"webfont"  : false,
+
+	"score" :
+	{
+		"distance"  : 10,
+		"snowflake" : 5,
+		"tumble"    : 15,
+		"vehicle"   : 500
+	},
+
+	"lossStreak" :
+	{
+		"losses" : 3,
+		"reward" : 500
+	},
+
+	"dailyBonus" : [90, 60, 50, 30, 20, 10],
+
+	"promo" :
+	{
+		"time" : 300
+	},
+
+	"endless"   :
+	{
+		"levelRequired"  : 3,
+		"speedIncrement" : 0.01,
+		"speedMax"       : 1.5
+	},
+
+	"playableCharacters" : ["anna", "kristoff", "olaf", "elsa", "pabbie"],
+
+	"characters" :
+	{
+		"anna" :
+		{
+			"id"                 : "anna",
+			"color"              : "pink",
+			"jumpHeight"         : 350,
+			"doubleJumpHeight"   : 220,
+			"tumbleSpeedMin"     : 360,
+			"tumbleSpeedMax"     : 720,
+			"tumbleSpeedTime"    : 0.4,
+			"pickupCircleRadius" : 70,
+			"trollMagicDuration" : 5
+		},
+		"kristoff":
+		{
+			"id"                 : "kristoff",
+			"color"              : "green",
+			"jumpHeight"         : 350,
+			"tumbleSpeedMin"     : 360,
+			"tumbleSpeedMax"     : 720,
+			"tumbleSpeedTime"    : 0.4,
+			"pickupCircleRadius" : 70,
+			"trollMagicDuration" : 5
+		},
+		"olaf":
+		{
+			"id"                 : "olaf",
+			"color"              : "cyan",
+			"jumpHeight"         : 350,
+			"tumbleSpeedMin"     : 360,
+			"tumbleSpeedMax"     : 720,
+			"tumbleSpeedTime"    : 0.4,
+			"pickupCircleRadius" : 70,
+			"trollMagicDuration" : 5
+		},
+		"elsa":
+		{
+			"id"                 : "elsa",
+			"color"              : "purple",
+			"jumpHeight"         : 350,
+			"tumbleSpeedMin"     : 360,
+			"tumbleSpeedMax"     : 720,
+			"tumbleSpeedTime"    : 0.4,
+			"pickupCircleRadius" : 70,
+			"trollMagicDuration" : 5
+		},
+		"pabbie":
+		{
+			"id"                 : "pabbie",
+			"color"              : "green",
+			"jumpHeight"         : 350,
+			"tumbleSpeedMin"     : 540,
+			"tumbleSpeedMax"     : 1080,
+			"tumbleSpeedTime"    : 0.3,
+			"pickupCircleRadius" : 70,
+			"trollMagicDuration" : 5
+		}
+	},
+
+	"powerups" :
+	[
+		{
+			"id"      : "tumble",
+			"cost"    : [500,  1000, 1500],
+			"power"   : [1, 1.5, 2, 2.5],
+			"texture" : "ui_icon_upgrade_tumble"
+		},
+		{
+			"id"      : "magnet",
+			"cost"    : [250,  500,  750],
+			"power"   : [1, 2, 3, 4],
+			"texture" : "ui_icon_upgrade_magnet"
+		},
+		{
+			"id"      : "magic",
+			"cost"    : [500, 1000, 1500],
+			"power"   : [1, 1.5, 2, 2.5],
+			"texture" : "ui_icon_upgrade_magic"
+		}
+	],
+
+	"goals" :
+	[
+		{"id" : "run_1",           "type" : "run",           "value" : 200,  "reward" : 50},
+		{"id" : "crystals_1",      "type" : "crystals",      "value" : 1,    "reward" : 50},
+		{"id" : "coins_1",         "type" : "coins",         "value" : 50,   "reward" : 50},
+		{"id" : "jump_1",          "type" : "jump",          "value" : 10,   "reward" : 50},
+		{"id" : "slide_1",         "type" : "slide",         "value" : 20,   "reward" : 50},
+		{"id" : "crystals_2",      "type" : "crystals",      "value" : 3,    "reward" : 100},
+		{"id" : "tumble_1",        "type" : "tumble",        "value" : 5,    "reward" : 50},
+		{"id" : "powerups_1",      "type" : "powerups",      "value" : 1,    "reward" : 50},
+		{"id" : "jump_run_1",      "type" : "jump_run",      "value" : 5,    "reward" : 50},
+		{"id" : "ride_sled_1",     "type" : "ride_sled",     "value" : 50,   "reward" : 50},
+		{"id" : "coins_run_1",     "type" : "coins_run",     "value" : 25,   "reward" : 50},
+		{"id" : "tumble_double_1", "type" : "tumble_double", "value" : 3,    "reward" : 100},
+		{"id" : "marshmallow_1",   "type" : "marshmallow",   "value" : 1,    "reward" : 50},
+		{"id" : "tumble_run_1",    "type" : "tumble_run",    "value" : 3,    "reward" : 50},
+		{"id" : "ride_sven_1",     "type" : "ride_sven",     "value" : 100,  "reward" : 50},
+		{"id" : "slide_run_1",     "type" : "slide_run",     "value" : 25,   "reward" : 50},
+		{"id" : "tumble_triple_1", "type" : "tumble_triple", "value" : 3,    "reward" : 150},
+		{"id" : "run_2",           "type" : "run",           "value" : 1000, "reward" : 100},
+		{"id" : "jump_2",          "type" : "jump",          "value" : 50,   "reward" : 100},
+		{"id" : "coins_2",         "type" : "coins",         "value" : 200,  "reward" : 100},
+		{"id" : "slide_2",         "type" : "slide",         "value" : 100,  "reward" : 100},
+		{"id" : "tumble_2",        "type" : "tumble",        "value" : 10,   "reward" : 100},
+		{"id" : "powerups_2",      "type" : "powerups",      "value" : 2,    "reward" : 100},
+		{"id" : "jump_run_2",      "type" : "jump_run",      "value" : 30,   "reward" : 100},
+		{"id" : "ride_sled_2",     "type" : "ride_sled",     "value" : 200,  "reward" : 100},
+		{"id" : "coins_run_2",     "type" : "coins_run",     "value" : 100,  "reward" : 100},
+		{"id" : "tumble_double_2", "type" : "tumble_double", "value" : 5,    "reward" : 200},
+		{"id" : "marshmallow_2",   "type" : "marshmallow",   "value" : 3,    "reward" : 150},
+		{"id" : "tumble_run_2",    "type" : "tumble_run",    "value" : 10,   "reward" : 200},
+		{"id" : "ride_sven_2",     "type" : "ride_sven",     "value" : 500,  "reward" : 100},
+		{"id" : "slide_run_2",     "type" : "slide_run",     "value" : 100,  "reward" : 100},
+		{"id" : "tumble_triple_2", "type" : "tumble_triple", "value" : 5,    "reward" : 250},
+		{"id" : "run_3",           "type" : "run",           "value" : 5000, "reward" : 300},
+		{"id" : "jump_3",          "type" : "jump",          "value" : 200,  "reward" : 300},
+		{"id" : "coins_3",         "type" : "coins",         "value" : 500,  "reward" : 300},
+		{"id" : "slide_3",         "type" : "slide",         "value" : 500,  "reward" : 300},
+		{"id" : "ride_sled_3",     "type" : "ride_sled",     "value" : 500,  "reward" : 300},
+		{"id" : "tumble_3",        "type" : "tumble",        "value" : 50,   "reward" : 300},
+		{"id" : "jump_run_3",      "type" : "jump_run",      "value" : 100,  "reward" : 300},
+		{"id" : "powerups_3",      "type" : "powerups",      "value" : 10,   "reward" : 500},
+		{"id" : "tumble_double_3", "type" : "tumble_double", "value" : 10,   "reward" : 200},
+		{"id" : "ride_sven_3",     "type" : "ride_sven",     "value" : 500,  "reward" : 300},
+		{"id" : "marshmallow_3",   "type" : "marshmallow",   "value" : 5,    "reward" : 300},
+		{"id" : "tumble_triple_3", "type" : "tumble_triple", "value" : 10,   "reward" : 500},
+		{"id" : "run_4",           "type" : "run",           "value" : 10000, "reward" : 500},
+		{"id" : "jump_4",          "type" : "jump",          "value" : 500,   "reward" : 500},
+		{"id" : "coins_4",         "type" : "coins",         "value" : 1000,  "reward" : 500},
+		{"id" : "slide_4",         "type" : "slide",         "value" : 1000,  "reward" : 500}
+	],
+
+	"goal_icons":
+	{
+		"run"           : "ui_goals_icon_slide",
+		"slide"         : "ui_goals_icon_slide",
+		"slide_run"     : "ui_goals_icon_slide",
+		"jump"          : "ui_goals_icon_jump",
+		"jump_run"      : "ui_goals_icon_jump",
+		"tumble"        : "ui_goals_icon_tumblejump",
+		"tumble_run"    : "ui_goals_icon_tumblejump",
+		"tumble_double" : "ui_goals_icon_tumblejump",
+		"tumble_triple" : "ui_goals_icon_tumblejump",
+		"ride_sven"     : "ui_goals_icon_slide",
+		"ride_sled"     : "ui_goals_icon_slide",
+		"marshmallow"   : "ui_goals_icon_snowflake",
+		"coins"         : "ui_goals_icon_snowflake",
+		"coins_run"     : "ui_goals_icon_snowflake",
+		"crystals"      : "ui_goals_icon_crystals",
+		"powerups"      : "ui_goals_icon_slide"
+	},
+	
+	"codes":
+	{
+		"5555"   : 500,
+		"615431" : 5000
+	}
+}

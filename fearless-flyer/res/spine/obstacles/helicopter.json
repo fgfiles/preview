@@ -1,0 +1,261 @@
+{
+"skeleton": {
+	"hash": "Uyf6OmJEv5+C2fVl/le/NtvuY9U",
+	"spine": "2.1.27",
+	"width": 292.8,
+	"height": 241.96,
+	"images": "./../../PNG/Anim_obstaculos/helicoptero/"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "helicoptero", "parent": "root", "x": -20.46, "y": 64.88 }
+],
+"slots": [
+	{ "name": "smoke2", "bone": "helicoptero", "color": "ffffffac", "attachment": "smoke1" },
+	{ "name": "helicoptero", "bone": "helicoptero", "attachment": "helicoptero" },
+	{ "name": "base_helice1", "bone": "helicoptero", "attachment": "base_helice1" },
+	{ "name": "base_helice2", "bone": "helicoptero", "attachment": "base_helice2" },
+	{ "name": "helice_1", "bone": "helicoptero", "attachment": "helice_1" },
+	{ "name": "smoke1", "bone": "helicoptero", "color": "ffffffac", "attachment": "smoke1" },
+	{ "name": "soporte_helice", "bone": "helicoptero", "attachment": "soporte_helice" },
+	{ "name": "soporte_helice2", "bone": "helicoptero", "attachment": "soporte_helice2" }
+],
+"skins": {
+	"default": {
+		"base_helice1": {
+			"base_helice1": { "x": 1.25, "y": 41.91, "width": 264, "height": 26 }
+		},
+		"base_helice2": {
+			"base_helice2": { "x": 184.09, "y": 28.34, "width": 81, "height": 81 }
+		},
+		"helice_1": {
+			"helice_1": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 },
+			"helice_2": { "x": 49.33, "y": 27.12, "width": 366, "height": 90 },
+			"helice_3": { "x": 49.33, "y": 27.12, "width": 366, "height": 90 },
+			"helice_4": { "x": 49.33, "y": 27.12, "width": 366, "height": 90 },
+			"helice_5": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 },
+			"helice_6": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 },
+			"helice_7": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 },
+			"helice_8": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 },
+			"helice_9": { "x": 49.33, "y": 27.13, "width": 366, "height": 90 }
+		},
+		"helicoptero": {
+			"helicoptero": { "x": 43.8, "y": 2.05, "width": 300, "height": 94 }
+		},
+		"smoke1": {
+			"smoke1": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke2": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke3": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke4": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke_loop1": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke_loop2": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke_loop3": { "x": 89.98, "y": 54.53, "rotation": 335.74, "width": 188, "height": 216 },
+			"smoke_loop4": { "x": 89.98, "y": 54.53, "rotation": -24.26, "width": 188, "height": 216 }
+		},
+		"smoke2": {
+			"smoke1": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke2": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke3": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke4": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke_loop1": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke_loop2": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke_loop3": { "x": 48.87, "y": 31.29, "rotation": -34.17, "width": 188, "height": 216 },
+			"smoke_loop4": { "x": 48.88, "y": 31.29, "rotation": -34.18, "width": 188, "height": 216 }
+		},
+		"soporte_helice": {
+			"soporte_helice": { "x": -0.7, "y": 46.49, "width": 15, "height": 14 }
+		},
+		"soporte_helice2": {
+			"soporte_helice2": { "x": 184.18, "y": 28.76, "width": 8, "height": 8 }
+		}
+	}
+},
+"animations": {
+	"fall_loop": {
+		"slots": {
+			"base_helice1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"base_helice2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"helice_1": {
+				"attachment": [
+					{ "time": 0, "name": "helice_9" }
+				]
+			},
+			"smoke1": {
+				"attachment": [
+					{ "time": 0, "name": "smoke_loop1" },
+					{ "time": 0.1, "name": "smoke_loop2" },
+					{ "time": 0.2, "name": "smoke_loop3" },
+					{ "time": 0.3, "name": "smoke_loop4" },
+					{ "time": 0.4, "name": "smoke_loop1" }
+				]
+			},
+			"smoke2": {
+				"attachment": [
+					{ "time": 0, "name": "smoke_loop1" },
+					{ "time": 0.0333, "name": "smoke_loop2" },
+					{ "time": 0.1, "name": "smoke_loop3" },
+					{ "time": 0.1666, "name": "smoke_loop4" },
+					{ "time": 0.2333, "name": "smoke_loop1" },
+					{ "time": 0.3, "name": "smoke_loop2" },
+					{ "time": 0.3666, "name": "smoke_loop3" },
+					{ "time": 0.4, "name": "smoke_loop4" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"helicoptero": {
+				"rotate": [
+					{ "time": 0, "angle": 56.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 43.62, "y": -60.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"shoot": {
+		"slots": {
+			"base_helice1": {
+				"attachment": [
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"base_helice2": {
+				"attachment": [
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"helice_1": {
+				"attachment": [
+					{ "time": 0, "name": "helice_1" },
+					{ "time": 0.0666, "name": "helice_2" },
+					{ "time": 0.1333, "name": "helice_3" },
+					{ "time": 0.2, "name": "helice_4" },
+					{ "time": 0.2666, "name": "helice_1" },
+					{ "time": 0.3333, "name": "helice_2" },
+					{ "time": 0.4, "name": "helice_3" },
+					{ "time": 0.4666, "name": "helice_4" },
+					{ "time": 0.5333, "name": "helice_5" },
+					{ "time": 0.6, "name": "helice_6" },
+					{ "time": 0.6666, "name": "helice_7" },
+					{ "time": 0.7333, "name": "helice_8" },
+					{ "time": 0.8, "name": "helice_9" }
+				]
+			},
+			"smoke1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "smoke1" },
+					{ "time": 0.6, "name": "smoke2" },
+					{ "time": 0.6666, "name": "smoke3" },
+					{ "time": 0.7333, "name": "smoke4" },
+					{ "time": 0.8, "name": "smoke_loop1" }
+				]
+			},
+			"smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": "smoke1" },
+					{ "time": 0.6, "name": "smoke2" },
+					{ "time": 0.6666, "name": "smoke3" },
+					{ "time": 0.7333, "name": "smoke4" },
+					{ "time": 0.8, "name": "smoke_loop1" }
+				]
+			}
+		},
+		"bones": {
+			"helicoptero": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -6.75 },
+					{ "time": 0.5333, "angle": 27.63 },
+					{ "time": 0.8, "angle": 56.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 53.69, "y": 0.94 },
+					{ "time": 0.8, "x": 43.62, "y": -60.69 }
+				],
+				"scale": [
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"helice_1": {
+				"attachment": [
+					{ "time": 0, "name": "helice_1" },
+					{ "time": 0.0666, "name": "helice_2" },
+					{ "time": 0.1333, "name": "helice_3" },
+					{ "time": 0.2, "name": "helice_4" },
+					{ "time": 0.2666, "name": "helice_1" },
+					{ "time": 0.3333, "name": "helice_2" },
+					{ "time": 0.4, "name": "helice_3" },
+					{ "time": 0.4666, "name": "helice_4" },
+					{ "time": 0.5333, "name": "helice_1" },
+					{ "time": 0.6, "name": "helice_2" },
+					{ "time": 0.6666, "name": "helice_3" },
+					{ "time": 0.7333, "name": "helice_4" },
+					{ "time": 0.8, "name": "helice_1" },
+					{ "time": 0.8666, "name": "helice_2" },
+					{ "time": 0.9333, "name": "helice_3" },
+					{ "time": 1, "name": "helice_4" },
+					{ "time": 1.0666, "name": "helice_1" }
+				]
+			},
+			"smoke1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"helicoptero": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

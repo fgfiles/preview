@@ -1,0 +1,42 @@
+#dm-game-canvas {
+    display  : block;
+    position : absolute;
+    top      : 0;
+    left     : 0;
+    right    : 0;
+    bottom   : 0;
+}
+
+#dm-ui-layer {
+    display  : block;
+    position : absolute;    
+    width    : 100vw;
+    height   : 100vh;
+    top      : 0;
+    left     : 0;
+    right    : 0;
+    bottom   : 0;
+
+    pointer-events : auto;
+}
+
+#dm-game-canvas.fill-mode-NONE {
+    width      : 100vw;
+    height     : 100vh;
+    margin-top : 0;
+}
+
+#dm-game-canvas.fill-mode-KEEP_ASPECT {
+    width  : 100vw;
+    height : auto;
+    margin : 0;
+}
+
+#dm-game-canvas.fill-mode-FILL_WINDOW {
+    width  : 100vw;
+    height : 100vh;
+}
+
+canvas:focus {
+    outline : none;
+}

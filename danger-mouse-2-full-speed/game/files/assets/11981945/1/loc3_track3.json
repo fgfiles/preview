@@ -1,0 +1,5286 @@
+{
+    "name": "dm-track",
+    "segments": [
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "generic",
+                    "trigger": "battery",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "generic",
+                    "trigger": "battery",
+                    "row": 0,
+                    "lane": 1
+                },
+                {
+                    "typeID": "generic",
+                    "trigger": "battery",
+                    "row": 0,
+                    "lane": 2
+                },
+                {
+                    "typeID": "generic",
+                    "trigger": "battery",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -1.4901161193847657e-8,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -7.450580596923828e-8,
+            "dy": -1.4901161193847657e-8,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -7.450580596923828e-8,
+            "dy": -1.4901161193847657e-8,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -1.4901161193847657e-8,
+            "cx": 6.5,
+            "cy": -6.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000001639127732,
+            "cx": 6.5,
+            "cy": -6.699999809265137,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 6.5,
+            "cy": -6.599999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -6.599999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.10000000149011612,
+            "cx": 6.5,
+            "cy": -6.699999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.20000001788139344,
+            "cx": 6.5,
+            "cy": -6.900000095367432,
+            "props": [
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.4000000059604645,
+            "cx": 6.5,
+            "cy": -7.300000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.4000000059604645,
+            "cx": 6.5,
+            "cy": -7.699999809265137,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.10000000149011612,
+            "cx": 6.5,
+            "cy": -7.800000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 7.450580596923828e-8,
+            "dy": -0.29999998211860659,
+            "cx": 6.5,
+            "cy": -7.5,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.4999999701976776,
+            "cx": 6.5,
+            "cy": -7.0,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.10000000149011612,
+            "cx": 6.5,
+            "cy": -6.900000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.20000000298023225,
+            "cx": 6.5,
+            "cy": -7.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.10000000149011612,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -7.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.10000000149011612,
+            "cx": 6.5,
+            "cy": -7.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.20000000298023225,
+            "cx": 6.5,
+            "cy": -6.900000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.30000001192092898,
+            "cx": 6.5,
+            "cy": -6.599999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.4000000059604645,
+            "cx": 6.5,
+            "cy": -6.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.4000000059604645,
+            "cx": 6.5,
+            "cy": -5.800000190734863,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.4000000059604645,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.10000000149011612,
+            "cx": 6.5,
+            "cy": -5.300000190734863,
+            "props": [
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.10000000149011612,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "fly",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "fly",
+                    "row": 3,
+                    "lane": 1
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "fly",
+                    "row": 3,
+                    "lane": 2
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "fly",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type12",
+            "typeValue": 12,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type12",
+            "typeValue": 12,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type11",
+            "typeValue": 11,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "land",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "land",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "land",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "land",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type8",
+            "typeValue": 8,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 6.5,
+            "cy": -5.300000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 6.5,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.10000001639127732,
+            "dy": 0.0,
+            "cx": 6.400000095367432,
+            "cy": -5.199999809265137,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.20000001788139344,
+            "dy": 0.0,
+            "cx": 6.199999809265137,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.29999998211860659,
+            "dy": -0.10000000149011612,
+            "cx": 5.900000095367432,
+            "cy": -5.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.3999999761581421,
+            "dy": -0.10000000149011612,
+            "cx": 5.5,
+            "cy": -5.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.29999998211860659,
+            "dy": -0.10000000149011612,
+            "cx": 5.199999809265137,
+            "cy": -4.900000095367432,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.19999998807907105,
+            "dy": 0.10000001639127732,
+            "cx": 5.0,
+            "cy": -5.0,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.09999998658895493,
+            "dy": 0.30000001192092898,
+            "cx": 4.900000095367432,
+            "cy": -5.300000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.4000000059604645,
+            "cx": 4.900000095367432,
+            "cy": -5.699999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.4000000059604645,
+            "cx": 4.900000095367432,
+            "cy": -6.099999904632568,
+            "props": [
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 2,
+                    "lane": 1
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 2,
+                    "lane": 2
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.4000000059604645,
+            "cx": 4.900000095367432,
+            "cy": -6.5,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": -0.7000000476837158,
+            "cx": 4.900000095367432,
+            "cy": -5.800000190734863,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.4000000059604645,
+            "cx": 4.900000095367432,
+            "cy": -5.400000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.20000001788139344,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -5.199999809265137,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -5.099999904632568,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -4.900000095367432,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.30000001192092898,
+            "cx": 4.900000095367432,
+            "cy": -4.599999904632568,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                },
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.30000001192092898,
+            "cx": 4.900000095367432,
+            "cy": -4.300000190734863,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -7.450580596923828e-8,
+            "dy": -0.20000001788139344,
+            "cx": 4.900000095367432,
+            "cy": -4.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -4.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -4.099999904632568,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -4.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -3.799999952316284,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000001788139344,
+            "cx": 4.900000095367432,
+            "cy": -3.5999999046325685,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "canyon",
+            "tileSetValue": 5,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                },
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -3.5,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -3.4000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -3.200000047683716,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -3.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": [
+                {
+                    "typeID": "ramp",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                },
+                {
+                    "typeID": "ramp",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -2.9000000953674318,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -2.799999952316284,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000001788139344,
+            "cx": 4.900000095367432,
+            "cy": -2.5999999046325685,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.30000001192092898,
+            "cx": 4.900000095367432,
+            "cy": -2.299999952316284,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.30000001192092898,
+            "cx": 4.900000095367432,
+            "cy": -2.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 1.4901161193847657e-8,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.7999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": 4.900000095367432,
+            "cy": -1.7000000476837159,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.20000000298023225,
+            "cx": 4.900000095367432,
+            "cy": -1.5,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.19999998807907105,
+            "cx": 4.900000095367432,
+            "cy": -1.2999999523162842,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.19999998807907105,
+            "cx": 4.900000095367432,
+            "cy": -1.100000023841858,
+            "props": []
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000001639127732,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": [
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                },
+                {
+                    "typeID": "booster",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 4.900000095367432,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.10000000149011612,
+            "dy": 0.0,
+            "cx": 4.800000190734863,
+            "cy": -1.0,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.20000001788139344,
+            "dy": 0.0,
+            "cx": 4.599999904632568,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.30000001192092898,
+            "dy": 0.0,
+            "cx": 4.300000190734863,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.4000000059604645,
+            "dy": 0.0,
+            "cx": 3.9000000953674318,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.5,
+            "dy": 0.0,
+            "cx": 3.4000000953674318,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.6000000238418579,
+            "dy": 0.0,
+            "cx": 2.799999952316284,
+            "cy": -1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.7000000476837158,
+            "dy": -0.10000000149011612,
+            "cx": 2.0999999046325685,
+            "cy": -0.8999999761581421,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.8000000715255737,
+            "dy": -0.29999998211860659,
+            "cx": 1.2999999523162842,
+            "cy": -0.6000000238418579,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.9000000357627869,
+            "dy": -0.29999998211860659,
+            "cx": 0.4000000059604645,
+            "cy": -0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.9000000357627869,
+            "dy": -0.20000001788139344,
+            "cx": -0.5,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.800000011920929,
+            "dy": 0.0,
+            "cx": -1.2999999523162842,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.8000001311302185,
+            "dy": 0.0,
+            "cx": -2.0999999046325685,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.699999988079071,
+            "dy": 0.0,
+            "cx": -2.799999952316284,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.5999999642372131,
+            "dy": 0.0,
+            "cx": -3.4000000953674318,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.5,
+            "dy": 0.0,
+            "cx": -3.9000000953674318,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.4000000059604645,
+            "dy": 0.0,
+            "cx": -4.300000190734863,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.30000001192092898,
+            "dy": 0.0,
+            "cx": -4.599999904632568,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.20000000298023225,
+            "dy": 0.0,
+            "cx": -4.800000190734863,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -0.10000000149011612,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.0,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.20000000298023225,
+            "cx": -4.900000095367432,
+            "cy": 0.20000000298023225,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": []
+        },
+        {
+            "typeID": "type5",
+            "typeValue": 5,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type3",
+            "typeValue": 3,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.30000001192092898,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.20000000298023225,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.29999998211860659,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.6000000238418579,
+            "cx": -4.900000095367432,
+            "cy": -0.699999988079071,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.5999999642372131,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -1.4901161193847657e-8,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -1.4901161193847657e-8,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type1",
+            "typeValue": 1,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 1
+                },
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": -0.10000000149011612,
+            "props": [
+                {
+                    "typeID": "boss_attack",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.20000001788139344,
+            "cx": -4.900000095367432,
+            "cy": 0.20000000298023225,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": -0.19999998807907105,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": -0.09999998658895493,
+            "cx": -4.900000095367432,
+            "cy": 0.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -1.4901161193847657e-8,
+            "dy": -0.09999998658895493,
+            "cx": -4.900000095367432,
+            "cy": 0.6000000238418579,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000001639127732,
+            "cx": -4.900000095367432,
+            "cy": 0.699999988079071,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000001639127732,
+            "cx": -4.900000095367432,
+            "cy": 0.800000011920929,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000001639127732,
+            "cx": -4.900000095367432,
+            "cy": 0.8999999761581421,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": [
+                {
+                    "typeID": "blueprint",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 2
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 1.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.8999999761581421,
+            "props": [
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "fake_mark_iv",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.20000000298023225,
+            "cx": -4.900000095367432,
+            "cy": 0.699999988079071,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.20000000298023225,
+            "cx": -4.900000095367432,
+            "cy": 0.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.10000000149011612,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 1.4901161193847657e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 0
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 0,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -7.450580596923828e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                },
+                {
+                    "typeID": "rock",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                },
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": -7.450580596923828e-8,
+            "dy": 0.0,
+            "cx": -4.900000095367432,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.09999992698431015,
+            "dy": 0.0,
+            "cx": -4.800000190734863,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.19999992847442628,
+            "dy": 0.0,
+            "cx": -4.599999904632568,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "boss_waypoint",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 2
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.2999999225139618,
+            "dy": 0.0,
+            "cx": -4.300000190734863,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 1
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.3999999165534973,
+            "dy": 0.0,
+            "cx": -3.9000000953674318,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "quark_mine",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.5,
+            "dy": 0.0,
+            "cx": -3.4000000953674318,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.5999999046325684,
+            "dy": 0.0,
+            "cx": -2.799999952316284,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.6999999284744263,
+            "dy": 0.0,
+            "cx": -2.0999999046325685,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.5999999642372131,
+            "dy": 0.0,
+            "cx": -1.5,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.4999999701976776,
+            "dy": 0.0,
+            "cx": -1.0,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.3999999761581421,
+            "dy": 0.0,
+            "cx": -0.6000000238418579,
+            "cy": 0.4000000059604645,
+            "props": [
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 1,
+                    "lane": 3
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 0
+                },
+                {
+                    "typeID": "factory_pipe",
+                    "trigger": "",
+                    "row": 2,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.30000001192092898,
+            "dy": 0.0,
+            "cx": -0.30000001192092898,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.20000001788139344,
+            "dy": 0.0,
+            "cx": -0.10000000149011612,
+            "cy": 0.4000000059604645,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.10000001639127732,
+            "dy": 0.4000000059604645,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": [
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 0
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 1
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 2
+                },
+                {
+                    "typeID": "trigger",
+                    "trigger": "jump",
+                    "row": 1,
+                    "lane": 3
+                }
+            ]
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.5,
+            "cx": 0.0,
+            "cy": -0.5,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": -0.5,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": [
+                {
+                    "typeID": "end_level",
+                    "trigger": "",
+                    "row": 3,
+                    "lane": 0
+                }
+            ]
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type2",
+            "typeValue": 2,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type4",
+            "typeValue": 4,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type6",
+            "typeValue": 6,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type7",
+            "typeValue": 7,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        },
+        {
+            "typeID": "type0",
+            "typeValue": 0,
+            "tileSet": "planet",
+            "tileSetValue": 4,
+            "laneConfig": 0,
+            "dx": 0.0,
+            "dy": 0.0,
+            "cx": 0.0,
+            "cy": 0.0,
+            "props": []
+        }
+    ]
+}

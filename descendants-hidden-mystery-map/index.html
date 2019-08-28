@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Descendants - Hidden Mystery Map - HTML5 Game</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="media/images/localized/favicon.png" />
+
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="description" content="Descendants - Hidden Mystery Map - HTML5 Game">
+
+    <link rel="apple-touch-icon-precomposed" href="touch-icon-iphone.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-ipad.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch-icon-ipad-retina.png" />
+
+    <link rel="stylesheet" type="text/css" href="css/game.css" />
+
+</head>
+
+<body>
+
+    <!-- Begin iOS 7 HTML -->
+    <div id="ios7">
+        <div id="box">
+            <div id="message">
+                <img src="media/images/ios_patch/ios7-close-button.png" width="20" height="20" alt="Close Button" id="close-button">
+                <img src="media/images/ios_patch/ios7-icon.png" width="60" height="60" alt="Helpin Hands Icon" id="icon">
+                <img src="media/images/ios_patch/ios7-add-to-home-screen.png" width="60" height="60" alt="Add To Home Screen Button" id="add-button"> Tap <img src="media/images/ios_patch/ios7-options-button.png" width="19" height="26" alt="iOS 7 Options Button" id="options-button"> and then
+                <br/>
+                <strong>Add to Home Screen</strong>
+                <br/> for the best play experience.
+            </div>
+        </div>
+        <img class="center" src="media/images/ios_patch/ios7-arrow.png" width="16" height="18" alt="Arrow" />
+    </div>
+    <!-- End iOS 7 HTML -->
+
+    <!-- so when we use the font in the canvas, it doesn't flicker -->
+    <div id="fonts-loader-hack">
+        <span style="font-family:superclarendon; font-weight:normal; font-style:normal">ABC123</span>
+        <span style="font-family:superclarendon; font-weight:normal; font-style:italic">ABC123</span>
+        <span style="font-family:superclarendon; font-weight:bold; font-style:normal">ABC123</span>
+        <span style="font-family:superclarendon; font-weight:bold; font-style:italic">ABC123</span>
+        <span style="font-family:gnuolane; font-weight:bold; font-style:normal">ABC123</span>
+        <span style="font-family:gnuolane; font-weight:bold; font-style:italic">ABC123</span>
+    </div>
+
+    <div id="game-wrapper">
+        <canvas id="game-canvas"></canvas>
+    </div>
+
+    <!-- #GAME SCRIPTS 1 START# -->
+    <script src="js/lib/impact/impact.js"></script>
+    <script src="js/lib/game/main.js"></script>
+    <!-- #GAME SCRIPTS 1 END# -->
+
+    <script src="js/gameConfig/isl.js"></script>
+
+    <!-- #GAME SCRIPTS 2 START# -->
+    <script>
+        window.gameStart();
+    </script>
+    <!-- #GAME SCRIPTS 2 END# -->
+
+</body>
+
+</html>

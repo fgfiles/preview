@@ -1,0 +1,93 @@
+.resultScreen {
+    position                : absolute;
+    height                  : 100vh;
+    width                   : 100vw;
+    display                 : block;
+
+    font-family             : 'Rubik', sans-serif;
+
+    -webkit-background-size : cover;
+    -moz-background-size    : cover;
+    -o-background-size      : cover;    
+    
+    pointer-events : auto;
+}    
+
+/* Continue Button */
+
+.continueButton {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : 4px;
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultContinue]) no-repeat;
+    background-size : 100%;
+}
+
+.continueButton:hover, .continueButton:focus {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : 4px;
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultContinue:hover]) no-repeat;
+    background-size : 100%;
+}
+
+.continueButton:active {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : 4px;
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultContinue:pressed]) no-repeat;
+    background-size : 100%;
+}
+
+/* Restart Button */
+
+.restartButton {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : -184px;
+    margin-bottom   : 1px;  
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultRestart]) no-repeat;
+    background-size : 100%;
+}
+
+.restartButton:hover, .restartButton:focus {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : -184px;
+    margin-bottom   : 1px;
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultRestart:hover]) no-repeat;
+    background-size : 100%;
+}
+
+.restartButton:active {
+    position        : absolute;
+    width           : 180px;
+    height          : 50px;
+    left            : 50%;
+    margin-left     : -184px;
+    margin-bottom   : 1px;
+    bottom          : 2vw;
+    
+    background      : url([button-img-resultRestart:pressed]) no-repeat;
+    background-size : 100%;
+}

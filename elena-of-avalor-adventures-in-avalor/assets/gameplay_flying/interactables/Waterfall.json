@@ -1,0 +1,32 @@
+{
+"skeleton": { "hash": "V3N1h7vRiCiWi/1LRuS/Q2K4wD4", "spine": "3.2.01", "width": 169, "height": 585, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Waterfall", "parent": "root", "x": 0.84, "y": 29.05 }
+],
+"slots": [
+	{ "name": "Water1", "bone": "Waterfall", "attachment": "Water1" }
+],
+"skins": {
+	"default": {
+		"Water1": {
+			"Water1": { "x": -0.9, "y": -286.76, "width": 169, "height": 585 },
+			"Water2": { "x": -5.85, "y": -287.52, "width": 183, "height": 587 },
+			"Water3": { "x": -2.81, "y": -289.86, "width": 165, "height": 591 }
+		}
+	}
+},
+"animations": {
+	"waterfall": {
+		"slots": {
+			"Water1": {
+				"attachment": [
+					{ "time": 0.1, "name": "Water2" },
+					{ "time": 0.2, "name": "Water3" },
+					{ "time": 0.3, "name": "Water3" }
+				]
+			}
+		}
+	}
+}
+}

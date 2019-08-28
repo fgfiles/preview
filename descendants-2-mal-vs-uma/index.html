@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- GAME DIMENSIONS: 750 x 500 pixels-->
+    <title>Descendants 2 Mal vs Uma - HTML5 Running Game</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="media/images/localized/favicon.png" />
+
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="Descendants 2 Mal vs Uma">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="minimal-ui, initial-scale=1, maximum-scale=1, width=device-width, height=device-height, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="description" content="Descendants 2 Mal vs Uma - HTML5 Running Game">
+
+    <style>
+        html,
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        @font-face {
+            font-family: 'arialbold';
+            src: url('fonts/arialbd.ttf');
+        }
+        @font-face {
+            font-family: 'bamtangguanacotitulargordis';
+            src: url('fonts/bamtang_guanaco_titular_gordis-webfont.ttf');
+        }
+        @font-face {
+            font-family: 'minionpro';
+            src: url('fonts/minionpro-regular.ttf');
+        }
+    </style>
+
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="js/CocoonJSExtensions/CocoonJS.js"></script>
+    <script type="text/javascript" src="js/CocoonJSExtensions/CocoonJS_App.js"></script>
+    <script type="text/javascript" src="js/CocoonJSExtensions/CocoonJS_App_ForCocoonJS.js"></script>
+
+
+    <script type="text/javascript" src="js/lib/pixi.min.js"></script>
+    <script type="text/javascript" src="js/lib/soundjs.min.js"></script>
+    <script type="text/javascript" src="js/lib/box2dweb-2.1.a.3.min.js"></script>
+    <script type="text/javascript" src="js/lib/soundmanager2-jsmin.js"></script>
+
+    <script type="text/javascript" src="js/config/levels.js"></script>
+    <script type="text/javascript" src="js/config/data1.js"></script>
+    <script type="text/javascript" src="js/config/data2.js"></script>
+
+    <script type="text/javascript" src="media/strings/strings.js"></script>
+    <script type="text/javascript" src="js/config/config.js"></script>
+    <script type="text/javascript" src="js/config/gui.js"></script>
+    <script type="text/javascript" src="js/config/swit_entry_point.js"></script>
+</head>
+
+<body>
+
+    <!-- fix bug Firefox firts load -->
+    <div id="fontssamples" style="position:absolute;color: black;font-size: 80px;z-index: 1">
+        <font face="arialbold">.</font>
+        <font face="bamtangguanacotitulargordis">.</font>
+        <font face="minionpro">.</font>
+    </div>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            switOnLoad();
+        }
+    </script>
+    <div class="spacer"></div>
+
+</body>
+
+</html>

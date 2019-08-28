@@ -1,0 +1,136 @@
+{
+"skeleton": { "hash": "T2VsXmq5ZldNNKAIUQKXEyCKpWY", "spine": "3.4.02", "width": 920, "height": 1280, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ui_char_anna", "bone": "root", "attachment": "ui_char_anna" },
+	{ "name": "ui_char_anna_eyes_1", "bone": "root", "attachment": "ui_char_anna_eyes_3" }
+],
+"skins": {
+	"default": {
+		"ui_char_anna": {
+			"ui_char_anna": { "y": 639.99, "width": 920, "height": 1280 }
+		},
+		"ui_char_anna_eyes_1": {
+			"ui_char_anna_eyes_1": { "x": 68.23, "y": 1074.91, "width": 233, "height": 109 },
+			"ui_char_anna_eyes_2": { "x": 68.23, "y": 1074.91, "width": 233, "height": 109 },
+			"ui_char_anna_eyes_3": { "x": 68.99, "y": 1073.35, "width": 233, "height": 109 }
+		}
+	}
+},
+"animations": {
+	"look_left": {
+		"slots": {
+			"ui_char_anna": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_anna" }
+				]
+			},
+			"ui_char_anna_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.6333, "name": "ui_char_anna_eyes_1" },
+					{ "time": 2.7333, "name": "ui_char_anna_eyes_2" },
+					{ "time": 3.4666, "name": "ui_char_anna_eyes_1" },
+					{ "time": 3.5666, "name": "ui_char_anna_eyes_2" },
+					{ "time": 5.7, "name": "ui_char_anna_eyes_1" },
+					{ "time": 5.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.1,
+						"x": 1,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 1,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 4.7,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 5.9333,
+						"x": 1,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"look_right": {
+		"slots": {
+			"ui_char_anna": {
+				"attachment": [
+					{ "time": 0, "name": "ui_char_anna" }
+				]
+			},
+			"ui_char_anna_eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.6333, "name": "ui_char_anna_eyes_1" },
+					{ "time": 2.7333, "name": "ui_char_anna_eyes_3" },
+					{ "time": 5.6666, "name": "ui_char_anna_eyes_1" },
+					{ "time": 5.7666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6666,
+						"x": 1.01,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 5.2333,
+						"x": 1.01,
+						"y": 1.007,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 7.1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

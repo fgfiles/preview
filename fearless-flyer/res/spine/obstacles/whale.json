@@ -1,0 +1,294 @@
+{
+"skeleton": {
+	"hash": "Q+ZI0htDwQOc1Vvg36iOOraGt8M",
+	"spine": "2.1.27",
+	"width": 242.2,
+	"height": 186.67,
+	"images": "./../../PNG/Anim_obstaculos/"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.7, "scaleY": 0.7 }
+],
+"slots": [
+	{ "name": "ballena/stand/whale-stand_0", "bone": "root" },
+	{ "name": "ballena/attack/whale-attack_0", "bone": "root", "attachment": "ballena/attack/whale-attack_0" },
+	{ "name": "ballena/water_1", "bone": "root", "attachment": "ballena/water_2" },
+	{ "name": "ballena/agua_base1", "bone": "root", "attachment": "ballena/agua_base1" }
+],
+"skins": {
+	"default": {
+		"ballena/agua_base1": {
+			"ballena/agua_base1": { "x": 13.72, "y": -39.51, "width": 346, "height": 107 },
+			"ballena/agua_base2": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base3": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base4": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base5": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base6": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base7": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base8": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base9": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base10": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base11": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base12": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base13": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base14": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base15": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base16": { "x": 13.73, "y": -39.5, "width": 346, "height": 107 },
+			"ballena/agua_base17": { "x": 13.73, "y": -41.57, "width": 346, "height": 107 },
+			"ballena/agua_base18": { "x": 13.73, "y": -44.31, "width": 346, "height": 107 },
+			"ballena/agua_base19": { "x": 13.73, "y": -43.63, "width": 346, "height": 107 }
+		},
+		"ballena/attack/whale-attack_0": {
+			"ballena/attack/whale-attack_0": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_1": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_2": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_3": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_4": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_5": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_6": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_7": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_8": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_9": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_10": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_11": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_12": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_13": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_14": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_15": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_16": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_17": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 },
+			"ballena/attack/whale-attack_18": { "x": 6.68, "y": 48.8, "width": 319, "height": 173 }
+		},
+		"ballena/stand/whale-stand_0": {
+			"ballena/stand/whale-stand_0": { "x": 1.76, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_1": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_2": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_3": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_4": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_5": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_6": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_7": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_8": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_9": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_10": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_11": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_12": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_13": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_14": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_15": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_16": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_17": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_18": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_19": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_20": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_21": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_22": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_23": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_24": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_25": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_26": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_27": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_28": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_29": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 },
+			"ballena/stand/whale-stand_30": { "x": 1.77, "y": 21.88, "width": 309, "height": 119 }
+		},
+		"ballena/water_1": {
+			"ballena/water_1": { "x": -38.85, "y": 97.67, "width": 102, "height": 152 },
+			"ballena/water_2": { "x": -38.86, "y": 97.67, "width": 102, "height": 152 },
+			"ballena/water_3": { "x": -38.86, "y": 97.67, "width": 102, "height": 152 },
+			"ballena/water_4": { "x": -38.86, "y": 97.67, "width": 102, "height": 152 },
+			"ballena/water_5": { "x": -38.86, "y": 97.67, "width": 102, "height": 152 },
+			"ballena/water_6": { "x": -38.86, "y": 97.67, "width": 102, "height": 152 }
+		}
+	}
+},
+"events": {
+	"shoot": {}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"ballena/agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": "ballena/agua_base1" },
+					{ "time": 0.0666, "name": "ballena/agua_base2" },
+					{ "time": 0.1333, "name": "ballena/agua_base3" },
+					{ "time": 0.2, "name": "ballena/agua_base4" },
+					{ "time": 0.2666, "name": "ballena/agua_base5" },
+					{ "time": 0.3333, "name": "ballena/agua_base6" },
+					{ "time": 0.4, "name": "ballena/agua_base7" },
+					{ "time": 0.4666, "name": "ballena/agua_base8" },
+					{ "time": 0.5333, "name": "ballena/agua_base9" },
+					{ "time": 0.6, "name": "ballena/agua_base10" },
+					{ "time": 0.6666, "name": "ballena/agua_base11" },
+					{ "time": 0.7333, "name": "ballena/agua_base12" },
+					{ "time": 0.8, "name": "ballena/agua_base13" },
+					{ "time": 0.8666, "name": "ballena/agua_base14" },
+					{ "time": 0.9333, "name": "ballena/agua_base15" },
+					{ "time": 1, "name": "ballena/agua_base16" },
+					{ "time": 1.0666, "name": "ballena/agua_base17" },
+					{ "time": 1.1333, "name": "ballena/agua_base18" },
+					{ "time": 1.2, "name": "ballena/agua_base19" },
+					{ "time": 1.2666, "name": null }
+				]
+			},
+			"ballena/attack/whale-attack_0": {
+				"attachment": [
+					{ "time": 0, "name": "ballena/attack/whale-attack_0" },
+					{ "time": 0.0666, "name": "ballena/attack/whale-attack_1" },
+					{ "time": 0.1333, "name": "ballena/attack/whale-attack_2" },
+					{ "time": 0.2, "name": "ballena/attack/whale-attack_3" },
+					{ "time": 0.2666, "name": "ballena/attack/whale-attack_4" },
+					{ "time": 0.3333, "name": "ballena/attack/whale-attack_5" },
+					{ "time": 0.4, "name": "ballena/attack/whale-attack_6" },
+					{ "time": 0.4666, "name": "ballena/attack/whale-attack_7" },
+					{ "time": 0.5333, "name": "ballena/attack/whale-attack_8" },
+					{ "time": 0.6, "name": "ballena/attack/whale-attack_9" },
+					{ "time": 0.6666, "name": "ballena/attack/whale-attack_10" },
+					{ "time": 0.7333, "name": "ballena/attack/whale-attack_11" },
+					{ "time": 0.8, "name": "ballena/attack/whale-attack_12" },
+					{ "time": 0.8666, "name": "ballena/attack/whale-attack_13" },
+					{ "time": 0.9333, "name": "ballena/attack/whale-attack_14" },
+					{ "time": 1, "name": "ballena/attack/whale-attack_15" },
+					{ "time": 1.0666, "name": "ballena/attack/whale-attack_16" },
+					{ "time": 1.1333, "name": "ballena/attack/whale-attack_17" },
+					{ "time": 1.2, "name": "ballena/attack/whale-attack_18" },
+					{ "time": 1.2666, "name": null }
+				]
+			},
+			"ballena/water_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "ballena/water_1" },
+					{ "time": 0.0666, "name": "ballena/water_2" },
+					{ "time": 0.1333, "name": "ballena/water_3" },
+					{ "time": 0.1666, "name": "ballena/water_4" },
+					{ "time": 0.2, "name": "ballena/water_5" },
+					{ "time": 0.2333, "name": "ballena/water_6" },
+					{ "time": 0.2666, "name": null },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5333, "name": "shoot" }
+		]
+	},
+	"stand": {
+		"slots": {
+			"ballena/agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": "ballena/agua_base1" },
+					{ "time": 0.0666, "name": "ballena/agua_base2" },
+					{ "time": 0.1333, "name": "ballena/agua_base3" },
+					{ "time": 0.2, "name": "ballena/agua_base4" },
+					{ "time": 0.2666, "name": "ballena/agua_base5" },
+					{ "time": 0.3333, "name": "ballena/agua_base6" },
+					{ "time": 0.4, "name": "ballena/agua_base1" },
+					{ "time": 0.4666, "name": "ballena/agua_base2" },
+					{ "time": 0.5333, "name": "ballena/agua_base3" },
+					{ "time": 0.6, "name": "ballena/agua_base4" },
+					{ "time": 0.6666, "name": "ballena/agua_base5" },
+					{ "time": 0.7333, "name": "ballena/agua_base6" },
+					{ "time": 0.8, "name": "ballena/agua_base1" },
+					{ "time": 0.8666, "name": "ballena/agua_base2" },
+					{ "time": 0.9333, "name": "ballena/agua_base3" },
+					{ "time": 1, "name": "ballena/agua_base4" },
+					{ "time": 1.0666, "name": "ballena/agua_base5" },
+					{ "time": 1.1333, "name": "ballena/agua_base6" },
+					{ "time": 1.2, "name": "ballena/agua_base1" },
+					{ "time": 1.2666, "name": "ballena/agua_base2" },
+					{ "time": 1.3333, "name": "ballena/agua_base3" },
+					{ "time": 1.4, "name": "ballena/agua_base4" },
+					{ "time": 1.4666, "name": "ballena/agua_base5" },
+					{ "time": 1.5333, "name": "ballena/agua_base6" },
+					{ "time": 1.6, "name": "ballena/agua_base1" },
+					{ "time": 1.6666, "name": "ballena/agua_base2" },
+					{ "time": 1.7333, "name": "ballena/agua_base3" },
+					{ "time": 1.8, "name": "ballena/agua_base4" },
+					{ "time": 1.8666, "name": "ballena/agua_base5" },
+					{ "time": 1.9333, "name": "ballena/agua_base6" },
+					{ "time": 2, "name": "ballena/agua_base1" }
+				]
+			},
+			"ballena/attack/whale-attack_0": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ballena/stand/whale-stand_0": {
+				"attachment": [
+					{ "time": 0, "name": "ballena/stand/whale-stand_0" },
+					{ "time": 0.0666, "name": "ballena/stand/whale-stand_1" },
+					{ "time": 0.1333, "name": "ballena/stand/whale-stand_2" },
+					{ "time": 0.2, "name": "ballena/stand/whale-stand_3" },
+					{ "time": 0.2666, "name": "ballena/stand/whale-stand_4" },
+					{ "time": 0.3333, "name": "ballena/stand/whale-stand_5" },
+					{ "time": 0.4, "name": "ballena/stand/whale-stand_6" },
+					{ "time": 0.4666, "name": "ballena/stand/whale-stand_7" },
+					{ "time": 0.5333, "name": "ballena/stand/whale-stand_8" },
+					{ "time": 0.6, "name": "ballena/stand/whale-stand_9" },
+					{ "time": 0.6666, "name": "ballena/stand/whale-stand_10" },
+					{ "time": 0.7333, "name": "ballena/stand/whale-stand_11" },
+					{ "time": 0.8, "name": "ballena/stand/whale-stand_12" },
+					{ "time": 0.8666, "name": "ballena/stand/whale-stand_13" },
+					{ "time": 0.9333, "name": "ballena/stand/whale-stand_14" },
+					{ "time": 1, "name": "ballena/stand/whale-stand_15" },
+					{ "time": 1.0666, "name": "ballena/stand/whale-stand_16" },
+					{ "time": 1.1333, "name": "ballena/stand/whale-stand_17" },
+					{ "time": 1.2, "name": "ballena/stand/whale-stand_18" },
+					{ "time": 1.2666, "name": "ballena/stand/whale-stand_19" },
+					{ "time": 1.3333, "name": "ballena/stand/whale-stand_20" },
+					{ "time": 1.4, "name": "ballena/stand/whale-stand_21" },
+					{ "time": 1.4666, "name": "ballena/stand/whale-stand_22" },
+					{ "time": 1.5333, "name": "ballena/stand/whale-stand_23" },
+					{ "time": 1.6, "name": "ballena/stand/whale-stand_24" },
+					{ "time": 1.6666, "name": "ballena/stand/whale-stand_25" },
+					{ "time": 1.7333, "name": "ballena/stand/whale-stand_26" },
+					{ "time": 1.8, "name": "ballena/stand/whale-stand_27" },
+					{ "time": 1.8666, "name": "ballena/stand/whale-stand_28" },
+					{ "time": 1.9333, "name": "ballena/stand/whale-stand_29" },
+					{ "time": 2, "name": "ballena/stand/whale-stand_30" }
+				]
+			},
+			"ballena/water_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,190 @@
+{
+"skeleton": {
+	"hash": "CZ4Hn6XVSKAnjiy+btI7V496bfA",
+	"spine": "2.1.27",
+	"width": 147,
+	"height": 112.2,
+	"images": "./../../PNG/Anim_obstaculos/dron/"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "dron", "parent": "root", "x": -2.84, "y": 6.57 }
+],
+"slots": [
+	{ "name": "dron", "bone": "dron", "attachment": "dron" },
+	{ "name": "helice_1", "bone": "dron", "attachment": "helice_4" },
+	{ "name": "elect1", "bone": "dron", "attachment": "elect5" }
+],
+"skins": {
+	"default": {
+		"dron": {
+			"dron": { "x": 2.84, "y": -6.57, "width": 191, "height": 76 }
+		},
+		"elect1": {
+			"elect1": { "x": 0.62, "y": 1.05, "width": 245, "height": 187 },
+			"elect2": { "x": 0.63, "y": 1.05, "width": 245, "height": 187 },
+			"elect3": { "x": 0.63, "y": 1.05, "width": 245, "height": 187 },
+			"elect4": { "x": 0.63, "y": 1.05, "width": 245, "height": 187 },
+			"elect5": { "x": 0.63, "y": 1.05, "width": 245, "height": 187 }
+		},
+		"helice_1": {
+			"helice_1": { "x": 2.34, "y": -2.39, "width": 184, "height": 60 },
+			"helice_2": { "x": 2.34, "y": -2.4, "width": 184, "height": 60 },
+			"helice_3": { "x": 2.34, "y": -2.4, "width": 184, "height": 60 },
+			"helice_4": { "x": 2.34, "y": -2.4, "width": 184, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"out": {
+		"slots": {
+			"elect1": {
+				"attachment": [
+					{ "time": 0, "name": "elect1" },
+					{ "time": 0.0666, "name": "elect2" },
+					{ "time": 0.1333, "name": "elect3" },
+					{ "time": 0.2, "name": "elect4" },
+					{ "time": 0.2666, "name": "elect5" },
+					{ "time": 0.3333, "name": "elect1" },
+					{ "time": 0.4, "name": "elect2" },
+					{ "time": 0.4666, "name": "elect3" },
+					{ "time": 0.5333, "name": "elect4" },
+					{ "time": 0.6, "name": "elect5" },
+					{ "time": 0.6666, "name": "elect1" },
+					{ "time": 0.7333, "name": "elect2" },
+					{ "time": 0.8, "name": "elect3" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"helice_1": {
+				"attachment": [
+					{ "time": 0, "name": "helice_1" },
+					{ "time": 0.0666, "name": "helice_2" },
+					{ "time": 0.1333, "name": "helice_3" },
+					{ "time": 0.2, "name": "helice_4" },
+					{ "time": 0.2666, "name": "helice_1" },
+					{ "time": 0.3333, "name": "helice_2" },
+					{ "time": 0.4, "name": "helice_3" },
+					{ "time": 0.4666, "name": "helice_4" },
+					{ "time": 0.5333, "name": "helice_1" },
+					{ "time": 0.6, "name": "helice_2" },
+					{ "time": 0.6666, "name": "helice_3" },
+					{ "time": 0.7333, "name": "helice_4" },
+					{ "time": 0.8, "name": "helice_1" }
+				]
+			}
+		},
+		"bones": {
+			"dron": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 11.84 },
+					{ "time": 0.5333, "angle": -0.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"stand": {
+		"slots": {
+			"elect1": {
+				"attachment": [
+					{ "time": 0, "name": "elect1" },
+					{ "time": 0.0666, "name": "elect2" },
+					{ "time": 0.1333, "name": "elect3" },
+					{ "time": 0.2, "name": "elect4" },
+					{ "time": 0.2666, "name": "elect5" },
+					{ "time": 0.3333, "name": "elect1" },
+					{ "time": 0.4, "name": "elect2" },
+					{ "time": 0.4666, "name": "elect3" },
+					{ "time": 0.5333, "name": "elect4" },
+					{ "time": 0.6, "name": "elect5" },
+					{ "time": 0.6666, "name": "elect1" },
+					{ "time": 0.7333, "name": "elect2" },
+					{ "time": 0.8, "name": "elect3" },
+					{ "time": 0.8666, "name": "elect4" },
+					{ "time": 0.9333, "name": "elect5" },
+					{ "time": 1, "name": "elect1" },
+					{ "time": 1.0666, "name": "elect2" },
+					{ "time": 1.1333, "name": "elect3" },
+					{ "time": 1.2, "name": "elect4" },
+					{ "time": 1.2666, "name": "elect5" },
+					{ "time": 1.3333, "name": "elect1" },
+					{ "time": 1.4, "name": "elect2" },
+					{ "time": 1.4666, "name": "elect3" },
+					{ "time": 1.5333, "name": "elect4" },
+					{ "time": 1.6, "name": "elect5" },
+					{ "time": 1.6666, "name": "elect1" },
+					{ "time": 1.7333, "name": "elect2" },
+					{ "time": 1.8, "name": "elect3" },
+					{ "time": 1.8666, "name": "elect4" },
+					{ "time": 1.9333, "name": "elect5" },
+					{ "time": 2, "name": "elect1" },
+					{ "time": 2.0666, "name": "elect2" },
+					{ "time": 2.1333, "name": "elect3" },
+					{ "time": 2.2, "name": "elect4" },
+					{ "time": 2.2666, "name": "elect5" },
+					{ "time": 2.3333, "name": "elect1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"helice_1": {
+				"attachment": [
+					{ "time": 0, "name": "helice_1" },
+					{ "time": 0.0666, "name": "helice_2" },
+					{ "time": 0.1333, "name": "helice_3" },
+					{ "time": 0.2, "name": "helice_4" },
+					{ "time": 0.2666, "name": "helice_1" },
+					{ "time": 0.3333, "name": "helice_2" },
+					{ "time": 0.4, "name": "helice_3" },
+					{ "time": 0.4666, "name": "helice_4" },
+					{ "time": 0.5333, "name": "helice_1" },
+					{ "time": 0.6, "name": "helice_2" },
+					{ "time": 0.6666, "name": "helice_3" },
+					{ "time": 0.7333, "name": "helice_4" },
+					{ "time": 0.8, "name": "helice_1" },
+					{ "time": 0.8666, "name": "helice_2" },
+					{ "time": 0.9333, "name": "helice_3" },
+					{ "time": 1, "name": "helice_4" },
+					{ "time": 1.0666, "name": "helice_1" },
+					{ "time": 1.1333, "name": "helice_2" },
+					{ "time": 1.2, "name": "helice_3" },
+					{ "time": 1.2666, "name": "helice_4" },
+					{ "time": 1.3333, "name": "helice_1" },
+					{ "time": 1.4, "name": "helice_2" },
+					{ "time": 1.4666, "name": "helice_3" },
+					{ "time": 1.5333, "name": "helice_4" },
+					{ "time": 1.6, "name": "helice_1" },
+					{ "time": 1.6666, "name": "helice_2" },
+					{ "time": 1.7333, "name": "helice_3" },
+					{ "time": 1.8, "name": "helice_4" },
+					{ "time": 1.8666, "name": "helice_1" },
+					{ "time": 1.9333, "name": "helice_2" },
+					{ "time": 2, "name": "helice_3" },
+					{ "time": 2.0666, "name": "helice_4" },
+					{ "time": 2.1333, "name": "helice_1" },
+					{ "time": 2.2, "name": "helice_2" },
+					{ "time": 2.2666, "name": "helice_3" },
+					{ "time": 2.3333, "name": "helice_4" }
+				]
+			}
+		},
+		"bones": {
+			"dron": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.0666, "x": 0, "y": -8.72 },
+					{ "time": 2.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,189 @@
+{
+"skeleton": {
+	"hash": "YyUek/20P5ZpUzrrCP2WPoJU4Nw",
+	"spine": "2.1.27",
+	"width": 193.2,
+	"height": 51.8,
+	"images": "./../../PNG/Anim_obstaculos/"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "body_stand", "parent": "root", "x": 3.93, "y": -10.62 }
+],
+"slots": [
+	{ "name": "cocodrilo/attack/crocodile-attack_1", "bone": "root" },
+	{ "name": "cocodrilo/attack/crocodile-attack_2", "bone": "body_stand" },
+	{ "name": "cocodrilo/agua_base1", "bone": "root", "attachment": "cocodrilo/agua_base9" },
+	{ "name": "cocodrilo/agua-cocodrilo1", "bone": "root", "attachment": "cocodrilo/agua-cocodrilo1" },
+	{ "name": "cocodrilo/attack/crocodile-attack_0", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"cocodrilo/agua-cocodrilo1": {
+			"cocodrilo/agua-cocodrilo1": { "x": 10.49, "y": -26.27, "width": 276, "height": 74 },
+			"cocodrilo/agua-cocodrilo2": { "x": 10.5, "y": -24.32, "width": 276, "height": 74 },
+			"cocodrilo/agua-cocodrilo3": { "x": 15.84, "y": -26.27, "width": 276, "height": 74 }
+		},
+		"cocodrilo/agua_base1": {
+			"cocodrilo/agua_base1": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base2": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base3": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base4": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base5": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base6": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base7": { "x": -0.77, "y": -7.62, "width": 215, "height": 58 },
+			"cocodrilo/agua_base8": { "x": -39.56, "y": -12.65, "rotation": 2.73, "width": 111, "height": 9 },
+			"cocodrilo/agua_base9": { "x": -47.29, "y": -11.89, "rotation": 3.58, "width": 111, "height": 9 }
+		},
+		"cocodrilo/attack/crocodile-attack_1": {
+			"cocodrilo/attack/crocodile-attack_0": { "x": 4.26, "y": 40.04, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_1": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_2": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_3": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_4": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_5": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_6": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_7": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_8": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_9": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_10": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 },
+			"cocodrilo/attack/crocodile-attack_11": { "x": 4.27, "y": 40.05, "width": 240, "height": 108 }
+		},
+		"cocodrilo/attack/crocodile-attack_2": {
+			"cocodrilo/attack/crocodile-attack_0": { "x": 0.33, "y": 50.67, "width": 240, "height": 108 }
+		}
+	}
+},
+"events": {
+	"attack": {}
+},
+"animations": {
+	"attack": {
+		"slots": {
+			"cocodrilo/agua-cocodrilo1": {
+				"attachment": [
+					{ "time": 0, "name": "cocodrilo/agua-cocodrilo1" },
+					{ "time": 0.0666, "name": "cocodrilo/agua-cocodrilo2" },
+					{ "time": 0.1, "name": null }
+				]
+			},
+			"cocodrilo/agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1, "name": "cocodrilo/agua_base2" },
+					{ "time": 0.2, "name": "cocodrilo/agua_base3" },
+					{ "time": 0.3, "name": "cocodrilo/agua_base4" },
+					{ "time": 0.4, "name": "cocodrilo/agua_base5" },
+					{ "time": 0.4666, "name": "cocodrilo/agua_base6" },
+					{ "time": 0.5333, "name": "cocodrilo/agua_base7" },
+					{ "time": 0.6333, "name": "cocodrilo/agua_base1" },
+					{ "time": 0.6666, "name": "cocodrilo/agua_base8" },
+					{ "time": 0.7666, "name": "cocodrilo/agua_base9" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"cocodrilo/attack/crocodile-attack_1": {
+				"attachment": [
+					{ "time": 0, "name": "cocodrilo/attack/crocodile-attack_0" },
+					{ "time": 0.0666, "name": "cocodrilo/attack/crocodile-attack_1" },
+					{ "time": 0.1333, "name": "cocodrilo/attack/crocodile-attack_2" },
+					{ "time": 0.2, "name": "cocodrilo/attack/crocodile-attack_3" },
+					{ "time": 0.2666, "name": "cocodrilo/attack/crocodile-attack_4" },
+					{ "time": 0.3333, "name": "cocodrilo/attack/crocodile-attack_5" },
+					{ "time": 0.4, "name": "cocodrilo/attack/crocodile-attack_6" },
+					{ "time": 0.4666, "name": "cocodrilo/attack/crocodile-attack_7" },
+					{ "time": 0.5333, "name": "cocodrilo/attack/crocodile-attack_8" },
+					{ "time": 0.6, "name": "cocodrilo/attack/crocodile-attack_9" },
+					{ "time": 0.6666, "name": "cocodrilo/attack/crocodile-attack_10" },
+					{ "time": 0.7333, "name": "cocodrilo/attack/crocodile-attack_11" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "attack" }
+		]
+	},
+	"stand": {
+		"slots": {
+			"cocodrilo/agua-cocodrilo1": {
+				"attachment": [
+					{ "time": 0, "name": "cocodrilo/agua-cocodrilo1" },
+					{ "time": 0.1333, "name": "cocodrilo/agua-cocodrilo2" },
+					{ "time": 0.2666, "name": "cocodrilo/agua-cocodrilo3" },
+					{ "time": 0.4, "name": "cocodrilo/agua-cocodrilo1" },
+					{ "time": 0.5333, "name": "cocodrilo/agua-cocodrilo2" },
+					{ "time": 0.6666, "name": "cocodrilo/agua-cocodrilo3" },
+					{ "time": 0.8, "name": "cocodrilo/agua-cocodrilo1" },
+					{ "time": 0.9333, "name": "cocodrilo/agua-cocodrilo2" },
+					{ "time": 1.0666, "name": "cocodrilo/agua-cocodrilo3" },
+					{ "time": 1.1666, "name": "cocodrilo/agua-cocodrilo1" }
+				]
+			},
+			"cocodrilo/agua_base1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cocodrilo/attack/crocodile-attack_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cocodrilo/attack/crocodile-attack_2": {
+				"attachment": [
+					{ "time": 0, "name": "cocodrilo/attack/crocodile-attack_0" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"body_stand": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": 0.54, "y": -2.72 },
+					{ "time": 1.1666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

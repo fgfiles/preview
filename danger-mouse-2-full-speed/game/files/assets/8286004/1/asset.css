@@ -1,0 +1,155 @@
+.pauseOverlay {
+    position                : absolute;
+    height                  : 100vh;
+    width                   : 100vw;
+
+    background              : url([background-img-pause]) no-repeat center center fixed;
+    background-size         : cover;
+
+    font-family             : 'Rubik', sans-serif;
+
+    -webkit-background-size : cover;
+    -moz-background-size    : cover;
+    -o-background-size      : cover;   
+    
+    pointer-events : auto;
+}
+
+.pauseOverlay .header {
+    position    : relative;
+    top         : 3vh;
+    height      : 32px;
+    width       : 256px;
+    margin      : auto;
+
+    text-align     : center;
+    font-size      : 28px;
+    color          : white;
+    font-family    : 'Rubik', sans-serif;
+    
+    background : url([background-title]) center no-repeat;
+}
+
+.pauseOverlay .centerPanel {
+    position : absolute;
+    width    : 220px;
+    height   : 90px;
+    left     : 50%;
+    top      : 50%;
+    margin   : -45px 0 0 -110px;
+}    
+
+/* Pause Restart Button */
+
+.pauseOverlay .restart {
+    position       : absolute;
+    width          : 50px;
+    height         : 50px;
+    top            : 50%;
+    left           : 0px;
+    margin-top     : -25px;
+    
+    background      : url([button-img-restart]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .restart:hover, .pauseOverlay .restart:focus {
+    position       : absolute;
+    width          : 50px;
+    height         : 50px;
+    top            : 50%;
+    left           : 0px;
+    margin-top     : -25px;
+    
+    background     : url([button-img-restart:hover]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .restart:active {
+    position       : absolute;
+    width          : 50px;
+    height         : 50px;
+    top            : 50%;
+    left           : 0px;
+    margin-top     : -25px;
+    
+    background      : url([button-img-restart:pressed]) no-repeat;
+    background-size : 100%;
+}
+
+/* Pause Resume Button */
+
+.pauseOverlay .resume {
+    position : absolute;
+    width    : 90px;
+    height   : 90px;
+    top      : 50%;
+    right    : 50%;
+    margin   : -45px;
+    
+    background      : url([button-img-resume]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .resume:hover, .pauseOverlay .resume:focus {
+    position : absolute;
+    width    : 90px;
+    height   : 90px;
+    top      : 50%;
+    right    : 50%;
+    margin   : -45px;
+    
+    background      : url([button-img-resume:hover]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .resume:active {
+    position : absolute;
+    width    : 90px;
+    height   : 90px;
+    top      : 50%;
+    right    : 50%;
+    margin   : -45px;
+    
+    background      : url([button-img-resume:pressed]) no-repeat;
+    background-size : 100%;
+}
+
+/* Pause Level Select Button */
+
+.pauseOverlay .levelSelect {
+    position   : absolute;
+    width      : 50px;
+    height     : 50px;
+    top        : 50%;
+    right      : 0px;
+    margin-top : -25px;
+    
+    background      : url([button-img-levelSelect]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .levelSelect:hover, .pauseOverlay .levelSelect:focus {
+    position   : absolute;
+    width      : 50px;
+    height     : 50px;
+    top        : 50%;
+    right      : 0px;
+    margin-top : -25px;
+    
+    background      : url([button-img-levelSelect:hover]) no-repeat;
+    background-size : 100%;
+}
+
+.pauseOverlay .levelSelect:active {
+    position   : absolute;
+    width      : 50px;
+    height     : 50px;
+    top        : 50%;
+    right      : 0px;
+    margin-top : -25px;
+    
+    background      : url([button-img-levelSelect:pressed]) no-repeat;
+    background-size : 100%;
+}
+

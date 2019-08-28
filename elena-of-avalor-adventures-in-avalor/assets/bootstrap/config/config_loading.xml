@@ -1,0 +1,92 @@
+<config>
+
+	<!-- CHUNKS -->
+    <!-- Define bundles of folders and other chunks to load -->
+    
+    <chunks>
+    	<!-- EX
+    	<chunk id="chunk">
+			<pack>load_part_1</pack> - loads a folder in assets named "load_part_1"
+			<pack>load_part_2</pack> - loads a folder in assets named "load_part_2"
+			<chunk>other_chunk</chunk> - loads another chunk named "other_chunk" which will have its own list of folders in assets
+		</chunk>
+    	-->
+    	
+    	<chunk id="preload">
+    		<pack>preload</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_sd">
+    		<pack>initial_universal</pack>
+    		<pack>dress_up_icons</pack> 
+    	</chunk>
+    	
+    	<chunk id="initial_hd">
+    		<pack>initial_universal</pack>
+    		<pack>dress_up_icons</pack> 	
+    	</chunk>
+    	
+    	<chunk id="initial_audio_optional">
+    		<chunk>initial_audio_required</chunk>
+    		<pack>initial_audio_optional</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_audio_required">
+    		<pack>initial_audio_required</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_sd">
+    		<pack>gameplay_universal</pack>
+    		<pack>gameplay_sd</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_hd">
+    		<pack>gameplay_universal</pack>
+    		<pack>gameplay_hd</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_audio_optional">
+    		<chunk>gameplay_audio_required</chunk>
+    		<pack>gameplay_audio_optional</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_audio_required">
+    		<pack>gameplay_audio_required</pack>
+    	</chunk>
+    	
+    	<chunk id="dress_up">
+    		<pack>dress_up</pack>
+    		<pack>dress_up_audio</pack>
+    		<pack>elena</pack>
+    	</chunk>
+    	    	
+    	<chunk id="flying">
+    		<pack>gameplay_audio_flying</pack>
+    		<pack>gameplay_flying</pack>
+    	</chunk>
+    	
+		<chunk id="duende">
+    		<pack>duende</pack>
+    		<pack>duende_audio</pack>   	
+    	</chunk>
+    	
+    	<chunk id="mazeone">
+    		<pack>mazeone</pack>
+    		<pack>mazeuniversal_audio</pack>
+    		<pack>mazeuniversal</pack>
+    	</chunk>
+    	
+    	<chunk id="mazetwo">
+    		<pack>mazetwo</pack>
+    		<pack>mazeuniversal_audio</pack>
+    		<pack>mazeuniversal</pack>
+    	</chunk>
+    	
+    	<chunk id="cutscenes">
+    		<pack>map</pack>
+    		<pack>cutscenes</pack>
+    	</chunk>
+
+        <!-- END OF CHUNKS -->
+    </chunks>	
+</config>

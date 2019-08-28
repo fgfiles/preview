@@ -1,0 +1,123 @@
+{
+"skeleton": { "hash": "Ul16kALZyvZrmistgwwgtSmkcKk", "spine": "2.1.27", "width": 543.29, "height": 483.29, "images": "../PNG/circulo_negro/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 21.81, "y": -145.26 },
+	{ "name": "bone2", "parent": "root", "x": 22.27, "y": -145.46 },
+	{ "name": "bone3", "parent": "root", "x": 22.38, "y": -144.87 }
+],
+"slots": [
+	{ "name": "circle", "bone": "bone", "attachment": "circle" },
+	{ "name": "circle2", "bone": "bone2", "attachment": "circle2" },
+	{ "name": "circle3", "bone": "bone3", "attachment": "circle" },
+	{ "name": "circle4", "bone": "root", "attachment": "circle" },
+	{ "name": "circle5", "bone": "root", "attachment": "circle" },
+	{ "name": "circle6", "bone": "root", "attachment": "circle2" }
+],
+"skins": {
+	"default": {
+		"circle": {
+			"circle": { "x": 2.17, "y": -1.92, "width": 435, "height": 435 }
+		},
+		"circle2": {
+			"circle2": { "x": -1.39, "y": -1.56, "width": 247, "height": 247 }
+		},
+		"circle3": {
+			"circle": { "x": -1.4, "y": -3.13, "width": 435, "height": 435 }
+		},
+		"circle4": {
+			"circle": { "x": 22, "y": -147.91, "width": 435, "height": 435 }
+		},
+		"circle5": {
+			"circle": { "x": 129.27, "y": -99.7, "width": 435, "height": 435 }
+		},
+		"circle6": {
+			"circle2": { "x": 23.19, "y": -145.57, "scaleX": 1.063, "scaleY": 1.063, "width": 247, "height": 247 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"circle": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "circle" }
+				]
+			},
+			"circle2": {
+				"attachment": [
+					{ "time": 0.2666, "name": "circle2" },
+					{ "time": 0.3, "name": "circle2" }
+				]
+			},
+			"circle3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "circle" }
+				]
+			},
+			"circle4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.5, "name": "circle" }
+				]
+			},
+			"circle5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5, "name": "circle" }
+				]
+			},
+			"circle6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": "circle2" },
+					{ "time": 0.2333, "name": "circle2" },
+					{ "time": 0.2666, "name": "circle2" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2666, "x": 0, "y": -1.2 },
+					{ "time": 0.5, "x": 0, "y": 0.09 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.74 },
+					{ "time": 0.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.07, "y": 2.07 },
+					{ "time": 0.2666, "x": 0.641, "y": 0.641 },
+					{ "time": 0.5, "x": 0.978, "y": 0.978 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 0.207, "y": 0.207 }
+				]
+			}
+		}
+	}
+}
+}

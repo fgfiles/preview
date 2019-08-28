@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:5e841d65bd42bd937ab2c6dd0637147f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="opponent_idle.png" width="256" height="512">
+    <sprite n="idle-01.png" x="128" y="2" w="124" h="209" oX="78" oY="48" oW="250" oH="257"/>
+    <sprite n="idle-02.png" x="2" y="2" w="124" h="209" oX="78" oY="48" oW="250" oH="257"/>
+    <sprite n="idle-03.png" x="2" y="213" w="124" h="207" oX="77" oY="50" oW="250" oH="257"/>
+    <sprite n="idle-04.png" x="2" y="2" w="124" h="209" oX="78" oY="48" oW="250" oH="257"/>
+</TextureAtlas>

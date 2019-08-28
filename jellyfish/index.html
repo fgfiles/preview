@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jellyfish - HTML5 Underwater Game</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    <!-- CSS StyleSheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="javascripts/src/test.js"></script>
+    <script type="text/javascript" src="javascripts/src/blit.js"></script>
+    <script type="text/javascript" src="javascripts/src/tick.js"></script>
+    <script type="text/javascript" src="javascripts/src/blort.js"></script>
+    <script type="text/javascript" src="javascripts/src/io.js"></script>
+    <script type="text/javascript" src="javascripts/src/entropy.js"></script>
+    <script type="text/javascript" src="javascripts/src/r2.js"></script>
+    <script type="text/javascript" src="javascripts/src/r3.js"></script>
+    <script type="text/javascript" src="javascripts/src/wgl.js"></script>
+    <script type="text/javascript" src="javascripts/src/blob.js"></script>
+    <script type="text/javascript" src="javascripts/src/improc.js"></script>
+    <script type="text/javascript" src="javascripts/src/blump.js"></script>
+    <script type="text/javascript" src="javascripts/src/blumpEdit.js"></script>
+    <script type="text/javascript" src="javascripts/src/main.js"></script>
+    <script type="text/javascript" src="src/fishtank.js"></script>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <canvas id="canvas3D" width="800" height="600">
+            Sorry, your browser doesn't support the &lt;canvas&gt; element.
+        </canvas>
+        <canvas class="score" id="score" width="80" height="60">
+        </canvas>
+        <div class="overlay" id="overlay">
+            <div class="centeredHigh" id="title">
+                <img src="images/title.png" alt="Title: Jelly Jelly">
+            </div>
+
+            <div class="centeredLow" id="loading">
+                <img src="images/loading.png" alt="Loading">
+            </div>
+            <div class="centeredLow hidden" id="instructions">
+                <img src="images/instructions.png" alt="Instructions">
+            </div>
+            <div class="bottomCenter" id="credits">
+                <img src="images/credits.png" alt="Credits">
+            </div>
+        </div>
+        <div class="win hidden" id="win">
+            <img src="images/win.png" alt="You Win">
+        </div>
+    </div>
+    <div class="controls hidden" id="controls">
+        <div class="menuBorder">
+            <div class="menuToggle">
+                <a href="javascript:void(0)" id="menuButton">
+                    <div class="hamburger"></div>
+                </a>
+            </div>
+        </div>
+        <form>
+            <div>
+                <div class="slider">
+                    <div class="beside">Gravity:</div>
+                    <input type="number" class="linearValue" id="valueGravity">
+                    <input id="sliderGravity" class="linearSlider" type="range" min="0.01" max="200" step="0.01">
+                </div>
+                <div class="slider">
+                    <div class="beside">Velocity:</div>
+                    <input type="number" class="linearValue" id="valueVelocity">
+                    <input id="sliderVelocity" class="linearSlider" type="range" min="0.01" max="200" step="0.01">
+                </div>
+                <div class="slider">
+                    <div class="beside">Drag:</div>
+                    <input type="number" class="linearValue" id="valueDrag">
+                    <input id="sliderDrag" class="linearSlider" type="range" min="0.01" max="200" step="0.01">
+                </div>
+                <div>
+                    <span>
+                                Obstacles:
+                                <select name="select" id="selectObstacle">
+                                </select>
+                            </span>
+                    <div class="slider">
+                        <div class="beside">Angle:</div>
+                        <input type="number" class="angleValue" id="valueAngle">
+                        <input class="angleSlider" id="sliderAngle" type="range" min="-180" max="180" value="0">
+                    </div>
+                    <div class="slider">
+                        <div class="beside">Height:</div>
+                        <input type="number" class="linearValue" id="valueHeight">
+                        <input class="linearSlider" id="sliderHeight" type="range" min="-0.05" max="8" step="0.001" value="0">
+                    </div>
+                </div>
+            </div>
+            <button id="buttonClipboard" type="button">Copy To Clipboard</button>
+            <button id="buttonEdit" type="button">Toggle Edit Mode</button>
+        </form>
+        <textarea id="textData" rows="10" cols="34"></textarea>
+    </div>
+    </div>
+    <script id="vertex-test" type="x-shader/x-vertex">
+        attribute vec3 aPos; attribute vec2 aUV; attribute vec4 aColor; uniform mat4 uMVPMatrix; varying highp vec2 vUV; varying lowp vec4 vColor; void main(void) { gl_Position = uMVPMatrix * vec4(aPos, 1.0); vUV = aUV; vColor = aColor; }
+    </script>
+    <script id="fragment-test" type="x-shader/x-fragment">
+        varying highp vec2 vUV; varying lowp vec4 vColor; uniform sampler2D uSampler; uniform lowp vec4 uTint; void main(void) { mediump vec4 texel = texture2D(uSampler, vec2(vUV.s, vUV.t)) * vColor; texel = vec4(uTint.rgb + texel.rgb * (1.0-uTint.a), texel.a); gl_FragColor = texel; }
+    </script>
+</body>
+
+</html>

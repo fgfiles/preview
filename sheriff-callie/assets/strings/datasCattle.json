@@ -1,0 +1,276 @@
+{
+    "decors" : [
+        {
+            "layer": 20,
+            "position": {"x":-10,"y":460},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "l_bldng_01.png",
+            "amplitude": 250,
+            "scale": 1,
+            "test": true
+        },
+        {
+            "layer": 30,
+            "position": {"x":335,"y":410},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "l_bldng_02.png",
+            "amplitude": 180,
+            "scale": 1
+        },
+        {
+            "layer": 40,
+            "position": {"x":410,"y":455},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "l_bldng_03.png",
+            "amplitude": 140,
+            "scale": 1
+        },
+         {
+            "layer": 10,
+            "position": {"x":1765,"y":566},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "r_bldng_01.png",
+            "amplitude": 250,
+            "scale": 1
+        },
+        {
+            "layer": 20,
+            "position": {"x":1091,"y":471},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "r_bldng_02.png",
+            "amplitude": 250,
+            "scale": 1
+        },
+        {
+            "layer": 30,
+            "position": {"x":775,"y":429},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "r_bldng_03.png",
+            "amplitude": 180,
+            "scale": 1
+        },
+        {
+            "layer": 40,
+            "position": {"x":680,"y":445},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "r_bldng_04.png",
+            "amplitude": 140,
+            "scale": 1
+        },
+        {
+            "layer": 40,
+            "position": {"x":635, "y":430},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "bldng_townhall.png",
+            "amplitude": 70,
+            "scale": 1
+        },
+        {
+            "layer": 30,
+            "position": {"x":2100,"y":480},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "Shed.png",
+            "amplitude": 180,
+            "scale": 1.4
+        },
+        { 
+            "info": "the anchor.y is 1 thats why the postion.y is a little bit higher, because the wind = true",
+            "layer": 0,
+            "position": {"x":3600,"y":555},
+            "startSpeed": 0,
+            "endSpeed": 1130,
+            "image": "cactus.png",
+            "amplitude": 100,
+            "scale": 0.8,
+            "wind": true
+        },
+        { 
+            "info": "the anchor.y is 1 thats why the postion.y is a little bit higher, because the wind = true",
+            "layer": 0,
+            "position": {"x":2800,"y":715},
+            "startSpeed": 0,
+            "endSpeed": 1130,
+            "image": "cactus.png",
+            "amplitude": 0,
+            "scale": -1.6,
+            "wind": true
+        },
+        { 
+            "layer": 20,
+            "position": {"x":1700,"y":425},
+            "startSpeed": 0,
+            "endSpeed": 1130,
+            "image": "tree.png",
+            "amplitude": 90,
+            "scale": 0.1
+        },
+        { 
+            "info": "the anchor.y is 1 thats why the postion.y is a little bit higher, because the wind = true",
+            "layer": 20,
+            "position": {"x":-2100,"y":520},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "bush.png",
+            "amplitude": 0,
+            "scale": 0.3,
+            "wind": true
+        },
+        { 
+            "info": "the anchor.y is 1 thats why the postion.y is a little bit higher, because the wind = true",
+            "layer": 20,
+            "position": {"x": -3000,"y":525},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "bush.png",
+            "amplitude": 100,
+            "scale": 0.4,
+            "wind": true
+        },
+        { 
+            "layer": 20,
+            "position": {"x": -3400,"y":525},
+            "startSpeed": 0,
+            "endSpeed": 1136,
+            "image": "tree.png",
+            "amplitude": 80,
+            "scale": 0.6
+        },
+        { 
+            "layer": 20,
+            "position": {"x":-800,"y":545},
+            "startSpeed": 0,
+            "endSpeed": 1130,
+            "image": "tree.png",
+            "amplitude": 90,
+            "scale": 0.6
+        },
+        { 
+            "info": "the anchor.y is 1 thats why the postion.y is a little bit higher, because the wind = true",
+            "layer": 30,
+            "position": {"x":4000,"y":655},
+            "startSpeed": 0,
+            "endSpeed": 1130,
+            "image": "bush.png",
+            "amplitude": 0,
+            "scale": 0.6,
+            "wind": true
+        }
+         
+        ],
+    "spots" : [
+        {
+            "IMPORTANT NOTES" : "/***** cow statesEnabled: { doesntCare:0, needsToWalk:1, eats:2 } *****/",
+            "position": {"x":300,"y":575},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_blue.png",
+            "layer": 20,
+            "scale": 0.3,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "position": {"x":525,"y":500},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_white.png",
+            "layer": 30,
+            "scale": 0.2,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "info": "cow well hidden behind the cactus",
+            "position": {"x":2700,"y":580},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_brown.png",
+            "layer": 10,
+            "scale": 0.9,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "position": {"x":-2100,"y":470},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_brown.png",
+            "layer": 30,
+            "scale": -0.3,
+            "amplitude": 10,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "position": {"x":-3000,"y":470},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_blue.png",
+            "layer": 20,
+            "scale": 0.3,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "position": {"x":-760,"y":500},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_white.png",
+            "layer": 20,
+            "scale": -0.6,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "info": "cow behind the ched",
+            "position": {"x":2140,"y":510},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_white.png",
+            "layer": 40,
+            "scale": -0.25,
+            "amplitude": 100,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        },
+        {
+            "position": {"x":4050,"y":545},
+            "startSpeed": 0,
+            "endSpeed": 1100,
+            "sprite": "cow_white.png",
+            "layer": 40,
+            "scale": -0.5,
+            "amplitude": 0,
+            "statesEnabled": [0, 2],
+            "occupied": false
+        }
+    ],
+    "tumbleweeds" : [
+        {
+            "position": {"x":600,"y":700},
+            "layer": 0,
+            "scale": 1.2,
+            "speedDecrease": 1
+        },
+        {
+            "position": {"x":-2500,"y":470},
+            "layer": 50,
+            "scale": 0.4,
+            "speedDecrease": 0.2
+        }
+    ]
+}

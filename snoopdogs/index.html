@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Snoop Dogs | HTML5 Game</title>
+    <meta name="description" content="Hurry up! You just have a few seconds to snoop on dogs in this fast-paced arcade game. Yes, this is yet another ridiculous idea by Forestry Games.">
+    <link rel="icon" href="assets/images/favicon-3e57ff68fd.ico" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/modernizr-137b55a64c.js"></script>
+    <script>
+        dataLayer = [];
+  </script>
+</head>
+
+<body data-game-state="game-loading">
+    <main class="site-wrapper" role="main">
+        <article class="site-container" template="game">
+            <!-- Cursor -->
+            <span class="cursor"></span>
+            <div class="game-tutorial-image game-tutorial-image-1"></div>
+            <div class="game-tutorial-image game-tutorial-image-2"></div>
+            <!-- Game UI -->
+            <section class="game-ui">
+                <!-- Game Logo -->
+                <p class="game-ui-logo game-ui-element"><img src="assets/images/logo@2x-1247d6e06f.png" alt="Snoop Dogs"></p>
+                <!-- Sound Handler -->
+                <button class="game-ui-sound game-ui-element button js-game-sound">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- Game Tutorial -->
+                <!-- Game Found Marker -->
+                <p class="game-ui-marker game-ui-marker--found js-game-found-marker">
+                    <span class="game-ui-marker-circle">
+                        <span></span>
+                    </span>
+                    <span class="game-ui-marker-label">Snooped!</span>
+                </p>
+                <!-- Game Lost Heart Marker -->
+                <p class="game-ui-marker game-ui-marker--heart js-game-heart-marker">
+                    <span class="game-ui-marker-circle">
+                        <span>-1</span>
+                    </span>
+                    <span class="game-ui-marker-label">Oops!</span>
+                </p>
+                <!-- Game Alerts -->
+                <div class="game-ui-alert game-ui-alert--time js-alert-time">
+                    <span class="game-ui-alert-title">Hurry up!</span>
+                </div>
+                <div class="game-ui-alert game-ui-alert--light js-alert-light">
+                    <span class="game-ui-alert-title">
+                        <span class="for-desktop">Spacebar!</span>
+                        <span class="for-touch">Shake!</span>
+                    </span>
+                    <span class="icon-spacebar for-desktop"></span>
+                    <span class="icon-shake for-touch"></span>
+                </div>
+                <!-- Game Footer -->
+                <div class="game-ui-footer game-ui-element">
+                    <div class="game-ui-target">
+                        <div class="game-ui-tutorial game-ui-target-tutorial">
+                            <span class="title">1.</span>
+                            <p>Well...most important: <br />Move your torch around,<br /><span class="yellow">Snoop on the dog with the hat and click on it.</span></p>
+                            <button class="button button--yellow js-tutorial-next">Next</button>
+                        </div>
+                        <div class="game-ui-target-image">
+                            <div class="js-game-target-avatar" data-dog-name="malamute"></div>
+                        </div>
+                        <div class="game-ui-target-info">
+                            <p class="game-ui-target-headline">Snooping on</p>
+                            <p class="game-ui-target-name js-game-target-name">Malamute</p>
+                        </div>
+                    </div>
+                    <div class="game-ui-light js-game-light">
+                        <div class="game-ui-tutorial game-ui-light-tutorial">
+                            <span class="title">2.</span>
+                            <p class="for-desktop"><span class="yellow">Press the spacebar repeatedly to charge your torch.</span> Beware : it automatically discharges, so...keep on pressing!</p>
+                            <p class="for-touch"><span class="yellow">Shake your device repeatedly to charge your torch.</span> Beware : it automatically discharges, so...keep on shaking!</p>
+                            <button class="button button--yellow js-tutorial-next">Next</button>
+                        </div>
+                        <span class="game-ui-light-icon"></span>
+                        <span class="game-ui-light-battery">
+                            <span class="game-ui-light-battery-progress js-game-battery"></span>
+                        </span>
+                    </div>
+                    <div class="game-ui-life js-game-life">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="game-ui-chrono">
+                        <div class="game-ui-tutorial game-ui-chrono-tutorial">
+                            <span class="title">3.</span>
+                            <p>Keep an eye on the timer, because once it reaches zero, you’ll be done for. <span class="yellow">The faster you do it, the more points you’ll earn.</span></p>
+                            <button class="button button--yellow js-game-start">Got it! Start Game!</button>
+                        </div>
+                        <p class="game-ui-chrono-level">Level <span class="js-game-level">1</span></p>
+                        <p class="game-ui-chrono-time js-game-time">00<sup>.00</sup></p>
+                    </div>
+                </div>
+            </section>
+            <!-- Game Intro -->
+            <section class="game-intro game-screen">
+                <div class="container">
+                    <!-- Dogstudio Logo -->
+                    <p class="game-intro-dogstudio"><a href="https://www.forestrygames.com" target="_blank"><img src="assets/images/forestrygames-logo.png" alt="Dogstudio"></a></p>
+                    <!-- Game Logo -->
+                    <h1 class="game-intro-title"><img src="assets/images/logo@2x-1247d6e06f.png" alt="Snoop Dogs"></h1>
+                    <div class="game-intro-cta-wrapper">
+                        <!-- Game Button -->
+                        <button class="game-intro-button button button--transparent button--transparent--big js-game-start">Start</button>
+                        <div class="game-intro-loader js-loader circle-counter">
+                            <span class="js-loading-value">0</span>
+                            <span class="js-loading-circle svg">
+                                <svg width="74" height="74">
+                                    <circle r="35" cx="50%" cy="50%" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="game-intro-allow-audio-wrapper js-audio-choice-wrapper">
+                            <p>Oops, your browser seems to need an authorization to play our amazing sound effects</p>
+                            <button type="button" class="button button--yellow js-audio-choice js-audio-enable">Allow audio</button>
+                            <button type="button" class="button button--transparent js-audio-choice js-audio-disable">No thanks</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Game Share -->
+                <div class="game-intro-share-wrapper share-wrapper">
+                    <button class="game-intro-share button button--transparent js-game-share">Share This</button>
+                    <span class="label for-touch">Share</span>
+                    <ul class="share-listing">
+                        <li>
+                            <button class="js-share-facebook" data-gtm-event="sharing-app" title="Share on Facebook" type="button" data-share-text="I just played on SnoopDogs : A fast-paced arcade game from @ForestyGames. Challenge me!">
+                                <span class="u-visually-hidden">Share on Facebook</span>
+                                <!--[if gte IE 9]><!-->
+                                <span class="svg" width="20" height="16">
+                                    <svg width="20" height="16" class="icon-facebook">
+                                        <use xlink:href="assets/spritesheet-40e9a8662d.svg#facebook"></use>
+                                    </svg>
+                                </span>
+                                <!--<![endif]-->
+                            </button>
+                        </li>
+                        <li>
+                            <button class="js-share-twitter" data-gtm-event="sharing-app" title="Share on Twitter" type="button" data-share-text="I just played on SnoopDogs : A fast-paced arcade game from @ForestyGames. Challenge me!">
+                                <span class="u-visually-hidden">Share on Twitter</span>
+                                <!--[if gte IE 9]><!-->
+                                <span class="svg" width="16" height="16">
+                                    <svg width="16" height="16" class="icon-twitter">
+                                        <use xlink:href="assets/spritesheet-40e9a8662d.svg#twitter"></use>
+                                    </svg>
+                                </span>
+                                <!--<![endif]-->
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Intro Dog -->
+                <img src="assets/images/home/dog@2x-5a1727b451.png" alt="" class="game-intro-dog">
+            </section>
+            <!-- Game Level -->
+            <section class="game-level game-screen">
+                <div class="container">
+                    <!-- Level Info -->
+                    <p class="game-level-value game-screen-appear game-screen-appear-1">Level <span class="js-game-level">1</span></p>
+                    <!-- Level Target Name -->
+                    <p class="game-level-title game-screen-appear game-screen-appear-2">Where is <span class="js-game-target-name">Malamute</span>?</p>
+                    <!-- Level Target Image -->
+                    <div class="game-level-image game-screen-appear game-screen-appear-3">
+                        <div class="js-game-target-image"></div>
+                    </div>
+                    <!-- Level Countdown -->
+                    <p class="game-level-countdown circle-counter game-screen-appear game-screen-appear-4">
+                        <span class="js-game-countdown-value">3</span>
+                        <span class="js-game-countdown-circle svg">
+                            <svg width="74" height="74">
+                                <circle r="35" cx="50%" cy="50%" />
+                            </svg>
+                        </span>
+                    </p>
+                </div>
+                <!-- Game Level Footer -->
+                <div class="game-level-footer">
+                    <div class="game-level-score">
+                        <p class="game-level-score-value js-game-score">0</p>
+                        <div class="game-level-score-info">
+                            <p class="game-level-score-win">Level complete: <strong class="js-game-score-level">0</strong></p>
+                            <p class="game-level-score-time">Time bonus: <strong class="js-game-score-time">0</strong></p>
+                        </div>
+                    </div>
+                    <div class="game-level-life game-ui-life js-game-life">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </section>
+            <!-- Game Over -->
+            <section class="game-over game-screen">
+                <div class="container">
+                    <header class="game-over-header">
+                        <!-- Dogstudio Logo -->
+                        <p class="game-over-dogstudio"><a href="https://www.forestrygames.com" target="_blank"><img src="assets/images/forestrygames-logo.png" alt="Dogstudio"></a></p>
+                        <!-- Game Logo -->
+                        <p class="game-over-title"><img src="assets/images/logo@2x-1247d6e06f.png" alt="Snoop Dogs"></p>
+                    </header>
+                    <!-- Game Final Score -->
+                    <div class="game-over-score">
+                        <p class="game-over-score-title game-screen-appear game-screen-appear-1">Final score</p>
+                        <p class="game-over-score-value js-game-score-final game-screen-appear game-screen-appear-2">0</p>
+                        <p class="game-over-score-level game-screen-appear game-screen-appear-3">Level <span class="js-game-level">1</span></p>
+                    </div>
+                    <!-- Game Over Actions -->
+                    <ul class="game-over-actions">
+                        <li class="game-screen-appear game-screen-appear-1"><button class="button button--transparent js-game-restart">Start New Game</button></li>
+                        <li class="share-wrapper game-screen-appear game-screen-appear-2">
+                            <!-- Game Share -->
+                            <button class="button button--transparent js-game-share">Share Your Score</button>
+                            <span class="label for-touch">Share</span>
+                            <ul class="share-listing">
+                                <li>
+                                    <button class="js-share-facebook js-score-share" data-gtm-event="sharing-score" title="Share your score on Facebook" type="button" data-share-text="I just scored on SnoopDogs : A fast-paced arcade game from @forestrygames. Challenge me!">
+                                        <span class="u-visually-hidden">Share on Facebook</span>
+                                        <!--[if gte IE 9]><!-->
+                                        <span class="svg" width="20" height="16">
+                                            <svg width="20" height="16" class="icon-facebook">
+                                                <use xlink:href="assets/spritesheet-40e9a8662d.svg#facebook"></use>
+                                            </svg>
+                                        </span>
+                                        <!--<![endif]-->
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="js-share-twitter js-score-share" data-gtm-event="sharing-score" title="Share your score on Twitter" type="button" data-share-text="I just scored on SnoopDogs : A fast-paced arcade game from @forestrygames. Challenge me!">
+                                        <span class="u-visually-hidden">Share on Twitter</span>
+                                        <!--[if gte IE 9]><!-->
+                                        <span class="svg" width="16" height="16">
+                                            <svg width="16" height="16" class="icon-twitter">
+                                                <use xlink:href="assets/spritesheet-40e9a8662d.svg#twitter"></use>
+                                            </svg>
+                                        </span>
+                                        <!--<![endif]-->
+                                    </button>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Game Over Dog -->
+                <div class="game-over-dog-wrapper">
+                    <div class="game-over-phylactery-1 game-screen-appear game-screen-appear-3"><span class="u-visually-hidden">Dogstudio wishes you...</span></div>
+                    <div class="game-over-phylactery-2 game-screen-appear game-screen-appear-4"><span class="u-visually-hidden">... A happy new year!</span></div>
+                    <div class="game-over-dog"></div>
+                </div>
+            </section>
+            <div class="portrait-only-disclaimer">
+                <span class="icon-rotate"></span>
+                <p>Please, rotate your device as this game can only be played in <strong>Portrait mode</strong></p>
+            </div>
+        </article>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

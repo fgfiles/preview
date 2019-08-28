@@ -1,0 +1,105 @@
+{
+  "configuration": {
+    "@name": "Stacky Stack",
+    "@contentlanguage": "en-US",
+    "@version": "1",
+    "experience": "stackystack",
+    "commonconfigurations": {
+      "likes": {
+        "endpoints": {
+          "postaction": "http://services.likes.lego.com/api/v1/likes"
+        }
+      },
+      "privacypolicy": {
+        "endpoints": {
+          "cookiepolicy": "http://lego.com/de-de/go/7/cookie",
+          "privacypolicy": "http://lego.com/de-de/go/7/privacy"
+        }
+      },
+      "legoid": {
+        "endpoints": {
+          "legoidconfiguration": "https://a248.e.akamai.net/cache.lego.com/r/account2/de-de/services/account/apiconfigservice.ashx",
+          "legoiddeletedaccountsfeed": "https://account2.lego.com/account/deletedusers/feed",
+          "legoidmyfriends": "https://wwwsecure.us.lego.com/de-de/myfriends",
+          "legoidmyfriendswebpage": "https://wwwsecure.us.lego.com/de-de/myfriends?context=app",
+          "legoidtoken": "https://account2.lego.com/account/v1/partnertoken"
+        }
+      },
+      "pmdgame": {
+        "endpoints": {
+          "state": "http://www.lego.com/stateservice/v1/xml?experience=stackystack"
+        }
+      }
+    },
+    "customvalues": {
+      "STR_PREVIEW_TEXT":"Next:",
+      "STR_ACHIEVEMENTS_TITLE":"Stuff to do",
+      "STR_GAME_TITLE":"Out of Step",
+      "STR_GAME_LEADERBOARD":"Leaderboard",
+      "STR_GAME_PAUSED":"Paused",
+      "STR_GAME_GAMEOVER":"Game Over!",
+      "STR_GAME_RESULTS":"RESULTS",
+      "STR_GAME_OBJECTIVES":"Stuff to do",
+      "STR_GAME_DISTANCE":"DISTANCE: ",
+      "STR_GAME_SCORE":"Score: ",
+      "STR_GAME_DISTANCE_UNIT":"cm",
+      "STR_LOADING_PERCENT":"%",
+
+
+
+      "STR_GOALS_ICON_MATCH_3": "x3",
+      "STR_GOALS_ICON_MATCH_5": "x5",
+      "STR_GOALS_ICON_MATCH_7": "x7",
+      "STR_GOALS_ICON_MATCH_10": "x10",
+      "STR_GOALS_ICON_BUILD_10": "x10",
+      "STR_GOALS_ICON_BUILD_20": "x20",
+      "STR_GOALS_ICON_BUILD_30": "x30",
+      "STR_GOALS_ICON_BUILD_50": "x50",
+      "STR_GOALS_ICON_BUILD_70": "x70",
+      "STR_GOALS_ICON_BUILD_100": "x100",
+      "STR_GOALS_ICON_ENCLOSE_ANY_ANIMAL": "x1",
+      "STR_GOALS_ICON_ENCLOSE_CHICKEN": "x1",
+      "STR_GOALS_ICON_ENCLOSE_CHICKEN_2": "x2",
+      "STR_GOALS_ICON_ENCLOSE_PIG": "x1",
+      "STR_GOALS_ICON_ENCLOSE_CAT": "x1",
+      "STR_GOALS_ICON_ENCLOSE_CAT_2": "x2",
+      "STR_GOALS_ICON_ENCLOSE_CROCODILE": "x1",
+      "STR_GOALS_ICON_ENCLOSE_SHARK": "x1",
+      "STR_GOALS_MAGIC_BRICK": "x1",
+      "STR_GOALS_MAGIC_BRICK_3": "x3",
+      "STR_GOALS_WINDOW_5": "x5",
+      "STR_GOALS_ALIGN_PERFECTLY": "x2",
+      "STR_GOALS_ICON_WALK": "",
+
+      "STR_ACH_MATCH_GREEN_3": "Join three green bricks together",
+      "STR_ACH_MATCH_RED_5": "Join five red bricks together",
+      "STR_ACH_MATCH_BLUE_7": "Join seven blue bricks together",
+      "STR_ACH_MATCH_YELLOW_10": "Join ten yellow bricks together",
+      "STR_ACH_BRICKS_STEPS_10": "Make a tower 10 or more bricks high",
+      "STR_ACH_BRICKS_STEPS_20": "Make a tower 20 or more bricks high",
+      "STR_ACH_BRICKS_STEPS_30": "Make a tower 30 or more bricks high",
+      "STR_ACH_BRICKS_STEPS_50": "Make a tower 50 or more bricks high",
+      "STR_ACH_BRICKS_STEPS_70": "Make a tower 70 or more bricks high",
+      "STR_ACH_BRICKS_STEPS_100": "Make a tower 100 or more bricks high",
+      "STR_ACH_ENCLOSE_ANY_ANIMAL": "Trap any animal",
+      "STR_ACH_ENCLOSE_CHICKEN": "Trap a chicken",
+      "STR_ACH_ENCLOSE_CHICKEN_2": "Trap two chickens",
+      "STR_ACH_ENCLOSE_PIG": "Trap a pig",
+      "STR_ACH_ENCLOSE_CAT": "Trap a cat",
+      "STR_ACH_ENCLOSE_CAT_2": "Trap two cats",
+      "STR_ACH_ENCLOSE_CROCODILE": "Trap a crocodile",
+      "STR_ACH_ENCLOSE_SHARK": "Trap a shark",
+      "STR_ACH_MAGIC_BRICK": "Use a magic brick",
+      "STR_ACH_MAGIC_BRICK_3": "Use three magic bricks in one game",
+      "STR_ACH_WINDOW_5": "Use 5 windows in one game",
+      "STR_ACH_ALIGN_2_BRICKS": "Land two bricks the same width perfectly"
+    },
+    "assets": {
+    },
+    "endpoints": {
+      "search": "https://wwwsecure.lego.com/query/api/search",
+      "videodata": "https://wwwsecure.lego.com/catalogs/api/video",
+      "videourls": "https://wwwsecure.lego.com/mediaplayer/api/video.json"
+    }
+  }
+}

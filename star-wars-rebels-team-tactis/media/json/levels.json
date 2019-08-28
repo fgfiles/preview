@@ -1,0 +1,557 @@
+{
+    "worlds": [
+        {
+            "id": "world1",
+            "music": "lothal_day",
+            "name": "STR_WORLD_1_NAME",
+            "visuals": {
+                "wall": "foreground_parallax.png",
+                "spritesheet": [
+                    "img/game/world1/training_world1.json",
+                    "img/game/world1/w1_robot.json"
+                ],
+                "speed": 0.9
+            },
+            "levels": [
+                {
+                    "id": "DM_world1_level1",
+                    "name": "STR_LEVEL_1",
+                    "timeTarget": [
+                        35,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": true,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world1_level2",
+                    "name": "STR_LEVEL_2",
+                    "timeTarget": [
+                        35,
+                        55
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world1_level3",
+                    "name": "STR_LEVEL_3",
+                    "timeTarget": [
+                        35,
+                        70
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world1_level4",
+                    "name": "STR_LEVEL_4",
+                    "timeTarget": [
+                        30,
+                        55
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world1_level5",
+                    "name": "STR_LEVEL_5",
+                    "timeTarget": [
+                        35,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "GAME OVER INIT"
+                }
+            ],
+            "complete": false,
+            "unlocked": true
+        },
+        {
+            "id": "world2",
+            "music": "lothal_night",
+            "name": "STR_WORLD_2_NAME",
+            "visuals": {
+                "background": "img/game/background_lothal_night.png",
+                "wall": "foreground_parallax.png",
+                "spritesheet": [
+                    "img/game/world1/training_world1.json",
+                    "img/game/world1/w1_robot.json"
+                ],
+                "speed": 0.9
+            },
+
+            "levels": [
+                {
+                    "id": "DM_world2_level1",
+                    "name": "STR_LEVEL_6",
+                    "timeTarget": [
+                        35,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "You just need to give that barrel a push, and then you’ll be on a roll!"
+                },
+                {
+                    "id": "DM_world2_level2",
+                    "name": "STR_LEVEL_7",
+                    "timeTarget": [
+                        45,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Need to get past that droid? Maybe you just need to get the drop on it?"
+                },
+                {
+                    "id": "DM_world2_level3",
+                    "name": "STR_LEVEL_8",
+                    "timeTarget": [
+                        45,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "Watch your step! It's a long way down..."
+                },
+                {
+                    "id": "DM_world2_level4",
+                    "name": "STR_LEVEL_9",
+                    "timeTarget": [
+                        60,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world2_level5",
+                    "name": "STR_LEVEL_10",
+                    "timeTarget": [
+                        40,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Next time you see a Stormtrooper – try not getting caught!"
+                }
+            ],
+            "complete": false,
+            "unlocked": false
+        },
+        {
+            "id": "world3",
+            "music": "garel",
+            "name": "STR_WORLD_3_NAME",
+            "visuals": {
+                "background": "img/game/background_garel.png",
+                "wall": "foreground_parallax.png",
+                "spritesheet": [
+                    "img/game/world1/training_world1.json",
+                    "img/game/world1/w1_robot.json"
+                ],
+                "speed": 0.9
+            },
+
+            "levels": [
+                {
+                    "id": "DM_world3_level1",
+                    "name": "STR_LEVEL_11",
+                    "timeTarget": [
+                        55,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "You’re not having a ‘hole’ lot of luck are you?"
+                },
+                {
+                    "id": "DM_world3_level2",
+                    "name": "STR_LEVEL_12",
+                    "timeTarget": [
+                        75,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world3_level3",
+                    "name": "STR_LEVEL_13",
+                    "timeTarget": [
+                        80,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "Watch your step, it’s a long way down!"
+                },
+                {
+                    "id": "DM_world3_level4",
+                    "name": "STR_LEVEL_14",
+                    "timeTarget": [
+                        70,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "Maybe try dropping something through that security grid. Not Chopper!"
+                },
+                {
+                    "id": "DM_world3_level5",
+                    "name": "STR_LEVEL_15",
+                    "timeTarget": [
+                        55,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "That security grid is dangerous. Maybe try to force something through it?"
+                },
+                {
+                    "id": "DM_world3_level6",
+                    "name": "STR_LEVEL_16",
+                    "timeTarget": [
+                        50,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world3_level7",
+                    "name": "STR_LEVEL_17",
+                    "timeTarget": [
+                        60,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "You’ll need to shut that Stormtrooper out..."
+                },
+                {
+                    "id": "DM_world3_level8",
+                    "name": "STR_LEVEL_18",
+                    "timeTarget": [
+                        60,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "You can’t get through that grid – but maybe something else could?"
+                },
+                {
+                    "id": "DM_world3_level9",
+                    "name": "STR_LEVEL_19",
+                    "timeTarget": [
+                        55,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "GAME OVER INIT"
+                },
+                {
+                    "id": "DM_world3_level10",
+                    "name": "STR_LEVEL_20",
+                    "timeTarget": [
+                        75,
+                        50
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "You really dropped the ball – and yourself!"
+                }
+            ],
+            "complete": false,
+            "unlocked": false
+        },
+        {
+            "id": "world4",
+            "music": "stardestroyer",
+            "name": "STR_WORLD_4_NAME",
+            "visuals": {
+                "background": "img/game/world_1/background.png",
+                "wall": "foreground_parallax.png",
+                "spritesheet": [
+                    "img/game/world1/training_world1.json",
+                    "img/game/world1/w1_robot.json"
+                ],
+                "speed": 0.9
+            },
+            "levels": [
+                {
+                    "id": "DM_world4_level1",
+                    "name": "STR_LEVEL_21",
+                    "timeTarget": [
+                        70,
+                        70
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Some switches only need to be pressed once and stay activated!"
+                },
+                {
+                    "id": "DM_world4_level2",
+                    "name": "STR_LEVEL_22",
+                    "timeTarget": [
+                        75,
+                        75
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "See if Ezra can get that crate up to the top switch"
+                },
+                {
+                    "id": "DM_world4_level3",
+                    "name": "STR_LEVEL_23",
+                    "timeTarget": [
+                        80,
+                        80
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Get those Stormtroopers out the way!"
+                },
+                {
+                    "id": "DM_world4_level4",
+                    "name": "STR_LEVEL_24",
+                    "timeTarget": [
+                        150,
+                        150
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "ezra",
+                    "tip": "TWIN BRIDGE LEVEL"
+                },
+                {
+                    "id": "DM_world4_level5",
+                    "name": "STR_LEVEL_25",
+                    "timeTarget": [
+                        65,
+                        65
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "Remember - you can knock things over with Sabine's grenades"
+                },
+                {
+                    "id": "DM_world4_level6",
+                    "name": "STR_LEVEL_26",
+                    "timeTarget": [
+                        180,
+                        180
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Use Ezra's force powers to activate switches with crates"
+                },
+                {
+                    "id": "DM_world4_level7",
+                    "name": "STR_LEVEL_27",
+                    "timeTarget": [
+                        100,
+                        100
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Troopers don't like trapdoors!"
+                },
+                {
+                    "id": "DM_world4_level8",
+                    "name": "STR_LEVEL_28",
+                    "timeTarget": [
+                        70,
+                        70
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Use force crates to get Stormtroopers where you want them"
+                },
+                {
+                    "id": "DM_world4_level9",
+                    "name": "STR_LEVEL_29",
+                    "timeTarget": [
+                        160,
+                        160
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "zeb",
+                    "tip": "Shut the doors and knock out the drones"
+                },
+                {
+                    "id": "DM_world4_level10",
+                    "name": "STR_LEVEL_30",
+                    "timeTarget": [
+                        100,
+                        100
+                    ],
+                    "pickUpTarget": 2,
+                    "complete": false,
+                    "unlocked": false,
+                    "time": 0,
+                    "score": 0,
+                    "starRating": 0,
+                    "character": "sabine",
+                    "tip": "Trigger the switch, then trap the trooper..."
+                }
+            ],
+            "complete": false,
+            "unlocked": false
+        }
+    ]
+}

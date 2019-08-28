@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Skytte - License HTML5 Game</title>
+        <meta name="viewport" content="user-scalable=no, width=device-width">
+        <link  href="CACHE/css/a0c4a593e2df.css" rel="stylesheet">
+
+
+        <meta property="og:title" content="Skytte">
+        <meta property="og:site_name" content="forestrygames">
+
+        <meta name="description" content="Fast-paced HTML5 Canvas shoot'em up game">
+        <meta property="og:description" content="Fast-paced HTML5 Canvas shoot'em up game">
+        <meta property="og:image" content="images/open_graph/960x640.jpg">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="960">
+        <meta property="og:image:height" content="640">
+        <meta property="og:image" content="images/open_graph/480x320.jpg">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="480">
+        <meta property="og:image:height" content="320">
+    </head>
+    <body>
+
+        <div class="game" id="root">
+            <canvas width="960" height="640" id="screen"></canvas>
+
+            <div class="menu">
+                <div class="menu-screen" data-role="menu-main">
+                    <p class="logo"><img src="images/logo.svg" alt="Skytte" width="334" height="191"></p>
+                    <ul>
+                        <li><button class="button medium icon-play" data-role="new-game">Start Game</button></li>
+                        <li><button class="toggle audio" data-role="toggle toggle-music">Music</button></li>
+                        <li><button class="toggle audio" data-role="toggle toggle-audio">Audio</button></li>
+                    </ul>
+                    <dl class="score-footer">
+                        <dt class="score">Highscore:</dt>
+                        <dd class="score" data-role="player-score-best"></dd>
+                        <dt class="combo">Best Combo:</dt>
+                        <dd class="combo" data-role="player-best-combo-best"></dd>
+                        <dt class="multiplier">Best Multiplier:</dt>
+                        <dd class="multiplier" data-role="player-best-multiplier-best"></dd>
+                        <dt>Most Kills:</dt>
+                        <dd data-role="player-kill-count-best"></dd>
+                        <dt>Best Distance:</dt>
+                        <dd data-role="player-distance-best"></dd>
+                    </dl>
+                    <p class="footer">© 2019 <a href="https://www.forestrygames.com/">Forestry Games</a>. All rights reserved.</p>
+                </div>
+
+                <div class="menu-screen" data-role="menu-loading">
+                    <h1>Bonuses</h1>
+                    <dl class="power-ups">
+                        <dt class="weapon"></dt>
+                        <dd>Weapon upgrade</dd>
+                        <dt class="score-multiplier"></dt>
+                        <dd>Score multiplier</dd>
+                        <dt class="damage-multiplier"></dt>
+                        <dd>Damage multiplier</dd>
+                    </dl>
+                    <dl class="power-ups">
+                        <dt class="score"></dt>
+                        <dd>Additional points</dd>
+                        <dt class="life"></dt>
+                        <dd>Additional life</dd>
+                        <dt class="repair"></dt>
+                        <dd>Repair ship</dd>
+                    </dl>
+                    <p class="progress">Loading... <b data-role="load-progress">0%</b></p>
+                    <p><button class="button medium icon-play" data-role="play-game">Play</button></p>
+                </div>
+
+                <div class="menu-screen" data-role="menu-pause">
+                    <ul>
+                        <li><button class="button medium icon-play" data-role="resume-game">Resume</button></li>
+                        <li><button class="toggle audio" data-role="toggle toggle-music">Music</button></li>
+                        <li><button class="toggle audio" data-role="toggle toggle-audio">Audio</button></li>
+                        <li><button class="button small icon-restart" data-role="restart-game">Restart</button></li>
+                    </ul>
+                    <dl class="score-footer">
+                        <dt class="score">Highscore:</dt>
+                        <dd class="score" data-role="player-score-best"></dd>
+                        <dt class="combo">Best Combo:</dt>
+                        <dd class="combo" data-role="player-best-combo-best"></dd>
+                        <dt class="multiplier">Best Multiplier:</dt>
+                        <dd class="multiplier" data-role="player-best-multiplier-best"></dd>
+                        <dt>Most Kills:</dt>
+                        <dd data-role="player-kill-count-best"></dd>
+                        <dt>Best Distance:</dt>
+                        <dd data-role="player-distance-best"></dd>
+                    </dl>
+                </div>
+
+                <div class="menu-screen" data-role="menu-restart">
+                    <h1>Really restart?</h1>
+                    <ul>
+                        <li><button class="button small icon-restart" data-role="new-game">Restart</button></li>
+                        <li><button class="button small" data-role="cancel-game-restart">Cancel</button></li>
+                    </ul>
+                </div>
+
+                <div class="menu-screen" data-role="menu-level-summary">
+                    <h1>Level <span data-role="level"></span> of 6 cleared</h1>
+                    <table class="scoring">
+                        <tr class="small">
+                            <th></th>
+                            <th>This Game</th>
+                            <th>Best Game</th>
+                        </tr>
+                        <tr>
+                            <th class="score">Your Score</th>
+                            <td class="score" data-role="player-score-game"></td>
+                            <td class="score" data-role="player-score-best"></td>
+                        </tr>
+                        <tr>
+                            <th class="combo">Best Combo</th>
+                            <td class="combo" data-role="player-best-combo-game"></td>
+                            <td class="combo" data-role="player-best-combo-best"></td>
+                        </tr>
+                        <tr>
+                            <th class="multiplier">Best Multiplier</th>
+                            <td class="multiplier" data-role="player-best-multiplier-game"></td>
+                            <td class="multiplier" data-role="player-best-multiplier-best"></td>
+                        </tr>
+                        <tr>
+                            <th>Destroyed Enemies</th>
+                            <td data-role="player-kill-count-game"></td>
+                            <td data-role="player-kill-count-best"></td>
+                        </tr>
+                        <tr>
+                            <th>Travelled Distance</th>
+                            <td data-role="player-distance-game"></td>
+                            <td data-role="player-distance-best"></td>
+                        </tr>
+                    </table>
+                    <p><button class="button small icon-play" data-role="next-level">Next Level</button></p>
+                </div>
+
+                <div class="menu-screen" data-role="menu-game-summary">
+                    <h1></h1>
+                    <table class="scoring">
+                        <tr class="small">
+                            <th></th>
+                            <th>This Game</th>
+                            <th>Best Game</th>
+                        </tr>
+                        <tr>
+                            <th class="score">Your Score</th>
+                            <td class="score" data-role="player-score-game"></td>
+                            <td class="score" data-role="player-score-best"></td>
+                        </tr>
+                        <tr>
+                            <th class="combo">Best Combo</th>
+                            <td class="combo" data-role="player-best-combo-game"></td>
+                            <td class="combo" data-role="player-best-combo-best"></td>
+                        </tr>
+                        <tr>
+                            <th class="multiplier">Best Multiplier</th>
+                            <td class="multiplier" data-role="player-best-multiplier-game"></td>
+                            <td class="multiplier" data-role="player-best-multiplier-best"></td>
+                        </tr>
+                        <tr>
+                            <th>Destroyed Enemies</th>
+                            <td data-role="player-kill-count-game"></td>
+                            <td data-role="player-kill-count-best"></td>
+                        </tr>
+                        <tr>
+                            <th>Travelled Distance</th>
+                            <td data-role="player-distance-game"></td>
+                            <td data-role="player-distance-best"></td>
+                        </tr>
+                    </table>
+                    <p><button class="button small icon-play" data-role="new-game">Play Again</button></p>
+                </div>
+            </div>
+
+            <button class="pause" data-role="pause-game"></button>
+
+            <p id="debug"></p>
+        </div>
+
+        <audio preload loop id="music">
+            <source src="sounds/music.mp3">
+        </audio>
+
+        <script>
+            var STATIC_URL = '';
+        </script>
+        <script type="text/javascript" src="CACHE/js/7de7138eb62a.js"></script>
+    </body>
+</html>

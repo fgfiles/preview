@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- GAME DIMENSIONS: 1024 x 768 pixels-->
+    <title>Star Wars Rebels Special Ops - Star Wars Arcade Adventure HTML5 Game</title>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="game name">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="minimal-ui, initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="msapplication-TileColor" content="#000000">
+
+    <link rel="stylesheet" type="text/css" href="css/game.css" />
+
+    <script type="text/javascript" src="js/lib/pixi.min.js"></script>
+    <script src="js/GBAPI.js"></script>
+    <script src="js/qwest.js"></script>
+    <script src="js/AES.js"></script>
+    <script type="text/javascript" src="js/lib/soundjs.min.js"></script>
+    <script type="text/javascript" src="js/lib/box2dweb-2.1.a.3.min.js"></script>
+    <script type="text/javascript" src="js/lib/soundmanager2-jsmin.js"></script>
+
+    <script type="text/javascript" src="js/config/levels.js"></script>
+    <script type="text/javascript" src="js/config/data1.js"></script>
+    <script type="text/javascript" src="js/config/data2.js"></script>
+    <script type="text/javascript" src="js/config/data3.js"></script>
+
+    <script type="text/javascript" src="media/strings/strings.js"></script>
+    <script type="text/javascript" src="js/config/config.js"></script>
+    <script type="text/javascript" src="js/config/gui.js"></script>
+    <script type="text/javascript" src="js/config/swit_entry_point.js"></script>
+
+</head>
+
+<body>
+    <!-- fix bug Firefox firts load -->
+    <div id="fontssamples" style="position:absolute;">
+        <font face="arialbold">.</font>
+        <font face="board_of_directors_rgbold">.</font>
+        <font face="maquibold">.</font>
+    </div>
+
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            if (window.runISL) {
+                window.runISL();
+            } else {
+                window.gameStart();
+            }
+        }
+    </script>
+    <div class="spacer"></div>
+</body>
+
+</html>

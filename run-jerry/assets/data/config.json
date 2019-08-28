@@ -1,0 +1,240 @@
+{
+    "language": "en",
+
+    "player":
+    {
+        "lives"        : 2,
+        "acceleration" : 1.0,
+        "max-speed"    : 11,
+        "jump"         : 25,
+        "gravity"      : 1.33,
+        "num-jumps"    : 2,
+        "friction"     : 0.98,
+        "knockback"    : -8
+    },
+
+    "level":
+    {
+        "tileSize"            : 45,
+        "levelStep"           : 70,
+        "groundY"             : -150,
+        "shelfY"              : -320,
+        "tileOffset"          : 294,
+        "background-item-gap" : 300,
+
+        "minSettings":
+        {
+            "ground":
+            {
+                "tiles":
+                {
+                    "min" : 30,
+                    "max" : 60
+                },
+
+                "groups":
+                {
+                    "min" : 1,
+                    "max" : 6
+                }
+            },
+
+            "shelf":
+            {
+                "tiles":
+                {
+                    "min" : 15,
+                    "max" : 30
+                },
+
+                "groups":
+                {
+                    "min" : 1,
+                    "max" : 5
+                }
+            },
+
+            "gap":
+            {
+                "min"         : 4,
+                "max"         : 6,
+                "changeFloor" : 2
+            }
+        }
+    },
+
+    "obstacles":
+    {
+        "initialDelay" : 3,
+        "safety"       : 5,
+
+        "minSettings":
+        {
+            "interval" :
+            {
+                "min" : 15,
+                "max" : 25
+            }
+        },
+
+        "obstacleTypes":
+        [
+            {
+                "image"           : ["obstacle1a_90x90", "obstacle1b_90x90", "obstacle1c_90x90"],
+                "sounds"          : ["sfx_teacup_obstacle_2", "sfx_teapot_obstacle", "sfx_mug_obstacle"],
+                "collisionWidth"  : 45,
+                "collisionHeight" : 45
+            },
+
+            {
+                "image"           : ["obstacle2a_180x90"],
+                "sounds"          : ["sfx__mousetrap_obstacle_1" ],
+                "collisionWidth"  : 90,
+                "collisionHeight" : 45
+            },
+
+            {
+                "image"           : ["obstacle3a_180x180", "obstacle3b_180x180", "obstacle3c_180x180"],
+                "sounds"          : ["sfx_jelly_obstacle_3", "sfx_soup_obstacle", "sfx_teapot_obstacle"],
+                "collisionWidth"  : 90,
+                "collisionHeight" : 90
+            },
+
+            {
+                "image"           : ["obstacle4a_180x270", "obstacle4b_180x270"],
+                "sounds"          : ["sfx_cookie_jar_obstacle_4", "sfx_lamp_obstacle" ],
+                "collisionWidth"  : 90,
+                "collisionHeight" : 135
+            },
+
+            {
+                "image"           : ["obstacle5a_90x360", "obstacle5c_90x360"],
+                "sounds"          : ["sfx_milk_bottle_obstacle_5", "sfx_teapot_obstacle"],
+                "collisionWidth"  : 45,
+                "collisionHeight" : 180
+            }
+        ]
+    },
+
+    "background-items":
+    {
+        "gap":
+        {
+            "min" : 80,
+            "max" : 300
+        },
+
+        "wall":
+        {
+            "dirt":
+            [
+                {
+                    "image"     : "wall_stain",
+                    "y-top"     : -300,
+                    "y-bottom"  : 200,
+                    "scale-min" : 2.0,
+                    "scale-max" : 5.0
+                }
+            ],
+
+            "big":
+            [
+                {
+                    "image"    : "window1",
+                    "y-top"    : 40,
+                    "y-bottom" : 40
+                },
+
+                {
+                    "image"    : "window2",
+                    "y-top"    : 40,
+                    "y-bottom" : 40
+                },
+
+                {
+                    "image"    : "window3",
+                    "y-top"    : 40,
+                    "y-bottom" : 40
+                },
+
+                {
+                    "image"    : "window4",
+                    "y-top"    : 40,
+                    "y-bottom" : 40
+                },
+
+                {
+                    "image"    : "window_curtains",
+                    "y-top"    : 40,
+                    "y-bottom" : 40
+                },
+
+                {
+                    "image"    : "cupboards",
+                    "y-top"    : 80,
+                    "y-bottom" : 80
+                },
+
+                {
+                    "image"    : "cupboards2",
+                    "y-top"    : 80,
+                    "y-bottom" : 80
+                }
+            ],
+
+            "small":
+            [
+                {
+                    "image"    : "cutlerywall",
+                    "y-top"    : 100,
+                    "y-bottom" : 200
+                },
+
+                {
+                    "image"    : "picture1",
+                    "y-top"    : 100,
+                    "y-bottom" : 200
+                },
+
+                {
+                    "image"    : "picture2",
+                    "y-top"    : 100,
+                    "y-bottom" : 200
+                },
+
+                {
+                    "image"    : "picture3",
+                    "y-top"    : 100,
+                    "y-bottom" : 200
+                },
+
+                {
+                    "image"    : "picture4",
+                    "y-top"    : 100,
+                    "y-bottom" : 200
+                }
+            ]
+        },
+
+        "floor":
+        [
+            {
+                "image"    : "bin",
+                "y-top"    : 100,
+                "y-bottom" : 200
+            },
+
+            {
+                "image"    : "broom",
+                "y-top"    : 100,
+                "y-bottom" : 200
+            },
+
+            {
+                "image"    : "chair",
+                "y-top"    : 100,
+                "y-bottom" : 200
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="description" content="Scooby Doo Its Dark Out There">
+        <meta name="keywords" content="Scooby Doo, Its Dark Out There, Scooby Doo Its Dark Out There, licnese html5 game, html5 game, play online game for free ">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+
+        <title>Scooby Doo Its Dark Out There</title>
+
+        <!-- This is to enable fullscreen when you save the page as a bookmark to the phone desktop. -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <script src="js/libs/pixi/pixi.js"></script>
+        <script src="js/libs/signals.min.js"></script>
+        <script src="js/libs/greensock/TweenMax.min.js"></script>
+        <script src="js/libs/howler.min.js"></script>
+        <script src="js/libs/bowser/bowser.min.js"></script>
+
+        <script src="p3lib.js"></script>
+        <script src="bundle.dev.js"></script>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #000000;
+            }
+            #game {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #FFFFFF;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="game"></div>
+        <script>
+            var main = new Main(1024, 768);
+            main.init();
+        </script>
+    </body>
+</html>
+    

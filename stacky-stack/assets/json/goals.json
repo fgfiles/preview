@@ -1,0 +1,338 @@
+{
+    "goals": {
+        "match_bricks_green_3": {
+            "desc": "STR_ACH_MATCH_GREEN_3",
+            "icon": "achieve_icons_match_green.png",
+            "desc_icon": "STR_GOALS_ICON_MATCH_3",
+            "property": "match_green_3",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "match_bricks_red_5": {
+          "desc": "STR_ACH_MATCH_RED_5",
+          "icon": "achieve_icons_match_red.png",
+          "desc_icon": "STR_GOALS_ICON_MATCH_5",
+          "property": "match_red_5",
+          "type": "=",
+          "target": 1,
+          "value": 0,
+          "achieved": false,
+          "cumulative": false
+        },
+        "match_bricks_blue_7": {
+          "desc": "STR_ACH_MATCH_BLUE_7",
+          "icon": "achieve_icons_match_blue.png",
+          "desc_icon": "STR_GOALS_ICON_MATCH_7",
+          "property": "match_blue_7",
+          "type": "=",
+          "target": 1,
+          "value": 0,
+          "achieved": false,
+          "cumulative": false
+        },
+        "match_bricks_yellow_10": {
+            "desc": "STR_ACH_MATCH_YELLOW_10",
+            "icon": "achieve_icons_match_yellow.png",
+            "desc_icon": "STR_GOALS_ICON_MATCH_10",
+            "property": "match_yellow_10",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_10": {
+            "desc": "STR_ACH_BRICKS_STEPS_10",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_10",
+            "property": "build",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_20": {
+            "desc": "STR_ACH_BRICKS_STEPS_20",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_20",
+            "property": "build",
+            "type": "=",
+            "target": 20,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_30": {
+            "desc": "STR_ACH_BRICKS_STEPS_30",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_30",
+            "property": "build",
+            "type": "=",
+            "target": 30,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_50": {
+            "desc": "STR_ACH_BRICKS_STEPS_50",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_50",
+            "property": "build",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_70": {
+            "desc": "STR_ACH_BRICKS_STEPS_70",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_70",
+            "property": "build",
+            "type": "=",
+            "target": 70,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "brick_steps_100": {
+            "desc": "STR_ACH_BRICKS_STEPS_100",
+            "icon": "achieve_icons_brick_height.png",
+            "desc_icon": "STR_GOALS_ICON_BUILD_100",
+            "property": "build",
+            "type": "=",
+            "target": 100,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose": {
+            "desc": "STR_ACH_ENCLOSE_ANY_ANIMAL",
+            "icon": "achieve_icons_enclose_any.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_ANY_ANIMAL",
+            "property": "enclose",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_chicken": {
+            "desc": "STR_ACH_ENCLOSE_CHICKEN",
+            "icon": "achieve_icons_enclose_chicken.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_CHICKEN",
+            "property": "enclose_chicken",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_chicken_2": {
+            "desc": "STR_ACH_ENCLOSE_CHICKEN_2",
+            "icon": "achieve_icons_enclose_chicken.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_CHICKEN_2",
+            "property": "enclose_chicken",
+            "type": "=",
+            "target": 2,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_pig": {
+            "desc": "STR_ACH_ENCLOSE_PIG",
+            "icon": "achieve_icons_enclose_pig.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_PIG",
+            "property": "enclose_pig",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_cat": {
+            "desc": "STR_ACH_ENCLOSE_CAT",
+            "icon": "achieve_icons_enclose_cat.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_CAT",
+            "property": "enclose_cat",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_cat_2": {
+            "desc": "STR_ACH_ENCLOSE_CAT_2",
+            "icon": "achieve_icons_enclose_cat.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_CAT_2",
+            "property": "enclose_cat",
+            "type": "=",
+            "target": 2,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_crocodile": {
+            "desc": "STR_ACH_ENCLOSE_CROCODILE",
+            "icon": "achieve_icons_enclose_crock.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_CROCODILE",
+            "property": "enclose_crocodile",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "enclose_shark": {
+            "desc": "STR_ACH_ENCLOSE_SHARK",
+            "icon": "achieve_icons_enclose_shark.png",
+            "desc_icon": "STR_GOALS_ICON_ENCLOSE_SHARK",
+            "property": "enclose_shark",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "use_magic_brick": {
+            "desc": "STR_ACH_MAGIC_BRICK",
+            "icon": "achieve_icons_use_magic.png",
+            "desc_icon": "STR_GOALS_MAGIC_BRICK",
+            "property": "magic_brick",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "use_magic_brick_3": {
+            "desc": "STR_ACH_MAGIC_BRICK_3",
+            "icon": "achieve_icons_use_magic.png",
+            "desc_icon": "STR_GOALS_MAGIC_BRICK_3",
+            "property": "magic_brick",
+            "type": "=",
+            "target": 3,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "use_window_5": {
+            "desc": "STR_ACH_WINDOW_5",
+            "icon": "achieve_icons_use_windows.png",
+            "desc_icon": "STR_GOALS_WINDOW_5",
+            "property": "window",
+            "type": "=",
+            "target": 5,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        },
+        "align_brick_perfectly": {
+            "desc": "STR_ACH_ALIGN_2_BRICKS",
+            "icon": "achieve_icons_align_perfect.png",
+            "desc_icon": "STR_GOALS_ALIGN_PERFECTLY",
+            "property": "align_perfectly",
+            "type": "=",
+            "target": 2,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false
+        }
+    },
+    "groups": {
+        "level1": {
+            "desc": "STR_GOALS_LEVEL_1_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "match_bricks_green_3",
+              "brick_steps_10"
+            ]
+        },
+        "level2": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "enclose",
+              "use_magic_brick"
+            ]
+        },
+        "level3": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "brick_steps_20",
+              "enclose_chicken"
+            ]
+        },
+        "level4": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "match_bricks_red_5",
+              "use_window_5"
+            ]
+        },
+        "level5": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "brick_steps_30",
+              "enclose_cat"
+            ]
+        },
+        "level6": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "enclose_chicken_2",
+              "align_brick_perfectly"
+            ]
+        },
+        "level7": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "brick_steps_50",
+              "use_magic_brick_3"
+            ]
+        },
+        "level8": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "match_bricks_blue_7",
+              "enclose_cat_2"
+            ]
+        },
+        "level9": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "match_bricks_yellow_10",
+              "brick_steps_70"
+            ]
+        },
+        "level10": {
+            "desc": "STR_GOALS_LEVEL_2_TITLE",
+            "icon": "icon_walk.png",
+            "desc_icon": "STR_GOALS_ICON_WALK",
+            "achievements": [
+              "brick_steps_100",
+              "enclose_shark"
+            ]
+        }
+    }
+}

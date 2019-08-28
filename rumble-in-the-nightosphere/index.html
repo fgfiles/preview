@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Adventure Time Rumble In The Nightosphere - HTML5 Game</title>
+    <style>
+        html,
+        body,
+        webview {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background-color: #000000;
+        }
+        
+        canvas {
+            display: block;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+    </style>
+    <!-- build:js combined.js -->
+    <script src="libs/p2.js"></script>
+    <script src="libs/pixi.js"></script>
+    <script src="libs/pixi-particles.js"></script>
+    <script src="libs/signal.js"></script>
+    <script src="libs/howler.js"></script>
+    <script src="libs/movieclip2pixi.js"></script>
+    <script src="libs/filters/filters.js"></script>
+    <script src="libs/filters/pixi-extra-filters.js"></script>
+    <script src="libs/filters/shockwave.js"></script>
+    <script src="libs/tween.js"></script>
+    <!--UTILS-->
+    <script src="js/utils/misc.js"></script>
+    <script src="js/utils/globalevents.js"></script>
+    <script src="js/utils/local_storage.js"></script>
+    <script src="js/utils/trail.js"></script>
+    <script src="js/utils/camera.js"></script>
+    <script src="js/utils/bullettime.js"></script>
+    <script src="js/utils/ai_flyer.js"></script>
+    <script src="js/utils/emitter_manager.js"></script>
+    <script src="js/utils/debugoverlay.js"></script>
+    <!--LIBS-->
+    <script src="libs/soundmanager.js"></script>
+    <script src="libs/physics.js"></script>
+    <script src="libs/smartbutton.js"></script>
+    <script src="libs/screenflow.js"></script>
+    <script src="libs/movieclip2pixi.js"></script>
+    <script src="libs/input.js"></script>
+    <script src="libs/stackfsm.js"></script>
+    <!--SHADERS-->
+    <script src="libs/shaders/shaders.js"></script>
+    <script src="libs/shaders/frag.js"></script>
+    <!--ENTITIES-->
+    <script src="js/entities/entity.js"></script>
+    <script src="js/entities/bumperrect.js"></script>
+    <script src="js/entities/bumpercircle.js"></script>
+    <script src="js/entities/floor.js"></script>
+    <script src="js/entities/water.js"></script>
+    <script src="js/entities/fighter.js"></script>
+    <script src="js/entities/player.js"></script>
+    <script src="js/entities/walker.js"></script>
+    <script src="js/entities/flyer.js"></script>
+    <script src="js/entities/flyerdemon.js"></script>
+    <script src="js/entities/shooterdemon.js"></script>
+    <script src="js/entities/bodypart.js"></script>
+    <script src="js/entities/bullet.js"></script>
+    <script src="js/entities/bulletdemon.js"></script>
+    <script src="js/entities/starchy.js"></script>
+    <script src="js/entities/peppermint.js"></script>
+    <script src="js/entities/cinnamon_boss.js"></script>
+    <script src="js/entities/ground_demon.js"></script>
+    <script src="js/entities/kill.js"></script>
+    <script src="js/entities/entityfactory.js"></script>
+    <!--TOOLS-->
+    <script src="libs/fpsmeter.js"></script>
+    <!--LEVELS-->
+    <script src="js/movieclips/levels.js"></script>
+    <script src="js/movieclips/levels_nightosphere.js"></script>
+    <script src="js/movieclips/background_landofthedead.js"></script>
+    <script src="js/movieclips/background_nightosphere.js"></script>
+    <script src="js/movieclips/background_end.js"></script>
+    <!--MOVIECLIPS-->
+    <script src="js/movieclips/loading.js"></script>
+    <script src="js/movieclips/mode_selection.js"></script>
+    <script src="js/movieclips/peppermint.js"></script>
+    <script src="js/movieclips/skeleton.js"></script>
+    <script src="js/movieclips/cinnamon.js"></script>
+    <script src="js/movieclips/skeleton_spear.js"></script>
+    <script src="js/movieclips/devil_wings.js"></script>
+    <script src="js/movieclips/worm.js"></script>
+    <script src="js/movieclips/mainmenu.js"></script>
+    <script src="js/movieclips/ui.js"></script>
+    <script src="js/movieclips/starchy.js"></script>
+    <script src="js/movieclips/cinnamon_boss.js"></script>
+    <script src="js/movieclips/ground_demon.js"></script>
+    <script src="js/movieclips/credits.js"></script>
+    <script src="js/movieclips/intro.js"></script>
+    <!--SETTINGS-->
+    <script src="js/settings/config_sound.js"></script>
+    <script src="js/settings/config_physics.js"></script>
+    <script src="js/settings/config_fx.js"></script>
+    <script src="js/settings/config_levels.js"></script>
+    <!--LEVELS-->
+    <!--SCREENS-->
+    <script src="js/screens/intro.js"></script>
+    <script src="js/screens/level.js"></script>
+    <script src="js/screens/preloader.js"></script>
+    <script src="js/screens/modeselection.js"></script>
+    <script src="js/screens/credits.js"></script>
+    <script src="js/settings/config.js"></script>
+    <!--MAIN-->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body onLoad="new game.Main()">
+
+</body>
+
+</html>

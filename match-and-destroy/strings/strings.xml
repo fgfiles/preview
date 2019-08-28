@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+========================
+	SAMPLE SECTION
+========================
+
+<title>
+	<gameName font="FONT1" size="68" ><![CDATA[GAME NAME HERE]]></gameName>
+</title>
+
+The id for this would be title.gameName.  The text, font, font size, and alignment would all be set for us.
+
+Any tags omitted would use the default text field's values.
+-->
+
+<strings>
+
+	<preloader>
+		<loading><![CDATA[LOADING]]></loading>
+	</preloader>
+
+	<title>
+		<gameNameLine1><![CDATA[MATCH AND]]></gameNameLine1>
+		<gameNameLine2><![CDATA[DESTROY]]></gameNameLine2>
+		<cta><![CDATA[CLICK TO PLAY]]></cta>
+		<cta_mobile><![CDATA[TAP TO PLAY]]></cta_mobile>
+	</title>
+
+	<pause>
+		<pauseHeader><![CDATA[GAME PAUSED]]></pauseHeader>
+		<confirmHeader><![CDATA[ARE YOU SURE?]]></confirmHeader>
+		<levelSelect><![CDATA[LEVEL SELECT]]></levelSelect>
+	</pause>
+
+	<gameplay>
+		<aimHint><![CDATA[DRAG TO<br>AIM]]></aimHint>
+		<levelLabel><![CDATA[LEVEL]]></levelLabel>
+		<cameo1><![CDATA[AWESOME!]]></cameo1>
+		<cameo2><![CDATA[GO TURBO!]]></cameo2>
+		<cameo3><![CDATA[GREAT<br>MATCH!]]></cameo3>
+		<cameo4><![CDATA[WAY TO GO!]]></cameo4>
+		<cameo5><![CDATA[TURBO-<br>CHARGED!]]></cameo5>
+		<cameo6><![CDATA[MEGA<br>MATCH!]]></cameo6>
+	</gameplay>
+
+	<levelselect>
+		<highscoreLabel><![CDATA[HIGH SCORE]]></highscoreLabel>
+		<highscorePlaceholder><![CDATA[0]]></highscorePlaceholder>
+		<new><![CDATA[NEW!]]></new>
+		<level1><![CDATA[LEVEL 1]]></level1>
+		<level2><![CDATA[LEVEL 2]]></level2>
+		<level3><![CDATA[LEVEL 3]]></level3>
+		<level4><![CDATA[LEVEL 4]]></level4>
+		<level5><![CDATA[LEVEL 5]]></level5>
+		<level6><![CDATA[LEVEL 6]]></level6>
+		<level7><![CDATA[LEVEL 7]]></level7>
+		<level8><![CDATA[LEVEL 8]]></level8>
+		<level9><![CDATA[LEVEL 9]]></level9>
+		<level10><![CDATA[LEVEL 10]]></level10>
+	</levelselect>
+
+	<intro>
+		<line1><![CDATA[MAX AND TEAM TURBO ARE<br>BATTLING THE EVIL<br>TERRORAX!]]></line1>
+		<line2><![CDATA[MATCH AND DESTROY ENERGY ORBS TO HELP KEEP HIS TERROR<br>ENERGY AT BAY!]]></line2>
+		<line3><![CDATA[USE DIFFERENT COLORED TURBO ENERGY ORBS TO DESTROY TERRORAX'S TERROR ENERGY ORBS!]]></line3>
+	</intro>
+
+	<instructions>
+		<line1><![CDATA[WHEN 3 ORBS OF THE<br>SAME COLOR TOUCH,<br>THEY WILL MAKE A<br>MATCH AND BE<br>DESTROYED.]]></line1>
+		<line2><![CDATA[CLICK AND DRAG TO AIM,<br>THEN RELEASE TO LAUNCH<br>AN ORB.]]></line2>
+		<line3><![CDATA[MATCH MORE THAN 3 ORBS AT ONCE<br>FOR BONUS POINTS!]]></line3>
+		<line4><![CDATA[BOUNCE ORBS OFF WALLS<br>TO MAKE TRICKY SHOTS!]]></line4>
+		<line5><![CDATA[CLICK THE ORB LOADER TO SWAP<br>WHICH ORB WILL BE LAUNCHED NEXT.]]></line5>
+		<line6><![CDATA[DESTROY ALL TERROR ENERGY ORBS TO<br>BEAT EACH LEVEL. USE AS FEW ORBS AS<br>POSSIBLE TO EARN A BADGE!]]></line6>
+	</instructions>
+
+	<levelwon>
+		<header><![CDATA[YOU ROCK!]]></header>
+		<scoreLabel><![CDATA[SCORE:]]></scoreLabel>
+		<highscoreLabel><![CDATA[HIGH SCORE:]]></highscoreLabel>
+		<note><![CDATA[KEEP UP<br>YOUR<br>STREAK!]]></note>
+		<levelSelect><![CDATA[LEVEL<br>SELECT]]></levelSelect>
+		<badgeHeader><![CDATA[BADGE<br>BONUS]]></badgeHeader>
+		<shotsNote><![CDATA[SHOTS OR LESS]]></shotsNote>
+	</levelwon>
+
+	<levelfailed>
+		<header><![CDATA[NICE TRY!]]></header>
+		<scoreLabel><![CDATA[SCORE:]]></scoreLabel>
+		<highscoreLabel><![CDATA[HIGH SCORE:]]></highscoreLabel>
+		<note><![CDATA[PLAY AGAIN TO<br>MAX OUT YOUR<br>HIGH SCORE!]]></note>
+		<levelSelect><![CDATA[LEVEL<br>SELECT]]></levelSelect>
+	</levelfailed>
+
+</strings>

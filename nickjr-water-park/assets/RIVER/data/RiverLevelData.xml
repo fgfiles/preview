@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK" width="400" height="0">
+	</segment>
+	<segment id="DUCK_ARC_HIGH" width="1000" height="0" >
+		<object type="DUCK" variation="0" x="100" y="300"/>
+		<object type="DUCK" variation="0" x="200" y="250"/>
+		<object type="DUCK" variation="0" x="300" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="500" y="300"/>
+	</segment>
+	<segment id="DUCK_ARC_LOW" width="1000" height="0">
+		<object type="DUCK" variation="0" x="100" y="350"/>
+		<object type="DUCK" variation="0" x="200" y="400"/>
+		<object type="DUCK" variation="0" x="300" y="450"/>
+		<object type="DUCK" variation="0" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="500" y="400"/>
+	</segment>
+	<segment id="SINGLE_HAZARD_MIDDLE" width="800" height="0" >
+		<object type="HAZARD" variation="1" x="400" y="335"/>
+	</segment>
+	<segment id="SINGLE_HAZARD_MIDDLE_GIANT" width="800" height="0" >
+		<object type="HAZARD" variation="0" x="400" y="335"/>
+	</segment>
+	<segment id="SINGLE_HAZARD_MIDDLE_CROC" width="800" height="0" >
+		<object type="HAZARD" variation="2" x="400" y="335"/>
+	</segment>
+	<segment id="DUCK_HAZARD_LOW" width="800" height="0" >
+		<object type="DUCK" variation="0" x="100" y="300"/>
+		<object type="DUCK" variation="0" x="200" y="250"/>
+		<object type="HAZARD" variation="1" x="250" y="450"/>
+		<object type="DUCK" variation="0" x="300" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="500" y="300"/>
+	</segment>
+	<segment id="DUCK_HAZARD_LOW_CROC" width="800" height="0" >
+		<object type="DUCK" variation="0" x="100" y="300"/>
+		<object type="DUCK" variation="0" x="200" y="250"/>
+		<object type="HAZARD" variation="2" x="250" y="450"/>
+		<object type="DUCK" variation="0" x="300" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="500" y="300"/>
+	</segment>
+	<segment id="DUCK_HAZARD_HIGH" width="800" height="0" >
+		<object type="DUCK" variation="0" x="100" y="350"/>
+		<object type="DUCK" variation="0" x="200" y="400"/>
+		<object type="HAZARD" variation="1" x="250" y="250"/>
+		<object type="DUCK" variation="0" x="300" y="450"/>
+		<object type="DUCK" variation="0" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="500" y="400"/>
+	</segment>
+	<segment id="DUCK_HAZARD_HIGH_CROC" width="800" height="0" >
+		<object type="DUCK" variation="0" x="100" y="350"/>
+		<object type="DUCK" variation="0" x="200" y="400"/>
+		<object type="HAZARD" variation="2" x="250" y="250"/>
+		<object type="DUCK" variation="0" x="300" y="450"/>
+		<object type="DUCK" variation="0" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="500" y="400"/>
+	</segment>
+	<segment id="DOUBLE_HAZARD_MIDDLE" width="1000" height="0" >
+		<object type="HAZARD" variation="3" x="400" y="335"/>
+		<object type="HAZARD" variation="1" x="800" y="335"/>
+	</segment>
+	<segment id="DOUBLE_HAZARD_MIDDLE_GIANT" width="2300" height="0" >
+		<object type="HAZARD" variation="0" x="400" y="335"/>
+		<object type="DUCK" variation="0" x="800" y="335"/>
+		<object type="HAZARD" variation="1" x="1100" y="335"/>
+	</segment>
+	<segment id="3DUCK_HAZARD_THREAD_GIANT" width="1000" height="0" >
+		<object type="DUCK" variation="0" x="200" y="335"/>
+		<object type="HAZARD" variation="1" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="335"/>
+		<object type="HAZARD" variation="0" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="600" y="335"/>
+	</segment>
+	<segment id="3DUCK_HAZARD_THREAD" width="1000" height="0" >
+		<object type="DUCK" variation="0" x="200" y="335"/>
+		<object type="HAZARD" variation="1" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="335"/>
+		<object type="HAZARD" variation="3" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="600" y="335"/>
+	</segment>
+	<segment id="COMPLEX_HAZARD_PATTERN_1" width="1400" height="0" >
+		<object type="HAZARD" variation="0" x="400" y="335"/>
+		<object type="HAZARD" variation="3" x="800" y="250"/>
+		<object type="HAZARD" variation="1" x="800" y="450"/>
+		<object type="HAZARD" variation="2" x="1200" y="335"/>
+	</segment>
+	<segment id="COMPLEX_HAZARD_PATTERN_2" width="1400" height="0" >
+		<object type="HAZARD" variation="3" x="400" y="335"/>
+		<object type="HAZARD" variation="1" x="800" y="250"/>
+		<object type="HAZARD" variation="1" x="800" y="450"/>
+		<object type="HAZARD" variation="2" x="1200" y="335"/>
+	</segment>
+	<segment id="COMPLEX_HAZARD_PATTERN_3" width="1400" height="0" >
+		<object type="HAZARD" variation="3" x="400" y="335"/>
+		<object type="HAZARD" variation="1" x="800" y="250"/>
+		<object type="HAZARD" variation="1" x="800" y="450"/>
+		<object type="HAZARD" variation="1" x="1200" y="335"/>
+	</segment>
+	<segment id="PINBALL" width="1400" height="0" >
+		<object type="HAZARD" variation="1" x="400" y="335"/>
+		<object type="HAZARD" variation="1" x="600" y="250"/>
+		<object type="HAZARD" variation="1" x="600" y="450"/>
+		<object type="HAZARD" variation="1" x="800" y="335"/>
+		<object type="HAZARD" variation="1" x="1000" y="250"/>
+		<object type="HAZARD" variation="1" x="1000" y="450"/>
+		<object type="HAZARD" variation="1" x="1200" y="335"/>
+	</segment>
+	<segment id="PINBALL_2" width="800" height="0" >
+		<object type="HAZARD" variation="1" x="0" y="250"/>
+		<object type="HAZARD" variation="1" x="0" y="450"/>
+		<object type="HAZARD" variation="1" x="200" y="335"/>
+		<object type="HAZARD" variation="1" x="400" y="250"/>
+		<object type="HAZARD" variation="1" x="400" y="450"/>
+		<object type="HAZARD" variation="1" x="600" y="335"/>
+	</segment>
+	<segment id="POWERUP" width="800" height="0" >
+		<object type="POWERUP" variation="2" x="100" y="325"/>
+		<object type="PUP" variation="2" x="100" y="550"/>
+		<object type="DUCK" variation="0" x="200" y="250"/>
+		<object type="DUCK" variation="0" x="200" y="400"/>
+		<object type="DUCK" variation="0" x="300" y="250"/>
+		<object type="DUCK" variation="0" x="300" y="400"/>
+		<object type="DUCK" variation="0" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="400"/>
+		<object type="DUCK" variation="0" x="500" y="250"/>
+		<object type="DUCK" variation="0" x="500" y="400"/>
+		<object type="DUCK" variation="0" x="600" y="250"/>
+		<object type="DUCK" variation="0" x="600" y="400"/>
+	</segment>
+	<segment id="DUCK_ARC_HIGHLOW" width="1400" height="0" >
+		<object type="DUCK" variation="0" x="100" y="300"/>
+		<object type="DUCK" variation="0" x="200" y="250"/>
+		<object type="DUCK" variation="0" x="300" y="250"/>
+		<object type="DUCK" variation="0" x="400" y="250"/>
+		<object type="DUCK" variation="0" x="500" y="300"/>
+		<object type="DUCK" variation="0" x="600" y="350"/>
+		<object type="DUCK" variation="0" x="700" y="400"/>
+		<object type="DUCK" variation="0" x="800" y="450"/>
+		<object type="DUCK" variation="0" x="900" y="450"/>
+		<object type="DUCK" variation="0" x="1000" y="400"/>
+	</segment>
+	<segment id="DUCK_ARC_LOWHIGH" width="1800" height="0">
+		<object type="DUCK" variation="0" x="100" y="350"/>
+		<object type="DUCK" variation="0" x="200" y="400"/>
+		<object type="DUCK" variation="0" x="300" y="450"/>
+		<object type="DUCK" variation="0" x="400" y="450"/>
+		<object type="DUCK" variation="0" x="500" y="400"/>
+		<object type="DUCK" variation="0" x="600" y="375"/>
+		<object type="DUCK" variation="0" x="700" y="325"/>
+		<object type="DUCK" variation="0" x="800" y="300"/>
+		<object type="DUCK" variation="0" x="900" y="250"/>
+		<object type="DUCK" variation="0" x="1000" y="250"/>
+		<object type="DUCK" variation="0" x="1100" y="250"/>
+		<object type="DUCK" variation="0" x="1200" y="300"/>
+	</segment>
+	
+	<levelpath>
+		<segment id="DUCK_ARC_HIGH"/>
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="DUCK_HAZARD_LOW"/>				<!-- ball -->
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="DUCK_ARC_HIGH"/>
+		<segment id="DUCK_HAZARD_HIGH_CROC"/>		<!-- croc -->
+		<segment id="SINGLE_HAZARD_MIDDLE_GIANT"/>	<!-- giant -->
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="SINGLE_HAZARD_MIDDLE"/>		<!-- ball -->
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="PINBALL"/>						<!-- lots of beach balls -->
+		<segment id="BLANK"/>
+		<segment id="DUCK_ARC_HIGH"/>
+		<segment id="SINGLE_HAZARD_MIDDLE_CROC"/>	<!-- croc -->
+		<segment id="DUCK_ARC_HIGH"/>
+		<segment id="DUCK_HAZARD_HIGH"/>			<!-- ball -->
+		<segment id="DUCK_ARC_HIGH"/>
+		<segment id="DOUBLE_HAZARD_MIDDLE_GIANT"/>	<!-- giant + ball -->
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="DUCK_HAZARD_LOW_CROC"/>		<!-- croc -->
+		<segment id="POWERUP"/>
+		<segment id="DUCK_ARC_LOW"/>
+		<segment id="DUCK_HAZARD_LOW"/>				<!-- ball -->
+		<segment id="DUCK_HAZARD_HIGH"/>			<!-- ball -->
+		<segment id="SINGLE_HAZARD_MIDDLE_CROC"/>	<!-- croc -->
+		<segment id="3DUCK_HAZARD_THREAD"/>			<!-- ball / whirlpool -->
+		<segment id="PINBALL"/>
+		<segment id="BLANK"/>
+		<segment id="DUCK_ARC_LOWHIGH"/>
+		<segment id="COMPLEX_HAZARD_PATTERN_1"/>	<!-- giant + whirlpool / ball + croc -->
+		<segment id="DUCK_ARC_HIGHLOW"/>
+		<segment id="COMPLEX_HAZARD_PATTERN_3"/>	<!-- whirlpool + ball / ball + ball -->
+		<segment id="DUCK_ARC_HIGHLOW"/>
+		<segment id="PINBALL"/>						<!-- ball + ball / ball + ball -->
+		<segment id="COMPLEX_HAZARD_PATTERN_2"/>	<!-- whirlpool + ball / ball + croc -->
+		<segment id="BLANK"/>
+		<segment id="POWERUP"/>
+		<segment id="DUCK_ARC_LOWHIGH"/>
+		<segment id="3DUCK_HAZARD_THREAD"/>			<!-- ball / whirlpool -->
+		<segment id="PINBALL"/>
+		<segment id="PINBALL_2"/>
+		<segment id="BLANK"/>
+		<segment id="DUCK_ARC_HIGHLOW"/>
+		<segment id="3DUCK_HAZARD_THREAD"/>			<!-- ball / whirlpool -->
+		<segment id="BLANK"/>
+		<segment id="BLANK"/>
+		<segment id="BLANK"/>
+		<segment id="BLANK"/>
+	</levelpath>
+</data>

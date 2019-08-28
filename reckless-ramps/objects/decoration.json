@@ -1,0 +1,40 @@
+{
+    "bodies": [
+        {
+            "type": 0,
+            "userData": "decoration",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 0,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 1,
+                    "density": 1,
+                    "shapes": [
+                        {
+                            "type": 1,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [],
+                            "radius": 5.0
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        }
+    ],
+    "joints": []
+}

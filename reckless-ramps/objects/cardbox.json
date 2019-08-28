@@ -1,0 +1,72 @@
+{
+    "bodies": [
+        {
+            "type": 2,
+            "userData": "cardbox",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65535,
+                    "categoryBits": 3,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 0.15,
+                    "density": 0.2,
+                    "shapes": [
+                        {
+                            "type": 2,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [
+                                [
+                                    -30,
+                                    -13
+                                ],
+								[
+                                    -25,
+                                    -18
+                                ],
+								[
+                                    25,
+                                    -18
+                                ],
+                                [
+                                    30,
+                                    -13
+                                ],
+                                [
+                                    30,
+                                    13
+                                ],
+								[
+                                    25,
+                                    18
+                                ],
+								[
+                                    -25,
+                                    18
+                                ],
+                                [
+                                    -30,
+                                    13
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        }
+    ],
+    "joints": []
+}

@@ -1,0 +1,107 @@
+{
+  "configuration": {
+    "@name": "Out of Step",
+    "@contentlanguage": "en-US",
+    "@version": "1",
+    "experience": "stackystack",
+    "commonconfigurations": {
+      "likes": {
+        "endpoints": {
+          "postaction": "http://services.likes.lego.com/api/v1/likes"
+        }
+      },
+      "privacypolicy": {
+        "endpoints": {
+          "cookiepolicy": "http://lego.com/de-de/go/7/cookie",
+          "privacypolicy": "http://lego.com/de-de/go/7/privacy"
+        }
+      },
+      "legoid": {
+        "endpoints": {
+          "legoidconfiguration": "https://a248.e.akamai.net/cache.lego.com/r/account2/de-de/services/account/apiconfigservice.ashx",
+          "legoiddeletedaccountsfeed": "https://account2.lego.com/account/deletedusers/feed",
+          "legoidmyfriends": "https://wwwsecure.us.lego.com/de-de/myfriends",
+          "legoidmyfriendswebpage": "https://wwwsecure.us.lego.com/de-de/myfriends?context=app",
+          "legoidtoken": "https://account2.lego.com/account/v1/partnertoken"
+        }
+      },
+      "pmdgame": {
+        "endpoints": {
+          "state": "http://www.lego.com/stateservice/v1/xml?experience=outofstep"
+        }
+      }
+    },
+    "customvalues": {
+      "STR_GAME_TITLE":"Out of Step",
+      "STR_GAME_LEADERBOARD":"Leaderboard",
+      "STR_GAME_PAUSED":"Paused",
+      "STR_GAME_GAMEOVER":"Game Over!",
+      "STR_GAME_RESULTS":"RESULTS",
+      "STR_GAME_OBJECTIVES":"Stuff to do",
+      "STR_GAME_DISTANCE":"DISTANCE: ",
+      "STR_GAME_SCORE":"Score: ",
+      "STR_GAME_DISTANCE_UNIT":"cm",
+      "STR_LOADING_PERCENT":"%",
+
+
+      "STR_GOALS_ICON_WALK_20": "20cm",
+      "STR_GOALS_ICON_WALK_100": "100cm",
+      "STR_GOALS_ICON_WALK_200": "200cm",
+      "STR_GOALS_ICON_WALK_400": "400cm",
+      "STR_GOALS_ICON_WALK_1000": "1000cm",
+      "STR_GOALS_ICON_BUILD_10": "10",
+      "STR_GOALS_ICON_BUILD_20": "20",
+      "STR_GOALS_ICON_SMASH_5": "x5",
+      "STR_GOALS_ICON_SMASH_10": "x10",
+      "STR_GOALS_ICON_COLLECT_20": "20",
+      "STR_GOALS_ICON_COLLECT_50": "50",
+      "STR_GOALS_ICON_COLLECT_100": "100",
+      "STR_GOALS_ICON_TRIPLE_1": "x1",
+      "STR_GOALS_ICON_TRIPLE_5": "x5",
+      "STR_GOALS_ICON_BAT_DESTROY_1": "1",
+      "STR_GOALS_ICON_BAT_DESTROY_2": "x2",
+      "STR_GOALS_ICON_BAT_DESTROY_3": "x3",
+      "STR_GOALS_ICON_BAT_SNATCH": "1",
+      "STR_GOALS_ICON_BAT_SNATCH_2": "x2",
+      "STR_GOALS_ICON_BOUNCE_1": "x1",
+      "STR_GOALS_ICON_BOUNCE_5": "x5",
+      "STR_GOALS_ICON_BRICKS_3": "x3",
+      "STR_GOALS_ICON_WALK": "20cm",
+
+      "STR_ACH_WALK_20" : "Walk 20cm",
+      "STR_ACH_WALK_100" : "Walk 100cm",
+      "STR_ACH_WALK_200" : "Walk 200cm",
+      "STR_ACH_WALK_400" : "Walk 400cm",
+      "STR_ACH_WALK_1000" : "Walk 1000cm",
+      "STR_BRICKS_STEPS_10" : "Brick steps 10 high",
+      "STR_BRICKS_STEPS_20" : "Brick steps 20 high",
+      "STR_SMASH_BLOCK_5" : "Smash 5 blocks",
+      "STR_SMASH_BLOCK_10" : "Smash 10 blocks",
+      "STR_COLLECT_20" : "Collect 20 studs",
+      "STR_COLLECT_50" : "Collect 50 studs",
+      "STR_COLLECT_100" : "Collect 100 studs",
+      "STR_TRIPLE_JUMP_1" : "Do a triple jump",
+      "STR_TRIPLE_JUMP_5" : "Do 5 triple jumps",
+      "STR_DESTROY_BAT_1" : "Bash a bat",
+      "STR_DESTROY_BAT_2" : "Bash a bat twice",
+      "STR_DESTROY_BAT_3" : "Bash a bat three times",
+      "STR_SNATCH_BAT_1" : "Get snatched by a bat",
+      "STR_SNATCH_BAT_2" : "Get snatched by a bat twice",
+      "STR_BOUNCE_GAP_1" : "Bounce over a gap",
+      "STR_BOUNCE_GAP_5" : "Bounce over 5 gaps",
+      "STR_BRICKS_GAP_3" : "Brick steps over 3 gaps",
+
+
+      "STR_GOALS_LEVEL_1_TITLE" : "STR_GOALS_LEVEL_1_TITLE",
+      "STR_GOALS_LEVEL_2_TITLE" : "STR_GOALS_LEVEL_2_TITLE"
+
+    },
+    "assets": {
+    },
+    "endpoints": {
+      "search": "https://wwwsecure.lego.com/query/api/search",
+      "videodata": "https://wwwsecure.lego.com/catalogs/api/video",
+      "videourls": "https://wwwsecure.lego.com/mediaplayer/api/video.json"
+    }
+  }
+}

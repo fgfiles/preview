@@ -1,0 +1,394 @@
+{
+    "assets":
+    {
+		"sounds": {
+			"music": { "playbackType": "Normal", "soundname": "njftg_shimmer_saladtruck_musicloopv1b_cooking" } 
+		},
+        "background":
+        {
+            "display":
+            {
+                "primary": "cookieCreator-MixingBG"
+            }
+        },
+        "bowl":
+        {
+            "transform":
+            {
+                "position": { "x": 489, "y": 243 },
+                "collider": { "offset": { "x": 0, "y": 35 }, "size": { "x": 390, "y": 300 }, "type": "bowl" }
+            },
+            "front":
+            {
+                "display":
+                {
+                    "primary": "game3_baseA"
+                }
+            },
+            "back":
+            {
+                "display":
+                {
+                    "primary": "game3_baseAUnderlay"
+                }
+            }
+        },
+        "progressBar":
+        {
+            "transform":
+            {
+                "position": { "x": 480, "y": 480 },
+                "offset": { "x": 1, "y": 3 }
+            },
+            "display":
+            {
+                "overlay": "progBarSmallOL_S",
+                "underlay": "progBarSmallUL_S"
+            }
+        },
+        "startState": "combining",
+        "states":
+        {
+            "combining":
+            {
+                "next": "mixing",
+                "bowl":
+                {
+                    "display":
+                    {
+                        "primary": "game3_baseAUnderlay"
+                    }
+                },
+                "variables":
+                {
+                    "hasNextTransition": false,
+                    "timeoutDuration":10
+                },
+                "itemCursor":
+                {
+                    "display":
+                    {
+                        "idle": "game3_decoration3b"
+                    }
+                },
+                "sounds":
+                {
+                    "wrong": { "playbackType": "Normal", "soundname": "Incorrect" },
+                    "timeout": { "playbackType": "Cycle", "soundname": ["Mixing_Timeout2", "Mixing_Timeout3_"] },
+                    "desktopTimeout": { "playbackType": "Normal", "soundname": "Mixing_Timeout4_DT" }
+                },
+                "tutorial": 
+                [
+                    {
+                        "variables": { "classPath": "nazboo.scenes.minigames.mixing.tutorials.CombiningTutorial1" },
+                        "movie": {},
+                        "sounds":
+                        {
+                            "vo": { "playbackType": "Normal", "soundname": "Mixing_Tutorial1" }
+                        }
+                    },
+                    {
+                        "variables": { "classPath": "nazboo.scenes.minigames.mixing.tutorials.CombiningTutorial2" },
+                        "movie":
+                        {
+                            "display":
+                            {
+                                "mobile":
+                                {
+                                    "primary": "tutorialMobile_dragDropLoop",
+                                    "enter": "tutorialMobile_enter",
+                                    "exit": "tutorialMobile_exit",
+                                    "tap": "tutorialMobile_dragDropLoop"
+                                },
+                                "desktop":
+                                {
+                                    "primary": "tutorialMouse_dragDropLoop",
+                                    "enter": "tutorialMouse_enter",
+                                    "exit": "tutorialMouse_exit",
+                                    "tap": "tutorialMouse_dragDropLoop"
+                                }
+                            },
+                            "transform":
+                            {
+                                "position": { "x": 480, "y": 280 }
+                            }
+                        },
+                        "sounds":
+                        {
+                            "vo": { "playbackType": "Normal", "soundname": "Mixing_Tutorial2_" },
+                            "timeout": { "playbackType": "Normal", "soundname": "Mixing_TutorialTimeout1_" }
+                        }
+                    },
+                    {
+                        "variables": { "classPath": "nazboo.scenes.minigames.mixing.tutorials.CombiningTutorial3" },
+                        "movie": {},
+                        "sounds":
+                        {
+                            "vo": { "playbackType": "Normal", "soundname": "Mixing_Tutorial3" }
+                        }
+                    }
+                ]
+            },
+            "mixing":
+            {
+                "next": "oven",
+                "variables":
+                {
+                    "hasNextTransition": false
+                },
+                "bowl":
+                {
+                    "display":
+                    {
+                        "spoonIdle": "game3_baseA_asset1_Idle",
+                        "spoonEnter": "game3_baseA_asset1_enter",
+                        "spoonAction": "game3_baseA_asset1_action"
+                    }
+                },
+                "mixCount": 16,
+                "mixingCursor":
+                {
+                    "mixDistance": 1250,
+                    "transform":
+                    {
+                        "collider": { "offset": { "x": 0, "y": 0 }, "size": { "x": 50, "y": 50 }, "target": "bowl" }
+                    }
+                },
+                "sounds":
+                {
+                    "start": { "soundname": "MixingSpoon_Start", "playbackType": "Normal" },
+                    "finished": { "soundname": "MixingSpoon_Outro", "playbackType": "Normal" },
+                    "almost": { "soundname": "MixingSpoon_Congrats", "playbackType": "Normal" },
+                    "timeout": { "playbackType": "Cycle", "soundname": ["MixingSpoon_Timeout1", "MixingSpoon_Timeout3"] }
+                },
+                "tutorial": 
+                [
+                    {
+                        "variables": { "classPath": "nazboo.scenes.minigames.mixing.tutorials.MixingTutorial1" },
+                        "movie":
+                        {
+                            "display":
+                            {
+                                "mobile":
+                                {
+                                    "primary": "tutorialMobile_Scrub",
+                                    "enter": "tutorialMobile_enter",
+                                    "exit": "tutorialMobile_exit",
+                                    "tap": "tutorialMouse_move"
+                                },
+                                "desktop":
+                                {
+                                    "primary": "tutorialMouse_Scrub",
+                                    "enter": "tutorialMouse_enter",
+                                    "exit": "tutorialMouse_exit",
+                                    "tap": "tutorialMouse_move"
+                                }
+                            },
+                            "transform":
+                            {
+                                "position": { "x": 480, "y": 240 }
+                            }
+                        },
+                        "sounds":
+                        {
+                            "vo": { "playbackType": "Normal", "soundname": "MixingSpoon_Tutorial_" },
+                            "timeout": { "playbackType": "Normal", "soundname": "MixingSpoon_TutorialTimeout_" }
+                        }
+                    },
+                    {
+                        "variables": { "classPath": "nazboo.scenes.minigames.mixing.tutorials.MixingTutorial2" },
+                        "sounds": { "vo": { "playbackType": "Normal", "soundname": "MixingSpoon_TutorialOutro" } }
+                    }
+                ]
+            },
+            "oven":
+            {
+                "variables":
+                {
+					"name": "Cutscene 4",
+                    "hasNextTransition": true
+                },
+                "cutscene":
+                {
+                    "shots": [
+                    {
+                        "movie": { "display": { "primary": "game3_cutScene" } },
+						"sounds": { "vo": { "playbackType": "Normal", "soundname": "CutScene4_VO" } }
+                    }]
+                }
+            }
+        },
+        "ingredients": 
+        [
+            {
+                "name": "flour",
+                "count": 1,
+                "transform":
+                {
+                    "position": { "x": 143, "y": 254 },
+                    "buttonArea": { "x": 0, "y": 0, "width": 200, "height": 250 },
+                    "collider": { "offset": { "x": 0, "y": 0 }, "size": { "x": 200, "y": 300 }, "target": "bowl" }
+                },
+                "display":
+                {
+                    "button": ["game3_decoration1c", "game3_decoration1a"],
+                    "postFinal": "game3_decoration1d",
+                    "pickedUp": "game3_decoration1b",
+                    "item": "game3_decoration1_drag",
+                    "highlight": "foodUnderlayGlow",
+                    "bowlAnimation": "game3_baseA_decoration1_anim"
+                },
+                "sound":
+                {
+                    "place": { "soundname": "Mixing_PlaceFlyingFlour", "playbackType": "Normal" },
+                    "hover": { "soundname": "Mixing_HoverFlyingFlour", "playbackType": "Normal" },
+                    "effect": { "soundname": "Flour_sift", "playbackType": "Normal", "delay": 0.4 }
+                },
+                "variables":
+                {
+                    "bowlDelay":0.4
+                }
+            },
+            {
+                "name": "eggs",
+                "count": 1,
+                "transform":
+                {
+                    "position": { "x": 824.70, "y": 110.20 },
+                    "buttonArea": { "x": 0, "y": 0, "width": 100, "height": 100 },
+                    "collider": { "offset": { "x": 0, "y": 0 }, "size": { "x": 100, "y": 100 }, "target": "bowl" }
+                },
+                "display":
+                {
+                    "button": ["game3_decoration3c", "game3_decoration3b", "game3_decoration3a"],
+                    "item": "game3_decoration3_drag",
+                    "highlight": "foodUnderlayGlow",
+                    "bowlAnimation": "game3_baseA_decoration3_anim"
+                },
+                "sound":
+                {
+
+                    "place": { "soundname": ["Mixing_TapEgg", "Mixing_PlaceEgg"], "playbackType": "Cycle" },
+                    "hover": { "soundname": "Mixing_HoverEggs", "playbackType": "Normal" },
+                    "effect": { "soundname": "Egg_crack", "playbackType": "Normal", "delay": 1.9 }
+                },
+                "variables":
+                {
+                    "bowlDelay":2.5
+                }
+            },
+            {
+                "name": "vanilla",
+                "count": 1,
+                "transform":
+                {
+                    "position": { "x": 840, "y": 283 },
+                    "buttonArea": { "x": 0, "y": 0, "width": 100, "height": 100 },
+                    "collider": { "offset": { "x": 0, "y": 0 }, "size": { "x": 100, "y": 100 }, "target": "bowl" }
+                },
+                "display":
+                {
+                    "button": ["game3_decoration4c", "game3_decoration4a"],
+                    "pickedUp": "game3_decoration4b",
+                    "item": "game3_decoration4_drag",
+                    "highlight": "foodUnderlayGlow",
+                    "bowlAnimation": "game3_baseA_decoration4_anim"
+                },
+                "sound":
+                {
+                    "place": { "soundname": "Mixing_PlaceVanilla", "playbackType": "Normal" },
+                    "hover": { "soundname": "Mixing_HoverVanilla", "playbackType": "Normal" },
+                    "effect": { "soundname": "topping_add", "playbackType": "Normal", "delay": 0.3 }
+                },
+                "variables":
+                {
+                    "bowlDelay":0.4
+                }
+            }
+        ]
+    },
+    "variables":
+    {
+        "nextScene": "decorating"
+    },
+    "sounds":
+    {
+        "channels": [
+        {
+            "name": "VO",
+            "volume": 1,
+            "pan": 0,
+            "singleTrack": true,
+            "sounds": [
+
+                { "soundname": "audio/Mixing_HoverEggs", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                { "soundname": "audio/Mixing_HoverFlyingFlour", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                { "soundname": "audio/Mixing_HoverVanilla", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+
+                { "soundname": "audio/Mixing_Outro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 103 },
+
+                { "soundname": "audio/Mixing_PlaceEgg", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                { "soundname": "audio/Mixing_PlaceFlyingFlour", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                { "soundname": "audio/Mixing_PlaceVanilla", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 20 },
+
+                { "soundname": "audio/Mixing_TapEgg", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+
+                { "soundname": "audio/Mixing_Timeout2", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Mixing_Timeout3_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Mixing_Timeout3_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Mixing_Timeout4_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/Mixing_Tutorial1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 100 },
+                { "soundname": "audio/Mixing_Tutorial2_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 101 },
+                { "soundname": "audio/Mixing_Tutorial2_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 101 },
+                { "soundname": "audio/Mixing_Tutorial3", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 102 },
+
+                { "soundname": "audio/Mixing_TutorialTimeout1_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Mixing_TutorialTimeout1_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/MixingSpoon_Congrats", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 103 },
+                { "soundname": "audio/MixingSpoon_Outro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 103 },
+                { "soundname": "audio/MixingSpoon_Start", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/MixingSpoon_Timeout1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/MixingSpoon_Timeout3", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/MixingSpoon_Tutorial_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 100 },
+                { "soundname": "audio/MixingSpoon_Tutorial_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 101 },
+                { "soundname": "audio/MixingSpoon_TutorialOutro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 99 },
+
+                { "soundname": "audio/MixingSpoon_TutorialTimeout_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/MixingSpoon_TutorialTimeout_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/CutScene4_VO", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1000 }
+            ]
+        },
+        {
+            "name": "SFX",
+            "volume": 1,
+            "pan": 0,
+            "singleTrack": false,
+            "sounds": [
+                { "soundname": "audio/Incorrect", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/Spoon_in", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Spoon_mix", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/Egg_crack", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Choco_chip", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/Flour_sift", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+
+                { "soundname": "audio/Cooking_complete", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 },
+                { "soundname": "audio/topping_add", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 80 }
+            ]
+        },
+        {
+            "name": "music",
+            "volume": 0.6,
+            "pan": 0,
+            "singleTrack": true,
+            "sounds": [
+                { "soundname": "audio/njftg_shimmer_saladtruck_musicloopv1b_cooking", "volume": 0.5, "pan": 0, "loops": -1, "fadeIn": -1, "fadeOut": -1, "priority": 0 }
+            ]
+        }]
+    }
+}

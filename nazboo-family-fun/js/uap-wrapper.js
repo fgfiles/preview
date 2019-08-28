@@ -1,0 +1,1 @@
+function getUAParserResult() { var p = new UAParser(); p.setUA(navigator.userAgent); return p.getResult(); }

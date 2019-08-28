@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK_SEGMENT" width="1200" height="0" />
+	<segment id="TUTORIAL_SEGMENT" width="1000" height="0" >
+		<object type="BOOST" variation="0" x="100" y="0"/>
+		<object type="BOOST" variation="0" x="100" y="2"/>
+	</segment>
+	
+	<levelpath>
+		<segment id="BLANK_SEGMENT"/>
+		<segment id="TUTORIAL_SEGMENT"/>
+		<segment id="BLANK_SEGMENT"/>
+	</levelpath>
+</data>

@@ -1,0 +1,870 @@
+{
+	"assets": {
+		"background": 
+		{
+			"display": {
+				"primary": "background"
+			}
+		},
+		"couch":
+		{
+			"display": 
+			{
+				"primary": "game1_overlay1"
+			},
+			"transform":
+			{
+				"position":{"x": 960, "y": 559.5}
+			},
+			"variables":{}
+		},
+		"trees":
+		{
+			"display":
+			{
+				"primary":"game1_overlay2",
+				"tree1": "game1_overlay2",
+				"tree2": "game1_overlay3"
+			},
+			"transform":
+			{
+				"position1":{"x":151, "y":1031},
+				"position2":{"x":1769, "y":1031}
+			},
+			"variables":{}
+		},
+		"gridWorld":
+		{
+			"chunks": 
+			[
+				[
+				  [
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w"
+				  ],
+				  [
+					"w",
+					"oCld",
+					"oCmd",
+					"oCmd",
+					"oCrd",
+					"",
+					"",
+					"oCld",
+					"oCmd",
+					"oCmd",
+					"oCmd",
+					"oCrd"
+				  ],
+				  [
+					"w",
+					"o",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"o",
+					"",
+					"",
+					"",
+					"e"
+				  ],
+				  [
+					"w",
+					"f2",
+					"f3",
+					"oCld",
+					"oCmd",
+					"oCrd",
+					"",
+					"",
+					"",
+					"oCld",
+					"oCmd",
+					"oCmd"
+				  ],
+				  [
+					"w",
+					"f1",
+					"p",
+					"",
+					"",
+					"",
+					"",
+					"oCtr",
+					"",
+					"",
+					"",
+					"e"
+				  ],
+				  [
+					"w",
+					"oCtr",
+					"",
+					"o",
+					"",
+					"",
+					"",
+					"oCmr",
+					"",
+					"",
+					"w",
+					"w"
+				  ],
+				  [
+					"w",
+					"oCmr",
+					"e",
+					"e",
+					"oCtr",
+					"e",
+					"e",
+					"oCmr",
+					"e",
+					"o",
+					"w",
+					"w"
+				  ]
+				],
+				[
+				  [
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w"
+				  ],
+				  [
+					"o",
+					"",
+					"",
+					"",
+					"",
+					"oCld",
+					"oCmd",
+					"oCmd",
+					"oCmd",
+					"oCrd",
+					"o",
+					"w"
+				  ],
+				  [
+					"e",
+					"",
+					"o",
+					"o",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"p",
+					"oCtl",
+					"w"
+				  ],
+				  [
+					"oCrd",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"oCld",
+					"oCmd",
+					"oCrd",
+					"f1",
+					"oCml",
+					"w"
+				  ],
+				  [
+					"e",
+					"",
+					"",
+					"oCtl",
+					"",
+					"o",
+					"",
+					"",
+					"f3",
+					"f2",
+					"oCbl",
+					"w"
+				  ],
+				  [
+					"w",
+					"w",
+					"",
+					"oCml",
+					"",
+					"",
+					"",
+					"oCtl",
+					"",
+					"",
+					"o",
+					"w"
+				  ],
+				  [
+					"w",
+					"w",
+					"e",
+					"oCml",
+					"e",
+					"oCtl",
+					"e",
+					"oCml",
+					"e",
+					"o",
+					"oCtl",
+					"w"
+				  ]
+				],
+				[
+				  [
+					"w",
+					"oCmr",
+					"e",
+					"e",
+					"oCmr",
+					"e",
+					"e",
+					"oCbr",
+					"e",
+					"o",
+					"w",
+					"w"
+				  ],
+				  [
+					"w",
+					"oCmr",
+					"",
+					"",
+					"oCbr",
+					"",
+					"",
+					"",
+					"f3",
+					"o",
+					"w",
+					"w"
+				  ],
+				  [
+					"w",
+					"oCbr",
+					"",
+					"",
+					"",
+					"",
+					"o",
+					"f1",
+					"f2",
+					"",
+					"",
+					"e"
+				  ],
+				  [
+					"w",
+					"",
+					"",
+					"o",
+					"",
+					"",
+					"",
+					"p",
+					"oClu",
+					"oCmu",
+					"oCmu",
+					"oCmu"
+				  ],
+				  [
+					"w",
+					"",
+					"",
+					"",
+					"oClu",
+					"oCmu",
+					"oCru",
+					"",
+					"",
+					"",
+					"",
+					"e"
+				  ],
+				  [
+					"w",
+					"o",
+					"o",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"oClu",
+					"oCmu",
+					"oCru",
+					"e"
+				  ],
+				  [
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w"
+				  ]
+				],
+				[
+				  [
+					"w",
+					"w",
+					"e",
+					"oCbl",
+					"e",
+					"oCml",
+					"e",
+					"oCbl",
+					"e",
+					"o",
+					"oCml",
+					"w"
+				  ],
+				  [
+					"w",
+					"w",
+					"",
+					"",
+					"",
+					"oCbl",
+					"",
+					"",
+					"",
+					"o",
+					"oCbl",
+					"w"
+				  ],
+				  [
+					"e",
+					"",
+					"",
+					"o",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"w"
+				  ],
+				  [
+					"oCru",
+					"",
+					"o",
+					"o",
+					"",
+					"",
+					"oClu",
+					"oCmu",
+					"oCru",
+					"",
+					"",
+					"w"
+				  ],
+				  [
+					"e",
+					"",
+					"",
+					"",
+					"",
+					"p",
+					"f1",
+					"f2",
+					"f3",
+					"",
+					"o",
+					"w"
+				  ],
+				  [
+					"e",
+					"",
+					"oClu",
+					"oCmu",
+					"oCru",
+					"",
+					"",
+					"oClu",
+					"oCmu",
+					"oCmu",
+					"oCru",
+					"w"
+				  ],
+				  [
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w",
+					"w"
+				  ]
+				]
+			],
+			"variables":
+			{
+				"gridDimensions":{"x":24, "y":14},
+				"chunkDimensions":{"x":12, "y":7},
+				"tileDimensions":{"x":83, "y":83},
+				"gridOffset":{"x":-36, "y":-21},
+				"baseObstacles":[1, 2, 3]
+			}
+		},
+		"confetti":
+		{
+			"display":{"primary":"game1_fx4"},
+			"transform":{"position":{"x":480, "y":0}}
+		},
+		"player":
+		{
+			"display":
+			{
+				"primary":"game1_character1_Idle",
+				"idle":
+				{
+					"right":"game1_character1_Idle2",
+					"left":"game1_character1_Idle",
+					"up":"game1_character1_Idle4",
+					"down":"game1_character1_Idle3"
+				},
+				"run":
+				{
+					"right":"game1_character1_Run2",
+					"left":"game1_character1_Run",
+					"up":"game1_character1_Run4",
+					"down":"game1_character1_Run3"
+				},
+				"underlay":"game1_fx5"
+			},
+			"transform":
+			{
+				"collider":
+				{
+					"offest":{"x":0, "y":0},	
+					"size":{"x":40, "y":40},
+					"type":"player",
+					"target":"objects"
+				}
+			},
+			"variables":
+			{
+				"moveDuration":0.5,
+				"type":"p",
+				"timeoutDelay":10,
+				"encourageChance":30,
+				"gemDensity":5,
+				"maxCollisions":4
+			},
+			"sounds":
+			{
+				"encouragement":{"playbackType": "Random", "soundname":[ "GemHunt_Encouragement2", "GemHunt_Encouragement4", "GemHunt_Encouragement5"]},
+				"walkingTimeout":{"playbackType": "Cycle", "soundname": ["GemHunt_Timeout1_", "GemHunt_Timeout3", "GemHunt_Timeout6", "GemHunt_Timeout3", "GemHunt_Timeout5"]},
+				"arrowTimeout": { "playbackType": "Random", "soundname": ["GemHunt_ArrowTimeout", "GemHunt_RoomHint3", "GemHunt_RoomHint2", "GemHunt_RoomHint3"] },
+				"wrongWay":{"playbackType": "Cycle", "soundname":["GemHunt_Obstacle3", "GemHunt_Obstacle1", "CutScene5a_4"]},
+				"footsteps": { "playbackType": "Normal", "soundname": "Footsteps"},
+				"spawnGem": {"playbackType": "Normal", "soundname": "Gem_Spawn"},
+				"collision":{ "playbackType": "Normal", "soundname": "Collide"}
+			}
+		},
+		"followers":
+		{
+			"display":
+			{
+				"primary":"game1_character1_Idle",
+				"idle":
+				[
+					{
+						"up":"game1_character2_Idle4",
+						"down":"game1_character2_Idle3",
+						"right":"game1_character2_Idle2",
+						"left":"game1_character2_Idle"
+					},
+					{
+						"up":"game1_character3_Idle3",
+						"down":"game1_character3_Idle2",
+						"right":"game1_character3_Idle",
+						"left":"game1_character3_Idle"
+					},
+					{
+						"up":"game1_character4_Idle3",
+						"down":"game1_character4_Idle2",
+						"right":"game1_character4_Idle",
+						"left":"game1_character4_Idle"
+					}
+				],
+				"run":
+				[
+					{
+						"up":"game1_character2_Run4",
+						"down":"game1_character2_Run3",
+						"right":"game1_character2_Run2",
+						"left":"game1_character2_Run"
+					},
+					{
+						"up":"game1_character3_Run3",
+						"down":"game1_character3_Run2",
+						"right":"game1_character3_Run",
+						"left":"game1_character3_Run"
+					},
+					{
+						"up":"game1_character4_Run3",
+						"down":"game1_character4_Run2",
+						"right":"game1_character4_Run",
+						"left":"game1_character4_Run"
+					}
+				]
+			},
+			"variables":
+			{
+				"moveDuration":0.5,
+				"type":"f"
+			}
+		},
+		"obstacle":
+		{
+			"display":
+			{
+				"primary":"game1_obstacle1",
+				"idle":"game1_obstacle",
+				"o":"game1_obstacle",
+				"oCld":"game1_obstacle5a",
+				"oCmd":"game1_obstacle5b",
+				"oCrd":"game1_obstacle5c",
+				"oCtl":"game1_obstacle7c",
+				"oCml":"game1_obstacle7b",
+				"oCbl":"game1_obstacle7a",
+				"oClu":"game1_obstacle6a",
+				"oCmu":"game1_obstacle6b",
+				"oCru":"game1_obstacle6c",
+				"oCtr":"game1_obstacle7c",
+				"oCmr":"game1_obstacle7b",
+				"oCbr":"game1_obstacle7a"
+			},
+			"variables":
+			{
+				"type":"o"
+			},
+			"transform":
+			{
+				"offset":
+				{
+					"oCld":{"x":-42, "y":-51},
+					"oCmd":{"x":-41, "y":-47},
+					"oCrd":{"x":-41, "y":-50},
+					"oCtl":{"x":0, "y":-11},
+					"oCml":{"x":0, "y":41},
+					"oCbl":{"x":2, "y":25},
+					"oClu":{"x":-44, "y":-42},
+					"oCmu":{"x":-41, "y":-41},
+					"oCru":{"x":-42, "y":-40},
+					"oCtr":{"x":0, "y":-11},
+					"oCmr":{"x":0, "y":41},
+					"oCbr":{"x":-2, "y":25}
+				},
+				"scale":
+				{
+					"oCld":{"x":1, "y":1},
+					"oCmd":{"x":1, "y":1},
+					"oCrd":{"x":1, "y":1},
+					"oCtl":{"x":-1, "y":1},
+					"oCml":{"x":-1, "y":1},
+					"oCbl":{"x":-1, "y":1},
+					"oClu":{"x":1, "y":1},
+					"oCmu":{"x":1, "y":1},
+					"oCru":{"x":1, "y":1},
+					"oCtr":{"x":1, "y":1},
+					"oCmr":{"x":1, "y":1},
+					"oCbr":{"x":1, "y":1}
+				}
+			}
+		},
+		"collectable":
+		{
+			"display":
+			{
+				"primary":"game1_asset1",
+				"idle":
+				[
+					"game1_asset1",
+					"game1_asset1a",
+					"game1_asset1b",
+					"game1_asset1c",
+					"game1_asset1d"
+				],
+				"collect":"game1_fx1",
+				"spawn":"game1_fx2"
+			},
+			"transform":
+			{
+				"collider":
+				{
+					"offest":{"x":0, "y":0},	
+					"size":{"x":40, "y":40},
+					"type":"objects"
+				}
+			},
+			"variables":
+			{
+				"type":"g"
+			}
+		},
+		"arrow":
+		{
+			"display":
+			{
+				"primary":"game1_asset2_Loop"
+			},
+			"variables":
+			{
+				"type":"a"
+			}
+		},
+		"hud":
+		{
+			"display":
+			{
+				"primary":"game1_uiBacker"
+			},
+			"transform":
+			{
+				"position":{"x":832, "y":48}
+			},
+			"timer":
+			{
+				"display":
+				{
+					"primary":"game1_analogClock",
+					"debug":"game1_overlay1"
+				},
+				"transform":
+				{
+					"position":{"x":-64, "y":-1}
+				}
+			},
+			"score":
+			{
+				"display":
+				{
+					"primary":"game1_gemCounter"
+				},
+				"transform":
+				{
+					"position":{"x":15, "y":1}
+				},
+				"text":
+				{
+					"transform":
+					{
+						"position":{"x":70, "y":-12},
+						"scale":{"x":0.65, "y":0.65}
+					},
+					"variables":
+					{
+						"text":"0"
+					}
+				},
+				"collect":
+				{
+					"gem":
+					{
+						"display":
+						{
+							"primary":"game1_gemCounter",
+							"idle":
+							[
+								"game1_asset4",
+								"game1_asset4a",
+								"game1_asset4b",
+								"game1_asset4c",
+								"game1_asset4d"
+							]
+						}
+					},
+					"overlay":
+					{
+						"display":
+						{
+							"primary":"game1_fx3"
+						},
+						"transform":
+						{
+							"position":{"x":0, "y":-7}
+						}
+					}
+				},
+				"drop":
+				{
+					"display":
+					{
+						"primary":"game1_loseGem"
+					},
+					"transform":
+					{
+						"position":{"x":0, "y":0}
+					}
+				}
+			},
+			"sounds":
+			{
+				"collectGem": { "playbackType": "Normal", "soundname": "Gem_Collect"},
+				"woosh": { "playbackType": "Normal", "soundname": "Gem_WooshV2"}
+			},
+			"variables":
+			{
+				"gameTime":90,
+				"tweenDistance":1111.4
+			}
+		},
+		"tutorial":
+		[
+			{
+				"variables": 
+				{
+					"classPath": "nazboo.scenes.minigames.snake.tutorials.SnakeTutorial1",
+					"timeoutDelay":10
+				},
+				"movie": 
+				{
+					"display":
+					{
+						"mobile": 
+						{
+							"primary": "tutorialMobile_UDLR",
+							"enter": "tutorialMobile_enter",
+							"exit": "tutorialMobile_exit",
+							"tap": "tutorialMobile_UDLR"
+						},
+						"desktop": 
+						{
+							"primary": "tutorialKeyboard_UDLR_play",
+							"enter": "tutorialKeyboard_enter",
+							"exit": "tutorialKeyboard_exit",
+							"tap": "tutorialKeyboard_UDLR_play"
+						}	
+					},
+					"transform": 
+					{
+						 "position": { "x": 480, "y": 240 } 
+					}
+				},
+				"sounds": 
+				{ 
+					"tutorial1":{ "playbackType": "Normal", "soundname": "GemHunt_Tutorial1_" },
+					"tutorial2":{ "playbackType": "Normal", "soundname": "GemHunt_Tutorial2" },
+					"timeout":{ "playbackType": "Normal", "soundname": "GemHunt_TutorialTimeout_" }
+				}
+			}
+		],
+		"sounds":
+		{
+			"music": { "playbackType": "Normal", "soundname": "shfcg_gamemusic_bazzar_insidev2a_gem" },
+			"intro1": {"playbackType": "Normal", "soundname": "GemHunt_Intro1"},
+			"intro2": {"playbackType": "Sequence", "soundname": ["GemHunt_Tutorial2", "GemHunt_Intro2", "GemHunt_Intro3"]},
+			"outro": { "playbackType": "Normal", "soundname": "GemHunt_Outro"},
+			"dropGem": { "playbackType": "Normal", "soundname": "Gem_loss"}
+		}
+	},
+	"variables": {
+		"flickScrollDuration":1
+	},
+	"sounds": {
+		"channels": 
+		[
+			{
+                "name": "music",
+				"volume": 0.6,
+                "pan": 0,
+                "singleTrack": true,
+				"sounds": 
+				[
+                    { "soundname": "audio/shfcg_gamemusic_bazzar_insidev2a_gem", "volume": 0.6, "pan": 0, "loops": -1,"fadeIn": -1, "fadeOut": -1, "priority": 0 }
+				]
+			},
+			{
+                "name": "sfx",
+				"volume": 1,
+                "pan": 0,
+                "singleTrack": false,
+				"sounds": 
+				[
+                    { "soundname": "audio/Collide", "volume": 0.4, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                    { "soundname": "audio/Gem_Collect", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority":0 },
+                    { "soundname": "audio/Gem_Spawn", "volume":1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                    { "soundname": "audio/Gem_loss", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                    { "soundname": "audio/Footsteps", "volume": 0.3, "pan": 0, "loops": -1,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                    { "soundname": "audio/Gem_WooshV2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 }
+				]
+			},
+			{
+                "name": "VO",
+				"volume": 1,
+                "pan": 0,
+                "singleTrack": true,
+				"sounds": 
+				[
+                    { "soundname": "audio/GemHunt_ArrowTimeout", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 27 },
+                    { "soundname": "audio/GemHunt_Encouragement2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 25 },
+                    { "soundname": "audio/GemHunt_Encouragement4", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 25 },
+                    { "soundname": "audio/GemHunt_Encouragement5", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 25 },
+                    { "soundname": "audio/GemHunt_Intro1", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 10 },
+                    { "soundname": "audio/GemHunt_Intro2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 40 },
+                    { "soundname": "audio/GemHunt_Intro3", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 50 },
+                    { "soundname": "audio/GemHunt_Obstacle1", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Obstacle3", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Outro", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 40 },
+                    { "soundname": "audio/GemHunt_RoomHint3", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 27 },
+                    { "soundname": "audio/GemHunt_RoomHint2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 27 },
+                    { "soundname": "audio/GemHunt_Timeout1_DT", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Timeout1_MBL", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Timeout3", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Timeout5", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Timeout6", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Tutorial1_DT", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Tutorial1_MBL", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_TutorialTimeout_DT", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_TutorialTimeout_MBL", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/GemHunt_Tutorial2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 30 },
+                    { "soundname": "audio/Gem_WrongWay1", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 },
+                    { "soundname": "audio/CutScene5a_4", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 20 }
+				]
+			}
+		]
+	}
+}

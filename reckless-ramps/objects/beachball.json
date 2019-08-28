@@ -1,0 +1,40 @@
+{
+    "bodies": [
+        {
+            "type": 2,
+            "userData": "beachball",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65535,
+                    "categoryBits": 3,
+                    "groupIndex": 0,
+                    "restitution": 0.9,
+                    "friction": 0.15,
+                    "density": 0.20,
+                    "shapes": [
+                        {
+                            "type": 1,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [],
+                            "radius": 20
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        }
+    ],
+    "joints": []
+}

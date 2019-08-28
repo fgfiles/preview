@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK_SEGMENT" width="4200" height="0" />
+	<segment id="OBSTACLE_SEGMENT" width="4000" height="0" >
+		<object type="HAZARD" variation="1" x="300" y="0"/>
+		<object type="HAZARD" variation="0" x="1100" y="2"/>
+		<object type="HAZARD" variation="1" x="1900" y="1"/>
+		<object type="HAZARD" variation="0" x="2700" y="0"/>
+	</segment>
+	
+	<levelpath>
+		<segment id="BLANK_SEGMENT"/>
+		<segment id="OBSTACLE_SEGMENT"/>
+	</levelpath>
+</data>

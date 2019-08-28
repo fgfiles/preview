@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK_SHORT" width="500" height="0" />
+	<segment id="BLANK_MEDIUM" width="1000" height="0" />
+	<segment id="RAMP_TOP" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="0"/>
+		<object type="RAMP" variation="0" x="500" y="0"/>
+	</segment>
+	<segment id="RAMP_MIDDLE" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="1"/>
+		<object type="RAMP" variation="0" x="500" y="1"/>
+	</segment>
+	<segment id="RAMP_BOTTOM" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="2"/>
+		<object type="RAMP" variation="0" x="500" y="2"/>
+	</segment>
+	<segment id="DUCK_LADDER_1" width="2000" height="0" >
+		<object type="DUCK" variation="0" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="200" y="0"/>
+		<object type="DUCK" variation="0" x="300" y="0"/>
+		<object type="DUCK" variation="0" x="800" y="1"/>
+		<object type="DUCK" variation="0" x="900" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="1"/>
+		<object type="DUCK" variation="0" x="1500" y="2"/>
+		<object type="DUCK" variation="0" x="1600" y="2"/>
+		<object type="DUCK" variation="0" x="1700" y="2"/>
+	</segment>
+	<segment id="DUCK_LADDER_2" width="2000" height="0" >
+		<object type="DUCK" variation="0" x="100" y="1"/>
+		<object type="DUCK" variation="0" x="200" y="1"/>
+		<object type="DUCK" variation="0" x="300" y="1"/>
+		<object type="DUCK" variation="0" x="800" y="2"/>
+		<object type="DUCK" variation="0" x="900" y="2"/>
+		<object type="DUCK" variation="0" x="1000" y="2"/>
+		<object type="DUCK" variation="0" x="1500" y="0"/>
+		<object type="DUCK" variation="0" x="1600" y="0"/>
+		<object type="DUCK" variation="0" x="1700" y="0"/>
+	</segment>
+	<segment id="DUCK_ALTERNATOR_1" width="1500" height="0" >
+		<object type="DUCK" variation="0" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="200" y="0"/>
+		<object type="DUCK" variation="0" x="300" y="0"/>
+		<object type="DUCK" variation="0" x="800" y="2"/>
+		<object type="DUCK" variation="0" x="900" y="2"/>
+		<object type="DUCK" variation="0" x="1000" y="2"/>
+	</segment>
+	<segment id="DUCK_ALTERNATOR_2" width="1500" height="0" >
+		<object type="DUCK" variation="0" x="100" y="2"/>
+		<object type="DUCK" variation="0" x="200" y="2"/>
+		<object type="DUCK" variation="0" x="300" y="2"/>
+		<object type="DUCK" variation="0" x="800" y="0"/>
+		<object type="DUCK" variation="0" x="900" y="0"/>
+		<object type="HAZARD" variation="0" x="900" y="2"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+	</segment>
+	<segment id="DUCK_SPARSE_1" width="2500" height="0" >
+		<object type="DUCK" variation="0" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="400" y="2"/>
+		<object type="DUCK" variation="0" x="700" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1300" y="1"/>
+		<object type="DUCK" variation="0" x="1600" y="2"/>
+		<object type="DUCK" variation="0" x="1900" y="0"/>
+		<object type="DUCK" variation="0" x="2100" y="2"/>
+		<object type="DUCK" variation="0" x="2300" y="1"/>
+	</segment>
+	<segment id="DUCK_SPARSE_2" width="2500" height="0" >
+		<object type="DUCK" variation="0" x="100" y="1"/>
+		<object type="DUCK" variation="0" x="400" y="1"/>
+		<object type="DUCK" variation="0" x="700" y="2"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1300" y="2"/>
+		<object type="DUCK" variation="0" x="1600" y="1"/>
+		<object type="DUCK" variation="0" x="1900" y="0"/>
+		<object type="DUCK" variation="0" x="2100" y="2"/>
+	</segment>
+	<segment id="HAZARD_SPARSE_1" width="2100" height="0" >
+		<object type="DUCK" variation="0" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="400" y="2"/>
+		<!--<object type="HAZARD" variation="0" x="700" y="1"/>-->
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1300" y="1"/>
+		<object type="HAZARD" variation="1" x="1600" y="2"/>
+		<object type="DUCK" variation="0" x="1900" y="0"/>
+	</segment>
+	<segment id="HAZARD_SPARSE_2" width="2100" height="0" >
+		<object type="DUCK" variation="0" x="100" y="0"/>
+		<object type="HAZARD" variation="0" x="400" y="0"/>
+		<object type="DUCK" variation="0" x="700" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1300" y="1"/>
+		<object type="HAZARD" variation="1" x="1600" y="2"/>
+		<object type="DUCK" variation="0" x="1900" y="0"/>
+	</segment>
+	<segment id="HAZARD_NEEDLE" width="2100" height="0" >
+		<object type="HAZARD" variation="1" x="100" y="2"/>
+		<object type="HAZARD" variation="1" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="400" y="1"/>
+		<object type="DUCK" variation="0" x="700" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1300" y="0"/>
+		<object type="HAZARD" variation="0" x="1600" y="1"/>
+		<object type="DUCK" variation="0" x="1900" y="0"/>
+	</segment>
+	<segment id="BOOST_TOP" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="0"/>
+		<object type="DUCK" variation="0" x="400" y="0"/>
+		<object type="DUCK" variation="0" x="600" y="0"/>
+		<object type="DUCK" variation="0" x="800" y="0"/>
+		<object type="DUCK" variation="0" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1200" y="0"/>
+		<object type="DUCK" variation="0" x="1400" y="0"/>
+		<object type="DUCK" variation="0" x="1600" y="0"/>
+		<object type="HAZARD" variation="1" x="2000" y="2"/>
+	</segment>
+	<segment id="BOOST_MIDDLE" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="1"/>
+		<object type="DUCK" variation="0" x="400" y="1"/>
+		<object type="DUCK" variation="0" x="600" y="1"/>
+		<object type="DUCK" variation="0" x="800" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="1"/>
+		<object type="DUCK" variation="0" x="1200" y="1"/>
+		<object type="DUCK" variation="0" x="1400" y="1"/>
+		<object type="DUCK" variation="0" x="1600" y="1"/>
+	</segment>
+	<segment id="BOOST_BOTTOM" width="2800" height="0" >
+		<object type="BOOST" variation="0" x="100" y="2"/>
+		<object type="DUCK" variation="0" x="400" y="2"/>
+		<object type="DUCK" variation="0" x="600" y="2"/>
+		<object type="DUCK" variation="0" x="800" y="2"/>
+		<object type="HAZARD" variation="1" x="1000" y="0"/>
+		<object type="DUCK" variation="0" x="1000" y="2"/>
+		<object type="DUCK" variation="0" x="1200" y="2"/>
+		<object type="DUCK" variation="0" x="1400" y="2"/>
+		<object type="DUCK" variation="0" x="1600" y="2"/>
+		<object type="HAZARD" variation="1" x="2000" y="0"/>
+	</segment>
+	<segment id="BOOST_NEEDLE" width="2800" height="0" >
+		<object type="HAZARD" variation="1" x="100" y="0"/>
+		<object type="BOOST" variation="0" x="100" y="1"/>
+		<object type="HAZARD" variation="1" x="100" y="2"/>
+		<object type="DUCK" variation="0" x="400" y="1"/>
+		<object type="DUCK" variation="0" x="600" y="1"/>
+		<object type="DUCK" variation="0" x="800" y="1"/>
+		<object type="DUCK" variation="0" x="1000" y="1"/>
+		<object type="DUCK" variation="0" x="1200" y="1"/>
+		<object type="DUCK" variation="0" x="1400" y="1"/>
+		<object type="DUCK" variation="0" x="1600" y="1"/>
+	</segment>
+	<segment id="BOOST_OBSTACLE" width="3200" height="0" >
+		<object type="BOOST" variation="0" x="100" y="1"/>
+		<object type="DUCK" variation="0" x="600" y="0"/>
+		<object type="DUCK" variation="0" x="1200" y="0"/>
+		<object type="HAZARD" variation="0" x="1500" y="0"/>
+		<object type="DUCK" variation="0" x="1900" y="1"/>
+		<object type="DUCK" variation="0" x="2200" y="2"/>
+		<object type="DUCK" variation="0" x="2500" y="2"/>
+		<object type="HAZARD" variation="1" x="3000" y="2"/>
+	</segment>
+	<segment id="POWERUP_CHAIN_1" width="1200" height="0" >
+		<object type="POWERUP" variation="0" x="100" y="1"/>
+		<object type="PUP" variation="0" x="100" y="2"/>
+		<object type="HAZARD" variation="1" x="300" y="1"/>
+		<object type="DUCK" variation="0" x="500" y="1"/>
+		<object type="DUCK" variation="0" x="600" y="1"/>
+		<object type="HAZARD" variation="1" x="700" y="2"/>
+		<object type="DUCK" variation="0" x="900" y="2"/>
+		<object type="DUCK" variation="0" x="1000" y="2"/>
+	</segment>
+	<segment id="BOOST_POWERUP_COMBO" width="2400" height="0" >
+		<object type="POWERUP" variation="0" x="100" y="1"/>
+		<object type="PUP" variation="0" x="100" y="2"/>
+		<object type="HAZARD" variation="0" x="500" y="1"/>
+		<object type="DUCK" variation="0" x="650" y="1"/>
+		<object type="DUCK" variation="0" x="750" y="1"/>
+		<object type="HAZARD" variation="1" x="900" y="1"/>
+		<object type="DUCK" variation="0" x="1050" y="1"/>
+		<object type="DUCK" variation="0" x="1150" y="1"/>
+		<object type="DUCK" variation="0" x="1250" y="1"/>
+		<object type="DUCK" variation="0" x="1350" y="1"/>
+		<object type="HAZARD" variation="1" x="1450" y="0"/>
+		<object type="DUCK" variation="0" x="1600" y="0"/>
+		<object type="DUCK" variation="0" x="1700" y="0"/>
+		<object type="DUCK" variation="0" x="1800" y="0"/>
+		<object type="HAZARD" variation="0" x="1900" y="1"/>
+		<object type="DUCK" variation="0" x="2100" y="2"/>
+		<object type="DUCK" variation="0" x="2200" y="2"/>
+		<object type="DUCK" variation="0" x="2300" y="2"/>
+	</segment>
+	
+	<levelpath>
+		<!-- 6000 / 17 Ducks -->
+		<segment id="BLANK_SHORT"/>
+		<segment id="DUCK_SPARSE_1"/>
+		<segment id="BLANK_SHORT"/>
+		<segment id="DUCK_SPARSE_2"/>
+		<segment id="BLANK_SHORT"/>
+		
+		<!-- 2800 / 7 Ducks -->
+		<segment id="BOOST_MIDDLE"/>
+		
+		<!-- 2000 / 9 Ducks -->
+		<segment id="DUCK_LADDER_1"/>
+		
+		<!--- 9200 / 27 Ducks -->
+		<segment id="DUCK_SPARSE_1"/>
+		<segment id="HAZARD_SPARSE_1"/>
+		<segment id="DUCK_SPARSE_2"/>
+		<segment id="HAZARD_SPARSE_2"/>
+		
+		<!-- 2800 / 7 Ducks -->
+		<segment id="RAMP_MIDDLE"/>
+		
+		<!-- 2000 / 9 Ducks -->
+		<segment id="DUCK_LADDER_2"/>
+		
+		<!-- 3200 / 5 Ducks -->
+		<segment id="BOOST_OBSTACLE"/>
+		
+		<!-- 2400 / 12 Ducks -->
+		<segment id="BOOST_POWERUP_COMBO"/>
+		
+		<!-- 8400 (36,000 total?) / 14 Ducks -->
+		<segment id="BOOST_TOP"/>
+		<segment id="BOOST_BOTTOM"/>
+		
+		<!-- 7200 / 43,200 total -->
+		<segment id="HAZARD_SPARSE_1"/>
+		<segment id="DUCK_ALTERNATOR_1"/>
+		<segment id="HAZARD_SPARSE_2"/>
+		<segment id="DUCK_ALTERNATOR_2"/>
+		
+		<segment id = "RAMP_BOTTOM"/>
+		<segment id = "RAMP_TOP"/>
+		
+		<!-- 4900 / 48,100 total -->
+		<segment id="BOOST_NEEDLE"/>
+		<segment id="HAZARD_NEEDLE"/>
+		
+		<!-- 3300 / 51,400 total -->
+		<segment id="POWERUP_CHAIN_1"/>
+		<segment id="HAZARD_NEEDLE"/>
+		
+		<!-- 2800 / 54,2000 -->
+		<segment id = "RAMP_MIDDLE"/>
+		
+		<!--  End of Level Padding: -->
+		<segment id="BLANK_SHORT"/>
+		<segment id="BLANK_SHORT"/>
+		<segment id="BLANK_SHORT"/>
+		<segment id="BLANK_SHORT"/>
+	</levelpath>
+</data>

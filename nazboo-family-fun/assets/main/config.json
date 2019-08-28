@@ -1,0 +1,296 @@
+{
+	"variables": {
+		"name": "NickJr-Nazboo",
+		"version": "1.1.4",
+		"target": { "x": 960, "y": 560 },
+		"innerRect": { "x": 10, "y": 10, "width": 940, "height": 540 },
+		"disableVO": true,
+		"disableCutscenes": true,
+		"initialScene": {
+			"name": "title",
+			"autoStart": true
+		},
+		"userData":{
+			"useDebugAPI": true,
+			"endStinger": {
+				"playbackType": "Normal",
+				"assetPack": "main",
+				"soundname": "njftg_shimmer_saladtruck_endstingerv1a"
+			},
+			"sceneFlow": {
+				"title": {
+					"next":"intro"	
+				},
+				"intro": {
+					"next":"snake",
+					"isCutscene":true
+				},
+				"snake": {
+					"next":"cutscene2"
+				},
+				"cutscene2": {
+					"next":"platformer",
+					"isCutscene":true
+				},
+				"platformer": {
+					"next":"cutscene3"
+				},
+				"cutscene3":
+				{
+					"next":"mixing",
+					"isCutscene":true
+				},
+				"mixing": {
+					"next":"decorating"
+				},
+				"decorating": {
+					"next":"cutscene5"
+				},
+				"cutscene5":
+				{
+					"next":"outro",
+					"isCutscene":true
+				},
+				"outro": {
+					"next":"intro"
+				}
+			}
+		},
+		"sceneMap": {
+			"loading": {
+				"classPath": "nazboo.scenes.LoadingScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "main", "config": "config.json" }
+				]
+			},
+			"title": {
+				"classPath": "nazboo.scenes.TitleScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "title", "config": "config.json" }
+				]
+			},
+			"intro": {
+				"classPath": "nazboo.scenes.cutscenes.GeneralCutscene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "intro", "config": "config.json" }
+				]
+			},
+			"outro": {
+				"classPath": "nazboo.scenes.cutscenes.OutroScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "outro", "config": "config.json" }
+				]
+			},
+			"platformer": {
+				"classPath": "nazboo.scenes.minigames.platformer.PlatformerScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "platformer", "config": "config.json" },
+					{ "name": "gameShared", "config": "config.json" }
+				]
+			},
+			"snake": {
+				"classPath": "nazboo.scenes.minigames.snake.SnakeScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "snake", "config": "config.json" },
+					{ "name": "gameShared", "config": "config.json" }
+				]
+			},
+			"decorating": {
+				"classPath": "nazboo.scenes.minigames.decorating.DecoratingScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "decorating", "config": "config.json" },
+					{ "name": "gameShared", "config": "config.json" }
+				]
+			},
+			"cutscene2": {
+				"classPath": "nazboo.scenes.cutscenes.GeneralCutscene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "cutscene2", "config": "config.json" }
+				]
+			},
+			"cutscene3": {
+				"classPath": "nazboo.scenes.cutscenes.GeneralCutscene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "cutscene3", "config": "config.json" }
+				]
+			},
+			"cutscene5": {
+				"classPath": "nazboo.scenes.cutscenes.GeneralCutscene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "cutscene5", "config": "config.json" }
+				]
+			},
+			"mixing": {
+				"classPath": "nazboo.scenes.minigames.mixing.MixingScene",
+				"primaryAssetPack": 0,
+				"assetPacks": [
+					{ "name": "mixing", "config": "config.json" },
+					{ "name": "gameShared", "config": "config.json" }
+				]
+			}
+		}
+	},
+	"assets": {
+		"loadingScreen": {
+			"transform": { 
+				"olPosition": { "x": 321, "y": 432 },
+				"ulPosition": { "x": 480, "y": 280 },
+				"dragonPosition":{"x":480, "y":245}
+			},
+			"display": {
+				"background": "Loaderbg",
+				"fill": "progBarSmallOL_S",
+				"underlay":"progBarSmallUL_S",
+				"dragons": "mainCharacterLoad"
+			}
+		},
+		"screenTransition": {
+			"transform": {
+				"position": { "x": 480, "y": 280 }
+			},
+			"display": {
+				"intro": "transition_ending",
+				"outro": "transition_intro"
+			},
+			"sounds": 
+			{
+				"sfx": {"playbackType":"Normal", "soundname":"audio/Transition", "assetPack":"main"}
+			}
+		},
+		"gameBorder": {
+			"display": {
+				"left": "borderLeft",
+				"right": "borderRight",
+				"top": "borderTop",
+				"bottom": "borderBottom"
+			}
+		},
+		"buttonMap": {
+			"playButton": {
+				"transform": {
+					"position": { "x": 848, "y": 474 }
+				},
+				"clips": {
+					"idle": "playButtonIdle",
+					"onInactive": "playButtonIdle",
+					"onOver": "playButtonHover",
+					"onDown": "playButtonDown",
+					"highlight": "playButtonHover"
+				},
+				"sounds": {
+					"onOver": { "playbackType": "Normal", "soundname": "audio/Btn_Play" },
+                    "onUp": {"playbackType":"Normal", "soundname":"audio/Game_Start"}
+				}
+			},
+			"skipButton": {
+				"transform": {
+					"position": { "x": 848, "y": 474 }
+				},
+				"clips": {
+					"idle": "skipButtonIdle",
+					"onInactive": "skipButtonIdle",
+					"onOver": "skipButtonHover",
+					"onDown": "skipButtonDown",
+					"highlight": "skipButtonIdle"
+				},
+				"sounds": {
+					"onOver": { "playbackType": "Normal", "soundname": "audio/Btn_Skip" },
+                    "onUp": {"playbackType":"Normal", "soundname":"audio/Game_Start"}
+				}
+			},
+			"playagainButton":{
+				"transform": {
+					"position": { "x": 848, "y": 474 }
+				},
+				"clips": {
+					"idle": "playAgainButtonIdle",
+					"onInactive": "playAgainButtonIdle",
+					"onOver": "playAgainButtonHover",
+					"onDown": "playAgainButtonDown",
+					"highlight": "playAgainButtonHover"
+				},
+				"sounds": {
+					"onOver": { "playbackType": "Normal", "soundname": "audio/Btn_PlayAgain" },
+                    "onUp": {"playbackType":"Normal", "soundname":"audio/Game_Start"}
+				}
+			},
+			"doneButton":{
+				"transform": {
+					"position": { "x": 848, "y": 474 }
+				},
+				"clips": {
+					"idle": "doneButtonIdle",
+					"onInactive": "doneButtonIdle",
+					"onOver": "doneButtonHover",
+					"onDown": "doneButtonDown",
+					"highlight": "doneButtonIdle"
+				},
+				"sounds": {
+					"onOver": { "playbackType": "Normal", "soundname": "audio/Btn_Done" },
+                    "onUp": {"playbackType":"Normal", "soundname":"audio/Game_Start"}
+				}
+			},
+			"clearButton":{
+				"transform": {
+					"position": { "x": 100, "y": 474 }
+				},
+				"clips": {
+					"idle": "clearButtonIdle",
+					"onInactive": "clearButtonIdle",
+					"onOver": "clearButtonHover",
+					"onDown": "clearButtonDown",
+					"highlight": "clearButtonIdle"
+				},
+				"sounds": {
+                    "onOver": {"playbackType":"Normal", "soundname":"audio/Btn_Clear"}
+				}
+			}
+		},
+		"font": {
+			"variables": {
+				"name": "merriweather-export"
+			}
+		}
+	},
+	"sounds": {
+		"channels":
+		[
+			{
+				"name": "mainVO",
+				"volume": 1,
+				"pan": 0,
+				"singleTrack": true,
+				"sounds": 
+				[
+					{ "soundname": "audio/Btn_Play", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Btn_Done", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Btn_PlayAgain", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Btn_Skip", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Btn_Clear", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 }
+				]
+			},
+			{
+				"name": "mainSFX",
+				"volume": 1,
+				"pan": 0,
+				"singleTrack": false,
+				"sounds": 
+				[
+					{ "soundname": "audio/njftg_shimmer_saladtruck_endstingerv1a", "volume": 0.2, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Game_Start", "volume": 0.2, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Transition", "volume": 0.2, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 }
+				]
+			}
+		]
+	}
+}

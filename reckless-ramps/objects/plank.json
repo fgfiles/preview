@@ -1,0 +1,126 @@
+{
+    "bodies": [
+        {
+            "type": 0,
+            "userData": "pole",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65532,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 1,
+                    "density": 1,
+                    "shapes": [
+                        {
+                            "type": 1,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [],
+                            "radius": 6.0
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                -100,
+                10
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        },
+        {
+            "type": 0,
+            "userData": "pole",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65532,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 1,
+                    "density": 1,
+                    "shapes": [
+                        {
+                            "type": 1,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [],
+                            "radius": 6.0
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                100,
+                10
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        },
+        {
+            "type": 2,
+            "userData": "plank",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65535,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 0.25,
+                    "density": 0.10,
+                    "shapes": [
+                        {
+                            "type": 2,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [
+                                [
+                                    -140.0,
+                                    -5.0
+                                ],
+                                [
+                                    140.0,
+                                    -5.0
+                                ],
+                                [
+                                    140.0,
+                                    5.0
+                                ],
+                                [
+                                    -140.0,
+                                    5.0
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        }
+    ],
+    "joints": []
+}

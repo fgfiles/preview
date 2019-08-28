@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!--SERVICES-->
+	<services>
+		<!---DEBUGGING/DEVELOPMENT--->
+		<service type="enableDebugFeatures" enable="false"/>
+		<service type="showBuildstamp" enable="false"/>
+		<service type="showFPS" enable="false"/>
+		<service type="showDistCounter" enable="false"/>
+		
+		<!---ROLLOUT TOGGLES--->
+		<service type="unlockZumaRide" enable="true"/>
+		<service type="unlockBlazeRide" enable="true"/>
+		<service type="unlockGenieRide" enable="true"/>
+		<service type="unlockGilRide" enable="true"/>
+		
+		<!---FEATURE TOGGLES--->
+		<service type="useNarrator" enable="false"/>
+		<service type="voiceLinesEnabled" enable="true"/>
+		<service type="canadaTracking" enable="false"/>
+		<service type="skipCutscenes" enable="false"/>
+	</services>
+</data>

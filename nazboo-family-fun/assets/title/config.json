@@ -1,0 +1,41 @@
+{
+	"assets": {
+		"sounds": {
+			"music": { "playbackType": "Normal", "soundname": "shfcg_gamemusic_splash_mainmenu_title_screen" },
+			"intro": { "playbackType": "Normal", "soundname": "title_intro" },
+			"timeout": { "playbackType": "Normal", "soundname": "title_timeout_" }
+		},
+		"background": {
+			"display": {
+				"primary": "titleScreenStandFinish"
+			}
+		}
+	},
+	"variables": {
+		"timeoutDuration":15
+	},
+	"sounds": {
+		"channels": [
+			{
+				"name": "music",
+				"volume": 0.6,
+				"pan": 0,
+				"singleTrack": true,
+				"sounds": [
+					{ "soundname": "audio/shfcg_gamemusic_splash_mainmenu_title_screen", "volume": 0.75, "pan": 0, "loops": -1, "fadeIn": -1, "fadeOut": -1, "priority": 0 }
+				]
+			},
+			{
+				"name": "VO",
+				"volume": 1,
+				"pan": 0,
+				"singleTrack": true,
+				"sounds": [
+					{ "soundname": "audio/title_intro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 2 },
+					{ "soundname": "audio/title_timeout_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+					{ "soundname": "audio/title_timeout_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 }
+				]
+			}
+		]
+	}
+}

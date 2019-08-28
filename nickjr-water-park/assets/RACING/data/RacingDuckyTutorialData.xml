@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK_SEGMENT" width="1200" height="0" />
+	<segment id="TUTORIAL_SEGMENT" width="2000" height="0" >
+		<object type="DUCK" variation="0" x="200" y="1"/>
+		<object type="DUCK" variation="0" x="400" y="2"/>
+		<object type="DUCK" variation="0" x="600" y="1"/>
+		<object type="DUCK" variation="0" x="800" y="0"/>
+	</segment>
+	
+	<levelpath>
+		<segment id="BLANK_SEGMENT"/>
+		<segment id="TUTORIAL_SEGMENT"/>
+	</levelpath>
+</data>

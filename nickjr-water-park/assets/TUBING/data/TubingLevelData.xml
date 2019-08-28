@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="STARTING_TUBE" width="820" height="85" >
+		<tile type="tube1" variation="0" x="-420" y="5"/>
+		<tile type="tube2" variation="0" x="0" y="10"/>
+		<tile type="tube3" variation="0" x="405" y="60"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="-390" y="45"/>
+		<path x="-340" y="60"/>
+		<path x="-255" y="90"/>
+		<path x="-210" y="100"/>
+		<path x="-155" y="100"/>
+		<path x="-100" y="90"/>
+		<path x="0" y="65"/>
+		<path x="120" y="40"/>
+		<path x="180" y="40"/>
+		<path x="260" y="50"/>
+		<path x="380" y="85"/>
+		<path x="405" y="90"/>
+		<path x="455" y="105"/>
+		<path x="590" y="135"/>
+		<path x="655" y="135"/>
+		<path x="780" y="120"/>
+		<path x="820" y="120"/>
+	</segment>
+	<segment id="TUTORIAL_SEGMENT" width="1240" height="85" >
+		<tile type="tube1" variation="0" x="0" y="5"/>
+		<tile type="tube2" variation="0" x="420" y="10"/>
+		<tile type="tube3" variation="0" x="825" y="60"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		<path x="540" y="40"/>
+		<path x="600" y="40"/>
+		<path x="680" y="50"/>
+		<path x="800" y="85"/>
+		<path x="825" y="90"/>
+		<path x="875" y="105"/>
+		<path x="1010" y="135"/>
+		<path x="1075" y="135"/>
+		<path x="1200" y="120"/>
+		<path x="1240" y="120"/>
+	</segment>
+	<segment id="TUTORIAL_SEGMENT_SPRINKLER" width="1240" height="85" >
+		<tile type="tube1" variation="0" x="0" y="5"/>
+		<tile type="tube2" variation="0" x="420" y="10"/>
+		<tile type="tube3" variation="0" x="825" y="60"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		<path x="540" y="40"/>
+		<path x="600" y="40"/>
+		<path x="680" y="50"/>
+		<path x="800" y="85"/>
+		<path x="825" y="90"/>
+		<path x="875" y="105"/>
+		<path x="1010" y="135"/>
+		<path x="1075" y="135"/>
+		<path x="1200" y="120"/>
+		<path x="1240" y="120"/>
+		
+		<object type="DUCK" variation="0" x="200" y="-60"/>
+		<object type="DUCK" variation="0" x="270" y="-90"/>
+		<object type="DUCK" variation="0" x="340" y="-100"/>
+		<object type="HAZARD" variation="0" x="500" y="40"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_EMPTY" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_A" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		
+		<object type="DUCK" variation="0" x="100" y="-15"/>
+		<object type="DUCK" variation="0" x="200" y="20"/>
+		<object type="DUCK" variation="0" x="300" y="20"/>
+		<object type="DUCK" variation="0" x="400" y="15"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_B" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		
+		<object type="DUCK" variation="0" x="100" y="-60"/>
+		<object type="DUCK" variation="0" x="170" y="-90"/>
+		<object type="DUCK" variation="0" x="240" y="-100"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_C" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		
+		<object type="DUCK" variation="0" x="100" y="-60"/>
+		<object type="DUCK" variation="0" x="170" y="-90"/>
+		<object type="DUCK" variation="0" x="240" y="-100"/>
+		<object type="DUCK" variation="0" x="310" y="-90"/>
+		<object type="DUCK" variation="0" x="380" y="-60"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_JUMP_ARC_B" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		
+		<object type="DUCK" variation="0" x="200" y="-60"/>
+		<object type="DUCK" variation="0" x="270" y="-90"/>
+		<object type="DUCK" variation="0" x="340" y="-100"/>
+		<object type="DUCK" variation="0" x="410" y="-90"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_1_LATE_SPRING" width="420" height="24" >
+		<tile type="tube1" variation="0" x="0" y="2"/>
+		<!--<path x="0" y="40"/>-->
+		<path x="30" y="45"/>
+		<path x="80" y="60"/>
+		<path x="165" y="90"/>
+		<path x="210" y="100"/>
+		<path x="265" y="100"/>
+		<path x="320" y="90"/>
+		<path x="420" y="65"/>
+		
+		<object type="HAZARD" variation="0" x="380" y="60"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_EMPTY" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_A" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="HAZARD" variation="0" x="100" y="10"/>
+		<object type="DUCK" variation="0" x="100" y="-100"/>
+		<object type="DUCK" variation="0" x="200" y="-200"/>
+		<object type="DUCK" variation="0" x="300" y="-250"/>
+		<object type="DUCK" variation="0" x="400" y="-225"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_B" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="HAZARD" variation="0" x="100" y="10"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_C" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="HAZARD" variation="0" x="200" y="0"/>
+		<object type="DUCK" variation="0" x="200" y="-100"/>
+		<object type="DUCK" variation="0" x="250" y="-200"/>
+		<object type="DUCK" variation="0" x="300" y="-250"/>
+		<object type="DUCK" variation="0" x="350" y="-225"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_AIR_ARC" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="DUCK" variation="0" x="0" y="-180"/>
+		<object type="DUCK" variation="0" x="50" y="-250"/>
+		<object type="DUCK" variation="0" x="100" y="-300"/>
+		<object type="DUCK" variation="0" x="150" y="-280"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_AIR_ARC_2" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="DUCK" variation="0" x="300" y="-60"/>
+		<object type="DUCK" variation="0" x="400" y="-90"/>
+		<object type="DUCK" variation="0" x="450" y="-100"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_2_AIR_ARC_3" width="405" height="28">
+		<tile type="tube2" variation="0" x="0" y="-18"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+		
+		<object type="DUCK" variation="0" x="50" y="-180"/>
+		<object type="DUCK" variation="0" x="100" y="-250"/>
+		<object type="DUCK" variation="0" x="150" y="-300"/>
+		<object type="DUCK" variation="0" x="200" y="-280"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_EMPTY" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_A" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="DUCK" variation="0" x="100" y="10"/>
+		<object type="DUCK" variation="0" x="200" y="20"/>
+		<object type="DUCK" variation="0" x="300" y="20"/>
+		<object type="DUCK" variation="0" x="400" y="15"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_B" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="DUCK" variation="0" x="300" y="20"/>
+		<object type="DUCK" variation="0" x="350" y="20"/>
+		<object type="DUCK" variation="0" x="400" y="15"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_C" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="DUCK" variation="0" x="200" y="-60"/>
+		<object type="DUCK" variation="0" x="270" y="-90"/>
+		<object type="DUCK" variation="0" x="340" y="-100"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_JUMP_ARC" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="DUCK" variation="0" x="50" y="-60"/>
+		<object type="DUCK" variation="0" x="120" y="-90"/>
+		<object type="DUCK" variation="0" x="190" y="-100"/>
+		<object type="DUCK" variation="0" x="260" y="-90"/>
+		<object type="DUCK" variation="0" x="330" y="-60"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_POST_TUBE_SPRING" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="HAZARD" variation="0" x="200" y="55"/>
+		<object type="DUCK" variation="0" x="250" y="-100"/>
+		<object type="DUCK" variation="0" x="300" y="-180"/>
+		<object type="DUCK" variation="0" x="350" y="-200"/>
+		<object type="DUCK" variation="0" x="400" y="-180"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_3_SPRING_END" width="415" height="30" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		
+		<object type="DUCK" variation="0" x="230" y="-90"/>
+		<object type="DUCK" variation="0" x="300" y="-100"/>
+		<object type="DUCK" variation="0" x="370" y="-90"/>
+		<object type="HAZARD" variation="0" x="475" y="50"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_4_EMPTY" width="405" height="27" >
+		<tile type="tube4" variation="0" x="0" y="-86"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="35"/>
+		<path x="180" y="25"/>
+		<path x="260" y="22"/>
+		<path x="320" y="37"/>
+		<path x="380" y="52"/>
+		<path x="405" y="62"/>
+	</segment>
+	<segment id="SEGMENT_TUBE_4_A" width="405" height="27" >
+		<tile type="tube4" variation="0" x="0" y="-86"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="35"/>
+		<path x="180" y="25"/>
+		<path x="260" y="22"/>
+		<path x="320" y="37"/>
+		<path x="380" y="52"/>
+		<path x="405" y="62"/>
+		
+		<object type="DUCK" variation="0" x="100" y="-95"/>
+		<object type="DUCK" variation="0" x="200" y="-100"/>
+		<object type="DUCK" variation="0" x="300" y="-80"/>
+		<object type="DUCK" variation="0" x="400" y="-70"/>
+	</segment>
+	<segment id="POWER_OVER_TUBE" width="820" height="60" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<tile type="tube4" variation="0" x="415" y="-51"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		<path x="535" y="70"/>
+		<path x="595" y="70"/>
+		<path x="675" y="80"/>
+		<path x="795" y="105"/>
+		<path x="820" y="120"/>
+		
+		<object type="POWERUP" variation="3" x="50" y="-100"/>
+		<object type="PUP" variation="3" x="200" y="150"/>
+		<object type="DUCK" variation="0" x="300" y="-130"/>
+		<object type="DUCK" variation="0" x="400" y="-120"/>
+		
+		<object type="DUCK" variation="0" x="500" y="-125"/>
+		<object type="DUCK" variation="0" x="600" y="-115"/>
+		<object type="DUCK" variation="0" x="700" y="-100"/>
+		<object type="DUCK" variation="0" x="800" y="-80"/>
+		
+		<object type="DUCK" variation="0" x="900" y="-90"/>
+		<object type="DUCK" variation="0" x="1000" y="-80"/>
+	</segment>
+	<segment id="POWER_OVER_AIR" width="833" height="60" >
+		<tile type="tube3" variation="0" x="0" y="5"/>
+		<tile type="tube1" variation="0" x="415" y="34"/>
+		<!--<path x="0" y="35"/>-->
+		<path x="50" y="50"/>
+		<path x="185" y="80"/>
+		<path x="250" y="80"/>
+		<path x="375" y="65"/>
+		<path x="415" y="65"/>
+		<path x="445" y="75"/>
+		<path x="495" y="80"/>
+		<path x="580" y="110"/>
+		<path x="625" y="120"/>
+		<path x="680" y="120"/>
+		<path x="735" y="110"/>
+		<path x="830" y="100"/>
+		<path x="835" y="100"/>
+		
+		<object type="POWERUP" variation="3" x="150" y="-100"/>
+		<object type="PUP" variation="3" x="300" y="150"/>
+		<object type="DUCK" variation="0" x="400" y="-130"/>
+		<object type="DUCK" variation="0" x="500" y="-120"/>
+		
+		<object type="DUCK" variation="0" x="600" y="-125"/>
+		<object type="DUCK" variation="0" x="700" y="-115"/>
+		<object type="DUCK" variation="0" x="800" y="-100"/>
+		<object type="DUCK" variation="0" x="900" y="-80"/>
+		
+		<object type="DUCK" variation="0" x="1000" y="-90"/>
+		<object type="DUCK" variation="0" x="1100" y="-80"/>
+	</segment>
+	<segment id="ENDING_SEGMENT" width="1024" height="28">
+		<tile type="tube5" variation="0" x="0" y="-123"/>
+		<!--<path x="0" y="60"/>-->
+		<path x="120" y="30"/>
+		<path x="180" y="15"/>
+		<path x="260" y="15"/>
+		<path x="320" y="35"/>
+		<path x="380" y="45"/>
+		<path x="405" y="60"/>
+	</segment>
+    <!-- GUIDE: 1 -> 2,  2 -> 3,  3 -> 4 or 1,  4 -> 3  -->
+	<levelpath>
+		
+		<!-- Powerup Testing Stuff -->
+		<!--<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="POWER_OVER_AIR"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>-->
+		
+		<!-- intro -->
+		<segment id="STARTING_TUBE"/>
+		
+		<!-- TUTORIAL BITS - NEED TO LOOP CORRECLTY AND STUFF! -->
+		<!--<segment id="TUTORIAL_SEGMENT"/>
+		<segment id="TUTORIAL_SEGMENT_SPRINKLER"/>-->
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- ground duckies right out of tube, jump to catch arc, then follow ground duckies into the next tube -->
+		<segment id="SEGMENT_TUBE_3_A"/>
+		<segment id="SEGMENT_TUBE_1_C"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_A"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- ground duckies right out of tube, arc up to a sprinkler bounce, land and then follow ground duckies into the next tube -->
+		<segment id="SEGMENT_TUBE_3_A"/>
+		<segment id="SEGMENT_TUBE_1_B"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_B"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- duckies right out of the tube, jump arc, empty hill, and jump arc up onto the next tube! -->
+		<segment id="SEGMENT_TUBE_3_A"/>
+		<segment id="SEGMENT_TUBE_1_C"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_C"/>
+		<segment id="SEGMENT_TUBE_4_A"/>
+		
+		<!-- ride the tube off onto a bounce pad! -->
+		<segment id="SEGMENT_TUBE_3_POST_TUBE_SPRING"/>
+		<segment id="SEGMENT_TUBE_1_LATE_SPRING"/>
+		<segment id="SEGMENT_TUBE_2_AIR_ARC"/>
+		<segment id="SEGMENT_TUBE_3_B"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- transitional bit to the powerup pup -- spring over a gap and then jump off a hill into a arc of ducks into... -->
+		<segment id="SEGMENT_TUBE_3_SPRING_END"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_AIR_ARC_2"/>
+		
+		<!-- THE FIRST POWERUP PUP! -->
+		<segment id="POWER_OVER_AIR"/>
+		
+		<!-- Spring sequence! Only duckies on spring arcs (no duckies on ground or leading your jumps onto the springs) -->
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- duckie arc up into a spring -->
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_B"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- JUMP SEGMENTS -->
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_C"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_JUMP_ARC"/>
+		<segment id="SEGMENT_TUBE_1_JUMP_ARC_B"/>
+		<segment id="SEGMENT_TUBE_2_AIR_ARC_2"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- Lots o' springs leading up to... -->
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_POST_TUBE_SPRING"/>
+		<segment id="SEGMENT_TUBE_1_LATE_SPRING"/>
+		<segment id="SEGMENT_TUBE_2_AIR_ARC_3"/>
+		
+		<!-- THE 2ND POWERUP PUP! -->
+		<segment id="POWER_OVER_AIR"/>
+		
+		<!-- Spring sequence! Only duckies on spring arcs (no duckies on ground or leading your jumps onto the springs) -->
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_4_EMPTY"/>
+		
+		<!-- JUMP SEGMENTS, THEN RIDE ON ZE TUBE -->
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_C"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_JUMP_ARC"/>
+		<segment id="SEGMENT_TUBE_1_JUMP_ARC_B"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_C"/>
+		<segment id="SEGMENT_TUBE_4_A"/>
+		
+		<!-- ride the tube off onto a bounce pad! -->
+		<segment id="SEGMENT_TUBE_3_POST_TUBE_SPRING"/>
+		<segment id="SEGMENT_TUBE_1_LATE_SPRING"/>
+		<segment id="SEGMENT_TUBE_2_AIR_ARC"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		<segment id="SEGMENT_TUBE_1_C"/>
+		<segment id="SEGMENT_TUBE_2_EMPTY"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		
+		<!-- duckie arc up into a spring -->
+		<segment id="SEGMENT_TUBE_1_B"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		
+		<!-- blind spring -->
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="SEGMENT_TUBE_2_A"/>
+		<segment id="SEGMENT_TUBE_3_EMPTY"/>
+		
+		<!--THE END-->
+		<segment id="SEGMENT_TUBE_1_EMPTY"/>
+		<segment id="ENDING_SEGMENT"/>
+	</levelpath>
+</data>

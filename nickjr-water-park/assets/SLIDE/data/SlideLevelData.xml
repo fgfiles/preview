@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<segment id="BLANK_SEGMENT" width="735" height="0">
+		<tile type="slide_1" variation="0" x="-369" y="0"/>
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="735" y="110"/>
+	</segment>
+	<segment id="TUTORIAL_SEGMENT" width="2942" height="0">
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<tile type="slide_1" variation="0" x="738" y="0"/>
+		<tile type="slide_1" variation="0" x="1107" y="0"/>
+		<tile type="slide_1" variation="0" x="1476" y="0"/>
+		<tile type="slide_1" variation="0" x="1845" y="0"/>
+		<tile type="slide_1" variation="0" x="2214" y="0"/>
+		<tile type="slide_1" variation="0" x="2583" y="0"/>
+		<path x="0" y="110"/>
+		<path x="2942" y="110"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_EMPTY" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_EMPTY" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>>
+	</segment>
+	<segment id="SLIDE_45_SEGMENT_EMPTY" width="425" height="226" >
+		<tile type="slide_3" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="112" y="110"/>
+		<path x="350" y="338"/>
+		<path x="425" y="338"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_EMPTY" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_HIGH" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="HAZARD" variation="1" x="200" y="60"/>
+		<object type="DUCK" variation="0" x="400" y="60"/>
+		<object type="DUCK" variation="0" x="600" y="60"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_LOW" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="HAZARD" variation="1" x="200" y="190"/>
+		<object type="DUCK" variation="0" x="400" y="190"/>
+		<object type="DUCK" variation="0" x="600" y="190"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_NEEDLE" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="HAZARD" variation="1" x="200" y="60"/>
+		<object type="HAZARD" variation="1" x="200" y="190"/>
+		<object type="DUCK" variation="0" x="400" y="120"/>
+		<object type="DUCK" variation="0" x="600" y="120"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_HAZARD_0_MIDDLE" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="HAZARD" variation="0" x="200" y="130"/>
+		<object type="DUCK" variation="0" x="400" y="120"/>
+		<object type="DUCK" variation="0" x="600" y="120"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_MIDDLE" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="HAZARD" variation="1" x="200" y="120"/>
+		<object type="DUCK" variation="0" x="400" y="120"/>
+		<object type="DUCK" variation="0" x="600" y="120"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_DUCKS_HIGH" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="DUCK" variation="0" x="100" y="60"/>
+		<object type="DUCK" variation="0" x="300" y="60"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="DUCK" variation="0" x="100" y="120"/>
+		<object type="DUCK" variation="0" x="300" y="120"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="DUCK" variation="0" x="100" y="190"/>
+		<object type="DUCK" variation="0" x="300" y="190"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW_2" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="DUCK" variation="0" x="100" y="190"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW_3" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="DUCK" variation="0" x="0" y="190"/>
+		<object type="DUCK" variation="0" x="200" y="190"/>
+	</segment>
+	<segment id="SLIDE_FLAT_SEGMENT_POWERUP_PUP" width="369" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<object type="POWERUP" variation="1" x="0" y="190"/>
+		<object type="PUP" variation="1" x="300" y="540"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_POWERUP" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		
+		<object type="DUCK" variation="0" x="200" y="60"/>
+		<object type="DUCK" variation="0" x="400" y="60"/>
+		<object type="DUCK" variation="0" x="600" y="60"/>
+		
+		<object type="DUCK" variation="0" x="202" y="115"/>
+		<object type="DUCK" variation="0" x="402" y="120"/>
+		<object type="DUCK" variation="0" x="602" y="120"/>
+		
+		<object type="DUCK" variation="0" x="204" y="190"/>
+		<object type="DUCK" variation="0" x="404" y="190"/>
+		<object type="DUCK" variation="0" x="604" y="190"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_POWERUP" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		
+		<object type="DUCK" variation="1" x="210" y="75"/>
+		<object type="DUCK" variation="1" x="360" y="160"/>
+		<object type="DUCK" variation="1" x="485" y="235"/>
+		
+		<object type="DUCK" variation="1" x="180" y="150"/>
+		<object type="DUCK" variation="1" x="330" y="235"/>
+		<object type="DUCK" variation="1" x="455" y="310"/>
+		
+		<object type="DUCK" variation="1" x="150" y="215"/>
+		<object type="DUCK" variation="1" x="300" y="300"/>
+		<object type="DUCK" variation="1" x="425" y="375"/>
+	</segment>
+	<segment id="SLIDE_45_SEGMENT_POWERUP" width="425" height="226" >
+		<tile type="slide_3" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="112" y="110"/>
+		<path x="350" y="338"/>
+		<path x="425" y="338"/>
+		
+		<object type="DUCK" variation="1" x="240" y="130"/>
+		<object type="DUCK" variation="1" x="330" y="215"/>
+		
+		<object type="DUCK" variation="1" x="195" y="195"/>
+		<object type="DUCK" variation="1" x="285" y="280"/>
+		
+		<object type="DUCK" variation="1" x="150" y="255"/>
+		<object type="DUCK" variation="1" x="240" y="340"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_HIGH" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="DUCK" variation="0" x="200" y="60"/>
+		<object type="DUCK" variation="0" x="400" y="60"/>
+		<object type="DUCK" variation="0" x="600" y="60"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_MIDDLE" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="DUCK" variation="0" x="200" y="115"/>
+		<object type="DUCK" variation="0" x="400" y="120"/>
+		<object type="DUCK" variation="0" x="600" y="120"/>
+	</segment>
+	<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_LOW" width="738" height="0" >
+		<tile type="slide_1" variation="0" x="0" y="0"/>
+		<tile type="slide_1" variation="0" x="369" y="0"/>
+		<path x="0" y="110"/>
+		<path x="369" y="110"/>
+		<path x="738" y="110"/>
+		<object type="DUCK" variation="0" x="200" y="190"/>
+		<object type="DUCK" variation="0" x="400" y="190"/>
+		<object type="DUCK" variation="0" x="600" y="190"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		<object type="DUCK" variation="1" x="210" y="75"/>
+		<object type="DUCK" variation="1" x="360" y="160"/>
+		<object type="DUCK" variation="1" x="485" y="235"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_DUCKS_MIDDLE" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		<object type="DUCK" variation="1" x="180" y="150"/>
+		<object type="DUCK" variation="1" x="330" y="235"/>
+		<object type="DUCK" variation="1" x="455" y="310"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_DUCKS_LOW" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		<object type="DUCK" variation="1" x="150" y="215"/>
+		<object type="DUCK" variation="1" x="300" y="300"/>
+		<object type="DUCK" variation="1" x="425" y="375"/>
+	</segment>
+	<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH" width="425" height="226" >
+		<tile type="slide_3" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="112" y="110"/>
+		<path x="350" y="338"/>
+		<path x="425" y="338"/>
+		<object type="DUCK" variation="1" x="240" y="130"/>
+		<object type="DUCK" variation="1" x="330" y="215"/>
+	</segment>
+	<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE" width="425" height="226" >
+		<tile type="slide_3" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="112" y="110"/>
+		<path x="350" y="338"/>
+		<path x="425" y="338"/>
+		<object type="DUCK" variation="1" x="195" y="195"/>
+		<object type="DUCK" variation="1" x="285" y="280"/>
+	</segment>
+	<segment id="SLIDE_45_SEGMENT_DUCKS_LOW" width="425" height="226" >
+		<tile type="slide_3" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="112" y="110"/>
+		<path x="350" y="338"/>
+		<path x="425" y="338"/>
+		<object type="DUCK" variation="1" x="150" y="255"/>
+		<object type="DUCK" variation="1" x="240" y="340"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH_HAZARD" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		<object type="DUCK" variation="1" x="210" y="75"/>
+		<object type="HAZARD" variation="0" x="300" y="280"/>
+		<object type="DUCK" variation="1" x="360" y="160"/>
+		<object type="DUCK" variation="1" x="485" y="235"/>
+	</segment>
+	<segment id="SLIDE_30_SEGMENT_DUCKS_LOW_HAZARD" width="590" height="228">
+		<tile type="slide_2" variation="0" x="0" y="0"/>
+		<path x="0" y="110"/>
+		<path x="88" y="110"/>
+		<path x="510" y="332"/>
+		<path x="590" y="332"/>
+		<object type="DUCK" variation="1" x="150" y="215"/>
+		<object type="HAZARD" variation="0" x="360" y="140"/>
+		<object type="DUCK" variation="1" x="300" y="300"/>
+		<object type="DUCK" variation="1" x="425" y="375"/>
+	</segment>
+	<segment id="SLIDE_ENDING_START" width="573" height="85" >
+		<tile type="slide_4" variation="0" x="0" y="0"/> 
+		<path x="0" y="110"/>
+		<path x="210" y="110"/>
+		<path x="350" y="210"/>
+		<path x="573" y="210"/>
+	</segment>
+	<segment id="SLIDE_ENDING_FINAL" width="1024" height="0" >
+		<tile type="slide_5" variation="0" x="0" y="-198"/>
+		<path x="0" y="120"/>
+		<path x="1024" y="120"/>
+	</segment>
+	<levelpath>
+		<!--INTRO-->
+		<segment id="BLANK_SEGMENT"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		
+		<!--TUTORIAL-->
+		<segment id="TUTORIAL_SEGMENT"/>
+		
+		<!--THE REAL LEVEL BEGINS-->
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_30_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		
+
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_LOW"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_HIGH"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_LOW"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW"/>
+		
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH_HAZARD"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW_HAZARD"/>
+		<segment id="SLIDE_45_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_0_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_0_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW_2"/>
+		
+		<segment id="SLIDE_FLAT_SEGMENT_POWERUP_PUP"/>
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_POWERUP"/> 
+		<segment id="SLIDE_30_SEGMENT_POWERUP"/>
+		<segment id="SLIDE_45_SEGMENT_POWERUP"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_MIDDLE"/>
+		
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_0_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_30_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_30_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_HIGH"/>
+		
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_NEEDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		
+		<segment id="SLIDE_FLAT_SEGMENT_DUCKS_LOW_3"/>
+		<segment id="SLIDE_FLAT_SEGMENT_POWERUP_PUP"/>
+		<segment id="SLIDE_45_SEGMENT_POWERUP"/>
+		<segment id="SLIDE_30_SEGMENT_POWERUP"/>
+		<segment id="SLIDE_45_SEGMENT_POWERUP"/>
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		
+		<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_HIGH"/>
+		<segment id="SLIDE_DOUBLE_FLAT_HAZARD_1_NEEDLE"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_LOW"/>
+		<segment id="SLIDE_45_SEGMENT_DUCKS_MIDDLE"/>
+		
+		<!-- THE ENDING SEGMENTS -->
+		<segment id="SLIDE_FLAT_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_DOUBLE_FLAT_SEGMENT_EMPTY"/>
+		<segment id="SLIDE_ENDING_START"/>
+		<segment id="SLIDE_ENDING_FINAL"/>
+	</levelpath>
+</data>

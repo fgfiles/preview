@@ -1,0 +1,126 @@
+{
+    "bodies": [
+        {
+            "type": 2,
+            "userData": "seesaw",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65535,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.25,
+                    "friction": 1,
+                    "density": 1,
+                    "shapes": [
+                        {
+                            "type": 2,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [
+                                [
+                                    -120,
+                                    -5
+                                ],
+                                [
+                                    120,
+                                    -5
+                                ],
+                                [
+                                    0,
+                                    0
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": false,
+            "linearDamping": 0,
+            "angularDamping": 0
+        },
+		        {
+            "type": 0,
+            "userData": "seesaw base",
+            "fixtures": [
+                {
+                    "isSensor": false,
+                    "maskBits": 65533,
+                    "categoryBits": 1,
+                    "groupIndex": 0,
+                    "restitution": 0.0,
+                    "friction": 1,
+                    "density": 1,
+                    "shapes": [
+                        {
+                            "type": 2,
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "vertices": [
+                                [
+                                    -10,
+                                    0
+                                ],
+								[
+                                    10,
+                                    0
+                                ],
+                                [
+                                    10,
+                                    35
+                                ],
+                                [
+                                    -10,
+                                    35
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "position": [
+                0,
+                0
+            ],
+            "rotation": 0,
+            "isBullet": false,
+            "isFixedRotation": true,
+            "linearDamping": 1.0,
+            "angularDamping": 0
+        }
+    ],
+    "joints": [
+        {
+            "localAnchorA": [
+                0,
+                0
+            ],
+            "localAnchorB": [
+                0,
+                0
+            ],
+            "userData": "",
+            "collideConnected": false,
+            "jointType": 2,
+            "enableLimit": false,
+            "enableMotor": false,
+            "lowerAngle": 0,
+            "maxMotorTorque": 100,
+            "motorSpeed": 100,
+            "referenceAngle": 0,
+            "upperAngle": 0,
+            "bodyA": 1,
+            "bodyB": 0
+        }
+    ]
+}

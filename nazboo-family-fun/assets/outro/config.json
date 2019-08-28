@@ -1,0 +1,61 @@
+{
+	"assets": {
+		"sounds": {
+			"music": { "playbackType": "Normal", "soundname": "shfcg_gamemusic_splash_mainmenu_title_screen" },
+			"timeout":{"playbackType": "Normal", "soundname": "Outro_Timeout_"}
+		},
+		"display": {
+			"idle":"outroLoop",
+			"background":"Outro_BG1"
+		},
+        "cutscene": {
+            "shots": [
+				{
+					"background": { "display": { "primary": "Outro_BG1" } },
+					"movie": { "display": { "primary": "outroScene1" } },
+					"sounds": { "vo": { "playbackType": "Normal", "soundname": "Outro1" } }
+				},
+				{
+					"background": { "display": { "primary": "Outro_BG2" } },
+					"movie": { "display": { "primary": "outroScene2" } },
+					"sounds": { "vo": { "playbackType": "Normal", "soundname": "Outro2" } }
+				},
+				{
+					"background": { "display": { "primary": "Outro_BG1" } },
+					"movie": { "display": { "primary": "outroScene3" } },
+					"sounds": { "vo": { "playbackType": "Normal", "soundname": "Outro3" } }
+				}
+			]
+        }
+	},
+	"variables": {
+		"name": "Cutscene 1",
+		"timeoutDuration": 10
+	},
+	"sounds": {
+		"channels": [
+			{
+				"name": "music",
+				"volume": 0.6,
+				"pan": 0,
+				"singleTrack": true,
+				"sounds": [
+					{ "soundname": "audio/shfcg_gamemusic_splash_mainmenu_title_screen", "volume": 0.25, "pan": 0, "loops": -1, "fadeIn": -1, "fadeOut": -1, "priority": 0 }
+				]
+			},
+			{
+				"name": "VO",
+				"volume": 1,
+				"pan": 0,
+				"singleTrack": true,
+				"sounds": [
+					{ "soundname": "audio/Outro1", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 0 },
+					{ "soundname": "audio/Outro2", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 1 },
+					{ "soundname": "audio/Outro3", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 2 },
+					{ "soundname": "audio/Outro_Timeout_MBL", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 2 },
+					{ "soundname": "audio/Outro_Timeout_DT", "volume": 1, "pan": 0, "loops": 0,"fadeIn": -1, "fadeOut": -1, "priority": 2 }
+				]
+			}
+		]
+	}
+}

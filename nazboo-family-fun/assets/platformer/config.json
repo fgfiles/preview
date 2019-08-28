@@ -1,0 +1,420 @@
+{
+    "assets":
+    {
+        "sounds":
+        {
+            "music": { "playbackType": "Normal", "soundname": "shfcg_gamemusic_beach_outsidev2_platform" },
+            "intro": { "playbackType": "Normal", "soundname": "PetRoom_Intro" },
+            "outro": { "playbackType": "Normal", "soundname": "PetRoom_Outro" }
+        },
+        "background":
+        {
+            "display":
+            {
+                "primary": "placeholderBg1"
+            }
+        },
+        "tutorial": [
+        {
+            "variables": { "classPath": "nazboo.scenes.minigames.platformer.tutorials.PlatformTutorial1" },
+            "movie": {},
+            "sounds": { "vo": { "playbackType": "Normal", "soundname": "PetRoom_Tutorial1" } }
+        },
+        {
+            "variables": { "classPath": "nazboo.scenes.minigames.platformer.tutorials.PlatformTutorial2" },
+            "movie": {},
+            "sounds": { "vo": { "playbackType": "Normal", "soundname": "PetRoom_Tutorial3" } }
+        },
+        {
+            "variables": { "classPath": "nazboo.scenes.minigames.platformer.tutorials.PlatformTutorial3", "timeoutLength": 15 },
+            "movie":
+            {
+                "display":
+                {
+                    "mobile":
+                    {
+                        "primary": "tutorialMobile_LR_arch_play",
+                        "enter": "tutorialMobile_enter",
+                        "exit": "tutorialMobile_exit",
+                        "tap": "tutorialMobile_UDLR"
+                    },
+                    "desktop":
+                    {
+                        "primary": "tutorialKeyboard_Rt_play",
+                        "enter": "tutorialKeyboard_enter",
+                        "exit": "tutorialKeyboard_exit",
+                        "tap": "tutorialKeyboard_UDLR_play"
+                    }
+                },
+                "transform":
+                {
+                    "position": { "x": 480, "y": 280 }
+                }
+            },
+            "sounds": { "vo": { "playbackType": "Normal", "soundname": "PetRoom_Tutorial4b_" } }
+        },
+        {
+            "variables": { "classPath": "nazboo.scenes.minigames.platformer.tutorials.PlatformTutorial4" },
+            "movie": {},
+            "sounds": { "vo": { "playbackType": "Normal", "soundname": "PetRoom_Tutorial5" } }
+        }],
+        "HUD":
+        {
+            "sounds":
+            {
+                "iconSFX": { "playbackType": "Normal", "soundname": "Friend_icon" }
+            },
+            "backing":
+            {
+                "transform": { "position": { "x": 480, "y": 280 } },
+                "display": { "primary": "game2_ui_container" }
+            },
+            "icons": [
+            {
+                "transform": { "position": { "x": 849, "y": 45 } },
+                "display": { "primary": "game2_ui_green", "empty": "game2_ui_nahalGrey", "frame": "game2_ui_circle" }
+            },
+            {
+                "transform": { "position": { "x": 723, "y": 45 } },
+                "display": { "primary": "game2_ui_purple", "empty": "game2_ui_kazbooGrey", "frame": "game2_ui_circle" }
+            },
+            {
+                "transform": { "position": { "x": 787, "y": 45 } },
+                "display": { "primary": "game2_ui_pink", "empty": "game2_ui_razbooGrey", "frame": "game2_ui_circle" }
+            },
+            {
+                "transform": { "position": { "x": 659, "y": 45 } },
+                "display": { "primary": "game2_ui_blue", "empty": "game2_ui_frankGrey", "frame": "game2_ui_circle" }
+            },
+            {
+                "transform": { "position": { "x": 912, "y": 45 } },
+                "display": { "primary": "game2_ui_yellow", "empty": "game2_ui_talaGrey", "frame": "game2_ui_circle" }
+            }]
+        },
+        "player":
+        {
+            "sounds":
+            {
+                "moveUp": { "playbackType": "Normal", "soundname": "PetRoom_PressUp_" },
+                "boosting": { "playbackType": "Normal", "soundname": "PetRoom_Boost1" },
+                "jump": { "playbackType": "Normal", "soundname": "Jump" },
+                "timeout":
+                {
+                    "playbackType": "Cycle",
+                    "soundname": ["PetRoom_Timeout1_", "PetRoom_Timeout2", "PetRoom_Tutorial4_"]
+                }
+            },
+            "transform":
+            {
+                "collider": { "offset": { "x": 0, "y": -35.45 }, "size": { "x": 78.85, "y": 97.05 }, "target": "objects" },
+                "aabb": { "offset": { "x": 0, "y": -35.45 }, "size": { "x": 58.85, "y": 77.05 } }
+            },
+            "display":
+            {
+                "left":
+                {
+                    "idle": "game2_character1_idleLeft",
+                    "takeoff": "game2_character1_takeoffLeft",
+                    "falling": "game2_character1_jumpLeft"
+                },
+                "right":
+                {
+                    "idle": "game2_character1_idleRight",
+                    "takeoff": "game2_character1_takeoffRight",
+                    "falling": "game2_character1_jumpRight"
+                },
+                "exit": "game2_character1_exit" 
+            },
+            "variables":
+            {
+                "objectType": "player",
+                "movementSpeed": 8,
+                "MBL_movementDecay": 0.25,
+                "DT_movementDecay": 0.88,
+                "maxFallSpeed": 30,
+                "gravityAcceleration": 0.1,
+                "jumpDecay": 0.99,
+                "jumpForce": -8,
+                "fallCount": 3,
+                "timeoutLength": 15
+            }
+        },
+        "level":
+        {
+            "sounds":
+            {
+                "collectAll": { "playbackType": "Normal", "soundname": "PetRoom_CollectAll" },
+                "missed": { "playbackType": "Normal", "soundname": "PetRoom_Miss1" }
+            },
+            "parallax":
+            {
+                "transform":
+                {
+                    "position": { "x": 600, "y": 560 }
+                },
+                "display":
+                {
+                    "background": "platformerGameBG",
+                    "overlay": "game2_wallObjects_anim"
+                },
+                "variables":
+                {
+                    "scale": { "x": 0.8, "y": 0.8 }
+                }
+            },
+            "pickups": [
+            {
+                "transform":
+                {
+                    "position": { "x": 0, "y": 0 },
+                    "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 250, "y": 25 }, "type": "objects" }
+                },
+                "display":
+                {
+                    "left": { "primary": "game2_character2_idleLeft", "collected": "game2_character2_jumpout" },
+                    "right": { "primary": "game2_character2_idleRight", "collected": "game2_character2_jumpoutRight" },
+                    "effect": "effectGroupLoop",
+                    "jumpEffect": "game1_fx2"
+                },
+                "variables": { "objectType": "pickup", "uiIndex": 2 },
+                "sounds":
+                {
+                    "collected": { "playbackType": "Normal", "soundname": "PetRoom_CollectRazboo" },
+                    "sfx": { "playbackType": "Normal", "soundname": "Friend_collect" }
+                }
+            },
+            {
+                "transform":
+                {
+                    "position": { "x": 0, "y": 0 },
+                    "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 250, "y": 25 }, "type": "objects" }
+                },
+                "display":
+                {
+                    "left": { "primary": "game2_character3_idleLeft", "collected": "game2_character3_jumpout" },
+                    "right": { "primary": "game2_character3_idleRight", "collected": "game2_character3_jumpoutRight" },
+                    "effect": "effectGroupLoop",
+                    "jumpEffect": "game1_fx2"
+                },
+                "variables": { "objectType": "pickup", "uiIndex": 1 },
+                "sounds":
+                {
+                    "collected": { "playbackType": "Normal", "soundname": "PetRoom_CollectKazboo" },
+                    "sfx": { "playbackType": "Normal", "soundname": "Friend_collect" }
+                }
+            },
+            {
+                "transform":
+                {
+                    "position": { "x": 0, "y": 0 },
+                    "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 250, "y": 25 }, "type": "objects" }
+                },
+                "display":
+                {
+                    "left": { "primary": "game2_character4_idleLeft", "collected": "game2_character4_jumpout" },
+                    "right": { "primary": "game2_character4_idleRight", "collected": "game2_character4_jumpoutRight" },
+                    "effect": "effectGroupLoop",
+                    "jumpEffect": "game1_fx2"
+                },
+                "variables": { "objectType": "pickup", "uiIndex": 3 },
+                "sounds":
+                {
+                    "collected": { "playbackType": "Normal", "soundname": "PetRoom_CollectFrank" },
+                    "sfx": { "playbackType": "Normal", "soundname": "Friend_collect" }
+                }
+            },
+            {
+                "transform":
+                {
+                    "position": { "x": 0, "y": 0 },
+                    "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 250, "y": 25 }, "type": "objects" }
+                },
+                "display":
+                {
+                    "left": { "primary": "game2_character6_idleLeft", "collected": "game2_character6_jumpoutLeft" },
+                    "right": { "primary": "game2_character6_idleRight", "collected": "game2_character6_jumpoutRight" },
+                    "effect": "effectGroupLoop",
+                    "jumpEffect": "game1_fx2"
+                },
+                "variables": { "objectType": "pickup", "uiIndex": 0 },
+                "sounds":
+                {
+                    "collected": { "playbackType": "Normal", "soundname": "PetRoom_CollectNahal1" },
+                    "sfx": { "playbackType": "Normal", "soundname": "Friend_collect" }
+                }
+            },
+            {
+                "transform":
+                {
+                    "position": { "x": 0, "y": 0 },
+                    "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 250, "y": 25 }, "type": "objects" }
+                },
+                "display":
+                {
+                    "left": { "primary": "game2_character7_idleLeft", "collected": "game2_character7_jumpout" },
+                    "right": { "primary": "game2_character7_idleRight", "collected": "game2_character7_jumpoutRight" },
+                    "effect": "effectGroupLoop",
+                    "jumpEffect": "game1_fx2"
+                },
+                "variables": { "objectType": "pickup", "uiIndex": 4 },
+                "sounds":
+                {
+                    "collected": { "playbackType": "Normal", "soundname": "PetRoom_CollectTala1" },
+                    "sfx": { "playbackType": "Normal", "soundname": "Friend_collect" }
+                }
+            }],
+            "variables":
+            {
+                "segment": 2,
+                "doublePickupChance": 27,
+                "chunksBetweenPickups": { "min": 0, "max": 1 }
+            }
+        },
+        "platform":
+        {
+            "transform":
+            {
+                "collider": { "offset": { "x": 0, "y": 10 }, "size": { "x": 310, "y": 70 }, "type": "objects" },
+                "aabb": { "offset": { "x": 0, "y": 10 }, "size": { "x": 290, "y": 50 } },
+                "effect": { "offset": { "x": 0, "y": 90 } }
+            },
+            "display":
+            {
+                "left": { "idle": "game2_asset_2", "bounce": "game2_asset_2_anim" },
+                "middle": { "idle": "game2Asset_1", "bounce": "game1_asset_anim", "effect": "removed" },
+                "right": { "idle": "game2_asset_3", "bounce": "game2_asset_3_anim" }
+            },
+            "sounds":
+            {
+                "pillow": { "playbackType": "Normal", "soundname": "Pillow_Land" },
+                "platform": { "playbackType": "Normal", "soundname": "Platform_Land" }
+            },
+            "variables":
+            {
+                "objectType": "platform"
+            }
+        },
+        "checkpoint":
+        {
+            "transform":
+            {
+                "collider": { "offset": { "x": 0, "y": 0 }, "size": { "x": 1220, "y": 100 }, "type": "objects" },
+                "aabb": { "offset": { "x": 0, "y": 0 }, "size": { "x": 1200, "y": 80 } }
+            },
+            "display":
+            {
+                "primary": "game2_checkpointPlatform_Anim",
+                "secondary": "game2_startCheckpoint",
+                "topDeck": "game2_topDeck"
+            },
+            "sounds":
+            {
+                "platform": { "playbackType": "Normal", "soundname": "Platform_Land" }
+            },
+            "variables":
+            {
+                "objectType": "checkpoint"
+            }
+        },
+        "levelEnd":
+        {
+            "transform":
+            {
+                "position": { "x": 160, "y": -39 },
+                "effectOffset": { "x": 0, "y": -25 }
+            },
+            "sounds":
+            {
+                "exitVO": { "playbackType": "Normal", "soundname": "smellsLikeCookies" }
+            },
+            "display":
+            {
+                "idle": "game2_endGameCharactersIdle",
+                "exit": "game2_gameEndCharactersExit",
+                "effect": "game2_fx_4_anim"
+            }
+        },
+        "jumpEffect":
+        {
+            "transform":
+            {
+                "position": { "x": 0, "y": -78 }
+            },
+            "display":
+            {
+                "primary": "game2_fx2"
+            }
+        }
+    },
+    "variables":
+    {
+        "nextScene": "snake",
+        "sceneBounds":
+        {
+            "x": 0,
+            "y": -1680,
+            "width": 960,
+            "height": 2240
+        },
+        "followOffset": { "x": 0, "y": 150 },
+        "cameraLerp": 4
+    },
+    "sounds":
+    {
+        "channels": [
+        {
+            "name": "music",
+            "volume": 0.6,
+            "pan": 0,
+            "singleTrack": true,
+            "sounds": [
+                { "soundname": "audio/shfcg_gamemusic_beach_outsidev2_platform", "volume": 0.75, "pan": 0, "loops": -1, "fadeIn": -1, "fadeOut": -1, "priority": 0 }
+            ]
+        },
+        {
+            "name": "VO",
+            "volume": 1,
+            "pan": 0,
+            "singleTrack": true,
+            "sounds": [
+                { "soundname": "audio/PetRoom_CollectAll", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 2 },
+                { "soundname": "audio/PetRoom_CollectFrank", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+                { "soundname": "audio/PetRoom_CollectKazboo", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+                { "soundname": "audio/PetRoom_CollectRazboo", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+                { "soundname": "audio/PetRoom_CollectNahal1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+                { "soundname": "audio/PetRoom_CollectTala1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 },
+                { "soundname": "audio/PetRoom_Boost1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Intro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Miss1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Outro", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 200 },
+                { "soundname": "audio/PetRoom_PressUp_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_PressUp_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Timeout1_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Timeout1_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Timeout2", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/PetRoom_Tutorial1", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 100 },
+                { "soundname": "audio/PetRoom_Tutorial3", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 101 },
+                { "soundname": "audio/PetRoom_Tutorial4_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 102 },
+                { "soundname": "audio/PetRoom_Tutorial4_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 102 },
+				{ "soundname": "audio/PetRoom_Tutorial4b_DT", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 102 },
+                { "soundname": "audio/PetRoom_Tutorial4b_MBL", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 102 },
+                { "soundname": "audio/PetRoom_Tutorial5", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 103 },
+                { "soundname": "audio/smellsLikeCookies", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 1 }
+            ]
+        },
+        {
+            "name": "SFX",
+            "volume": 1,
+            "pan": 0,
+            "singleTrack": false,
+            "sounds": [
+                { "soundname": "audio/Checkpoint", "volume": 0.5, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/Friend_collect", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/Friend_icon", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/Jump", "volume": 0.35, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/Pillow_Land", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 },
+                { "soundname": "audio/Platform_Land", "volume": 1, "pan": 0, "loops": 0, "fadeIn": -1, "fadeOut": -1, "priority": 0 }
+            ]
+        }]
+    }
+}

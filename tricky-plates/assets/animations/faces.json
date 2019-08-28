@@ -1,0 +1,85 @@
+{
+    "hierarchy": {
+        "name": "faces",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "face_1"
+                    },
+                    {
+                        "name": "face_2"
+                    },
+                    {
+                        "name": "face_3"
+                    },
+                    {
+                        "name": "face_4"
+                    }
+                ],
+                "animations": [
+                    "very_happy",
+                    "bored",
+                    "normal",
+                    "happy",
+                    "no_sleep",
+                    "sleep"
+                ]
+            }
+        ],
+        "animations": [
+            "faces_up",
+            "faces_down"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/face_1": {
+            "file": "very_happy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -57,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/face_2": {
+            "file": "very_happy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 49,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/face_3": {
+            "file": "very_happy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83,
+                "y": -75
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/face_4": {
+            "file": "very_happy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -92,
+                "y": -75
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

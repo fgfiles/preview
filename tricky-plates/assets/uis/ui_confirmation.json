@@ -1,0 +1,133 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "no",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "yes",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "container_confirmation.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 48,
+                    "y": -289.5
+                }
+            }
+        },
+        "container/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "description",
+            "align": "left",
+            "stroke": "#1632c4",
+            "strokeThickness": 7,
+            "position": {
+                "x": -28,
+                "y": 0
+            },
+            "type": "text"
+        },
+        "no": {
+            "file": "no.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "no.png",
+                "pressed": "no_p.png",
+                "hover": "no.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_RIGHT",
+                "offset": {
+                    "x": -295.5,
+                    "y": -186.5
+                }
+            }
+        },
+        "no/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "No",
+            "align": "left",
+            "stroke": "#1632c4",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": -4.3
+            },
+            "type": "text"
+        },
+        "yes": {
+            "file": "yes.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "yes.png",
+                "pressed": "yes_p.png",
+                "hover": "yes.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_LEFT",
+                "offset": {
+                    "x": -335.5,
+                    "y": -186.5
+                }
+            }
+        },
+        "yes/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "Yes",
+            "align": "left",
+            "stroke": "#1632c4",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": -4.3
+            },
+            "type": "text"
+        }
+    }
+}

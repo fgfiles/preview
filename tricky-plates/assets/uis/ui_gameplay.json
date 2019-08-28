@@ -1,0 +1,85 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "pause"
+            },
+            {
+                "name": "base_score",
+                "children": [
+                    {
+                        "name": "score"
+                    },
+                    {
+                        "name": "icon"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "pause": {
+            "file": "pause_gp.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "pause_gp.png",
+                "pressed": "pause_p.png",
+                "hover": "pause_gp.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": "-2%",
+                    "y": "-3%"
+                }
+            }
+        },
+        "base_score": {
+            "file": "plates_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 139,
+                "y": 42
+            },
+            "type": "sprite"
+        },
+        "base_score/score": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 35
+            },
+            "text": "250",
+            "align": "left",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": -17.8,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "base_score/icon": {
+            "file": "icon_gp.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46.8,
+                "y": 3.2
+            },
+            "type": "sprite"
+        }
+    }
+}

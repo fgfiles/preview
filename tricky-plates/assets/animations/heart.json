@@ -1,0 +1,56 @@
+{
+    "hierarchy": {
+        "name": "heart",
+        "children": [
+            {
+                "name": "heart"
+            },
+            {
+                "name": "heart_left"
+            },
+            {
+                "name": "heart_right"
+            }
+        ],
+        "animations": [
+            "heart_anim"
+        ]
+    },
+    "properties": {
+        "heart": {
+            "file": "heart.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "heart_left": {
+            "file": "heart_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -13.6,
+                "y": -2
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "heart_right": {
+            "file": "heart_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.3,
+                "y": -2.4
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

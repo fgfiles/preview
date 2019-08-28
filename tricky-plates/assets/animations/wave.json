@@ -1,0 +1,144 @@
+{
+    "hierarchy": {
+        "name": "wave",
+        "children": [
+            {
+                "name": "wave_currently",
+                "children": [
+                    {
+                        "name": "wave"
+                    },
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "wave_next",
+                "children": [
+                    {
+                        "name": "wave"
+                    },
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "wave_smoke",
+                "children": [
+                    {
+                        "name": "base"
+                    }
+                ],
+                "animations": [
+                    "wave_smoke_play"
+                ]
+            }
+        ],
+        "animations": [
+            "next_wave"
+        ]
+    },
+    "properties": {
+        "wave_currently": {
+            "file": "wave_magic.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -228
+            },
+            "type": "sprite"
+        },
+        "wave_currently/wave": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "5",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": 1.5,
+                "y": -3.9
+            },
+            "type": "text"
+        },
+        "wave_currently/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 25
+            },
+            "text": "WAVE",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": -32.7
+            },
+            "type": "text"
+        },
+        "wave_next": {
+            "file": "wave_magic.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 54
+            },
+            "scale": {
+                "x": 1.8,
+                "y": 1.8
+            },
+            "type": "sprite"
+        },
+        "wave_next/wave": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "6",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": 1.5,
+                "y": -3.9
+            },
+            "type": "text"
+        },
+        "wave_next/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 25
+            },
+            "text": "WAVE",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": -32.7
+            },
+            "type": "text"
+        },
+        "wave_smoke": {
+            "position": {
+                "x": 0,
+                "y": 40
+            },
+            "type": "container"
+        },
+        "wave_smoke/base": {
+            "file": "wave_smoke1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "color": "#ff38b7",
+            "type": "sprite"
+        }
+    }
+}

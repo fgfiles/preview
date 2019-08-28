@@ -1,0 +1,49 @@
+{
+"copy_ref" :
+    {
+        "character_id"      : "game_window_title",
+        "game_id"           : "game_sparkle_blaster",
+        "styles"            : "unikitty_shoot"
+    },
+  "hero" :
+  {
+    "missileSpeed"  : 1000,
+    "missileDelay"  : 250
+  },
+  "timed" :
+  {
+    "hazardSpeed" : 125,
+    "hazardDelay" : 500,
+    "pointsLost"  : 1000,
+	"pointsCap"   : 1000,
+    "duration"    : 30000
+  },
+  "survival" :
+  {
+    "pointsCap"	            : 1000,
+    "hazardSpeed"           : 125,
+    "hazardDelay"           : 1000,
+    "hazardDelayDampening"  : 0.99
+  },
+  "save_ref"                  : "diamondheadshoot_01",
+  "points_per_hit"            : 10,
+  "end_score_increment_delay" : 25,
+  "end_score_increment_value" : 10,
+  "wisetrack_ID" : "",
+  "wisetrack_prefix" : "",
+
+
+  "audio" :
+  {
+    "game_background"   : "background",
+    "intro_background"  : "intro_background",
+    "end_background"    : "end_background",
+    "shoot"             : "shoot",
+    "button"            : "button",
+    "enemy"             : "enemy",
+    "timesup"            : "timesup",
+    "end_score"         : "end_score"
+  }
+
+
+}

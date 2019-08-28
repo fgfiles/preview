@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wild Cowboy - HTML5 Game</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body>
+    <script src="js/store.min.js"></script>
+    <script>
+    init();
+
+    function init() {
+        if (!store.enabled) {
+            alert('Local storage is not supported by your browser. Please disable "Private Mode", or upgrade to a modern browser.')
+            return;
+        }
+    }
+    </script>
+    <script src="js/phaser.min.js"></script>
+    <script src="states/Boot.js"></script>
+    <script src="states/Preload.js"></script>
+    <script src="states/MainMenu.js"></script>
+    <script src="states/LevelMenu.js"></script>
+    <script src="states/About.js"></script>
+    <script src="states/GlobalScores.js"></script>
+    <script src="states/Game.js"></script>
+    <script src="states/Main.js"></script>
+</body>
+
+</html>

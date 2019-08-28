@@ -1,0 +1,121 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "continue",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "newgame",
+                        "children": [
+                            {
+                                "name": "text"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "file": "container.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 37,
+                    "y": 63.9
+                }
+            }
+        },
+        "container/title": {
+            "file": "title.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -33.9,
+                "y": -172.9
+            },
+            "type": "sprite"
+        },
+        "container/continue": {
+            "file": "newgame_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "newgame_1.png",
+                "pressed": "newgame_2.png",
+                "hover": "newgame_1.png"
+            },
+            "position": {
+                "x": -26,
+                "y": -48.1
+            },
+            "type": "button"
+        },
+        "container/continue/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 45
+            },
+            "text": "Continue",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": -3.7
+            },
+            "type": "text"
+        },
+        "container/newgame": {
+            "file": "continue_1.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "continue_1.png",
+                "pressed": "continue_2.png",
+                "hover": "continue_1.png"
+            },
+            "position": {
+                "x": -27,
+                "y": 59
+            },
+            "type": "button"
+        },
+        "container/newgame/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 45
+            },
+            "text": "New Game",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0.4,
+                "y": -3
+            },
+            "type": "text"
+        }
+    }
+}

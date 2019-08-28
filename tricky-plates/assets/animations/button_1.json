@@ -1,0 +1,214 @@
+{
+    "hierarchy": {
+        "name": "button_1",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "shine"
+                    },
+                    {
+                        "name": "magic_select",
+                        "children": [
+                            {
+                                "name": "score"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "star_1"
+            },
+            {
+                "name": "star_2"
+            },
+            {
+                "name": "star_3"
+            },
+            {
+                "name": "star_4"
+            },
+            {
+                "name": "star_5"
+            },
+            {
+                "name": "star_6"
+            },
+            {
+                "name": "star_7"
+            },
+            {
+                "name": "star_8"
+            },
+            {
+                "name": "star_9"
+            }
+        ],
+        "animations": [
+            "button_main_anim1"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/shine": {
+            "file": "shine_mm_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -1.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/magic_select": {
+            "file": "magic-1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -2.5
+            },
+            "type": "sprite"
+        },
+        "base/magic_select/score": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 40
+            },
+            "text": "99999",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 6,
+            "position": {
+                "x": 34.4,
+                "y": 60.3
+            },
+            "type": "text"
+        },
+        "star_1": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46.7,
+                "y": 7.9
+            },
+            "angle": -13,
+            "scale": {
+                "x": 0.38,
+                "y": 0.38
+            },
+            "type": "sprite"
+        },
+        "star_2": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 34.8,
+                "y": -80.2
+            },
+            "scale": {
+                "x": 0.78,
+                "y": 0.78
+            },
+            "type": "sprite"
+        },
+        "star_3": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 102,
+                "y": 9
+            },
+            "angle": 19,
+            "type": "sprite"
+        },
+        "star_4": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -131,
+                "y": -22
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "type": "sprite"
+        },
+        "star_5": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -101,
+                "y": 46
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "star_6": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -169.3,
+                "y": 10
+            },
+            "scale": {
+                "x": 0.24,
+                "y": 0.24
+            },
+            "type": "sprite"
+        },
+        "star_7": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.4,
+                "y": -94.3
+            },
+            "angle": 29,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_8": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 126.2,
+                "y": -53.9
+            },
+            "angle": 21,
+            "scale": {
+                "x": 0.24,
+                "y": 0.24
+            },
+            "type": "sprite"
+        },
+        "star_9": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 82.4,
+                "y": 80
+            },
+            "angle": 27,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

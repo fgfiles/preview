@@ -1,0 +1,190 @@
+{
+    "hierarchy": {
+        "name": "jumper_plate",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "base",
+                        "children": [
+                            {
+                                "name": "plate",
+                                "children": [
+                                    {
+                                        "name": "lines"
+                                    },
+                                    {
+                                        "name": "lines_mov"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "hitarea"
+                            }
+                        ],
+                        "animations": [
+                            "jumper_up"
+                        ]
+                    },
+                    {
+                        "name": "right"
+                    },
+                    {
+                        "name": "left"
+                    }
+                ],
+                "animations": [
+                    "jumper_white",
+                    "jumper_yellow1",
+                    "jumper_yellow2",
+                    "jumper_pink",
+                    "jumper_green",
+                    "jumper_blue"
+                ]
+            },
+            {
+                "name": "alert2"
+            },
+            {
+                "name": "alert1"
+            },
+            {
+                "name": "lines"
+            }
+        ],
+        "animations": [
+            "jumper",
+            "jumper_plate_alert",
+            "fall",
+            "fall_loop",
+            "break"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/base/plate": {
+            "file": "jumper_plate.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/base/plate/lines": {
+            "file": "giro4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -9.9
+            },
+            "type": "sprite"
+        },
+        "skin/base/plate/lines_mov": {
+            "file": "line9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/base/hitarea": {
+            "file": "1x1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.4,
+                "y": 0.6
+            },
+            "scale": {
+                "x": 146.41,
+                "y": 53.64
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/right": {
+            "file": "jumper_plate_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/left": {
+            "file": "jumper_plate_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "alert2": {
+            "file": "aviso2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -37
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "alert1": {
+            "file": "aviso.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "lines": {
+            "file": "p_line6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

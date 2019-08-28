@@ -1,0 +1,174 @@
+{
+    "hierarchy": {
+        "name": "normal_plate",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "base",
+                        "children": [
+                            {
+                                "name": "plate",
+                                "children": [
+                                    {
+                                        "name": "lines"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "left"
+                    },
+                    {
+                        "name": "right"
+                    }
+                ],
+                "animations": [
+                    "normal_white",
+                    "normal_green",
+                    "normal_pink",
+                    "normal_blue",
+                    "normal_yellow1",
+                    "normal_yellow2"
+                ]
+            },
+            {
+                "name": "alert2"
+            },
+            {
+                "name": "alert1"
+            },
+            {
+                "name": "hitarea"
+            },
+            {
+                "name": "lines"
+            }
+        ],
+        "animations": [
+            "normal_move",
+            "alert",
+            "fall",
+            "fall_loop",
+            "break",
+            "normal_move2",
+            "normal_move3",
+            "alert_center"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/base/plate": {
+            "file": "normal_plate.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/base/plate/lines": {
+            "file": "giro4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -2.9
+            },
+            "type": "sprite"
+        },
+        "skin/left": {
+            "file": "normal_plate_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/right": {
+            "file": "normal_plate_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "alert2": {
+            "file": "aviso2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -37
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "alert1": {
+            "file": "aviso.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "hitarea": {
+            "file": "1x1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 183.25,
+                "y": 42.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "lines": {
+            "file": "p_line6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "hierarchy": {
+        "name": "smoke_transicion",
+        "children": [
+            {
+                "name": "smoke_purple"
+            },
+            {
+                "name": "smoke_yellow1"
+            },
+            {
+                "name": "smoke_blue"
+            },
+            {
+                "name": "smoke_pink"
+            },
+            {
+                "name": "smoke_yellow2"
+            },
+            {
+                "name": "smoke_green"
+            },
+            {
+                "name": "logo"
+            }
+        ],
+        "animations": [
+            "transicion_in",
+            "transicion_loop",
+            "transicion_out"
+        ]
+    },
+    "properties": {
+        "smoke_purple": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 28,
+                "y": 864
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#9e44e6",
+            "type": "sprite"
+        },
+        "smoke_yellow1": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -388,
+                "y": 870
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#f2ed4d",
+            "type": "sprite"
+        },
+        "smoke_blue": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 458,
+                "y": 880
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#2ea7c4",
+            "type": "sprite"
+        },
+        "smoke_pink": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6,
+                "y": 885
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#f180c7",
+            "type": "sprite"
+        },
+        "smoke_yellow2": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 567,
+                "y": 880
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#e6e75c",
+            "type": "sprite"
+        },
+        "smoke_green": {
+            "file": "smoke0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -515,
+                "y": 890
+            },
+            "scale": {
+                "x": 1.3,
+                "y": 1.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#37d344",
+            "type": "sprite"
+        },
+        "logo": {
+            "file": "logo.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

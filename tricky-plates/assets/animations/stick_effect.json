@@ -1,0 +1,104 @@
+{
+    "hierarchy": {
+        "name": "stick_effect",
+        "children": [
+            {
+                "name": "stick_effect_base"
+            },
+            {
+                "name": "s_star1"
+            },
+            {
+                "name": "s_star2"
+            },
+            {
+                "name": "s_star3"
+            },
+            {
+                "name": "s_star4"
+            },
+            {
+                "name": "s_star5"
+            }
+        ],
+        "animations": [
+            "stick_effect_anim"
+        ]
+    },
+    "properties": {
+        "stick_effect_base": {
+            "file": "s_yellow7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "s_star1": {
+            "file": "star_stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 119,
+                "y": -246
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "s_star2": {
+            "file": "star_stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 43,
+                "y": -265
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "s_star3": {
+            "file": "star_stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -35,
+                "y": -243
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "s_star4": {
+            "file": "star_stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -105,
+                "y": -200
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "s_star5": {
+            "file": "star_stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 158,
+                "y": -202
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

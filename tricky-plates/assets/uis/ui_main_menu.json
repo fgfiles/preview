@@ -1,0 +1,109 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "logo_point"
+            },
+            {
+                "name": "sound"
+            },
+            {
+                "name": "magic_select"
+            },
+            {
+                "name": "endless_disabled",
+                "children": [
+                    {
+                        "name": "text"
+                    },
+                    {
+                        "name": "lock_pivot"
+                    }
+                ]
+            },
+            {
+                "name": "endless_select"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "logo_point": {
+            "position": {
+                "x": 205,
+                "y": 135
+            },
+            "type": "container"
+        },
+        "sound": {
+            "file": "sound.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "sound.png",
+                "pressed": "sound_p.png",
+                "hover": "sound.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": "-2%",
+                    "y": "-2%"
+                }
+            }
+        },
+        "magic_select": {
+            "position": {
+                "x": 475.1,
+                "y": 359.6
+            },
+            "type": "container"
+        },
+        "endless_disabled": {
+            "file": "endless-block.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 477.2,
+                "y": 549.3
+            },
+            "type": "sprite"
+        },
+        "endless_disabled/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 22.5
+            },
+            "text": "FINISH MAGIC SHOW!",
+            "align": "center",
+            "stroke": "#324270",
+            "strokeThickness": 5.4,
+            "position": {
+                "x": 3.2,
+                "y": 33.1
+            },
+            "type": "text"
+        },
+        "endless_disabled/lock_pivot": {
+            "position": {
+                "x": -116.1,
+                "y": 31.2
+            },
+            "type": "container"
+        },
+        "endless_select": {
+            "position": {
+                "x": 480,
+                "y": 525.7
+            },
+            "type": "container"
+        }
+    }
+}

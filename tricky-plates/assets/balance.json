@@ -1,0 +1,256 @@
+{
+  "Balance":
+  {
+    "DEBUG": false,
+    "CHEATS": false,
+    "SPAWN_TIMER": 1,
+    "REMOVE_TIMER": 1,
+    "MAX_PLATES": 5,
+    "PLATE_SCALE_SPEED": 150,
+    "HIT_AREA_DESKTOP_WIDTH": 1,
+    "HIT_AREA_DESKTOP_HEIGHT": 1.8,
+    "HIT_AREA_MOBILE_WIDTH": 1.2,
+    "HIT_AREA_MOBILE_HEIGHT": 3,
+    "EXTRATIME_CLICK": [1, 2],
+    "STICK_UPDOWN_SPEED" : 3,
+    "STICK_LEFTRIGHT_SPEED" : 3,
+    "STICK_UPDOWN_DISTANCE": 100,
+    "MOVEMENT_PAUSE_TIMER": 2,
+    "PORKY_TIMER": 6,
+    "PORKY_POINTS": 1000,
+    "PORKY_POINTS_RETRY": 800,
+    "POINTS_DECREMENT": 50,
+    "MAX_POINTS": [140, 250, 370, 500, 650, 800, 1000],
+    "WAVE_TIMER": 2.5,
+    "SQUEAK_SPAWNS": 2,
+    "SQUEAK_SPEED_RATIO": 0.03,
+    "BUGS_TIMER": 1,
+
+    "TUTORIAL_PLATE": {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [30, 50], "clicks": 2, "score": 0, "extraPoints": 0, "skin": "normal_white"},
+    "LAST_WAVES_TO_REPEAT": 5,
+
+    "WAVES_NORMAL":
+    [
+      {"oleada" : 1,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 6], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_white"}
+        ],
+        "stickTypes": [0, 1],
+        "spawns": [1, 2, 2, 3, 3, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 0,
+        "forceStick": 1,
+        "porkyPointsDecrement": 50
+      },
+      {"oleada" : 2,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_green"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_green"}
+        ],
+        "stickTypes": [0, 1],
+        "spawns": [1, 2, 3, 3, 2, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 1,
+        "forceStick": 1,
+        "porkyPointsDecrement": 60
+      },
+      {"oleada" : 3,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [3, 5], "loseTimer": [4, 6], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_blue"},
+          {"plateType": 1, "spinTimer": [3, 5], "loseTimer": [4, 6], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_blue"}
+        ],
+        "stickTypes": [0, 1, 2],
+        "spawns": [1, 3, 3, 2, 4, 4],
+        "forcedSpawn": 0,
+        "forcePlate": 0,
+        "forceStick": 2,
+        "porkyPointsDecrement": 70
+      },
+      {"oleada" : 4,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow1"},
+          {"plateType": 1, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow1"},
+          {"plateType": 2, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow1"}
+        ],
+        "stickTypes": [0, 1, 2],
+        "spawns": [1, 4, 2, 3, 3, 4],
+        "forcedSpawn": 0,
+        "forcePlate": 2,
+        "forceStick": 1,
+        "porkyPointsDecrement": 80
+      },
+	  {"oleada" : 5,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow2"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow2"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow2"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [1, 2, 3, 4, 2, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 1,
+        "forceStick": 3,
+        "porkyPointsDecrement": 90
+      },
+      {"oleada" : 6,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [3, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow2"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [3, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow2"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [3, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow2"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [1, 3, 2, 4, 2, 4],
+        "forcedSpawn": 0,
+        "forcePlate": 1,
+        "forceStick": 3,
+        "porkyPointsDecrement": 100
+      }
+
+    ],
+
+    "WAVES_ENDLESS": [
+
+      {"oleada" : 1,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 6], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_white"}
+        ],
+        "stickTypes": [0, 1],
+        "spawns": [1, 2, 2, 3, 3, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 0,
+        "forceStick": 1,
+        "porkyPointsDecrement": 50
+      },
+      {"oleada" : 2,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_green"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_green"}
+        ],
+        "stickTypes": [0, 1],
+        "spawns": [1, 2, 3, 3, 2, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 1,
+        "forceStick": 1,
+        "porkyPointsDecrement": 60
+      },
+      {"oleada" : 3,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [3, 5], "loseTimer": [4, 6], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_blue"},
+          {"plateType": 1, "spinTimer": [3, 5], "loseTimer": [4, 6], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_blue"}
+        ],
+        "stickTypes": [0, 1, 2],
+        "spawns": [1, 3, 3, 2, 4, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 0,
+        "forceStick": 2,
+        "porkyPointsDecrement": 70
+      },
+      {"oleada" : 4,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow1"},
+          {"plateType": 1, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow1"},
+          {"plateType": 2, "spinTimer": [3, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow1"}
+        ],
+        "stickTypes": [0, 1, 2],
+        "spawns": [1, 4, 2, 3, 4, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 2,
+        "forceStick": 1,
+        "porkyPointsDecrement": 90
+      },
+      {"oleada" : 5,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow2"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow2"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow2"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [1, 3, 2, 4, 2, 3],
+        "forcedSpawn": 0,
+        "forcePlate": 1,
+        "forceStick": 3,
+        "porkyPointsDecrement": 110
+      },
+      {"oleada" : 6,
+       "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_pink"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_pink"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_pink"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [2, 2, 4, 3, 3, 4],
+        "forcedSpawn": null,
+        "forcePlate": null,
+        "forceStick": null,
+        "porkyPointsDecrement": 110
+      },
+      {"oleada" : 7,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow1"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow1"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow1"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [2, 1, 3, 4, 2, 5],
+        "forcedSpawn": null,
+        "forcePlate": null,
+        "forceStick": null,
+        "porkyPointsDecrement": 110
+      },
+      {"oleada" : 8,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow2"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow2"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow2"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [3, 2, 4, 5, 2, 3],
+        "forcedSpawn": null,
+        "forcePlate": null,
+        "forceStick": null,
+        "porkyPointsDecrement": 110
+      },
+      {"oleada" : 9,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_pink"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_pink"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_pink"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [4, 2, 4, 3, 5, 3],
+        "forcedSpawn": null,
+        "forcePlate": null,
+        "forceStick": null,
+        "porkyPointsDecrement": 110
+      },
+      {"oleada" : 10,
+        "plateData": [
+          {"plateType": 0, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "normal_yellow2"},
+          {"plateType": 1, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 5, "score": 200, "extraPoints": 50, "skin": "heavy_yellow2"},
+          {"plateType": 2, "spinTimer": [4, 5], "loseTimer": [4, 5], "clicks": 2, "score": 200, "extraPoints": 50, "skin": "jumper_yellow2"}
+        ],
+        "stickTypes": [0, 1, 2, 3],
+        "spawns": [3, 2, 3, 2, 4, 5],
+        "forcedSpawn": null,
+        "forcePlate": null,
+        "forceStick": null,
+        "porkyPointsDecrement": 110
+      }
+
+    ],
+
+       "STICKS": [
+        {"id": 0, "key": "small.png", "speed": 1, "stickType": 0, "height":  630},
+        {"id": 1, "key": "normal.png", "speed": 1, "stickType": 1, "height":  630},
+        {"id": 2, "key": "movil.png", "speed": 3, "stickType": 2, "height":  630},
+        {"id": 3, "key": "mask.png", "speed": 3, "stickType": 3, "height": 630}
+      ],
+
+       "PLATES": [
+        {"id": 0, "key": "normal_plate", "plateType": 0, "score": 100, "spinTimer": [2, 4], "loseTimer": [5, 5], "requiresSwipes": 2, "requiresClicks": 2},
+        {"id": 1, "key": "heavy_plate", "plateType": 1, "score": 300, "spinTimer": [6, 7], "loseTimer": [5, 5], "requiresSwipes": 5, "requiresClicks": 5},
+        {"id": 2, "key": "jumper_plate", "plateType": 2, "score": 500, "spinTimer": [4, 5], "loseTimer": [5, 5], "requiresSwipes": 1, "requiresClicks": 1}
+      ]
+    }
+
+}

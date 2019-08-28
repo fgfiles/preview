@@ -1,0 +1,458 @@
+{
+    "hierarchy": {
+        "name": "character_pause_endless",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "arm_r",
+                        "children": [
+                            {
+                                "name": "arm_r_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "tail"
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "eyes_1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "hand_r"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arm_l",
+                        "children": [
+                            {
+                                "name": "arm_l_2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "small",
+                "children": [
+                    {
+                        "name": "normal_plate",
+                        "children": [
+                            {
+                                "name": "lines"
+                            },
+                            {
+                                "name": "blue_lines"
+                            },
+                            {
+                                "name": "lines_effect"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "sign"
+            },
+            {
+                "name": "click"
+            },
+            {
+                "name": "heart_1"
+            },
+            {
+                "name": "heart_2"
+            },
+            {
+                "name": "heart_3"
+            },
+            {
+                "name": "plate_right"
+            },
+            {
+                "name": "plate_left"
+            },
+            {
+                "name": "shine_stick"
+            },
+            {
+                "name": "smoke"
+            },
+            {
+                "name": "heart_left"
+            },
+            {
+                "name": "heart_right"
+            },
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "arrow"
+                    }
+                ],
+                "animations": [
+                    "arrow_skin_tutorial",
+                    "hand_skin_tutorial"
+                ]
+            }
+        ],
+        "animations": [
+            "squeak_pause_loop_endless",
+            "squeak_pause_out_endless",
+            "squeak_pause_in_endless"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": -3,
+                "y": 29
+            },
+            "scale": {
+                "x": 0.77,
+                "y": 0.77
+            },
+            "type": "container"
+        },
+        "base/arm_r": {
+            "file": "arm_r_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": -82
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/arm_r/arm_r_2": {
+            "file": "arm_r_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 20.4,
+                "y": -99.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "body_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body/tail": {
+            "file": "tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -90.6,
+                "y": 4.7
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -13.6,
+                "y": -169.7
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/body/head/eyes_1": {
+            "file": "eyes_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.1,
+                "y": -60.9
+            },
+            "type": "sprite"
+        },
+        "base/container": {
+            "file": "container_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -62.2,
+                "y": -280.1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/container/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 75
+            },
+            "text": "Pause",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": -46.9
+            },
+            "type": "text"
+        },
+        "base/container/hand_r": {
+            "file": "hand_r_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 87.1,
+                "y": 9.9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/arm_l": {
+            "file": "arm_l_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.9,
+                "y": -85.4
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/arm_l/arm_l_2": {
+            "file": "arm_l_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -55.2,
+                "y": -87.9
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "small": {
+            "file": "small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63.4,
+                "y": -366.8
+            },
+            "type": "sprite"
+        },
+        "small/normal_plate": {
+            "file": "normal_plate.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -65.9
+            },
+            "type": "sprite"
+        },
+        "small/normal_plate/lines": {
+            "file": "giro1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -3.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "small/normal_plate/blue_lines": {
+            "file": "blue_8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "small/normal_plate/lines_effect": {
+            "file": "p_line6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "sign": {
+            "file": "aviso.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -59.2,
+                "y": -487.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "click": {
+            "file": "click5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -61.9,
+                "y": -446.1
+            },
+            "type": "sprite"
+        },
+        "heart_1": {
+            "file": "heart.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -322,
+                "y": -525
+            },
+            "type": "sprite"
+        },
+        "heart_2": {
+            "file": "heart.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -255.2,
+                "y": -525
+            },
+            "type": "sprite"
+        },
+        "heart_3": {
+            "file": "heart.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -188.1,
+                "y": -525
+            },
+            "type": "sprite"
+        },
+        "plate_right": {
+            "file": "normal_plate_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -26.4,
+                "y": -432.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "plate_left": {
+            "file": "normal_plate_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -98.7,
+                "y": -433.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "shine_stick": {
+            "file": "stick_in6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -68,
+                "y": -415
+            },
+            "scale": {
+                "x": 0.53,
+                "y": 0.53
+            },
+            "type": "sprite"
+        },
+        "smoke": {
+            "file": "smoke_stick10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -68,
+                "y": -415
+            },
+            "scale": {
+                "x": 0.53,
+                "y": 0.53
+            },
+            "color": "#d2d844",
+            "type": "sprite"
+        },
+        "heart_left": {
+            "file": "heart_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -203.4,
+                "y": -527.2
+            },
+            "type": "sprite"
+        },
+        "heart_right": {
+            "file": "heart_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -178.1,
+                "y": -527.5
+            },
+            "type": "sprite"
+        },
+        "skin": {
+            "position": {
+                "x": -34.5,
+                "y": -402
+            },
+            "type": "container"
+        },
+        "skin/arrow": {
+            "file": "arrow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "character_pivot"
+            },
+            {
+                "name": "container_go",
+                "children": [
+                    {
+                        "name": "arm_left_go"
+                    },
+                    {
+                        "name": "lace",
+                        "children": [
+                            {
+                                "name": "title"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "score_normal_mode",
+                        "children": [
+                            {
+                                "name": "score1"
+                            },
+                            {
+                                "name": "score2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "score_endless_mode",
+                        "children": [
+                            {
+                                "name": "score1"
+                            },
+                            {
+                                "name": "score2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lace2",
+                        "children": [
+                            {
+                                "name": "title"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "retry"
+            },
+            {
+                "name": "home"
+            },
+            {
+                "name": "play_go"
+            },
+            {
+                "name": "play_2"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "character_pivot": {
+            "position": {
+                "x": 477.6,
+                "y": 100.6
+            },
+            "type": "container"
+        },
+        "container_go": {
+            "file": "container_go.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -49
+                }
+            }
+        },
+        "container_go/arm_left_go": {
+            "file": "arm_left_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -17.3,
+                "y": -151.3
+            },
+            "type": "sprite"
+        },
+        "container_go/lace": {
+            "file": "lace.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11,
+                "y": -123
+            },
+            "type": "sprite"
+        },
+        "container_go/lace/title": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 45
+            },
+            "text": "Game Complete",
+            "align": "center",
+            "stroke": "#a6113f",
+            "strokeThickness": 6,
+            "position": {
+                "x": 5.5,
+                "y": -19.1
+            },
+            "type": "text"
+        },
+        "container_go/score_normal_mode": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "container_go/score_normal_mode/score1": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 80
+            },
+            "text": "0",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 7,
+            "position": {
+                "x": 37.4,
+                "y": -26.1
+            },
+            "type": "text"
+        },
+        "container_go/score_normal_mode/score2": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 60
+            },
+            "text": "0",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 6,
+            "position": {
+                "x": 37.4,
+                "y": 77.9
+            },
+            "type": "text"
+        },
+        "container_go/score_endless_mode": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "container_go/score_endless_mode/score1": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 100
+            },
+            "text": "0",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 7,
+            "position": {
+                "x": 37.7,
+                "y": -31.7
+            },
+            "type": "text"
+        },
+        "container_go/score_endless_mode/score2": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 50
+            },
+            "text": "0",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 6,
+            "position": {
+                "x": 37.6,
+                "y": 77.1
+            },
+            "type": "text"
+        },
+        "container_go/lace2": {
+            "file": "lace pink.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11,
+                "y": -123
+            },
+            "type": "sprite"
+        },
+        "container_go/lace2/title": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 45
+            },
+            "text": "Game Complete",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 6,
+            "position": {
+                "x": 5.5,
+                "y": -13.9
+            },
+            "type": "text"
+        },
+        "retry": {
+            "file": "reiniciar.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "reiniciar.png",
+                "pressed": "reiniciar_p.png",
+                "hover": "reiniciar.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 96.6,
+                    "y": -62.2
+                }
+            }
+        },
+        "home": {
+            "file": "Home.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "Home.png",
+                "pressed": "home_p.png",
+                "hover": "Home.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": -88.1,
+                    "y": -56.4
+                }
+            }
+        },
+        "play_go": {
+            "file": "play_go.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "play_go.png",
+                "pressed": "play_p.png",
+                "hover": "play_go.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -61.5
+                }
+            }
+        },
+        "play_2": {
+            "file": "play_go.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "play_go.png",
+                "pressed": "play_p.png",
+                "hover": "play_go.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 95,
+                    "y": -55.8
+                }
+            }
+        }
+    }
+}

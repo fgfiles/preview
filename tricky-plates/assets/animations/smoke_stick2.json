@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "smoke_stick2",
+        "children": [
+            {
+                "name": "smoke_stick"
+            }
+        ],
+        "animations": [
+            "smoke_stick_anim"
+        ]
+    },
+    "properties": {
+        "smoke_stick": {
+            "file": "smoke_stick10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "color": "#eb84ce",
+            "type": "sprite"
+        }
+    }
+}

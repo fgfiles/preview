@@ -1,0 +1,92 @@
+{
+    "hierarchy": {
+        "name": "character_gameover",
+        "children": [
+            {
+                "name": "tail_go"
+            },
+            {
+                "name": "arm_go"
+            },
+            {
+                "name": "character",
+                "children": [
+                    {
+                        "name": "head_go",
+                        "children": [
+                            {
+                                "name": "eyes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "squeak_go"
+        ]
+    },
+    "properties": {
+        "tail_go": {
+            "file": "tail_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 54.1,
+                "y": 8.1
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "arm_go": {
+            "file": "arm_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.06,
+                "y": -14.69
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "character": {
+            "file": "body_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.1,
+                "y": 0.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character/head_go": {
+            "file": "head_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2,
+                "y": -24.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "character/head_go/eyes": {
+            "file": "eyes_go1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.84,
+                "y": -37.19
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "hierarchy": {
+        "name": "button_2",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "shine"
+                    },
+                    {
+                        "name": "endless_select",
+                        "children": [
+                            {
+                                "name": "score"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "star_1"
+            },
+            {
+                "name": "star_2"
+            },
+            {
+                "name": "star_3"
+            },
+            {
+                "name": "star_4"
+            },
+            {
+                "name": "star_5"
+            },
+            {
+                "name": "star_6"
+            },
+            {
+                "name": "star_7"
+            }
+        ],
+        "animations": [
+            "button_main_anim2"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/shine": {
+            "file": "shine_mm_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3,
+                "y": 6.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/endless_select": {
+            "file": "endless-1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.5,
+                "y": 5.9
+            },
+            "type": "sprite"
+        },
+        "base/endless_select/score": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 38
+            },
+            "text": "99999",
+            "align": "center",
+            "stroke": "#022d7d",
+            "strokeThickness": 5.6,
+            "position": {
+                "x": 26.3,
+                "y": 52.7
+            },
+            "type": "text"
+        },
+        "star_1": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -130.8,
+                "y": -13.7
+            },
+            "scale": {
+                "x": 0.38,
+                "y": 0.38
+            },
+            "type": "sprite"
+        },
+        "star_2": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 122.2,
+                "y": -48.7
+            },
+            "angle": 14,
+            "scale": {
+                "x": 0.78,
+                "y": 0.78
+            },
+            "type": "sprite"
+        },
+        "star_3": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 118,
+                "y": 71
+            },
+            "angle": 27,
+            "type": "sprite"
+        },
+        "star_4": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -102.9,
+                "y": 74.4
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "type": "sprite"
+        },
+        "star_5": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 90,
+                "y": 17
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "star_6": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 158,
+                "y": 21
+            },
+            "scale": {
+                "x": 0.24,
+                "y": 0.24
+            },
+            "type": "sprite"
+        },
+        "star_7": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -163,
+                "y": 17
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

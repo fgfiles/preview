@@ -1,0 +1,485 @@
+{
+    "name": "stick_effect_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "stick_effect_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "s_yellow7.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "s_yellow1.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "s_yellow2.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "s_yellow3.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "s_yellow4.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "s_yellow5.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "s_yellow6.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "s_yellow7.png"
+                }
+            ]
+        },
+        "s_star1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        71,
+                        -187
+                    ]
+                },
+                {
+                    "frame": 17,
+                    "value": [
+                        71,
+                        -187
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        180,
+                        -273
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.3
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.3
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 450,
+                    "value": 62
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 17,
+                    "value": 1
+                },
+                {
+                    "frame": 300,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "s_star3": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -84,
+                        -235
+                    ]
+                },
+                {
+                    "frame": 100,
+                    "value": [
+                        -84,
+                        -235
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        -141,
+                        -338
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.31
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.31
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 0
+                },
+                {
+                    "frame": 450,
+                    "value": -58
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 100,
+                    "value": 1
+                },
+                {
+                    "frame": 317,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "s_star2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        16.7,
+                        -195.7
+                    ]
+                },
+                {
+                    "frame": 17,
+                    "value": [
+                        16.7,
+                        -195.7
+                    ]
+                },
+                {
+                    "frame": 433,
+                    "value": [
+                        -4.7,
+                        -359.7
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 1
+                },
+                {
+                    "frame": 433,
+                    "value": 1.28
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 100,
+                    "value": 1
+                },
+                {
+                    "frame": 433,
+                    "value": 1.28
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": 0
+                },
+                {
+                    "frame": 433,
+                    "value": -65
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 17,
+                    "value": 1
+                },
+                {
+                    "frame": 267,
+                    "value": 1
+                },
+                {
+                    "frame": 433,
+                    "value": 0
+                }
+            ]
+        },
+        "s_star4": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -102,
+                        -176
+                    ]
+                },
+                {
+                    "frame": 67,
+                    "value": [
+                        -48.3,
+                        -175.1
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        -139.4,
+                        -245.9
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 67,
+                    "value": 0
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.17
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 67,
+                    "value": 0
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 1.17
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 67,
+                    "value": 0
+                },
+                {
+                    "frame": 450,
+                    "value": -73
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 67,
+                    "value": 1
+                },
+                {
+                    "frame": 300,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "s_star5": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        39.9,
+                        -161.5
+                    ]
+                },
+                {
+                    "frame": 467,
+                    "value": [
+                        153.8,
+                        -233.1
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 83,
+                    "value": 1
+                },
+                {
+                    "frame": 467,
+                    "value": 1.29
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 83,
+                    "value": 1
+                },
+                {
+                    "frame": 467,
+                    "value": 1.29
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 467,
+                    "value": 66
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 317,
+                    "value": 1
+                },
+                {
+                    "frame": 467,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

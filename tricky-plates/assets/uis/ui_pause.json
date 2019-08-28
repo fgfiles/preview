@@ -1,0 +1,96 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "sound"
+            },
+            {
+                "name": "play"
+            },
+            {
+                "name": "character_pivot"
+            },
+            {
+                "name": "home"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "sound": {
+            "file": "sound.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "sound.png",
+                "pressed": "sound_p.png",
+                "hover": "sound.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": "-2%",
+                    "y": "-2%"
+                }
+            }
+        },
+        "play": {
+            "file": "play_go.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "play_go.png",
+                "pressed": "play_p.png",
+                "hover": "play_go.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 267,
+                    "y": -67.5
+                }
+            }
+        },
+        "character_pivot": {
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 54.53,
+                    "y": 0
+                }
+            }
+        },
+        "home": {
+            "file": "Home.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "Home.png",
+                "pressed": "home_p.png",
+                "hover": "Home.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_LEFT",
+                "offset": {
+                    "x": -141,
+                    "y": -76
+                }
+            }
+        }
+    }
+}

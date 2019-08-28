@@ -1,0 +1,407 @@
+{
+    "hierarchy": {
+        "name": "character",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "arm_r",
+                        "children": [
+                            {
+                                "name": "arm_r_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "tail"
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "eyes_1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "hand_r"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arm_l",
+                        "children": [
+                            {
+                                "name": "arm_l_2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "small",
+                "children": [
+                    {
+                        "name": "normal_plate",
+                        "children": [
+                            {
+                                "name": "lines"
+                            },
+                            {
+                                "name": "blue_lines"
+                            },
+                            {
+                                "name": "lines_effect"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "arrow"
+                    }
+                ],
+                "animations": [
+                    "arrow_skin_tutorial",
+                    "hand_skin_tutorial"
+                ]
+            },
+            {
+                "name": "sign"
+            },
+            {
+                "name": "click"
+            },
+            {
+                "name": "head"
+            },
+            {
+                "name": "face_1"
+            },
+            {
+                "name": "face_2"
+            },
+            {
+                "name": "face_3"
+            },
+            {
+                "name": "face_4"
+            }
+        ],
+        "animations": [
+            "squeak_pause_in",
+            "squeak_pause_loop",
+            "squeak_pause_out"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": -3,
+                "y": 29
+            },
+            "scale": {
+                "x": 0.77,
+                "y": 0.77
+            },
+            "type": "container"
+        },
+        "base/arm_r": {
+            "file": "arm_r_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": -82
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/arm_r/arm_r_2": {
+            "file": "arm_r_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 20.4,
+                "y": -99.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "body_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body/tail": {
+            "file": "tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -90.6,
+                "y": 4.7
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -13.6,
+                "y": -169.7
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/body/head/eyes_1": {
+            "file": "eyes_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.1,
+                "y": -60.9
+            },
+            "type": "sprite"
+        },
+        "base/container": {
+            "file": "container_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -62.2,
+                "y": -280.1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/container/text": {
+            "font": {
+                "name": "dosmilcatorceregular",
+                "fontSize": 75
+            },
+            "text": "Pause",
+            "align": "center",
+            "stroke": "#1632c4",
+            "strokeThickness": 6,
+            "position": {
+                "x": 0,
+                "y": -46.9
+            },
+            "type": "text"
+        },
+        "base/container/hand_r": {
+            "file": "hand_r_p.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 87.1,
+                "y": 9.9
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/arm_l": {
+            "file": "arm_l_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.9,
+                "y": -85.4
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/arm_l/arm_l_2": {
+            "file": "arm_l_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -55.2,
+                "y": -87.9
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "small": {
+            "file": "small.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63.4,
+                "y": -366.8
+            },
+            "type": "sprite"
+        },
+        "small/normal_plate": {
+            "file": "normal_plate.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -65.9
+            },
+            "type": "sprite"
+        },
+        "small/normal_plate/lines": {
+            "file": "giro1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -3.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "small/normal_plate/blue_lines": {
+            "file": "blue_8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "small/normal_plate/lines_effect": {
+            "file": "p_line6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin": {
+            "position": {
+                "x": -34.5,
+                "y": -402
+            },
+            "type": "container"
+        },
+        "skin/arrow": {
+            "file": "arrow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "sign": {
+            "file": "aviso.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -59.2,
+                "y": -487.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "click": {
+            "file": "click5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -61.9,
+                "y": -446.1
+            },
+            "type": "sprite"
+        },
+        "head": {
+            "file": "sad_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 140,
+                "y": -412
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "face_1": {
+            "file": "bored.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 29.7,
+                "y": -466.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "face_2": {
+            "file": "bored.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 59.4,
+                "y": -549.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "face_3": {
+            "file": "bored.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 246.8,
+                "y": -466.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "face_4": {
+            "file": "bored.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 210.3,
+                "y": -534.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "defaultItem":{
+        "id":"suit_0",
+        "name" : "STR_SHOP_SUIT0",
+        "level" : 0,
+        "price":1,
+        "thumbnail":"suit_bronze_swimming.png",
+        "lockedThumb" : "suit_locked_small.png",
+        "imageUrl":"suit_bronze.png",
+        "description":"STR_SHOP_SUIT0_NAME",
+        "effect":"STR_SHOP_OXYGEN1"
+    },
+    "groups":{
+
+        "shop":[
+            {
+                "id":"suit_1",
+                "name" : "STR_SHOP_SUIT1",
+                "level" : 1,
+                "price":100,
+                "thumbnail":"suit_silver_swimming.png",
+                "lockedThumb" : "suit_locked_small.png",
+                "imageUrl":"suit_silver.png",
+                "description":"STR_SHOP_SUIT1_NAME",
+                "effect":"STR_SHOP_OXYGEN2"
+            },
+            {
+                "id":"flip_speed_1",
+                "name" : "STR_SHOP_SUIT2",
+                "level" : 1,
+                "price":300,
+                "thumbnail":"suit_gold_swimming.png",
+                "lockedThumb" : "suit_locked_small.png",
+                "imageUrl":"suit_gold.png",
+                "description":"STR_SHOP_SUIT2_NAME",
+                "effect":"STR_SHOP_OXYGEN3"
+            },
+            {
+                "id":"grind_1",
+                "name" : "STR_SHOP_SUIT3",
+                "level" : 1,
+                "price":1000,
+                "thumbnail":"suit_red_swimming.png",
+                "lockedThumb" : "suit_locked_small.png",
+                "imageUrl":"suit_red.png",
+                "description":"STR_SHOP_SUIT3_NAME",
+                "effect":"STR_SHOP_OXYGEN4"
+            }
+
+        ]
+
+    }
+}

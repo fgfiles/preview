@@ -1,0 +1,41 @@
+{
+    "hierarchy": {
+        "name": "tutorial",
+        "children": [
+            {
+                "name": "click1"
+            },
+            {
+                "name": "hand"
+            }
+        ],
+        "animations": [
+            "tutorial_tap",
+            "tutorial_click"
+        ]
+    },
+    "properties": {
+        "click1": {
+            "file": "click6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "hand": {
+            "file": "arrow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.9,
+                "y": 104.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

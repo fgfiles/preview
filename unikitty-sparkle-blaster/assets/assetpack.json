@@ -1,0 +1,375 @@
+{
+    "load":
+    [
+        {
+            "type"      : "image",
+            "key"       : "cn_preloader_bg",
+            "url"       : "assets/ui/cn_preloader_bg.jpg",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "cn_preloader_bar",
+            "url"       : "assets/ui/cn_preloader_bar.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "cn_preloader_pattern",
+            "url"       : "assets/ui/cn_preloader_pattern.jpg",
+            "overwrite" : false
+        }
+    ],
+    "ui"  :
+    [
+        {
+            "type"      : "image",
+            "key"       : "gamehud_pause",
+            "url"       : "assets/ui/gamehud_pause.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "gamehud_pause_wht",
+            "url"       : "assets/ui/gamehud_pause_wht.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "gamehud_score",
+            "url"       : "assets/ui/gamehud_score.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "gamehud_time",
+            "url"       : "assets/ui/gamehud_time.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "gameoverlay_pause",
+            "url"       : "assets/ui/gameoverlay_pause.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "bg_welcome",
+            "url"       : "assets/ui/bg_welcome.jpg",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "bg_gameend",
+            "url"       : "assets/ui/bg_gameend.jpg",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_play",
+            "url"       : "assets/ui/btn_play.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_replay",
+            "url"       : "assets/ui/btn_replay.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_highscore",
+            "url"       : "assets/ui/icon_highscore.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "gameend_panel_score",
+            "url"       : "assets/ui/gameend_panel_score.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "instruction_tap",
+            "url"       : "assets/ui/instruction_tap.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "instruction_mouseclick",
+            "url"       : "assets/ui/instruction_mouseclick.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_sound_on",
+            "url"       : "assets/ui/btn_sound_on.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_sound_off",
+            "url"       : "assets/ui/btn_sound_off.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_replay_wht",
+            "url"       : "assets/ui/btn_replay_wht.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_sound_off_wht",
+            "url"       : "assets/ui/btn_sound_off_wht.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_sound_on_wht",
+            "url"       : "assets/ui/btn_sound_on_wht.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "btn_play_wht",
+            "url"       : "assets/ui/btn_play_wht.png",
+            "overwrite" : false
+        }
+    ],
+    "game" :
+    [
+        {
+            "type"      : "image",
+            "key"       : "background",
+            "url"       : "assets/textures/background.jpg",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_body",
+            "url"       : "assets/textures/unikitty_parts/unikitty_body.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "atlasJSONArray",
+            "key"       : "unikitty_body_sp",
+            "textureURL": "assets/textures/unikitty_parts/unikitty_body_sp.png",
+            "atlasURL"  : "assets/textures/unikitty_parts/unikitty_body_sp.json",
+            "atlasData" : null,
+            "format"    : "TEXTURE_ATLAS_JSON_ARRAY"
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_head",
+            "url"       : "assets/textures/unikitty_parts/unikitty_head.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_eye",
+            "url"       : "assets/textures/unikitty_parts/unikitty_eye.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_blink",
+            "url"       : "assets/textures/unikitty_parts/unikitty_blink.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_mouth_1",
+            "url"       : "assets/textures/unikitty_parts/unikitty_mouth_1.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_mouth_2",
+            "url"       : "assets/textures/unikitty_parts/unikitty_mouth_2.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_mouth_3",
+            "url"       : "assets/textures/unikitty_parts/unikitty_mouth_3.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "unikitty_mouth_4",
+            "url"       : "assets/textures/unikitty_parts/unikitty_mouth_4.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_1",
+            "url"       : "assets/textures/missiles_positive/icon_missile_1.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_2",
+            "url"       : "assets/textures/missiles_positive/icon_missile_2.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_3",
+            "url"       : "assets/textures/missiles_positive/icon_missile_3.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_4",
+            "url"       : "assets/textures/missiles_positive/icon_missile_4.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_5",
+            "url"       : "assets/textures/missiles_positive/icon_missile_5.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_6",
+            "url"       : "assets/textures/missiles_positive/icon_missile_6.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_7",
+            "url"       : "assets/textures/missiles_positive/icon_missile_7.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_8",
+            "url"       : "assets/textures/missiles_positive/icon_missile_8.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_9",
+            "url"       : "assets/textures/missiles_positive/icon_missile_9.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_missile_10",
+            "url"       : "assets/textures/missiles_positive/icon_missile_10.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "atlasJSONArray",
+            "key"       : "hazard_explosion",
+            "textureURL": "assets/textures/hazard_explosion.png",
+            "atlasURL"  : "assets/textures/hazard_explosion.json",
+            "atlasData" : null,
+            "format"    : "TEXTURE_ATLAS_JSON_ARRAY"
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_1",
+            "url"       : "assets/textures/negative_matter/icon_negative_1.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_2",
+            "url"       : "assets/textures/negative_matter/icon_negative_2.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_3",
+            "url"       : "assets/textures/negative_matter/icon_negative_3.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_4",
+            "url"       : "assets/textures/negative_matter/icon_negative_4.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_5",
+            "url"       : "assets/textures/negative_matter/icon_negative_5.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_6",
+            "url"       : "assets/textures/negative_matter/icon_negative_6.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_7",
+            "url"       : "assets/textures/negative_matter/icon_negative_7.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "image",
+            "key"       : "icon_negative_8",
+            "url"       : "assets/textures/negative_matter/icon_negative_8.png",
+            "overwrite" : false
+        },
+        {
+            "type"      : "json",
+            "key"       : "game_data",
+            "url"       : "assets/data/gamedata.json",
+            "overwrite" : true
+        },
+        {
+            "type": "audio",
+            "key": "background",
+            "urls": ["assets/sounds/background.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "intro_background",
+            "urls": ["assets/sounds/intro_background.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "end_background",
+            "urls": ["assets/sounds/end_background.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "button",
+            "urls": ["assets/sounds/button.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "shoot",
+            "urls": ["assets/sounds/shoot.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "timesup",
+            "urls": ["assets/sounds/timesup.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "enemy",
+            "urls": ["assets/sounds/enemy.mp3"],
+            "autoDecode": true
+        },
+        {
+            "type": "audio",
+            "key": "end_score",
+            "urls": ["assets/sounds/end_score.mp3"],
+            "autoDecode": true
+        }
+    ]
+}

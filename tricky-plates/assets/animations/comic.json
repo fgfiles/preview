@@ -1,0 +1,807 @@
+{
+    "hierarchy": {
+        "name": "comic",
+        "children": [
+            {
+                "name": "comic_3",
+                "children": [
+                    {
+                        "name": "03"
+                    },
+                    {
+                        "name": "bugs",
+                        "children": [
+                            {
+                                "name": "bugs_arm_i"
+                            },
+                            {
+                                "name": "bugs_arm_d"
+                            },
+                            {
+                                "name": "bugs_ears"
+                            },
+                            {
+                                "name": "bugs_leg_back"
+                            },
+                            {
+                                "name": "bugs_body"
+                            },
+                            {
+                                "name": "bugs_leg_front"
+                            },
+                            {
+                                "name": "bugs_hand"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "porky",
+                        "children": [
+                            {
+                                "name": "porky_arm"
+                            },
+                            {
+                                "name": "porky_body"
+                            },
+                            {
+                                "name": "porky_head"
+                            },
+                            {
+                                "name": "porky_botle"
+                            },
+                            {
+                                "name": "water_1"
+                            },
+                            {
+                                "name": "water_2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "squeak",
+                        "children": [
+                            {
+                                "name": "squeak_tail"
+                            },
+                            {
+                                "name": "squeak_arm_d"
+                            },
+                            {
+                                "name": "squeak_arm_i"
+                            },
+                            {
+                                "name": "squeak_body"
+                            },
+                            {
+                                "name": "squeak_head"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "comic_1",
+                "children": [
+                    {
+                        "name": "01"
+                    },
+                    {
+                        "name": "bugs",
+                        "children": [
+                            {
+                                "name": "tail"
+                            },
+                            {
+                                "name": "arm_right",
+                                "children": [
+                                    {
+                                        "name": "hat_back"
+                                    },
+                                    {
+                                        "name": "s_arm_left"
+                                    },
+                                    {
+                                        "name": "s_arm_right"
+                                    },
+                                    {
+                                        "name": "s_body"
+                                    },
+                                    {
+                                        "name": "s_head"
+                                    },
+                                    {
+                                        "name": "hat_front"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "arm_left"
+                            },
+                            {
+                                "name": "leg_right"
+                            },
+                            {
+                                "name": "bugs_body"
+                            },
+                            {
+                                "name": "leg_left"
+                            },
+                            {
+                                "name": "ears"
+                            },
+                            {
+                                "name": "head"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "porky",
+                        "children": [
+                            {
+                                "name": "porky_leg_i"
+                            },
+                            {
+                                "name": "porky_arm"
+                            },
+                            {
+                                "name": "porky_body"
+                            },
+                            {
+                                "name": "porky_head"
+                            },
+                            {
+                                "name": "porky_arms_front"
+                            },
+                            {
+                                "name": "porky_leg_d"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "comic_2",
+                "children": [
+                    {
+                        "name": "02"
+                    },
+                    {
+                        "name": "porky_arm_i"
+                    },
+                    {
+                        "name": "porky_body"
+                    },
+                    {
+                        "name": "porky_head"
+                    },
+                    {
+                        "name": "porky_arm_d"
+                    },
+                    {
+                        "name": "edge"
+                    },
+                    {
+                        "name": "porky_hand"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "comic_anim"
+        ]
+    },
+    "properties": {
+        "comic_3": {
+            "position": {
+                "x": 223,
+                "y": -30
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "comic_3/03": {
+            "file": "03.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.1,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs": {
+            "position": {
+                "x": -80.9,
+                "y": 51.4
+            },
+            "type": "container"
+        },
+        "comic_3/bugs/bugs_arm_i": {
+            "file": "3bugs_arm_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -26.6,
+                "y": -34.6
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_arm_d": {
+            "file": "3bugs_arm_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11,
+                "y": -33.1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_ears": {
+            "file": "3bugs_ears.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -55.3,
+                "y": -123.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_leg_back": {
+            "file": "3bugs_leg_back.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17.6,
+                "y": 39.1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_body": {
+            "file": "3bugs_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -29,
+                "y": -16.9
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_leg_front": {
+            "file": "3bugs_leg_front.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.3,
+                "y": 45.4
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "comic_3/bugs/bugs_hand": {
+            "file": "3bugs_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -57.6,
+                "y": -7.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky": {
+            "position": {
+                "x": 138.7,
+                "y": 72.1
+            },
+            "type": "container"
+        },
+        "comic_3/porky/porky_arm": {
+            "file": "3porky_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39.3,
+                "y": -81.1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky/porky_body": {
+            "file": "3porky_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.2,
+                "y": 12.7
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky/porky_head": {
+            "file": "3porky_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.7,
+                "y": -73.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky/porky_botle": {
+            "file": "3porky_botle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.4,
+                "y": -20.3
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky/water_1": {
+            "file": "3water_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -62.34,
+                "y": -67.36
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.94
+            },
+            "type": "sprite"
+        },
+        "comic_3/porky/water_2": {
+            "file": "3water_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -232,
+                "y": -120.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "comic_3/squeak": {
+            "position": {
+                "x": -116,
+                "y": 174
+            },
+            "type": "container"
+        },
+        "comic_3/squeak/squeak_tail": {
+            "file": "3squeak_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 10.2
+            },
+            "anchor": {
+                "x": 1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "comic_3/squeak/squeak_arm_d": {
+            "file": "3squeak_arm_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.4,
+                "y": -17.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "comic_3/squeak/squeak_arm_i": {
+            "file": "3squeak_arm_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4,
+                "y": -20.2
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "comic_3/squeak/squeak_body": {
+            "file": "3squeak_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.9,
+                "y": -0.3
+            },
+            "type": "sprite"
+        },
+        "comic_3/squeak/squeak_head": {
+            "file": "3squeak_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.8,
+                "y": -23.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_1": {
+            "position": {
+                "x": -273,
+                "y": -71
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "comic_1/01": {
+            "file": "01.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3,
+                "y": 2.3
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs": {
+            "position": {
+                "x": -85.7,
+                "y": 85.3
+            },
+            "type": "container"
+        },
+        "comic_1/bugs/tail": {
+            "file": "1bugs_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.1,
+                "y": 7.2
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right": {
+            "file": "1bugs_arm_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.9,
+                "y": -51.8
+            },
+            "angle": 12,
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/hat_back": {
+            "file": "1hat_back.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 57.1,
+                "y": -69.5
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/s_arm_left": {
+            "file": "1squeak_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 59.8,
+                "y": -75.3
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/s_arm_right": {
+            "file": "1squeak_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 61.2,
+                "y": -74.2
+            },
+            "angle": -10,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/s_body": {
+            "file": "1squeak_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 61.9,
+                "y": -69.7
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/s_head": {
+            "file": "1squeak_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 57.1,
+                "y": -84.1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_right/hat_front": {
+            "file": "1hat_front.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 63.4,
+                "y": -40.6
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/arm_left": {
+            "file": "1bugs_arm_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -18.2,
+                "y": -51.9
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/leg_right": {
+            "file": "1bugs_leg_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.9,
+                "y": 4.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/bugs_body": {
+            "file": "1bugs_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -10.9,
+                "y": -29.7
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/leg_left": {
+            "file": "1bugs_leg_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8,
+                "y": 7.8
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/ears": {
+            "file": "1bugs_ears.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -52.3,
+                "y": -107.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_1/bugs/head": {
+            "file": "1bugs_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -24.9,
+                "y": -68.7
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky": {
+            "position": {
+                "x": 52.4,
+                "y": 103.2
+            },
+            "type": "container"
+        },
+        "comic_1/porky/porky_leg_i": {
+            "file": "1porky_leg_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -21.8,
+                "y": 12.2
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky/porky_arm": {
+            "file": "1porky_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -33.9,
+                "y": -72.9
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky/porky_body": {
+            "file": "1porky_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.8,
+                "y": -28.7
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky/porky_head": {
+            "file": "1porky_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.8,
+                "y": -74.4
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky/porky_arms_front": {
+            "file": "1porky_arms_front.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.3,
+                "y": -48.8
+            },
+            "type": "sprite"
+        },
+        "comic_1/porky/porky_leg_d": {
+            "file": "1porky_leg_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 34.8,
+                "y": 15.8
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "comic_2": {
+            "position": {
+                "x": -60,
+                "y": 88
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "comic_2/02": {
+            "file": "02.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.3,
+                "y": -16.3
+            },
+            "type": "sprite"
+        },
+        "comic_2/porky_arm_i": {
+            "file": "2porky_arm_i.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.6,
+                "y": -67.5
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "comic_2/porky_body": {
+            "file": "2porky_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 28.1
+            },
+            "type": "sprite"
+        },
+        "comic_2/porky_head": {
+            "file": "2porky_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.8,
+                "y": -60.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "comic_2/porky_arm_d": {
+            "file": "2porky_arm_d.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 51.2,
+                "y": -50.5
+            },
+            "type": "sprite"
+        },
+        "comic_2/edge": {
+            "file": "edge.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.3,
+                "y": -21.5
+            },
+            "type": "sprite"
+        },
+        "comic_2/porky_hand": {
+            "file": "2porky_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -86.2,
+                "y": -47.1
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

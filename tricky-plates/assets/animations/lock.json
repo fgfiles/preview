@@ -1,0 +1,151 @@
+{
+    "hierarchy": {
+        "name": "lock",
+        "children": [
+            {
+                "name": "shadow"
+            },
+            {
+                "name": "lock1",
+                "children": [
+                    {
+                        "name": "lock2"
+                    }
+                ]
+            },
+            {
+                "name": "star_1"
+            },
+            {
+                "name": "star_2"
+            },
+            {
+                "name": "star_3"
+            },
+            {
+                "name": "star_4"
+            },
+            {
+                "name": "star_5"
+            },
+            {
+                "name": "star_6"
+            }
+        ],
+        "animations": [
+            "lock_anim"
+        ]
+    },
+    "properties": {
+        "shadow": {
+            "file": "shadow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 27.4,
+                "y": -8.5
+            },
+            "type": "sprite"
+        },
+        "lock1": {
+            "file": "lock1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "lock1/lock2": {
+            "file": "lock2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.4,
+                "y": -18.6
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "star_1": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.7,
+                "y": -26.1
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_2": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -44.1,
+                "y": -6.7
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_3": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -24.4,
+                "y": 0
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_4": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17.3,
+                "y": -16.4
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_5": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.2,
+                "y": -1.5
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star_6": {
+            "file": "white_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.7,
+                "y": 11.1
+            },
+            "angle": 24,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

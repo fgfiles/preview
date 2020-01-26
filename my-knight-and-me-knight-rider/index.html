@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <html manifest="offline.appcache">
 <head>
     <meta charset="UTF-8" />
@@ -79,7 +79,7 @@
 	
 	<!-- Construct 2 exported games require jQuery. -->
 <script src="lib/jquery-2.1.4.min.js"></script>
-<script src="https://s3-eu-west-1.amazonaws.com/public.seamly.io/seamly.js/production/2.0.0/seamly.js"></script>
+<script src="seamly.js"></script>
 
 
 	
@@ -96,14 +96,14 @@
 	
 		function GetScores()
 	{
-		$.post('kn/api.php', {api_method: 'ws_game_leaderboard'}, function(data) {
+		$.post('#', {api_method: 'ws_game_leaderboard'}, function(data) {
 		  ScoresResult(data);
         });
 	};
 	
 		function SetScoresHtml(score)
 	{
-		$.post('kn/api.php', {api_method: 'ws_game_addscore', score: score}, function(data) {
+		$.post('#', {api_method: 'ws_game_addscore', score: score}, function(data) {
 		  SetScoreResult(data);
         });
 	};
@@ -113,7 +113,7 @@
     window.seamly.on('ready', function(payload) {
       if (payload.user.authenticated) {
         var session_id = payload.user.provider.user.session_id;
-        $.post('kn/api.php', {api_method: 'ws_user', session_id: session_id}, function(data) {
+        $.post('#', {api_method: 'ws_user', session_id: session_id}, function(data) {
 		 UserAuthentificated(data)
         });
       }
@@ -122,7 +122,7 @@
 	
 	
 	    window.seamly.on('authChanged', function(auth) {
-      $.post('kn/api.php', {api_method: 'ws_user', session_id: auth.user.provider.user.session_id}, function(data) {
+      $.post('#', {api_method: 'ws_user', session_id: auth.user.provider.user.session_id}, function(data) {
       });
     });
     window.seamly.initializeNative(function (err) {

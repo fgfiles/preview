@@ -258,7 +258,7 @@
 		"kevin.obj",
 		"stevonnie.obj",
 		"jenny.obj",
-		"cn.mp4",
+		"fg.mp4",
 		"strings_es.xml",
 		"strings_pt.xml",
 		"jenny.pdf",

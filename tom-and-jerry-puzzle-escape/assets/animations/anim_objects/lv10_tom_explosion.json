@@ -1,0 +1,277 @@
+{
+    "hierarchy": {
+        "name": "lv10_tom_explosion",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "lv10_leg1_right",
+                        "children": [
+                            {
+                                "name": "lv10_leg2_right",
+                                "children": [
+                                    {
+                                        "name": "lv10_feet_right"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv10_shoulder_right"
+                    },
+                    {
+                        "name": "lv10_body",
+                        "children": [
+                            {
+                                "name": "lv10_arm_right",
+                                "children": [
+                                    {
+                                        "name": "lv10_hand_right"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lv10_shoulder_left",
+                                "children": [
+                                    {
+                                        "name": "lv10_arm_left",
+                                        "children": [
+                                            {
+                                                "name": "lv10_hand_left"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lv10_head",
+                                "children": [
+                                    {
+                                        "name": "lv10_tom_eyes1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "dynamite",
+                "children": [
+                    {
+                        "name": "lv10_wick0"
+                    },
+                    {
+                        "name": "lv10_sparks0"
+                    }
+                ]
+            },
+            {
+                "name": "lv10_exp0"
+            }
+        ],
+        "animations": [
+            "lv10_tom_stand",
+            "lv10_tom_out"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/lv10_leg1_right": {
+            "file": "lv10_leg1_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 185,
+                "y": 29.6
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv10_leg1_right/lv10_leg2_right": {
+            "file": "lv10_leg2_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -55.4,
+                "y": 5
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "base/lv10_leg1_right/lv10_leg2_right/lv10_feet_right": {
+            "file": "lv10_feet_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 50,
+                "y": 33
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv10_shoulder_right": {
+            "file": "lv10_shoulder_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 69.4,
+                "y": -10.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body": {
+            "file": "lv10_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 220.7,
+                "y": 13.1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_arm_right": {
+            "file": "lv10_arm_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -154,
+                "y": 28.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_arm_right/lv10_hand_right": {
+            "file": "lv10_hand_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 36.7,
+                "y": -72.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_shoulder_left": {
+            "file": "lv10_shoulder_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -149.5,
+                "y": -58.4
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_shoulder_left/lv10_arm_left": {
+            "file": "lv10_arm_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 67.8,
+                "y": -17.1
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_shoulder_left/lv10_arm_left/lv10_hand_left": {
+            "file": "lv10_hand_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 71.8,
+                "y": -46.3
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_head": {
+            "file": "lv10_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -163.1,
+                "y": -12.1
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base/lv10_body/lv10_head/lv10_tom_eyes1": {
+            "file": "lv10_tom_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -72.3,
+                "y": -35.3
+            },
+            "type": "sprite"
+        },
+        "dynamite": {
+            "file": "dynamite.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16.5,
+                "y": 66.7
+            },
+            "type": "sprite"
+        },
+        "dynamite/lv10_wick0": {
+            "file": "lv10_wick0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -88.9,
+                "y": -41.6
+            },
+            "type": "sprite"
+        },
+        "dynamite/lv10_sparks0": {
+            "file": "lv10_sparks0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -134.2,
+                "y": -84.4
+            },
+            "type": "sprite"
+        },
+        "lv10_exp0": {
+            "file": "lv10_exp5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1,
+                "y": -8
+            },
+            "type": "sprite"
+        }
+    }
+}

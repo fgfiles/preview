@@ -1,0 +1,76 @@
+{
+    "hierarchy": {
+        "name": "floordoor",
+        "children": [
+            {
+                "name": "left"
+            },
+            {
+                "name": "right"
+            },
+            {
+                "name": "pin1"
+            },
+            {
+                "name": "pin2"
+            },
+            {
+                "name": "pin3"
+            }
+        ],
+        "animations": [
+            "gp_foordoor"
+        ]
+    },
+    "properties": {
+        "left": {
+            "file": "floordoor_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42.9,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "right": {
+            "file": "floordoor_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 44.9,
+                "y": 0
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "pin1": {
+            "file": "pin.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -29.8,
+                "y": -15.5
+            },
+            "type": "sprite"
+        },
+        "pin2": {
+            "file": "pin.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.2,
+                "y": -2.7
+            },
+            "type": "sprite"
+        },
+        "pin3": {
+            "file": "pin.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 27.7,
+                "y": -17.9
+            },
+            "type": "sprite"
+        }
+    }
+}

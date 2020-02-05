@@ -1,0 +1,146 @@
+{
+    "hierarchy": {
+        "name": "lv_comp_cheese_container",
+        "children": [
+            {
+                "name": "cheese_counter_green"
+            },
+            {
+                "name": "cheese"
+            },
+            {
+                "name": "ticket"
+            },
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            },
+            {
+                "name": "star6"
+            },
+            {
+                "name": "star7"
+            }
+        ],
+        "animations": [
+            "cheese_lv_comp_anim",
+            "cheese_lv_comp_anim_stand",
+            "cheese_lv_comp_anim_loop"
+        ]
+    },
+    "properties": {
+        "cheese_counter_green": {
+            "file": "cheese_counter_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.1,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "cheese": {
+            "file": "cheese.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -53.5,
+                "y": -9
+            },
+            "type": "sprite"
+        },
+        "ticket": {
+            "file": "ticket.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 37.6,
+                "y": -2.2
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star1": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -90.9,
+                "y": -26
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -66.5,
+                "y": -43.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -38.2,
+                "y": -21.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63,
+                "y": 6.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.5,
+                "y": -5.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star6": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.2,
+                "y": -40.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star7": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -103.5,
+                "y": -1.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

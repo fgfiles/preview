@@ -1,0 +1,60 @@
+{
+    "hierarchy": {
+        "name": "mm_tom_main",
+        "children": [
+            {
+                "name": "tombody",
+                "children": [
+                    {
+                        "name": "tom",
+                        "children": [
+                            {
+                                "name": "eyes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "tom_main_anim"
+        ]
+    },
+    "properties": {
+        "tombody": {
+            "file": "tombody.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 168,
+                "y": 86
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "tombody/tom": {
+            "file": "tom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -148,
+                "y": -109
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "tombody/tom/eyes": {
+            "file": "tom_mm_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -141.3,
+                "y": -55.3
+            },
+            "type": "sprite"
+        }
+    }
+}

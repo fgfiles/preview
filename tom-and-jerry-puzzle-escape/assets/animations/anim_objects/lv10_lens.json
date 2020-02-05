@@ -1,0 +1,46 @@
+{
+    "hierarchy": {
+        "name": "lv10_lens",
+        "children": [
+            {
+                "name": "lv10_lens_shine0"
+            },
+            {
+                "name": "lv10_candle0"
+            }
+        ],
+        "animations": [
+            "lv10_candle_in",
+            "lv10_candle_loop"
+        ]
+    },
+    "properties": {
+        "lv10_lens_shine0": {
+            "file": "lv10_lens_shine4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 25.7,
+                "y": -58.9
+            },
+            "angle": 62,
+            "scale": {
+                "x": -0.8,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "lv10_candle0": {
+            "file": "lv10_candle0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 57.6,
+                "y": 4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        }
+    }
+}

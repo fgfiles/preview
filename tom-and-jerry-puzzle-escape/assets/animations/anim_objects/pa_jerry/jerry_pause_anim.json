@@ -1,0 +1,217 @@
+{
+    "name": "jerry_pause_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "jerry_legs/jerry_body": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 317,
+                    "value": 0.96
+                },
+                {
+                    "frame": 667,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -9.6,
+                        -26.3
+                    ]
+                },
+                {
+                    "frame": 317,
+                    "value": [
+                        -11.2,
+                        -25.7
+                    ]
+                },
+                {
+                    "frame": 667,
+                    "value": [
+                        -9.6,
+                        -26.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 317,
+                    "value": -4
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        },
+        "jerry_legs/jerry_body/jerry_arm_r1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        10.3,
+                        -17.1
+                    ]
+                },
+                {
+                    "frame": 667,
+                    "value": [
+                        10.3,
+                        -17.1
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": -6
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        },
+        "jerry_legs/jerry_body/jerry_arm_r1/jerry_arm_r2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        8.6,
+                        8.8
+                    ]
+                },
+                {
+                    "frame": 667,
+                    "value": [
+                        8.6,
+                        8.8
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 183,
+                    "value": 11
+                },
+                {
+                    "frame": 433,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        },
+        "jerry_arm_l1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -5.9,
+                        -5.2
+                    ]
+                },
+                {
+                    "frame": 317,
+                    "value": [
+                        -7.8,
+                        -2.9
+                    ]
+                },
+                {
+                    "frame": 667,
+                    "value": [
+                        -5.9,
+                        -5.2
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": 8
+                },
+                {
+                    "frame": 500,
+                    "value": -4
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        },
+        "jerry_arm_l1/jerry_arm_l2": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": 5
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        },
+        "jerry_legs/jerry_body/jerry_head": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": -4
+                },
+                {
+                    "frame": 500,
+                    "value": 5
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

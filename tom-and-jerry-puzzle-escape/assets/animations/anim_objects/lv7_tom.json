@@ -1,0 +1,90 @@
+{
+    "hierarchy": {
+        "name": "lv7_tom",
+        "children": [
+            {
+                "name": "lv7_arml"
+            },
+            {
+                "name": "lv7_body"
+            },
+            {
+                "name": "lv7_armr"
+            },
+            {
+                "name": "lv7_head"
+            },
+            {
+                "name": "3_hit0"
+            }
+        ],
+        "animations": [
+            "lv7_tom_stand",
+            "lv7_tom_out"
+        ]
+    },
+    "properties": {
+        "lv7_arml": {
+            "file": "lv7_arml.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -43,
+                "y": -19
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "lv7_body": {
+            "file": "lv7_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 61.1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "lv7_armr": {
+            "file": "lv7_armr.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48,
+                "y": -17.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.15
+            },
+            "type": "sprite"
+        },
+        "lv7_head": {
+            "file": "lv7_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.2,
+                "y": -35.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "3_hit0": {
+            "file": "3_hit3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -78.4,
+                "y": -132.4
+            },
+            "angle": -63,
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,432 @@
+{
+    "hierarchy": {
+        "name": "lv6_tom",
+        "children": [
+            {
+                "name": "piece0"
+            },
+            {
+                "name": "piece1"
+            },
+            {
+                "name": "piece2"
+            },
+            {
+                "name": "piece3"
+            },
+            {
+                "name": "piece4"
+            },
+            {
+                "name": "piece5"
+            },
+            {
+                "name": "piece6"
+            },
+            {
+                "name": "piece7"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "lv6_spring_mov2",
+                        "children": [
+                            {
+                                "name": "lv6_spring_mov3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv6_spring_mov4",
+                        "children": [
+                            {
+                                "name": "lv6_spring_mov1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv6_spring_table"
+                    },
+                    {
+                        "name": "lv6_spring_base"
+                    },
+                    {
+                        "name": "lv6_tail"
+                    },
+                    {
+                        "name": "lv6_armb1",
+                        "children": [
+                            {
+                                "name": "lv6_armb2",
+                                "children": [
+                                    {
+                                        "name": "lv6_handb"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv6_footb"
+                    },
+                    {
+                        "name": "lv6_legb1",
+                        "children": [
+                            {
+                                "name": "lv6_legb2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv6_body",
+                        "children": [
+                            {
+                                "name": "lv6_legf1",
+                                "children": [
+                                    {
+                                        "name": "lv6_legf2",
+                                        "children": [
+                                            {
+                                                "name": "lv6_footf"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lv6_head"
+                            },
+                            {
+                                "name": "lv6_armf1",
+                                "children": [
+                                    {
+                                        "name": "lv6_armf2",
+                                        "children": [
+                                            {
+                                                "name": "lv6_handf"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv6_tom_stand",
+            "lv6_tom_out"
+        ]
+    },
+    "properties": {
+        "piece0": {
+            "file": "lv6_piece0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15,
+                "y": -241
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece1": {
+            "file": "lv6_piece1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -37,
+                "y": -212
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece2": {
+            "file": "lv6_piece2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.7,
+                "y": -208.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece3": {
+            "file": "lv6_piece3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 72.6,
+                "y": -236.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece4": {
+            "file": "lv6_piece4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 146.5,
+                "y": -225.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece5": {
+            "file": "lv6_piece5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 98.5,
+                "y": -186.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece6": {
+            "file": "lv6_piece4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 165.5,
+                "y": -186.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "piece7": {
+            "file": "lv6_piece3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4,
+                "y": -174
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "container"
+        },
+        "base/lv6_spring_mov2": {
+            "file": "lv6_spring_mov.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 69.9,
+                "y": 141
+            },
+            "angle": 14,
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv6_spring_mov2/lv6_spring_mov3": {
+            "file": "lv6_spring_mov.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -159.61,
+                "y": 1.77
+            },
+            "angle": -25,
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv6_spring_mov4": {
+            "file": "lv6_spring_mov.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -83.7,
+                "y": 135.3
+            },
+            "angle": -11,
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv6_spring_mov4/lv6_spring_mov1": {
+            "file": "lv6_spring_mov.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 157.18,
+                "y": 1.11
+            },
+            "angle": 25,
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base/lv6_spring_table": {
+            "file": "lv6_spring_table.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.4,
+                "y": 73.8
+            },
+            "type": "sprite"
+        },
+        "base/lv6_spring_base": {
+            "file": "lv6_spring_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.9,
+                "y": 140.9
+            },
+            "type": "sprite"
+        },
+        "base/lv6_tail": {
+            "file": "lv6_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 113.6,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/lv6_armb1": {
+            "file": "lv6_armb1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -115.7,
+                "y": -60.8
+            },
+            "type": "sprite"
+        },
+        "base/lv6_armb1/lv6_armb2": {
+            "file": "lv6_armb2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -22.8,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "base/lv6_armb1/lv6_armb2/lv6_handb": {
+            "file": "lv6_handb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -45.9,
+                "y": 19
+            },
+            "type": "sprite"
+        },
+        "base/lv6_footb": {
+            "file": "lv6_footb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -71.4,
+                "y": 48.4
+            },
+            "angle": -16,
+            "type": "sprite"
+        },
+        "base/lv6_legb1": {
+            "file": "lv6_legb1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -34.8,
+                "y": 27.4
+            },
+            "type": "sprite"
+        },
+        "base/lv6_legb1/lv6_legb2": {
+            "file": "lv6_legb2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.3,
+                "y": 4.2
+            },
+            "type": "sprite"
+        },
+        "base/lv6_body": {
+            "file": "lv6_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -5,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_legf1": {
+            "file": "lv6_legf1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 33.8,
+                "y": 35
+            },
+            "angle": -25,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_legf1/lv6_legf2": {
+            "file": "lv6_legf2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.1,
+                "y": 14.1
+            },
+            "angle": 19,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_legf1/lv6_legf2/lv6_footf": {
+            "file": "lv6_footf.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.5,
+                "y": 22.2
+            },
+            "angle": 11,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_head": {
+            "file": "lv6_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -111,
+                "y": -53.08
+            },
+            "angle": 5,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_armf1": {
+            "file": "lv6_armf1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.94,
+                "y": -14.18
+            },
+            "angle": 5,
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_armf1/lv6_armf2": {
+            "file": "lv6_armf2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.4,
+                "y": 20.5
+            },
+            "type": "sprite"
+        },
+        "base/lv6_body/lv6_armf1/lv6_armf2/lv6_handf": {
+            "file": "lv6_handf.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -51.9,
+                "y": 7
+            },
+            "type": "sprite"
+        }
+    }
+}

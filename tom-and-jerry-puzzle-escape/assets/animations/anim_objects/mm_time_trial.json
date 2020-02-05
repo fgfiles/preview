@@ -1,0 +1,336 @@
+{
+    "hierarchy": {
+        "name": "mm_time_trial",
+        "children": [
+            {
+                "name": "timetrial"
+            },
+            {
+                "name": "button_text"
+            },
+            {
+                "name": "button_text2"
+            },
+            {
+                "name": "unblocked_fx1"
+            },
+            {
+                "name": "confeti10"
+            },
+            {
+                "name": "confeti1"
+            },
+            {
+                "name": "confeti2"
+            },
+            {
+                "name": "confeti3"
+            },
+            {
+                "name": "confeti4"
+            },
+            {
+                "name": "confeti5"
+            },
+            {
+                "name": "confeti6"
+            },
+            {
+                "name": "confeti7"
+            },
+            {
+                "name": "confeti8"
+            },
+            {
+                "name": "confeti9"
+            },
+            {
+                "name": "confeti18"
+            },
+            {
+                "name": "confeti19"
+            },
+            {
+                "name": "confeti20"
+            },
+            {
+                "name": "confeti11"
+            },
+            {
+                "name": "confeti12"
+            },
+            {
+                "name": "confeti13"
+            },
+            {
+                "name": "confeti14"
+            },
+            {
+                "name": "confeti15"
+            },
+            {
+                "name": "confeti16"
+            },
+            {
+                "name": "confeti17"
+            }
+        ],
+        "animations": [
+            "time_trial_anim"
+        ]
+    },
+    "properties": {
+        "timetrial": {
+            "file": "timetrial_blocked.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 8.1
+            },
+            "type": "sprite"
+        },
+        "button_text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 60,
+                "lineHeight": 70
+            },
+            "text": "time trial",
+            "align": "center",
+            "stroke": "#bd4c00",
+            "strokeThickness": 6,
+            "position": {
+                "x": -27.7,
+                "y": 0.2
+            },
+            "type": "text"
+        },
+        "button_text2": {
+            "font": {
+                "name": "comic_huslteregular",
+                "fontSize": 25,
+                "lineHeight": 40
+            },
+            "text": "finish adverture first!",
+            "align": "center",
+            "position": {
+                "x": 36.4,
+                "y": 43.3
+            },
+            "type": "text"
+        },
+        "unblocked_fx1": {
+            "file": "unblocked_fx4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.3,
+                "y": -16
+            },
+            "type": "sprite"
+        },
+        "confeti10": {
+            "file": "confeti10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -167.3,
+                "y": -105
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti1": {
+            "file": "confeti1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -114.5,
+                "y": -128.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti2": {
+            "file": "confeti2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -95,
+                "y": -90.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti3": {
+            "file": "confeti3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -54.7,
+                "y": -125.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti4": {
+            "file": "confeti4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46.5,
+                "y": -74.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti5": {
+            "file": "confeti5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -12.6,
+                "y": -134
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti6": {
+            "file": "confeti6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -90
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti7": {
+            "file": "confeti7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 22.6,
+                "y": -113.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti8": {
+            "file": "confeti8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 45.3,
+                "y": -80.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti9": {
+            "file": "confeti9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.7,
+                "y": -118.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti18": {
+            "file": "confeti1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -208.8,
+                "y": -121.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti19": {
+            "file": "confeti6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -197.6,
+                "y": -75.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti20": {
+            "file": "confeti4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 77.5,
+                "y": -112.1
+            },
+            "angle": 168,
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti11": {
+            "file": "confeti10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 58.5,
+                "y": -142.9
+            },
+            "angle": 81,
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti12": {
+            "file": "confeti4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -128.9,
+                "y": -76.2
+            },
+            "angle": 130,
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti13": {
+            "file": "confeti8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 126.4,
+                "y": -129.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti14": {
+            "file": "confeti2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 133.1,
+                "y": -88.4
+            },
+            "angle": 151,
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti15": {
+            "file": "confeti5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156.8,
+                "y": -108
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti16": {
+            "file": "confeti5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -232.5,
+                "y": -89.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "confeti17": {
+            "file": "confeti6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 167.9,
+                "y": -71.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "kxG4EzeiQocOqOgz84t0lI8rfMo", "spine": "3.6.48", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "platform_thorns", "bone": "root", "attachment": "platform_thorns" },
+	{ "name": "thorns", "bone": "root", "attachment": "thorns" }
+],
+"skins": {
+	"default": {
+		"platform_thorns": {
+			"platform_thorns": { "x": 1.96, "y": -10.95, "width": 877, "height": 298 }
+		},
+		"thorns": {
+			"thorns": { "x": 18.46, "y": 32.55, "width": 790, "height": 579 }
+		}
+	}
+},
+"animations": {
+	"hit": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0667, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1667, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.0667,
+						"x": -30,
+						"y": 0,
+						"curve": [ 0.33, 0.32, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"x": -30,
+						"y": 0,
+						"curve": [ 0.33, 0.32, 0.67, 0.68 ]
+					},
+					{ "time": 0.2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

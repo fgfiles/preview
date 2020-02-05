@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a3c3cb96fce286f4b5a75937e536919c:bdfee2341440d47d72cf801cafc0692e:c565f2aba28cef3696e92ae547507c65$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="jerry-charge.png" width="128" height="512">
+    <sprite n="jerry-charge-001.png" x="2" y="142" w="85" h="71" oX="4" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-002.png" x="2" y="426" w="85" h="65" oX="4" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-003.png" x="2" y="286" w="85" h="69" oX="4" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-004.png" x="2" y="357" w="85" h="67" oX="4" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-005.png" x="2" y="2" w="89" h="67" oX="0" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-006.png" x="2" y="71" w="87" h="69" oX="2" oY="0" oW="89" oH="71"/>
+    <sprite n="jerry-charge-007.png" x="2" y="215" w="85" h="69" oX="4" oY="0" oW="89" oH="71"/>
+</TextureAtlas>

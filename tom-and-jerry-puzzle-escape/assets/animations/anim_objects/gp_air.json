@@ -1,0 +1,103 @@
+{
+    "hierarchy": {
+        "name": "gp_air",
+        "children": [
+            {
+                "name": "air_base",
+                "children": [
+                    {
+                        "name": "air_helice"
+                    },
+                    {
+                        "name": "air_fx_base",
+                        "children": [
+                            {
+                                "name": "air_fx1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "air_grid",
+                        "children": [
+                            {
+                                "name": "air_center"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "gp_air_anim_in",
+            "gp_air_anim_loop"
+        ]
+    },
+    "properties": {
+        "air_base": {
+            "file": "air_base2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "air_base/air_helice": {
+            "file": "air_helice.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 58.4,
+                "y": -199.6
+            },
+            "scale": {
+                "x": 0.73,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "air_base/air_fx_base": {
+            "file": "air_fx_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 62.4,
+                "y": -199.6
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "air_base/air_fx_base/air_fx1": {
+            "file": "air_fx4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.7,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "air_base/air_grid": {
+            "file": "air_grid2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 57.4,
+                "y": -201.6
+            },
+            "type": "sprite"
+        },
+        "air_base/air_grid/air_center": {
+            "file": "air_center.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16.1,
+                "y": 2
+            },
+            "type": "sprite"
+        }
+    }
+}

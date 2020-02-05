@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3e2514409849f5e0739e64dd59f50fe7:700af614bc0d8315bf468e9e4f70989e:7fbcc77615bc102668c5ef6468b8efae$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="jerry-jump.png" width="128" height="256">
+    <sprite n="jerry-jump-001.png" x="2" y="2" w="72" h="88" oX="0" oY="0" oW="76" oH="96"/>
+    <sprite n="jerry-jump-002.png" x="2" y="92" w="66" h="80" oX="5" oY="0" oW="76" oH="96"/>
+</TextureAtlas>

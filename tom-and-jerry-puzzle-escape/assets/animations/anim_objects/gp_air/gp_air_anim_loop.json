@@ -1,0 +1,53 @@
+{
+    "name": "gp_air_anim_loop",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "air_base/air_fx_base": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        },
+        "air_base/air_helice": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "air_helice3.png"
+                }
+            ]
+        },
+        "air_base/air_fx_base/air_fx1": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "air_fx1.png"
+                },
+                {
+                    "frame": 0,
+                    "value": "air_fx1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "air_fx2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "air_fx3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "air_fx1.png"
+                }
+            ]
+        }
+    }
+}

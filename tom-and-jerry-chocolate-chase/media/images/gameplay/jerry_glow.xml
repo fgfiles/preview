@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7436d8216fe739a1769dd05948922ecf:9d883a980d9cdadeca7f1099b2fef661:d321ca848394beb85f5aa4bbf6555a44$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="jerry_glow.png" width="256" height="512">
+    <sprite n="jerry-glow-1.png" x="2" y="2" w="152" h="142" oX="4" oY="6" oW="160" oH="160"/>
+    <sprite n="jerry-glow-2.png" x="2" y="146" w="144" h="148" oX="6" oY="7" oW="160" oH="160"/>
+    <sprite n="jerry-glow-3.png" x="2" y="296" w="138" h="142" oX="11" oY="5" oW="160" oH="160"/>
+    <sprite n="jerry-glow-4.png" x="2" y="146" w="144" h="148" oX="6" oY="7" oW="160" oH="160"/>
+</TextureAtlas>

@@ -1,0 +1,253 @@
+{
+    "hierarchy": {
+        "name": "lv_time",
+        "children": [
+            {
+                "name": "time"
+            },
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            },
+            {
+                "name": "star6"
+            },
+            {
+                "name": "star7"
+            },
+            {
+                "name": "star8"
+            },
+            {
+                "name": "star9"
+            },
+            {
+                "name": "star10"
+            },
+            {
+                "name": "star11"
+            },
+            {
+                "name": "star12"
+            },
+            {
+                "name": "star13"
+            },
+            {
+                "name": "star14"
+            },
+            {
+                "name": "trophy"
+            }
+        ],
+        "animations": [
+            "lv_time_loop1",
+            "lv_time_win"
+        ]
+    },
+    "properties": {
+        "time": {
+            "file": "time.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star1": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48.4,
+                "y": -43.9
+            },
+            "angle": 7,
+            "scale": {
+                "x": 1.14,
+                "y": 1.14
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 288.7,
+                "y": -50.2
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -32.3,
+                "y": 9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 27.8,
+                "y": 22.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.9,
+                "y": -80.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star6": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 66.3,
+                "y": 7.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star7": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -38.6,
+                "y": 45.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star8": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.7,
+                "y": -58.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star9": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -80.7,
+                "y": -9
+            },
+            "angle": -20,
+            "scale": {
+                "x": 1.25,
+                "y": 1.25
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star10": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 100.4,
+                "y": -24.2
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star11": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 156,
+                "y": -47.5
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star12": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 268.1,
+                "y": 43
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star13": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 318.3,
+                "y": 0
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star14": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 164.1,
+                "y": 40.3
+            },
+            "scale": {
+                "x": 1.18,
+                "y": 1.18
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "trophy": {
+            "file": "trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 65.6,
+                "y": 76.5
+            },
+            "type": "sprite"
+        }
+    }
+}

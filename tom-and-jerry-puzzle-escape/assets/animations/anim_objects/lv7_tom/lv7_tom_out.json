@@ -1,0 +1,225 @@
+{
+    "name": "lv7_tom_out",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "lv7_head": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        10.2,
+                        -35.5
+                    ]
+                },
+                {
+                    "frame": 33,
+                    "value": [
+                        8.37,
+                        -34.36
+                    ]
+                },
+                {
+                    "frame": 50,
+                    "value": [
+                        -16,
+                        -31.2
+                    ]
+                },
+                {
+                    "frame": 117,
+                    "value": [
+                        -22.5,
+                        -30.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 50,
+                    "value": 0
+                },
+                {
+                    "frame": 117,
+                    "value": -4
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 33,
+                    "value": 1
+                },
+                {
+                    "frame": 50,
+                    "value": 0.96
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 33,
+                    "value": 1
+                },
+                {
+                    "frame": 50,
+                    "value": 0.96
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv7_head.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv7_head2.png"
+                }
+            ]
+        },
+        "lv7_arml": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -42.6,
+                        -17.7
+                    ]
+                },
+                {
+                    "frame": 50,
+                    "value": [
+                        -48.1,
+                        -22
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 50,
+                    "value": 17
+                },
+                {
+                    "frame": 117,
+                    "value": 22
+                }
+            ]
+        },
+        "lv7_body": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        61.1
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 50,
+                    "value": -5
+                },
+                {
+                    "frame": 117,
+                    "value": -7
+                }
+            ]
+        },
+        "lv7_armr": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        47.3,
+                        -18.2
+                    ]
+                },
+                {
+                    "frame": 50,
+                    "value": [
+                        45.8,
+                        -20
+                    ]
+                },
+                {
+                    "frame": 117,
+                    "value": [
+                        43.7,
+                        -20.8
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 50,
+                    "value": -8
+                },
+                {
+                    "frame": 117,
+                    "value": -10
+                }
+            ]
+        },
+        "3_hit0": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "3_hit3.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "3_hit0.png"
+                },
+                {
+                    "frame": 83,
+                    "value": "3_hit1.png"
+                },
+                {
+                    "frame": 117,
+                    "value": "3_hit2.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "3_hit3.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 50,
+            "name": "flykiller"
+        }
+    ]
+}

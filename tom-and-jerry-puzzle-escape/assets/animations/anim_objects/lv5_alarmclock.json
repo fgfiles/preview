@@ -1,0 +1,52 @@
+{
+    "hierarchy": {
+        "name": "lv5_alarmclock",
+        "children": [
+            {
+                "name": "alarmclock",
+                "children": [
+                    {
+                        "name": "alarmclock_hour",
+                        "children": [
+                            {
+                                "name": "alarmclock_hour0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv5_alarmclock_anim"
+        ]
+    },
+    "properties": {
+        "alarmclock": {
+            "file": "alarmclock.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "alarmclock/alarmclock_hour": {
+            "file": "alarmclock_hour.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.8,
+                "y": 3.4
+            },
+            "type": "sprite"
+        },
+        "alarmclock/alarmclock_hour/alarmclock_hour0": {
+            "file": "alarmclock_hour0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -5.6,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

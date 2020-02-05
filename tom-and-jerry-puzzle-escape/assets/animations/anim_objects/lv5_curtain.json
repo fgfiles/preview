@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "lv5_curtain",
+        "children": [
+            {
+                "name": "curtain"
+            }
+        ],
+        "animations": [
+            "lv5_curtain_anim"
+        ]
+    },
+    "properties": {
+        "curtain": {
+            "file": "curtain.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

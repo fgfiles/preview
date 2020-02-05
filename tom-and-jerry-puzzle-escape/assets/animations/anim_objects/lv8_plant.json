@@ -1,0 +1,104 @@
+{
+    "hierarchy": {
+        "name": "lv8_plant",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "plant1"
+                    },
+                    {
+                        "name": "plant2"
+                    },
+                    {
+                        "name": "plant3"
+                    },
+                    {
+                        "name": "plant4"
+                    },
+                    {
+                        "name": "plant5"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv8_plant_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/plant1": {
+            "file": "lv8_plant3_l0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/plant2": {
+            "file": "lv8_plant3_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9.1,
+                "y": 1.8
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/plant3": {
+            "file": "lv8_plant3_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.2,
+                "y": 2.2
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/plant4": {
+            "file": "lv8_plant3_l3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.2,
+                "y": 1.5
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/plant5": {
+            "file": "lv8_plant3_l4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.8,
+                "y": 1.6
+            },
+            "anchor": {
+                "x": 0,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

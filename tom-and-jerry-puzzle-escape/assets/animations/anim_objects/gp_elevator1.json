@@ -1,0 +1,39 @@
+{
+    "hierarchy": {
+        "name": "gp_elevator1",
+        "children": [
+            {
+                "name": "elev_reel1",
+                "children": [
+                    {
+                        "name": "rope_anim"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "rope_elevator_loop"
+        ]
+    },
+    "properties": {
+        "elev_reel1": {
+            "file": "elev_reel.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "elev_reel1/rope_anim": {
+            "file": "rope_anim1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2,
+                "y": 4.1
+            },
+            "angle": 12,
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "hierarchy": {
+        "name": "rope",
+        "children": [
+            {
+                "name": "base_rope",
+                "children": [
+                    {
+                        "name": "base"
+                    },
+                    {
+                        "name": "ash0"
+                    },
+                    {
+                        "name": "fire"
+                    },
+                    {
+                        "name": "hook0"
+                    },
+                    {
+                        "name": "knot_0"
+                    },
+                    {
+                        "name": "rope2"
+                    },
+                    {
+                        "name": "hook1"
+                    },
+                    {
+                        "name": "knot_1"
+                    },
+                    {
+                        "name": "knot_2"
+                    },
+                    {
+                        "name": "rope_fire2"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "fire_rope_anim"
+        ]
+    },
+    "properties": {
+        "base_rope": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -38,
+            "type": "container"
+        },
+        "base_rope/base": {
+            "file": "fire_rope_base0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -116,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base_rope/ash0": {
+            "file": "ash4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -223.9,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base_rope/fire": {
+            "file": "rope_fire0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -216.5,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base_rope/hook0": {
+            "file": "lv4_hook.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -232.1,
+                "y": -13
+            },
+            "angle": 38,
+            "type": "sprite"
+        },
+        "base_rope/knot_0": {
+            "file": "knot_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -239.8,
+                "y": -7.3
+            },
+            "angle": 37,
+            "type": "sprite"
+        },
+        "base_rope/rope2": {
+            "file": "rope2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.9,
+                "y": 20.5
+            },
+            "angle": 37,
+            "type": "sprite"
+        },
+        "base_rope/hook1": {
+            "file": "lv4_hook.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16.3,
+                "y": -6.4
+            },
+            "angle": 38,
+            "type": "sprite"
+        },
+        "base_rope/knot_1": {
+            "file": "knot_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.1,
+                "y": 3.1
+            },
+            "angle": 37,
+            "scale": {
+                "x": 0.76,
+                "y": 0.76
+            },
+            "type": "sprite"
+        },
+        "base_rope/knot_2": {
+            "file": "knot_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -21,
+                "y": 43.6
+            },
+            "angle": -137,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "base_rope/rope_fire2": {
+            "file": "rope_fire2_12.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.6,
+                "y": 20
+            },
+            "angle": 38,
+            "type": "sprite"
+        }
+    }
+}

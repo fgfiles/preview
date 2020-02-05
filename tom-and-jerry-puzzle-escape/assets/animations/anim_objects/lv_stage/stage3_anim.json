@@ -1,0 +1,458 @@
+{
+    "name": "stage3_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "door_open": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 117,
+                    "value": 0.94
+                },
+                {
+                    "frame": 183,
+                    "value": 1.18
+                },
+                {
+                    "frame": 267,
+                    "value": 1
+                },
+                {
+                    "frame": 433,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0.8
+                },
+                {
+                    "frame": 533,
+                    "value": 1.05
+                },
+                {
+                    "frame": 617,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 117,
+                    "value": 1.21
+                },
+                {
+                    "frame": 183,
+                    "value": 0.87
+                },
+                {
+                    "frame": 267,
+                    "value": 1
+                },
+                {
+                    "frame": 433,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0.8
+                },
+                {
+                    "frame": 533,
+                    "value": 1.05
+                },
+                {
+                    "frame": 617,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "door_open.png"
+                },
+                {
+                    "frame": 450,
+                    "value": "door_open_big.png"
+                }
+            ]
+        },
+        "door_open/exp": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "level_exp4.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "level_exp1.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "level_exp2.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "level_exp3.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "level_exp4.png"
+                }
+            ]
+        },
+        "door_open/block1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -0.7,
+                        12.6
+                    ]
+                },
+                {
+                    "frame": 217,
+                    "value": [
+                        -0.7,
+                        12.6
+                    ]
+                },
+                {
+                    "frame": 317,
+                    "value": [
+                        -13.1,
+                        13.8
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        -18.5,
+                        13.8
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 217,
+                    "value": 0
+                },
+                {
+                    "frame": 317,
+                    "value": -18
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                },
+                {
+                    "frame": 367,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/block2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        36.2
+                    ]
+                },
+                {
+                    "frame": 217,
+                    "value": [
+                        0,
+                        36.2
+                    ]
+                },
+                {
+                    "frame": 317,
+                    "value": [
+                        4.3,
+                        54.1
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        6,
+                        61.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 217,
+                    "value": 0
+                },
+                {
+                    "frame": 317,
+                    "value": -12
+                },
+                {
+                    "frame": 450,
+                    "value": -15
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                },
+                {
+                    "frame": 367,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/block3": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 217,
+                    "value": 0
+                },
+                {
+                    "frame": 317,
+                    "value": 14
+                },
+                {
+                    "frame": 450,
+                    "value": 25
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        13.5
+                    ]
+                },
+                {
+                    "frame": 217,
+                    "value": [
+                        0,
+                        13.5
+                    ]
+                },
+                {
+                    "frame": 317,
+                    "value": [
+                        5,
+                        3.9
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        8.9,
+                        -3.1
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                },
+                {
+                    "frame": 367,
+                    "value": 1
+                },
+                {
+                    "frame": 450,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/level_door_r": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                },
+                {
+                    "frame": 417,
+                    "value": 0
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                }
+            ]
+        },
+        "door_open/level_door_l": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                },
+                {
+                    "frame": 417,
+                    "value": 0
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1
+                }
+            ]
+        },
+        "door_open/number": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 233,
+                    "value": 1
+                },
+                {
+                    "frame": 267,
+                    "value": 0.81
+                },
+                {
+                    "frame": 333,
+                    "value": 1.06
+                },
+                {
+                    "frame": 367,
+                    "value": 0.8
+                },
+                {
+                    "frame": 433,
+                    "value": 0.8
+                },
+                {
+                    "frame": 450,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 233,
+                    "value": 1
+                },
+                {
+                    "frame": 267,
+                    "value": 0.81
+                },
+                {
+                    "frame": 333,
+                    "value": 1.06
+                },
+                {
+                    "frame": 367,
+                    "value": 0.8
+                },
+                {
+                    "frame": 433,
+                    "value": 0.8
+                },
+                {
+                    "frame": 450,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -30.9
+                    ]
+                },
+                {
+                    "frame": 433,
+                    "value": [
+                        0,
+                        -30.3
+                    ]
+                },
+                {
+                    "frame": 450,
+                    "value": [
+                        0,
+                        -36.8
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "3_red.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "3_blue.png"
+                }
+            ]
+        }
+    }
+}

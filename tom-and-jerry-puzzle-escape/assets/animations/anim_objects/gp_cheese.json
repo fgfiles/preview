@@ -1,0 +1,128 @@
+{
+    "hierarchy": {
+        "name": "gp_cheese",
+        "children": [
+            {
+                "name": "cheese"
+            },
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            },
+            {
+                "name": "star6"
+            },
+            {
+                "name": "star7"
+            },
+            {
+                "name": "star8"
+            }
+        ],
+        "animations": [
+            "gp_cheese_anim"
+        ]
+    },
+    "properties": {
+        "cheese": {
+            "file": "trap_cheese.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star1": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46,
+                "y": -16.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -22.2,
+                "y": -14.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.4,
+                "y": -42.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.7,
+                "y": -24.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 36.2,
+                "y": -37.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star6": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 37.9,
+                "y": -11.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star7": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17,
+                "y": 5.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star8": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -36.8,
+                "y": 2.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

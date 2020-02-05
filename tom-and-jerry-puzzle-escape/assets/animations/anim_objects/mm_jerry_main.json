@@ -1,0 +1,190 @@
+{
+    "hierarchy": {
+        "name": "mm_jerry_main",
+        "children": [
+            {
+                "name": "jmm_arm"
+            },
+            {
+                "name": "jmm_head"
+            },
+            {
+                "name": "jmm_leg_l1",
+                "children": [
+                    {
+                        "name": "jmm_leg_l2",
+                        "children": [
+                            {
+                                "name": "jmm_foot_l"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "jmm_leg_r1",
+                "children": [
+                    {
+                        "name": "jmm_leg_r2",
+                        "children": [
+                            {
+                                "name": "jmm_foot_r"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "j_mm_tail"
+            },
+            {
+                "name": "jmm_body",
+                "children": [
+                    {
+                        "name": "jmm_cheese"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "jerry_main_anim"
+        ]
+    },
+    "properties": {
+        "jmm_arm": {
+            "file": "jmm_arm.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -43,
+                "y": -29.1
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "jmm_head": {
+            "file": "jmm_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -29.9,
+                "y": -27.1
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_l1": {
+            "file": "jmm_leg_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -54.1,
+                "y": 61.1
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_l1/jmm_leg_l2": {
+            "file": "jmm_leg_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -24.7,
+                "y": 13.7
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_l1/jmm_leg_l2/jmm_foot_l": {
+            "file": "jmm_foot_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.4,
+                "y": 35.2
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_r1": {
+            "file": "jmm_leg_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15.7,
+                "y": 75
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_r1/jmm_leg_r2": {
+            "file": "jmm_leg_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 24.2,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "jmm_leg_r1/jmm_leg_r2/jmm_foot_r": {
+            "file": "jmm_foot_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.8,
+                "y": 20.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "j_mm_tail": {
+            "file": "j_mm_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -75,
+                "y": 52.5
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "jmm_body": {
+            "file": "jmm_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -31.4,
+                "y": 56.8
+            },
+            "type": "sprite"
+        },
+        "jmm_body/jmm_cheese": {
+            "file": "jmm_cheese.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 37.6,
+                "y": -31.1
+            },
+            "type": "sprite"
+        }
+    }
+}

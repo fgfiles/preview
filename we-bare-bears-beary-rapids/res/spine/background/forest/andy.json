@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "uNR1Q3KnPGvBauTPlkaVxzOPXmE", "spine": "2.1.27", "width": 86, "height": 132, "images": "../PNG/andy/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "andy_1", "bone": "root", "attachment": "andy_1" },
+	{ "name": "polar", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"andy_1": {
+			"andy_1": { "width": 86, "height": 132 },
+			"andy_2": { "width": 86, "height": 132 },
+			"andy_3": { "width": 86, "height": 132 },
+			"andy_4": { "width": 86, "height": 132 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"andy_1": {
+				"attachment": [
+					{ "time": 0, "name": "andy_1" },
+					{ "time": 0.1, "name": "andy_2" },
+					{ "time": 0.1666, "name": "andy_3" },
+					{ "time": 0.2333, "name": "andy_4" },
+					{ "time": 1.5, "name": "andy_3" },
+					{ "time": 1.5666, "name": "andy_2" },
+					{ "time": 1.6333, "name": "andy_1" },
+					{ "time": 3, "name": "andy_1" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,55 @@
+{
+    "hierarchy": {
+        "name": "gp_lever",
+        "children": [
+            {
+                "name": "lever_base1",
+                "children": [
+                    {
+                        "name": "lever"
+                    },
+                    {
+                        "name": "lever_base2"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lever_anim"
+        ]
+    },
+    "properties": {
+        "lever_base1": {
+            "file": "lever_base1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "lever_base1/lever": {
+            "file": "lever.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": -110,
+            "anchor": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "lever_base1/lever_base2": {
+            "file": "lever_base2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.9,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

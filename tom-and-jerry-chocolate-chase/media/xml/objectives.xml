@@ -1,0 +1,76 @@
+<objectives>
+	<objective id="1"
+			   descriptionId="OBJECTIVE_AVOID_OBSTACLES"
+			   type="AvoidObstacles"
+			   goal="25"
+			   reward="100"
+			   total="false"/>
+	<objective id="2"
+			   descriptionId="OBJECTIVE_COLLECT_COINS"
+			   type="CollectCoins"
+			   goal="200"
+			   reward="100"
+			   total="false"/>
+	<objective id="3"
+			   descriptionId="OBJECTIVE_COLLECT_COINS"
+			   type="CollectCoins"
+			   goal="500"
+			   reward="100"
+			   total="false"/>
+	<objective id="4"
+			   descriptionId="OBJECTIVE_COLLECT_COINS"
+			   type="CollectCoins"
+			   goal="1000"
+			   reward="100"
+			   total="false"/>
+	<objective id="5"
+			   descriptionId="OBJECTIVE_COLLECT_TOTAL_COINS"
+			   type="CollectCoins"
+			   goal="2500"
+			   reward="100"
+			   total="true"/>	
+	<objective id="10"
+			   descriptionId="OBJECTIVE_USE_TOTAL_WONDER_WOMAN_POWERS"
+			   type="UsePower"
+			   goal="10"
+			   reward="100"
+			   total="true">
+			   <parameter>WonderWoman</parameter>
+	</objective>
+	<objective id="11"
+			   descriptionId="OBJECTIVE_USE_TOTAL_SUPER_GIRL_POWERS"
+			   type="UsePower"
+			   goal="10"
+			   reward="100"
+			   total="true">
+			   <parameter>Supergirl</parameter>
+	</objective>
+	<objective id="12"
+			   descriptionId="OBJECTIVE_USE_TOTAL_BUMBLEBEE_POWERS"
+			   type="UsePower"
+			   goal="10"
+			   reward="100"
+			   total="true">
+			   <parameter>Bumblebee</parameter>
+	</objective>	
+	<objective id="13"
+			   descriptionId="OBJECTIVE_USE_TOTAL_BATGIRL_POWERS"
+			   type="UsePower"
+			   goal="10"
+			   reward="100"
+			   total="true">
+			   <parameter>Batgirl</parameter>
+	</objective>
+	<objective id="16"
+			   descriptionId="OBJECTIVE_INVINCIBLE_ELECTRODES"
+			   type="InvincibleElectrodes"
+			   goal="10"
+			   reward="100"
+			   total="true"/>
+	<objective id="17"
+			   descriptionId="OBJECTIVE_COLLECT_TOTAL_POWERUPS"
+			   type="CollectPowerups"
+			   goal="10"
+			   reward="100"
+			   total="true"/>	
+</objectives>

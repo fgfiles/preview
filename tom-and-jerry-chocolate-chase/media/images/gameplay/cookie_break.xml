@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:308fdcf6ef748282e728be02629aeb49:96ec68e1507888260788377ce9d49273:e0033841692ae6ba2a28a859fa1dff28$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="cookie_break.png" width="256" height="1024">
+    <sprite n="cookie-01.png" x="2" y="2" w="109" h="106" oX="46" oY="31" oW="197" oH="322"/>
+    <sprite n="cookie-02.png" x="2" y="110" w="145" h="140" oX="24" oY="24" oW="197" oH="322"/>
+    <sprite n="cookie-03.png" x="2" y="252" w="197" h="184" oX="0" oY="0" oW="197" oH="322"/>
+    <sprite n="cookie-04.png" x="2" y="438" w="119" h="136" oX="36" oY="50" oW="197" oH="322"/>
+    <sprite n="cookie-05.png" x="123" y="438" w="119" h="186" oX="36" oY="56" oW="197" oH="322"/>
+    <sprite n="cookie-06.png" x="2" y="626" w="119" h="240" oX="35" oY="68" oW="197" oH="322"/>
+    <sprite n="cookie-07.png" x="123" y="626" w="117" h="200" oX="36" oY="121" oW="197" oH="322"/>
+    <sprite n="cookie-08.png" x="2" y="868" w="115" h="144" oX="36" oY="178" oW="197" oH="322"/>
+</TextureAtlas>

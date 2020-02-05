@@ -1,0 +1,57 @@
+{
+    "hierarchy": {
+        "name": "gp_spring",
+        "children": [
+            {
+                "name": "tom_shoot1"
+            },
+            {
+                "name": "spring_1"
+            },
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "spring_anim",
+            "spring_stand"
+        ]
+    },
+    "properties": {
+        "tom_shoot1": {
+            "file": "tom_shoot4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 306,
+                "y": -5
+            },
+            "type": "sprite"
+        },
+        "spring_1": {
+            "file": "spring_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "spring_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

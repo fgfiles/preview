@@ -1,0 +1,36 @@
+{
+    "hierarchy": {
+        "name": "lv8_cream",
+        "children": [
+            {
+                "name": "base"
+            },
+            {
+                "name": "cream_anim0"
+            }
+        ],
+        "animations": [
+            "lv8_cream_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "cream0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "cream_anim0": {
+            "file": "cream_anim5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -122.8,
+                "y": 25.7
+            },
+            "type": "sprite"
+        }
+    }
+}

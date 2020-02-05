@@ -1,0 +1,918 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "levelselect"
+            },
+            {
+                "name": "tom_pivot"
+            },
+            {
+                "name": "jerry_pivot"
+            },
+            {
+                "name": "stage_1",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_2",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_3",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_4",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_5",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_6",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_7",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_8",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_9",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "stage_10",
+                "children": [
+                    {
+                        "name": "stage_pivot"
+                    },
+                    {
+                        "name": "number"
+                    },
+                    {
+                        "name": "counter",
+                        "children": [
+                            {
+                                "name": "text"
+                            },
+                            {
+                                "name": "cheese_pivot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "backbtn"
+            },
+            {
+                "name": "sound_button"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "levelselect": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 66,
+                "lineHeight": 70
+            },
+            "text": "level select",
+            "align": "center",
+            "stroke": "#007feb",
+            "strokeThickness": 6,
+            "type": "text",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -31.3
+                }
+            }
+        },
+        "tom_pivot": {
+            "size": {
+                "width": 1,
+                "height": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "TOP_LEFT",
+                "offset": {
+                    "x": -130,
+                    "y": -80
+                }
+            }
+        },
+        "jerry_pivot": {
+            "size": {
+                "width": 1,
+                "height": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_RIGHT",
+                "offset": {
+                    "x": -123.7,
+                    "y": -70.1
+                }
+            }
+        },
+        "stage_1": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "-26%",
+                    "y": -178
+                }
+            }
+        },
+        "stage_1/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_1/number": {
+            "file": "1_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_1/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_1/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_1/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_2": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "-13%",
+                    "y": -185
+                }
+            }
+        },
+        "stage_2/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_2/number": {
+            "file": "2_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_2/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_2/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_2/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_3": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "1%",
+                    "y": -179.9
+                }
+            }
+        },
+        "stage_3/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_3/number": {
+            "file": "3_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_3/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_3/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_3/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_4": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "14%",
+                    "y": -173.6
+                }
+            }
+        },
+        "stage_4/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_4/number": {
+            "file": "4_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_4/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_4/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_4/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_5": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "28%",
+                    "y": -179.6
+                }
+            }
+        },
+        "stage_5/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_5/number": {
+            "file": "5_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_5/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_5/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_5/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_6": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "-26%",
+                    "y": -338.4
+                }
+            }
+        },
+        "stage_6/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_6/number": {
+            "file": "6_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_6/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_6/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_6/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_7": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "-13%",
+                    "y": -336.6
+                }
+            }
+        },
+        "stage_7/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_7/number": {
+            "file": "7_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_7/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_7/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_7/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_8": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "1%",
+                    "y": -342.1
+                }
+            }
+        },
+        "stage_8/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_8/number": {
+            "file": "8_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_8/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_8/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_8/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_9": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "15%",
+                    "y": -339.3
+                }
+            }
+        },
+        "stage_9/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_9/number": {
+            "file": "9_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_9/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_9/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_9/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "stage_10": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": "29%",
+                    "y": -335.4
+                }
+            }
+        },
+        "stage_10/stage_pivot": {
+            "position": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "container"
+        },
+        "stage_10/number": {
+            "file": "10_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -29
+            },
+            "type": "sprite"
+        },
+        "stage_10/counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 51.5
+            },
+            "type": "sprite"
+        },
+        "stage_10/counter/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 23,
+                "lineHeight": 23
+            },
+            "text": "2/2",
+            "align": "center",
+            "position": {
+                "x": 26.7,
+                "y": 3
+            },
+            "color": "#007feb",
+            "type": "text"
+        },
+        "stage_10/counter/cheese_pivot": {
+            "position": {
+                "x": 0.7,
+                "y": -0.2
+            },
+            "type": "container"
+        },
+        "backbtn": {
+            "file": "backbtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "backbtn.png",
+                "pressed": "backbtn_gray.png",
+                "hover": "backbtn.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_LEFT",
+                "offset": {
+                    "x": -54.5,
+                    "y": -54.4
+                }
+            }
+        },
+        "sound_button": {
+            "file": "soundon.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -18,
+                    "y": -18.5
+                }
+            }
+        }
+    }
+}

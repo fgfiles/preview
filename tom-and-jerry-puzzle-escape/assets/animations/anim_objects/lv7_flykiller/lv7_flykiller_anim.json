@@ -1,0 +1,75 @@
+{
+    "name": "lv7_flykiller_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "__this__": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        },
+        "base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv7_flykiller0.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv7_flykiller6.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lv7_flykiller7.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "lv7_flykiller8.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "lv7_flykiller7.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "lv7_flykiller0.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "lv7_flykiller1.png"
+                },
+                {
+                    "frame": 350,
+                    "value": "lv7_flykiller2.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "lv7_flykiller3.png"
+                },
+                {
+                    "frame": 450,
+                    "value": "lv7_flykiller4.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "lv7_flykiller5.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 450,
+            "name": "flykiller"
+        }
+    ]
+}

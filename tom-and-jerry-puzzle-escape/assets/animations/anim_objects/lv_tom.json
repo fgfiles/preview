@@ -1,0 +1,54 @@
+{
+    "hierarchy": {
+        "name": "lv_tom",
+        "children": [
+            {
+                "name": "lvlselect_tom",
+                "children": [
+                    {
+                        "name": "tom_eyes1"
+                    },
+                    {
+                        "name": "nose"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv_tom_anim"
+        ]
+    },
+    "properties": {
+        "lvlselect_tom": {
+            "file": "lvlselect_tom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -81.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "lvlselect_tom/tom_eyes1": {
+            "file": "tom_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -68.8,
+                "y": 64.3
+            },
+            "type": "sprite"
+        },
+        "lvlselect_tom/nose": {
+            "file": "nose.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -65.1,
+                "y": 14.3
+            },
+            "type": "sprite"
+        }
+    }
+}

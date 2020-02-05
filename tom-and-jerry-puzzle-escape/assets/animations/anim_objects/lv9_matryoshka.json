@@ -1,0 +1,36 @@
+{
+    "hierarchy": {
+        "name": "lv9_matryoshka",
+        "children": [
+            {
+                "name": "matryoshka2"
+            },
+            {
+                "name": "matryoshka1"
+            }
+        ],
+        "animations": [
+            "lv9_matryoshka_anim"
+        ]
+    },
+    "properties": {
+        "matryoshka2": {
+            "file": "matryoshka2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.2,
+                "y": -11.2
+            },
+            "type": "sprite"
+        },
+        "matryoshka1": {
+            "file": "matryoshka1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

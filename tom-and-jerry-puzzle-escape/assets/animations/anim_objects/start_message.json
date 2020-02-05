@@ -1,0 +1,45 @@
+{
+    "hierarchy": {
+        "name": "start_message",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "start_message_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "pause_popup.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 50,
+                "lineHeight": 55
+            },
+            "text": "Reach\nthe exit",
+            "align": "center",
+            "stroke": "#223281",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "text"
+        }
+    }
+}

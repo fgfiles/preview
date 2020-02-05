@@ -1,0 +1,36 @@
+{
+    "hierarchy": {
+        "name": "lv5_trap",
+        "children": [
+            {
+                "name": "trap1"
+            },
+            {
+                "name": "trap_fx0"
+            }
+        ],
+        "animations": [
+            "trap_anim"
+        ]
+    },
+    "properties": {
+        "trap1": {
+            "file": "trap1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "trap_fx0": {
+            "file": "trap_fx4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -47.3
+            },
+            "type": "sprite"
+        }
+    }
+}

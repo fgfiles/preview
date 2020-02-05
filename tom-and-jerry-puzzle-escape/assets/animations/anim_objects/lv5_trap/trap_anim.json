@@ -1,0 +1,127 @@
+{
+    "name": "trap_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "trap1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "frame": 17,
+                    "value": [
+                        0.33,
+                        -10.04
+                    ]
+                },
+                {
+                    "frame": 133,
+                    "value": [
+                        0.33,
+                        -12.3
+                    ]
+                },
+                {
+                    "frame": 183,
+                    "value": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 133,
+                    "value": 1.03
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 133,
+                    "value": 0.97
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 17,
+                    "value": -31
+                },
+                {
+                    "frame": 133,
+                    "value": -8.86
+                },
+                {
+                    "frame": 183,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "trap1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "trap2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "trap3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "trap4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "trap5.png"
+                }
+            ]
+        },
+        "trap_fx0": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "trap_fx4.png"
+                },
+                {
+                    "frame": 17,
+                    "value": "trap_fx0.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "trap_fx1.png"
+                },
+                {
+                    "frame": 83,
+                    "value": "trap_fx2.png"
+                },
+                {
+                    "frame": 117,
+                    "value": "trap_fx3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "trap_fx4.png"
+                }
+            ]
+        }
+    }
+}

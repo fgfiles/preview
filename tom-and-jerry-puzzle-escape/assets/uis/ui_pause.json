@@ -1,0 +1,143 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "jerry_pivot"
+            },
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "no"
+                    },
+                    {
+                        "name": "play"
+                    },
+                    {
+                        "name": "restart"
+                    },
+                    {
+                        "name": "tom_pivot"
+                    }
+                ]
+            },
+            {
+                "name": "sound_button"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "jerry_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 165.5,
+                    "y": -201.2
+                }
+            }
+        },
+        "container": {
+            "file": "pause_popup.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -227.9
+                }
+            }
+        },
+        "container/title": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 53
+            },
+            "text": "PAUSE",
+            "align": "center",
+            "stroke": "#007feb",
+            "strokeThickness": 6,
+            "position": {
+                "x": -4,
+                "y": -185.7
+            },
+            "type": "text"
+        },
+        "container/no": {
+            "file": "homebtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "homebtn.png",
+                "pressed": "homebtn_gray.png",
+                "hover": "homebtn.png"
+            },
+            "position": {
+                "x": -127.7,
+                "y": 9.6
+            },
+            "type": "button"
+        },
+        "container/play": {
+            "file": "playbtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "playbtn.png",
+                "pressed": "playbtn_gray.png",
+                "hover": "playbtn.png"
+            },
+            "position": {
+                "x": -8.9,
+                "y": -16.5
+            },
+            "type": "button"
+        },
+        "container/restart": {
+            "file": "restartbtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "restartbtn.png",
+                "pressed": "restartbtn_gray.png",
+                "hover": "restartbtn.png"
+            },
+            "position": {
+                "x": 112.8,
+                "y": 0.1
+            },
+            "type": "button"
+        },
+        "container/tom_pivot": {
+            "position": {
+                "x": -320,
+                "y": 199
+            },
+            "type": "container"
+        },
+        "sound_button": {
+            "file": "soundon.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -18,
+                    "y": -18.5
+                }
+            }
+        }
+    }
+}

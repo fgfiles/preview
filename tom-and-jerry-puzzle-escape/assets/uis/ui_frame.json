@@ -1,0 +1,115 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "frame1"
+            },
+            {
+                "name": "frame3"
+            },
+            {
+                "name": "frame5"
+            },
+            {
+                "name": "frame2"
+            },
+            {
+                "name": "frame4"
+            },
+            {
+                "name": "frame6"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "frame1": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 959.4,
+                "height": 12
+            },
+            "position": {
+                "x": 480,
+                "y": 6
+            },
+            "type": "sprite"
+        },
+        "frame3": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 959.6,
+                "height": 12
+            },
+            "position": {
+                "x": 480,
+                "y": 634
+            },
+            "type": "sprite"
+        },
+        "frame5": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 639.3,
+                "height": 12
+            },
+            "position": {
+                "x": 480,
+                "y": 320
+            },
+            "angle": 90,
+            "type": "sprite"
+        },
+        "frame2": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 958.6,
+                "height": 12
+            },
+            "position": {
+                "x": 480,
+                "y": 320
+            },
+            "type": "sprite"
+        },
+        "frame4": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 639.3,
+                "height": 12
+            },
+            "position": {
+                "x": 6,
+                "y": 320
+            },
+            "angle": 90,
+            "type": "sprite"
+        },
+        "frame6": {
+            "file": "frame.png",
+            "image": "TILED",
+            "size": {
+                "width": 639.3,
+                "height": 12
+            },
+            "position": {
+                "x": 954,
+                "y": 320
+            },
+            "angle": 90,
+            "type": "sprite"
+        }
+    }
+}

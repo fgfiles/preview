@@ -1,0 +1,695 @@
+{
+    "preLoad":
+    {},
+    "firstLoad":
+    {
+        "image": [
+        {
+            "searchPath": "assets/images/stages"
+        },
+        {
+            "key": "stage_1"
+        },
+        {
+            "key": "stage_2"
+        },
+        {
+            "key": "stage_3"
+        },
+        {
+            "key": "stage_4"
+        },
+        {
+            "key": "stage_5"
+        },
+        {
+            "key": "stage_6"
+        },
+        {
+            "key": "stage_7"
+        },
+        {
+            "key": "stage_8"
+        },
+        {
+            "key": "stage_9"
+        },
+        {
+            "key": "stage_10"
+        },
+        {
+            "key": "stage_11"
+        },
+        {
+            "key": "stage_12"
+        },
+        {
+            "key": "stage_13"
+        },
+        {
+            "key": "stage_14"
+        },
+        {
+            "key": "stage_15"
+        },
+        {
+            "key": "stage_16"
+        },
+        {
+            "key": "stage_17"
+        },
+        {
+            "key": "stage_18"
+        },
+        {
+            "key": "stage_19"
+        },
+        {
+            "key": "stage_20"
+        },
+        {
+            "key": "stage_2_tunel"
+        },
+        {
+            "key": "stage_6_tunel"
+        },
+        {
+            "key": "stage_10_tunel2"
+        },
+        {
+            "key": "stage_10_tunel1"
+        },
+        {
+            "key": "stage_11_tunel"
+        },
+        {
+            "key": "stage_13_tunel_1"
+        },
+        {
+            "key": "stage_13_tunel_2"
+        },
+        {
+            "key": "stage_13_tunel_3"
+        },
+        {
+            "key": "stage_19_tunel"
+        },
+        {
+            "key": "stage_19_tunel"
+        },
+        {
+            "key": "stage_20_tunel"
+        },
+        {
+            "key": "stage_20_tunel_2"
+        },
+        {
+            "searchPath": "assets/images/bg"
+        },
+        {
+            "key": "mm_bg"
+        },
+        {
+            "key": "gp_bg1",
+            "url": "gp_bg1.jpg"
+        },
+        {
+            "key": "gp_bg2",
+            "url": "gp_bg2.jpg"
+        },
+        {
+            "key": "gp_bg3",
+            "url": "gp_bg3.jpg"
+        },
+        {
+            "key": "gp_bg4",
+            "url": "gp_bg4.jpg"
+        },
+        {
+            "key": "gp_bg5",
+            "url": "gp_bg5.jpg"
+        },
+        {
+            "key": "bg_transitionMap"
+        },
+        {
+            "searchPath": "assets/images/doors"
+        },
+        {
+            "key": "tunnel_out_bg1"
+        },
+        {
+            "key": "tunnel_out_bg2"
+        },
+        {
+            "key": "tunnel_out_bg3"
+        },
+        {
+            "key": "tunnel_out_bg4"
+        },
+        {
+            "searchPath": "assets/images"
+        },
+        {
+            "key": "black_pixel"
+        },
+        {
+            "key": "bridge"
+        }],
+        "json": [
+        {
+            "searchPath": "assets/uis/animations"
+        },
+        {
+            "key": "live_out"
+        },
+        {
+            "key": "button_in"
+        },
+        {
+            "key": "button_out"
+        },
+        {
+            "key": "gp_container_in"
+        },
+        {
+            "key": "gp_container_out"
+        },
+        {
+            "key": "popup_container_in"
+        },
+        {
+            "key": "popup_container_loop"
+        },
+        {
+            "key": "popup_container_out"
+        },
+        {
+            "key": "craig_lose_in"
+        },
+        {
+            "key": "craig_lose_loop"
+        },
+        {
+            "key": "craig_win_in"
+        },
+        {
+            "key": "craig_win_loop"
+        },
+        {
+            "key": "jp_lose_in"
+        },
+        {
+            "key": "jp_lose_loop"
+        },
+        {
+            "key": "jp_win_in"
+        },
+        {
+            "key": "jp_win_loop"
+        },
+        {
+            "key": "kelsey_lose_in"
+        },
+        {
+            "key": "kelsey_lose_loop"
+        },
+        {
+            "key": "kelsey_win_in"
+        },
+        {
+            "key": "kelsey_win_loop"
+        },
+        {
+            "key": "confirmation_container_in"
+        },
+        {
+            "key": "confirmation_container_loop"
+        },
+        {
+            "key": "confirmation_container_out"
+        },
+        {
+            "key": "mm_character_anim"
+        },
+        {
+            "key": "mm_shine_ball"
+        },
+        {
+            "key": "ice_in"
+        },
+        {
+            "key": "ice_out"
+        },
+        {
+            "key": "map_move_in"
+        },
+        {
+            "key": "map_move_out"
+        },
+        {
+            "key": "changeworld_5"
+        },
+        {
+            "key": "changeworld_10"
+        },
+        {
+            "key": "changeworld_15"
+        },
+        {
+            "key": "changeworld_20"
+        },
+        {
+            "key": "changeworld_final"
+        },
+        {
+            "key": "tutorial_1_anim"
+        },
+        {
+            "key": "tutorial_3_anim"
+        },
+        {
+            "key": "end_in"
+        },
+        {
+            "key": "end_out"
+        },
+        {
+            "key": "end_loop"
+        },
+        {
+            "key": "shine_anim"
+        },
+        {
+            "key": "water_gp_1"
+        },
+        {
+            "key": "water_gp_2"
+        },
+        {
+            "key": "water_gp_3"
+        },
+        {
+            "searchPath": "assets/uis"
+        },
+        {
+            "key": "ui_map"
+        },
+        {
+            "key": "ui_pause"
+        },
+        {
+            "key": "ui_gameover"
+        },
+        {
+            "key": "ui_gameplay"
+        },
+        {
+            "key": "ui_tutorial"
+        },
+        {
+            "key": "ui_end_game"
+        },
+        {
+            "key": "ui_main_menu"
+        },
+        {
+            "key": "ui_confirmation"
+        },
+        {
+            "key": "ui_game_completed"
+        },
+        {
+            "key": "ui_confirmation_new_game"
+        },
+        {
+            "searchPath": "assets/uis/water_map_ui"
+        },
+        {
+            "key": "ui_water_1"
+        },
+        {
+            "key": "ui_water_2"
+        },
+        {
+            "key": "ui_water_3"
+        },
+        {
+            "key": "ui_water_4"
+        },
+        {
+            "key": "ui_water_5"
+        },
+        {
+            "key": "ui_water_6"
+        },
+        {
+            "key": "ui_water_7"
+        },
+        {
+            "key": "ui_water_8"
+        },
+        {
+            "key": "ui_water_9"
+        },
+        {
+            "key": "ui_water_10"
+        },
+        {
+            "key": "ui_water_11"
+        },
+        {
+            "key": "ui_water_12"
+        },
+        {
+            "key": "ui_water_13"
+        },
+        {
+            "key": "ui_water_14"
+        },
+        {
+            "key": "ui_water_15"
+        },
+        {
+            "key": "ui_water_16"
+        },
+        {
+            "key": "ui_water_17"
+        },
+        {
+            "key": "ui_water_18"
+        },
+        {
+            "key": "ui_water_19"
+        },
+        {
+            "key": "ui_water_20"
+        },
+        {
+            "searchPath": "assets/stages/data"
+        },
+        {
+            "key": "stage_data"
+        },
+        {
+            "searchPath": "assets/stages/paths"
+        },
+        {
+            "key": "level_1_path_1"
+        },
+        {
+            "key": "level_2_path_1"
+        },
+        {
+            "key": "level_3_path_1"
+        },
+        {
+            "key": "level_4_path_1"
+        },
+        {
+            "key": "level_4_path_2"
+        },
+        {
+            "key": "level_5_path_1"
+        },
+        {
+            "key": "level_6_path_1"
+        },
+        {
+            "key": "level_7_path_1"
+        },
+        {
+            "key": "level_7_path_2"
+        },
+        {
+            "key": "level_8_path_1"
+        },
+        {
+            "key": "level_9_path_1"
+        },
+        {
+            "key": "level_9_path_2"
+        },
+        {
+            "key": "level_10_path_1"
+        },
+        {
+            "key": "level_11_path_1"
+        },
+        {
+            "key": "level_12_path_1"
+        },
+        {
+            "key": "level_13_path_1"
+        },
+        {
+            "key": "level_14_path_1"
+        },
+        {
+            "key": "level_15_path_1"
+        },
+        {
+            "key": "level_16_path_1"
+        },
+        {
+            "key": "level_17_path_1"
+        },
+        {
+            "key": "level_17_path_2"
+        },
+        {
+            "key": "level_18_path_1"
+        },
+        {
+            "key": "level_19_path_1"
+        },
+        {
+            "key": "level_20_path_1"
+        },
+        {
+            "searchPath": "assets/game_objects"
+        },
+        {
+            "key": "ball"
+        },
+        {
+            "key": "ball_change"
+        },
+        {
+            "key": "cannon"
+        },
+        {
+            "key": "cannon_jp"
+        },
+        {
+            "key": "cannon_kelsey"
+        },
+        {
+            "key": "hole"
+        },
+        {
+            "key": "hole2"
+        },
+        {
+            "key": "transition"
+        },
+        {
+            "key": "bomb"
+        },
+        {
+            "key": "slow_powerup"
+        },
+        {
+            "key": "aim_fx"
+        },
+        {
+            "key": "powerup_fx"
+        },
+        {
+            "key": "combo"
+        },
+        {
+            "key": "pusher"
+        },
+        {
+            "key": "boss_anim"
+        },
+        {
+            "key": "ice_fx"
+        },
+        {
+            "searchPath": "assets/game_objects/ball_change"
+        },
+        {
+            "key": "ball_change_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/ice_fx"
+        },
+        {
+            "key": "ice_fx_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/boss_anim"
+        },
+        {
+            "key": "boss_hit"
+        },
+        {
+            "key": "boss_win"
+        },
+        {
+            "key": "boss_lose"
+        },
+        {
+            "key": "boss_stand"
+        },
+        {
+            "key": "boss_appear"
+        },
+        {
+            "key": "boss_disappear"
+        },
+        {
+            "searchPath": "assets/game_objects/pusher"
+        },
+        {
+            "key": "pusher_ice_in"
+        },
+        {
+            "key": "pusher_ice_loop"
+        },
+        {
+            "key": "pusher_ice_out"
+        },
+        {
+            "key": "pusher_move"
+        },
+        {
+            "searchPath": "assets/game_objects/combo"
+        },
+        {
+            "key": "combo_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/powerup_fx"
+        },
+        {
+            "key": "powerupfx_anim"
+        },
+        {
+            "key": "powerupfx_out"
+        },
+        {
+            "searchPath": "assets/game_objects/transition"
+        },
+        {
+            "key": "transition_in"
+        },
+        {
+            "key": "transition_loop"
+        },
+        {
+            "key": "transition_out"
+        },
+        {
+            "searchPath": "assets/game_objects/ball"
+        },
+        {
+            "key": "ball_exp_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/cannon_jp"
+        },
+        {
+            "key": "jp_cannon_throw"
+        },
+        {
+            "key": "jp_eyes_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/cannon"
+        },
+        {
+            "key": "cannon_throw"
+        },
+        {
+            "key": "craig_eyes_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/cannon_kelsey"
+        },
+        {
+            "key": "kelsey_cannon_throw"
+        },
+        {
+            "key": "kelsey_eyes_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/hole"
+        },
+        {
+            "key": "hole_anim"
+        },
+        {
+            "key": "hole_anim_end"
+        },
+        {
+            "searchPath": "assets/game_objects/hole2"
+        },
+        {
+            "key": "hole_anim_end"
+        },
+        {
+            "searchPath": "assets/game_objects/bomb"
+        },
+        {
+            "key": "bomb_anim"
+        },
+        {
+            "searchPath": "assets/game_objects/slow_powerup"
+        },
+        {
+            "key": "ice_in"
+        },
+        {
+            "key": "ice_loop1"
+        },
+        {
+            "key": "ice_loop2"
+        },
+        {
+            "key": "ice_out"
+        },
+        {
+            "searchPath": "assets/game_objects/aim_fx"
+        },
+        {
+            "key": "cannon_fx_anim"
+        }],
+        "atlas": [
+        {
+            "searchPath": "assets/atlas"
+        },
+        {
+            "key": "gameplay"
+        },
+        {
+            "key": "atlas_ui_gameplay"
+        },
+        {
+            "key": "atlas_ui_main_menu"
+        },
+        {
+            "key": "atlas_ui_pause"
+        },
+        {
+            "key": "atlas_ui_popups"
+        },
+        {
+            "key": "atlas_ui_map"
+        }],
+        "bitmapFont": [],
+        "audio": []
+    }
+}

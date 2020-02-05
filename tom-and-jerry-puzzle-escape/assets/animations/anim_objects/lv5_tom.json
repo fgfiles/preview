@@ -1,0 +1,255 @@
+{
+    "hierarchy": {
+        "name": "lv5_tom",
+        "children": [
+            {
+                "name": "tail"
+            },
+            {
+                "name": "lv5_amrb"
+            },
+            {
+                "name": "body",
+                "children": [
+                    {
+                        "name": "arm1",
+                        "children": [
+                            {
+                                "name": "arm2",
+                                "children": [
+                                    {
+                                        "name": "hand"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "head",
+                        "children": [
+                            {
+                                "name": "lv5_ear",
+                                "children": [
+                                    {
+                                        "name": "base_anim",
+                                        "children": [
+                                            {
+                                                "name": "base"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "animations": [
+                                    "lv5_ear_anim"
+                                ]
+                            },
+                            {
+                                "name": "nose"
+                            },
+                            {
+                                "name": "line1"
+                            },
+                            {
+                                "name": "line2"
+                            },
+                            {
+                                "name": "line3"
+                            },
+                            {
+                                "name": "line4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "trap_fx0"
+            }
+        ],
+        "animations": [
+            "lv5_tom_stand",
+            "lv5_tom_tail",
+            "lv5_tom_out"
+        ]
+    },
+    "properties": {
+        "tail": {
+            "file": "lv5_tail0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -170.7,
+                "y": -17
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "lv5_amrb": {
+            "position": {
+                "x": 124.6,
+                "y": 10.4
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "body": {
+            "file": "lv5_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 8.4
+            },
+            "scale": {
+                "x": 1,
+                "y": 1.02
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "body/arm1": {
+            "file": "lv5_arm1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.76,
+                "y": 5.4
+            },
+            "angle": -2.220800000006571,
+            "type": "sprite"
+        },
+        "body/arm1/arm2": {
+            "file": "lv5_arm2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.93,
+                "y": 53.56
+            },
+            "angle": -6.726461538481442,
+            "type": "sprite"
+        },
+        "body/arm1/arm2/hand": {
+            "file": "lv5_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.86,
+                "y": 44.99
+            },
+            "angle": -4.858000000014375,
+            "type": "sprite"
+        },
+        "body/head": {
+            "file": "lv5_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83.2,
+                "y": -44.3
+            },
+            "type": "sprite"
+        },
+        "body/head/lv5_ear": {
+            "position": {
+                "x": -42.9,
+                "y": -26.9
+            },
+            "type": "container"
+        },
+        "body/head/lv5_ear/base_anim": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "body/head/lv5_ear/base_anim/base": {
+            "file": "lv5_ear0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "body/head/nose": {
+            "file": "lv5_face1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.9,
+                "y": 31.6
+            },
+            "type": "sprite"
+        },
+        "body/head/line1": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.5,
+                "y": 28
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/head/line2": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -5.3,
+                "y": 33.6
+            },
+            "angle": -34,
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/head/line3": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 25.2,
+                "y": 35.8
+            },
+            "angle": 35,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "body/head/line4": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 24.6,
+                "y": 39.2
+            },
+            "angle": 55,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "trap_fx0": {
+            "file": "trap_fx4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -229.4,
+                "y": -78.5
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "hierarchy": {
+        "name": "gp_door",
+        "children": [
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "gp_door_open",
+            "gp_door_close",
+            "gp_door_open_small",
+            "gp_door_close_small"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "door_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

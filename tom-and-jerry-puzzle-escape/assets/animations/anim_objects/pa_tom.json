@@ -1,0 +1,258 @@
+{
+    "hierarchy": {
+        "name": "pa_tom",
+        "children": [
+            {
+                "name": "tom_tail"
+            },
+            {
+                "name": "tom_arm_r1",
+                "children": [
+                    {
+                        "name": "tom_arm_r2",
+                        "children": [
+                            {
+                                "name": "tom_handr"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "tom_leg_r1"
+            },
+            {
+                "name": "tom_body",
+                "children": [
+                    {
+                        "name": "tom_head",
+                        "children": [
+                            {
+                                "name": "tom_fingers"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tom_arm_l1",
+                        "children": [
+                            {
+                                "name": "tom_arm_l2",
+                                "children": [
+                                    {
+                                        "name": "tom_hand_l"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "tom_leg_l"
+            },
+            {
+                "name": "tom_foot_r"
+            },
+            {
+                "name": "tom_leg_r2"
+            },
+            {
+                "name": "tom_foot_l"
+            }
+        ],
+        "animations": [
+            "pause_tom_anim"
+        ]
+    },
+    "properties": {
+        "tom_tail": {
+            "file": "tom_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -66.2,
+                "y": 73
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "tom_arm_r1": {
+            "file": "tom_arm_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.9,
+                "y": -74
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "tom_arm_r1/tom_arm_r2": {
+            "file": "tom_arm_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 97,
+                "y": -30
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "tom_arm_r1/tom_arm_r2/tom_handr": {
+            "file": "tom_handr.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -77.5,
+                "y": -42.1
+            },
+            "type": "sprite"
+        },
+        "tom_leg_r1": {
+            "file": "tom_leg_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.6,
+                "y": 70.7
+            },
+            "angle": -11,
+            "anchor": {
+                "x": 0.6,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "tom_body": {
+            "file": "tom_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -64.3,
+                "y": 103.9
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "tom_body/tom_head": {
+            "file": "tom_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 122.5,
+                "y": -184
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "tom_body/tom_head/tom_fingers": {
+            "file": "tom_fingers.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 27.3,
+                "y": -93.8
+            },
+            "type": "sprite"
+        },
+        "tom_body/tom_arm_l1": {
+            "file": "tom_arm_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.6,
+                "y": -185.9
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "tom_body/tom_arm_l1/tom_arm_l2": {
+            "file": "tom_arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -86.2,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "tom_body/tom_arm_l1/tom_arm_l2/tom_hand_l": {
+            "file": "tom_hand_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 25.6,
+                "y": 79
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "tom_leg_l": {
+            "file": "tom_leg_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -61.6,
+                "y": 118.1
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "tom_foot_r": {
+            "file": "tom_foot_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -75.8,
+                "y": 99.6
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "tom_leg_r2": {
+            "file": "tom_leg_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.2,
+                "y": 124
+            },
+            "angle": -1,
+            "anchor": {
+                "x": 0.9,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "tom_foot_l": {
+            "file": "tom_foot_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -43.8,
+                "y": 187.8
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.4
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "hierarchy": {
+        "name": "gp_cheese_counter",
+        "children": [
+            {
+                "name": "container"
+            },
+            {
+                "name": "cheese"
+            },
+            {
+                "name": "ticket"
+            },
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            },
+            {
+                "name": "star6"
+            },
+            {
+                "name": "time_line0"
+            },
+            {
+                "name": "time_line2_0"
+            }
+        ],
+        "animations": [
+            "cheese_anim",
+            "cheese_completed_anim",
+            "time_completed_anim",
+            "time_anim"
+        ]
+    },
+    "properties": {
+        "container": {
+            "file": "cheese_countergreen.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.1,
+                "y": -0.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "cheese": {
+            "file": "cheese.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -40.6,
+                "y": -5.1
+            },
+            "type": "sprite"
+        },
+        "ticket": {
+            "file": "ticket_lv9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.3,
+                "y": -1.1
+            },
+            "type": "sprite"
+        },
+        "star1": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "star6": {
+            "file": "star2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "time_line0": {
+            "file": "time_line2_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39.5,
+                "y": -7.5
+            },
+            "type": "sprite"
+        },
+        "time_line2_0": {
+            "file": "time_line2_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46.1,
+                "y": -6.9
+            },
+            "type": "sprite"
+        }
+    }
+}

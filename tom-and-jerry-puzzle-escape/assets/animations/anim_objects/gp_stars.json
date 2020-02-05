@@ -1,0 +1,108 @@
+{
+    "hierarchy": {
+        "name": "gp_stars",
+        "children": [
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            },
+            {
+                "name": "star6"
+            }
+        ],
+        "animations": [
+            "gp_stars_anim"
+        ]
+    },
+    "properties": {
+        "star1": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -104,
+                "y": -13.7
+            },
+            "angle": -27,
+            "scale": {
+                "x": 1.16,
+                "y": 1.16
+            },
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -43.1,
+                "y": -47.1
+            },
+            "scale": {
+                "x": 0.54,
+                "y": 0.54
+            },
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 29,
+                "y": -25
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 106.8,
+                "y": 11.1
+            },
+            "angle": 17,
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -47.6,
+                "y": 18.5
+            },
+            "angle": 1,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star6": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.6,
+                "y": 33.2
+            },
+            "angle": 1,
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        }
+    }
+}

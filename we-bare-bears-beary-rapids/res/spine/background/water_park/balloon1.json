@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "b7EDCAtEzs4mZ6gHA/MVeT0k/dE", "spine": "2.1.27", "width": 167.97, "height": 315.32, "images": "" },
+"bones": [
+	{ "name": "root", "color": "9c9c9c45" },
+	{ "name": "bone", "parent": "root", "length": 232.06, "x": -1.79, "y": 10.91, "rotation": 95.84, "color": "9c9c9c45" },
+	{ "name": "bone2", "parent": "bone", "length": 71.42, "x": 198.89, "y": -16.84, "rotation": -18.29, "color": "9c9c9c45" }
+],
+"slots": [
+	{ "name": "balloon1_a", "bone": "bone", "attachment": "balloon1_a" },
+	{ "name": "balloon1_b", "bone": "bone2", "attachment": "balloon1_b" }
+],
+"skins": {
+	"default": {
+		"balloon1_a": {
+			"balloon1_a": { "x": 120.36, "y": 16.5, "rotation": -95.84, "width": 153, "height": 264 }
+		},
+		"balloon1_b": {
+			"balloon1_b": { "x": 39.29, "y": 13.55, "rotation": -77.54, "width": 142, "height": 121 }
+		}
+	}
+},
+"animations": {
+	"stand": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.74,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.5333,
+						"angle": -10.39,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.5, "angle": 0.74 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.5, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -13.86,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.1333,
+						"angle": 0.82,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6333,
+						"angle": -13.86,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3666,
+						"angle": 0.82,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.5, "angle": -13.86 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.5, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,222 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "tom_pivot"
+            },
+            {
+                "name": "wall",
+                "children": [
+                    {
+                        "name": "tomhand"
+                    }
+                ]
+            },
+            {
+                "name": "jerry_pivot"
+            },
+            {
+                "name": "logo_container",
+                "children": [
+                    {
+                        "name": "logo"
+                    },
+                    {
+                        "name": "game_logo"
+                    }
+                ]
+            },
+            {
+                "name": "adventure",
+                "children": [
+                    {
+                        "name": "button_text"
+                    }
+                ]
+            },
+            {
+                "name": "timetrial",
+                "children": [
+                    {
+                        "name": "button_text"
+                    },
+                    {
+                        "name": "button_text2"
+                    }
+                ]
+            },
+            {
+                "name": "soundon"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "tom_pivot": {
+            "size": {
+                "width": 1,
+                "height": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": -214,
+                    "y": -285.5
+                }
+            }
+        },
+        "wall": {
+            "file": "wall.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "RIGHT_CENTER"
+            }
+        },
+        "wall/tomhand": {
+            "file": "tomhand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -390,
+                "y": 220
+            },
+            "type": "sprite"
+        },
+        "jerry_pivot": {
+            "size": {
+                "width": 1,
+                "height": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_RIGHT",
+                "offset": {
+                    "x": -153.3,
+                    "y": -176.6
+                }
+            }
+        },
+        "logo_container": {
+            "size": {
+                "width": 419,
+                "height": 338
+            },
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -35
+                }
+            }
+        },
+        "logo_container/logo": {
+            "file": "1x1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -108.2
+            },
+            "type": "sprite"
+        },
+        "logo_container/game_logo": {
+            "file": "1x1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6,
+                "y": 50
+            },
+            "type": "sprite"
+        },
+        "adventure": {
+            "file": "adventure.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": -44.2,
+                    "y": -144
+                }
+            }
+        },
+        "adventure/button_text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 60,
+                "lineHeight": 70
+            },
+            "text": "adventure",
+            "align": "center",
+            "stroke": "#2863bd",
+            "strokeThickness": 6,
+            "position": {
+                "x": 41.5,
+                "y": -2.4
+            },
+            "type": "text"
+        },
+        "timetrial": {
+            "file": "timetrial_blocked.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 25.3,
+                    "y": -27.2
+                }
+            }
+        },
+        "timetrial/button_text": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 60,
+                "lineHeight": 70
+            },
+            "text": "time trial",
+            "align": "center",
+            "stroke": "#bd4c00",
+            "strokeThickness": 6,
+            "position": {
+                "x": -27.7,
+                "y": -6.2
+            },
+            "type": "text"
+        },
+        "timetrial/button_text2": {
+            "font": {
+                "name": "comic_huslteregular",
+                "fontSize": 25,
+                "lineHeight": 40
+            },
+            "text": "finish adverture first!",
+            "align": "center",
+            "position": {
+                "x": 36.4,
+                "y": 40
+            },
+            "type": "text"
+        },
+        "soundon": {
+            "file": "soundon.png",
+            "image": "SIMPLE",
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -18,
+                    "y": -18.5
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4aa2be571978a188a63fb4757297e7fc:5a3a987f75c7f803e99cf7bf5716f0bf:7bd15b497acdf22e573261f4025dcd97$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="choco_pipe.png" width="512" height="512">
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-01.png" x="2" y="2" w="81" h="161" oX="2" oY="0" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-02.png" x="85" y="2" w="79" h="157" oX="2" oY="4" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-03.png" x="166" y="2" w="81" h="161" oX="0" oY="0" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-04.png" x="249" y="2" w="81" h="161" oX="0" oY="0" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-05.png" x="332" y="2" w="83" h="157" oX="0" oY="4" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-06.png" x="417" y="2" w="81" h="161" oX="0" oY="0" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-07.png" x="2" y="165" w="81" h="159" oX="2" oY="2" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-08.png" x="85" y="165" w="81" h="157" oX="2" oY="4" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-09.png" x="168" y="165" w="85" h="157" oX="0" oY="4" oW="85" oH="161"/>
+    <sprite n="tjcf-gameplay-obstacle-chocopipe-10.png" x="255" y="165" w="85" h="159" oX="0" oY="2" oW="85" oH="161"/>
+</TextureAtlas>

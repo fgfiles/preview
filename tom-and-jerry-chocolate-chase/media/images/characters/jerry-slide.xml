@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:13877978db1bdc527ec6d5278c6ed773:bcdeadcd67d04f12acd70ec863ea7ff8:4eb049059f1f941fd072a6e6d3f6e66b$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="jerry-slide.png" width="128" height="256">
+    <sprite n="jerry-slide-001.png" x="2" y="2" w="108" h="77" oX="0" oY="0" oW="132" oH="77"/>
+    <!--<sprite n="jerry-slide-002.png" x="2" y="160" w="96" h="67" oX="36" oY="6" oW="132" oH="77"/>-->
+    <sprite n="jerry-slide-003.png" x="2" y="81" w="106" h="77" oX="1" oY="0" oW="132" oH="77"/>
+    <sprite n="jerry-slide-002.png" x="2" y="160" w="96" h="67" oX="36" oY="6" oW="132" oH="77"/>
+</TextureAtlas>

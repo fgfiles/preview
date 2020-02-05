@@ -1,0 +1,189 @@
+{
+    "name": "stage8_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "door_open": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 183,
+                    "value": 1.06
+                },
+                {
+                    "frame": 383,
+                    "value": 0.96
+                },
+                {
+                    "frame": 583,
+                    "value": 1
+                },
+                {
+                    "frame": 917,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 183,
+                    "value": 0.9
+                },
+                {
+                    "frame": 383,
+                    "value": 1.03
+                },
+                {
+                    "frame": 583,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "door_open_big.png"
+                }
+            ]
+        },
+        "door_open/exp": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "level_exp4.png"
+                }
+            ]
+        },
+        "door_open/block1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -0.7,
+                        12.6
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/block2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        36.2
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/block3": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        13.5
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/level_door_r": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/level_door_l": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "door_open/number": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -36.8
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "8_blue.png"
+                }
+            ]
+        }
+    }
+}

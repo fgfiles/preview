@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:517bd39cab6dddf4441ea77b612089c2:3fb8bf25bbfc381cc436f03fc8211ff6:636fd6ad93c5640030573cc34f265800$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="fight-cloud.png" width="512" height="2048">
+    <sprite n="fight-001.png" x="2" y="1086" w="443" h="246" oX="0" oY="42" oW="507" oH="298"/>
+    <sprite n="fight-002.png" x="2" y="270" w="479" h="262" oX="21" oY="23" oW="507" oH="298"/>
+    <sprite n="fight-003.png" x="2" y="2" w="487" h="266" oX="20" oY="20" oW="507" oH="298"/>
+    <sprite n="fight-004.png" x="2" y="534" w="467" h="266" oX="23" oY="22" oW="507" oH="298"/>
+    <sprite n="fight-005.png" x="2" y="1334" w="409" h="296" oX="36" oY="2" oW="507" oH="298"/>
+    <sprite n="fight-006.png" x="2" y="802" w="447" h="282" oX="6" oY="0" oW="507" oH="298"/>
+    <sprite n="fight-007.png" x="2" y="1632" w="409" h="278" oX="6" oY="4" oW="507" oH="298"/>
+</TextureAtlas>

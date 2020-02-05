@@ -1,0 +1,374 @@
+{
+    "hierarchy": {
+        "name": "go_character",
+        "children": [
+            {
+                "name": "cup"
+            },
+            {
+                "name": "bowl"
+            },
+            {
+                "name": "pan"
+            },
+            {
+                "name": "go_tom_arm_back"
+            },
+            {
+                "name": "go_tom_leg_r"
+            },
+            {
+                "name": "go_tom_body",
+                "children": [
+                    {
+                        "name": "go_tom_tail"
+                    },
+                    {
+                        "name": "go_tom_leg_l"
+                    },
+                    {
+                        "name": "go_tom_head"
+                    },
+                    {
+                        "name": "go_tom_arm_front1",
+                        "children": [
+                            {
+                                "name": "go_tom_arm_front2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "go_tom_hand"
+            },
+            {
+                "name": "go_jerry_arm_back1",
+                "children": [
+                    {
+                        "name": "go_jerry_arm_back2"
+                    }
+                ]
+            },
+            {
+                "name": "go_jerry_leg_back1",
+                "children": [
+                    {
+                        "name": "go_jerry_leg_back2"
+                    }
+                ]
+            },
+            {
+                "name": "go_jerry_tail"
+            },
+            {
+                "name": "go_jerry_body",
+                "children": [
+                    {
+                        "name": "go_jerry_leg_front1",
+                        "children": [
+                            {
+                                "name": "go_jerry_leg_front2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "go_jerry_head"
+                    },
+                    {
+                        "name": "go_jerry_arm_front1",
+                        "children": [
+                            {
+                                "name": "go_jerry_arm_front2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "character_gameover_anim"
+        ]
+    },
+    "properties": {
+        "cup": {
+            "file": "cup.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 264.1,
+                "y": -95.6
+            },
+            "type": "sprite"
+        },
+        "bowl": {
+            "file": "bowl.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 88.4,
+                "y": 110.5
+            },
+            "type": "sprite"
+        },
+        "pan": {
+            "file": "pan.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -179.6,
+                "y": -165.8
+            },
+            "type": "sprite"
+        },
+        "go_tom_arm_back": {
+            "file": "go_tom_arm_back.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -70.1,
+                "y": -80.4
+            },
+            "type": "sprite"
+        },
+        "go_tom_leg_r": {
+            "file": "go_tom_leg_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -140,
+                "y": 68.5
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "go_tom_body": {
+            "file": "go_tom_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -246,
+                "y": 91
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "go_tom_body/go_tom_tail": {
+            "file": "go_tom_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -31.5,
+                "y": -13.5
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "go_tom_body/go_tom_leg_l": {
+            "file": "go_tom_leg_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.3,
+                "y": -46.8
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "go_tom_body/go_tom_head": {
+            "file": "go_tom_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 309.8,
+                "y": -120.4
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "go_tom_body/go_tom_arm_front1": {
+            "file": "go_tom_arm_front1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 229.8,
+                "y": -137.6
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "go_tom_body/go_tom_arm_front1/go_tom_arm_front2": {
+            "file": "go_tom_arm_front2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 93.3,
+                "y": 57.6
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "go_tom_hand": {
+            "file": "go_tom_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 164.7,
+                "y": 84
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "go_jerry_arm_back1": {
+            "file": "go_jerry_arm_back1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 356.8,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "go_jerry_arm_back1/go_jerry_arm_back2": {
+            "file": "go_jerry_arm_back2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 33.6,
+                "y": -9.7
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "go_jerry_leg_back1": {
+            "file": "go_jerry_leg_back1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 272.3,
+                "y": 113.3
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "go_jerry_leg_back1/go_jerry_leg_back2": {
+            "file": "go_jerry_leg_back2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.7,
+                "y": 2.4
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "go_jerry_tail": {
+            "file": "go_jerry_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 227.3,
+                "y": 84
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body": {
+            "file": "go_jerry_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 250,
+                "y": 109
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body/go_jerry_leg_front1": {
+            "file": "go_jerry_leg_front1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3.2,
+                "y": -9.4
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body/go_jerry_leg_front1/go_jerry_leg_front2": {
+            "file": "go_jerry_leg_front2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 35.9,
+                "y": 21.9
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body/go_jerry_head": {
+            "file": "go_jerry_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 75.7,
+                "y": -44.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body/go_jerry_arm_front1": {
+            "file": "go_jerry_arm_front1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 57.9,
+                "y": -44.1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "go_jerry_body/go_jerry_arm_front1/go_jerry_arm_front2": {
+            "file": "go_jerry_arm_front2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48.2,
+                "y": 4.3
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "hierarchy": {
+        "name": "lv6_clock",
+        "children": [
+            {
+                "name": "clock",
+                "children": [
+                    {
+                        "name": "clockhand_1"
+                    },
+                    {
+                        "name": "clockhand_2"
+                    },
+                    {
+                        "name": "clockhand_circle"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv6_clock_anim"
+        ]
+    },
+    "properties": {
+        "clock": {
+            "file": "clock.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "clock/clockhand_1": {
+            "file": "clockhand_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.4,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "clock/clockhand_2": {
+            "file": "clockhand_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -0.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "clock/clockhand_circle": {
+            "file": "clockhand_circle.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

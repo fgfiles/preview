@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <title>Grizzy and the Lemmings - Whack A Lemming - HTML5 Game</title>
+    <meta name="description" content="Grizzy and the Lemmings - Whack A Lemming - Forestry Games">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/video-js.css" type="text/css" />
+</head>
+
+<body id='body'>
+    <div id="video_holder" class="video-container" style="display: none;">
+        <video controls id="video_player" class="video-js" playsinline preload="auto" data-setup='{}' style="background: white;"></video>
+    </div>
+    <div id="content"></div>
+    <div id="dummy" style="position:fixed;right:0;bottom:0"></div>
+    <div id="orientation"></div>
+    <script type="text/javascript">
+    var gameName = "whack-a-lemming.js";
+    var urlVideo = "assets/video/intro.mp4";
+    var language = "en";
+
+
+    //This all here is for cache busting;
+    function addScript(src, buster, callback) {
+        var s = document.createElement('script');
+        s.setAttribute('src', src + '?v=' + buster);
+        if (typeof callback === 'function') {
+            s.onload = callback;
+        }
+        document.body.appendChild(s);
+    }
+
+    addScript('version.js', Date.now(), function() {
+        addScript(gameName, version, function() {
+            /**
+             * Here we create the game
+             */
+            var g = Game.App.getInstance();
+            g.start()
+
+        })
+    })
+    </script>
+</body>
+
+</html>

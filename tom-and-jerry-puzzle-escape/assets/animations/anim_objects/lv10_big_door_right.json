@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "lv10_big_door_right",
+        "children": [
+            {
+                "name": "right_door"
+            }
+        ],
+        "animations": [
+            "lv10_big_door_anim_right"
+        ]
+    },
+    "properties": {
+        "right_door": {
+            "file": "lv10_big_door0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 70.8,
+                "y": 3.8
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

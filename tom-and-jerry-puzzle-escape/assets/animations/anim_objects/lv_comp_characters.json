@@ -1,0 +1,199 @@
+{
+    "hierarchy": {
+        "name": "lv_comp_characters",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "tom_eye1"
+                    },
+                    {
+                        "name": "tom_eye2"
+                    },
+                    {
+                        "name": "j_arm1",
+                        "children": [
+                            {
+                                "name": "j_arm2",
+                                "children": [
+                                    {
+                                        "name": "j_hand"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "j_eyes1"
+                    }
+                ]
+            },
+            {
+                "name": "star1"
+            },
+            {
+                "name": "star2"
+            },
+            {
+                "name": "star3"
+            },
+            {
+                "name": "star4"
+            },
+            {
+                "name": "star5"
+            }
+        ],
+        "animations": [
+            "character_lv_comp_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "characters.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/tom_eye1": {
+            "file": "tom_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -25.7,
+                "y": 24.4
+            },
+            "type": "sprite"
+        },
+        "base/tom_eye2": {
+            "file": "tom_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.6,
+                "y": 8
+            },
+            "type": "sprite"
+        },
+        "base/j_arm1": {
+            "file": "j_arm1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 158.1,
+                "y": 116
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "base/j_arm1/j_arm2": {
+            "file": "j_arm2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 19.5,
+                "y": 24.1
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/j_arm1/j_arm2/j_hand": {
+            "file": "j_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.6,
+                "y": -20.1
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/j_eyes1": {
+            "file": "j_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 144.3,
+                "y": 45.3
+            },
+            "type": "sprite"
+        },
+        "star1": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -185,
+                "y": -105
+            },
+            "angle": -27,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star2": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 153,
+                "y": -146
+            },
+            "angle": 20,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star3": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -45,
+                "y": -162
+            },
+            "angle": -24,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star4": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -108,
+                "y": -101
+            },
+            "angle": 14,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "star5": {
+            "file": "lv_star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 149,
+                "y": -74
+            },
+            "angle": -26,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

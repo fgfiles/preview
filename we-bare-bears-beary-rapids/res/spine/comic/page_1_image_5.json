@@ -1,0 +1,50 @@
+{
+"skeleton": {
+	"hash": "3jcZNiSfXjVKLFXqDAzWEvH4iKs",
+	"spine": "2.1.27",
+	"width": 291.71,
+	"height": 114.52,
+	"images": "../PNG/viñetas comic pag1 image5/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bears", "parent": "root", "x": -75.89, "y": 55.12, "rotation": 7.1 }
+],
+"slots": [
+	{ "name": "1/5_2", "bone": "bears", "attachment": "1/5_2" }
+],
+"skins": {
+	"default": {
+		"1/5_2": {
+			"1/5_2": { "x": 3.8, "y": -6.33, "width": 284, "height": 80 }
+		}
+	}
+},
+"animations": {
+	"page_1_image_5": {
+		"slots": {
+			"1/5_2": {
+				"attachment": [
+					{ "time": 0, "name": "1/5_2" }
+				]
+			}
+		},
+		"bones": {
+			"bears": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1666, "angle": -11.25 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 53.19, "y": 14.91 },
+					{ "time": 1.1666, "x": 119.02, "y": 17.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

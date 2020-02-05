@@ -1,0 +1,53 @@
+{
+    "hierarchy": {
+        "name": "pillow",
+        "children": [
+            {
+                "name": "pillow"
+            },
+            {
+                "name": "dustr"
+            },
+            {
+                "name": "dustl"
+            }
+        ],
+        "animations": [
+            "pillow_fall",
+            "pillow_floor"
+        ]
+    },
+    "properties": {
+        "pillow": {
+            "file": "pillow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "dustr": {
+            "file": "dust4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 98.3,
+                "y": 4.4
+            },
+            "type": "sprite"
+        },
+        "dustl": {
+            "file": "dust4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -79.1,
+                "y": 4.4
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

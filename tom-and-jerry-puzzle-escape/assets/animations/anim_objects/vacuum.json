@@ -1,0 +1,40 @@
+{
+    "hierarchy": {
+        "name": "vacuum",
+        "children": [
+            {
+                "name": "air_0"
+            },
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "gp_vacuum_stand"
+        ]
+    },
+    "properties": {
+        "air_0": {
+            "file": "air_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12.3,
+                "y": 142.9
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "vacuum.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

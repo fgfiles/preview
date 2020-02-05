@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<loadBatch name="loadScreenBatchPreload" basePath="./media">
+	<asset name="loadingScreenHtml" path="/html/loading_screen.html" type="Other"/>
+	<asset name="loadingBg" path="/images/ui/tjcf-gameplay-loading-background.png" type="Image" scaleMode="Nearest"/>	
+	<asset name="loadingBarBg" path="/images/ui/tjcf-gameplay-loading-bar.png" type="Image" />	
+	<asset name="loadingBar" path="/images/ui/tjcf-gameplay-loading-bar-fill.png" type="Image" />		
+			
+	<asset name="gameLogo" path="/../locale/${locale}/images/tjcf-ui-logo-temp.png" type="Image" />
+</loadBatch>
+
+<loadBatch name="loadBatchPreload" basePath="./media">					
+	<asset name="ipadLandscapeHtml" path="/html/ipad_landscape.html" type="Other" />
+	<asset name="iphoneLandscapeHtml" path="/html/iphone_landscape.html" type="Other" />				
+	
+	<asset name="objectivesXml" path="/xml/objectives.xml" type="Other"/>
+	
+	<asset name="storyImage1" path="/images/ui/overlay.png" type="Image"/>
+	
+	<asset name="whiteBg" path="/images/ui/white_bg.png" type="Image"/>	
+
+	<asset name="logoBackground" path="/images/ui/tjcf-ui-logo-background.png" type="Image"/>
+	
+	<asset name="overlay" path="/images/ui/overlay.png" type="Image"/>
+	<asset name="splashTom" path="/images/ui/tom-idle-frame-01.png" type="Image"/>
+	<asset name="splashJerry" path="/images/ui/jerry-idle-frame-01.png" type="Image"/>
+	<asset name="playButton" path="/images/ui/tjcf-ui-btn-play.png" type="Image"/>
+	<asset name="playButtonSmall" path="/images/ui/tjcf-ui-popup-btn-play.png" type="Image"/>
+	<asset name="retryButton" path="/images/ui/overlay.png" type="Image"/>	
+
+	<asset name="helpMeter" path="/images/ui/tjcf-ui-popup-help-container.png" type="Image"/>
+	<asset name="helpMeterFill" path="/images/ui/tjcf-ui-popup-help-container-fill.png" type="Image"/>
+	<asset name="helpCheck" path="/images/ui/tjcf-ui-popup-help-container-check.png" type="Image"/>
+	<asset name="tutorialMobile" path="/images/ui/tjcf-ui-help-tutorial-mobile.png" type="Image"/>
+	<asset name="tutorialWeb" path="/images/ui/tjcf-ui-help-tutorial-web.png" type="Image"/>
+
+	<asset name="backButton" path="/images/ui/overlay.png" type="Image"/>	
+
+	<asset name="hudHeaderBg" path="/images/ui/tjcf-ui-header.png" type="Image"/>
+
+	<asset name="cheeseMeter" path="/images/ui/tjcf-gameplay-meter-boost.png" type="Image"/>
+	<asset name="cheeseMeterFill" path="/images/ui/tjcf-gameplay-meter-boost-fill.png" type="Image"/>
+	<asset name="cheeseIcon" path="/images/ui/tjcf-gameplay-cookie-1.png" type="Image"/>
+	<asset name="flameIconFilled" path="/images/ui/tjcf-gameplay-meter-boost-btn-on.png" type="Image"/>
+	<asset name="flameIconEmpty" path="/images/ui/tjcf-gameplay-meter-boost-btn-off.png" type="Image"/>
+
+	<asset name="yesButton" path="/images/ui/tjcf-sample-ui-confirm.png" type="Image"/>	
+	<asset name="closeButton" path="/images/ui/tjcf-ui-popup-btn-quit.png" type="Image"/>		
+	<asset name="popupOverlay" path="/images/ui/tjcf-ui-popup-screen.png" type="Image"/>
+	<asset name="popupBg" path="/images/ui/tjcf-ui-popup-container.png" type="Image"/>
+	<asset name="popupSubBg" path="/images/ui/tjcf-ui-popup-recap-screen.png" type="Image"/>			
+	<asset name="popupDeco" path="/images/ui/tjcf-ui-popup-container-decoration.png" type="Image"/>
+
+	<asset name="newBest" path="/images/ui/tjcf-ui-popup-newbest.png" type="Image"/>
+
+	<asset name="storeAlert" path="/images/ui/overlay.png" type="Image"/>		
+		
+	
+	<asset name="pauseButton" path="/images/ui/tjcf-gameplay-btn-pause.png" type="Image" />
+
+	<asset name="soundOnButton" path="/images/ui/tjcf-ui-popup-btn-sound-on.png" type="Image"/>
+	<asset name="soundOffButton" path="/images/ui/tjcf-ui-popup-btn-sound-off.png" type="Image"/>
+	<asset name="quitButton" path="/images/ui/tjcf-ui-popup-btn-home.png" type="Image"/>
+	<asset name="helpButton" path="/images/ui/tjcf-ui-popup-btn-help.png" type="Image"/>																													
+
+	<asset name="forwardButton" path="/images/ui/overlay.png" type="Image"/>
+	
+	<asset name="objectExplode" path="/images/gameplay/object_explode.png" type="Image" />
+	<asset name="objectExplodeXml" path="/images/gameplay/object_explode.xml" type="Other" />
+		
+	<asset name="cookie1" path="/images/ui/tjcf-gameplay-cookie-1.png" type="Image"/>	
+	<asset name="cookie2" path="/images/ui/tjcf-gameplay-cookie-2.png" type="Image"/>	
+
+	<asset name="superCookie" path="/images/ui/tjcf-gameplay-cookie-super.png" type="Image"/>	
+	
+	<asset name="cookieBreak" path="/images/gameplay/cookie_break.png" type="Image"/>	
+	<asset name="cookieBreakXml" path="/images/gameplay/cookie_break.xml" type="Other"/>	
+	
+	<asset name="jerryGlow" path="/images/gameplay/jerry_glow.png" type="Image"/>	
+	<asset name="jerryGlowXml" path="/images/gameplay/jerry_glow.xml" type="Other"/>	
+	
+	<asset name="chocoPipe" path="/images/gameplay/choco_pipe.png" type="Image"/>	
+	<asset name="chocoPipeXml" path="/images/gameplay/choco_pipe.xml" type="Other"/>	
+	
+	<asset name="smokeSprint" path="/images/gameplay/smoke_sprint.png" type="Image"/>	
+	<asset name="smokeSprintXml" path="/images/gameplay/smoke_sprint.xml" type="Other"/>	
+	
+	<asset name="barrelHazard" path="/images/ui/tjcf-gameplay-obstacle-mushroom.png" type="Image"/>
+	
+	<asset name="grindTrail" path="/images/gameplay/grind_trail.png" type="Image" />	
+	<asset name="grindTrailXml" path="/images/gameplay/grind_trail.xml" type="Other" />	
+	<asset name="runningDust" path="/images/gameplay/running_dust.png" type="Image" />	
+	<asset name="runningDustXml" path="/images/gameplay/running_dust.xml" type="Other" />	
+	<asset name="windFlying" path="/images/gameplay/wind_flying.png" type="Image" />	
+	<asset name="windFlyingXml" path="/images/gameplay/wind_flying.xml" type="Other" />	
+	
+	<asset name="parallaxFar" path="/images/gameplay/tjcf-game-bg-2.png" type="Image" />
+	
+	<asset name="foreground1" path="/images/gameplay/tjcf-gameplay-fg-green-01.png" type="Image" />
+	<asset name="foreground2" path="/images/gameplay/tjcf-gameplay-fg-green-02.png" type="Image" />
+	<asset name="foreground3" path="/images/gameplay/tjcf-gameplay-fg-pipe-06.png" type="Image" />
+		
+	<asset name="hit_1" path="/sound/hit_1.mp3" type="Audio"/>
+	<asset name="jump_1" path="/sound/jump_1.mp3" type="Audio"/>
+	<asset name="land_1" path="/sound/land_1.mp3" type="Audio"/>
+	<asset name="footstep_1" path="/sound/footstep_1.mp3" type="Audio"/>
+	<asset name="footstep_2" path="/sound/footstep_2.mp3" type="Audio"/>
+	<asset name="footstep_3" path="/sound/footstep_3.mp3" type="Audio"/>
+	<asset name="sfx_coin_collect_1" path="/sound/sfx_coin_collect_1.mp3" type="Audio"/>
+	<asset name="sfx_coin_collect_2" path="/sound/sfx_coin_collect_2.mp3" type="Audio"/>
+	<asset name="sfx_coin_collect_3" path="/sound/sfx_coin_collect_3.mp3" type="Audio"/>
+	<asset name="sfx_coin_collect_4" path="/sound/sfx_coin_collect_4.mp3" type="Audio"/>
+	<asset name="sfx_score_count" path="/sound/sfx_score_count.mp3" type="Audio"/>
+	<asset name="sfx_objective_complete" path="/sound/sfx_objective_complete.mp3" type="Audio"/>	
+	<asset name="sfx_super_cookie_1" path="/sound/sfx_super_cookie_1.mp3" type="Audio"/>
+	<asset name="ui_click_1" path="/sound/ui_click_1.mp3" type="Audio"/>
+	<asset name="music_happy_happy_game_show" path="/sound/music_happy_happy_game_show.mp3" type="Audio"/>
+
+
+	<asset name="tomRun" path="/images/characters/tom-run.png" type="Image"/>
+	<asset name="tomRunXml" path="/images/characters/tom-run.xml" type="Other"/>
+
+	<asset name="jerryCharge" path="/images/characters/jerry-charge.png" type="Image"/>
+	<asset name="jerryChargeXml" path="/images/characters/jerry-charge.xml" type="Other"/>
+	<asset name="jerryRun" path="/images/characters/jerry-run.png" type="Image"/>
+	<asset name="jerryRunXml" path="/images/characters/jerry-run.xml" type="Other"/>
+	<asset name="jerryHit" path="/images/characters/jerry-hit.png" type="Image"/>
+	<asset name="jerryHitXml" path="/images/characters/jerry-hit.xml" type="Other"/>
+	<asset name="jerryJump" path="/images/characters/jerry-jump.png" type="Image"/>
+	<asset name="jerryJumpXml" path="/images/characters/jerry-jump.xml" type="Other"/>
+	<asset name="jerryJumpEnd" path="/images/characters/jerry-jump-end.png" type="Image"/>
+	<asset name="jerryJumpEndXml" path="/images/characters/jerry-jump-end.xml" type="Other"/>
+	<asset name="jerrySlide" path="/images/characters/jerry-slide.png" type="Image"/>
+	<asset name="jerrySlideXml" path="/images/characters/jerry-slide.xml" type="Other"/>
+
+	<asset name="jerryHitEffect" path="/images/gameplay/jerry-hit-effect.png" type="Image"/>
+
+	<asset name="fightCloud" path="/images/gameplay/fight-cloud.png" type="Image"/>
+	<asset name="fightCloudXml" path="/images/gameplay/fight-cloud.xml" type="Other"/>
+
+	<asset name="waterfall" path="/images/gameplay/tjcf-gameplay-waterfall.png" type="Image"/>
+	<asset name="waterfallXml" path="/images/gameplay/tjcf-gameplay-waterfall.xml" type="Other"/>
+
+	<asset name="background1" path="/images/gameplay/tjcf-gameplay-background-tile-01.png" type="Image"/>
+	<asset name="background2" path="/images/gameplay/tjcf-gameplay-background-tile-02.png" type="Image"/>
+	<asset name="background3" path="/images/gameplay/tjcf-gameplay-background-tile-03.png" type="Image"/>
+	
+	<asset name="midground1" path="/images/gameplay/tjcf-gameplay-midground-object-01.png" type="Image"/>
+	<asset name="midground2" path="/images/gameplay/tjcf-gameplay-midground-object-02.png" type="Image"/>
+	<asset name="midground3" path="/images/gameplay/tjcf-gameplay-midground-object-03.png" type="Image"/>
+	<asset name="midground4" path="/images/gameplay/tjcf-gameplay-midground-object-04.png" type="Image"/>
+	<asset name="midground5" path="/images/gameplay/tjcf-gameplay-midground-object-05.png" type="Image"/>
+	<asset name="midground6" path="/images/gameplay/tjcf-gameplay-midground-object-06.png" type="Image"/>
+	
+	<asset name="backgroundOverlay" path="/images/gameplay/tjcf-gameplay-background-overlay.png" type="Image"/>
+	
+	<asset name="groundFlat1Tmx" path="/xml/ground_flat_1.xml" type="Other"/>	
+	<asset name="groundFlat1TutorialTmx" path="/xml/ground_flat_1_tutorial.xml" type="Other"/>
+	<asset name="groundFlat2Tmx" path="/xml/ground_flat_2.xml" type="Other"/>
+	<asset name="groundFlat3Tmx" path="/xml/ground_flat_3.xml" type="Other"/>
+	<asset name="groundFlat4Tmx" path="/xml/ground_flat_4.xml" type="Other"/>
+	<asset name="groundFlat5Tmx" path="/xml/ground_flat_5.xml" type="Other"/>
+	<asset name="groundFlat6Tmx" path="/xml/ground_flat_6.xml" type="Other"/>
+	<asset name="groundFlat7Tmx" path="/xml/ground_flat_7.xml" type="Other"/>
+	<asset name="groundFlat8Tmx" path="/xml/ground_flat_8.xml" type="Other"/>
+	<asset name="groundFlat9Tmx" path="/xml/ground_flat_9.xml" type="Other"/>
+	<asset name="groundFlat10Tmx" path="/xml/ground_flat_10.xml" type="Other"/>
+	<asset name="groundFlat11Tmx" path="/xml/ground_flat_11.xml" type="Other"/>
+	<asset name="groundFlat12Tmx" path="/xml/ground_flat_12.xml" type="Other"/>
+	<asset name="groundFlat13Tmx" path="/xml/ground_flat_13.xml" type="Other"/>
+	<asset name="groundFlat14Tmx" path="/xml/ground_flat_14.xml" type="Other"/>
+	<asset name="groundFlat15Tmx" path="/xml/ground_flat_15.xml" type="Other"/>
+	<asset name="groundFlat16Tmx" path="/xml/ground_flat_16.xml" type="Other"/>
+	<asset name="groundFlat17Tmx" path="/xml/ground_flat_17.xml" type="Other"/>
+	<asset name="groundFlat18Tmx" path="/xml/ground_flat_18.xml" type="Other"/>
+	<asset name="groundFlat19Tmx" path="/xml/ground_flat_19.xml" type="Other"/>
+	<asset name="groundFlat20Tmx" path="/xml/ground_flat_20.xml" type="Other"/>
+	<asset name="groundBridge01Tmx" path="/xml/ground_bridge_01.xml" type="Other"/>
+	<asset name="groundFlatTut1Tmx" path="/xml/ground_flat_tut_1.xml" type="Other"/>
+	<asset name="groundFlatTut2Tmx" path="/xml/ground_flat_tut_2.xml" type="Other"/>	
+	<asset name="groundFlatTut3Tmx" path="/xml/ground_flat_tut_3.xml" type="Other"/>	
+	<asset name="groundFlatTut4Tmx" path="/xml/ground_flat_tut_4.xml" type="Other"/>	
+	<asset name="groundFlatTut1TmxMobile" path="/xml/ground_flat_tut_1_mobile.xml" type="Other"/>
+	<asset name="groundFlatTut2TmxMobile" path="/xml/ground_flat_tut_2_mobile.xml" type="Other"/>	
+	<asset name="groundFlatTut3TmxMobile" path="/xml/ground_flat_tut_3_mobile.xml" type="Other"/>	
+	<asset name="groundFlatTut4TmxMobile" path="/xml/ground_flat_tut_4_mobile.xml" type="Other"/>		
+	
+	<asset name="groundTest1Tmx" path="/xml/ground_test_1.xml" type="Other"/>
+	<asset name="groundTest2Tmx" path="/xml/ground_test_2.xml" type="Other"/>
+	<asset name="groundTest3Tmx" path="/xml/ground_test_3.xml" type="Other"/>	
+	
+</loadBatch>
+
+<loadBatch name="gameplayLoad" basePath="./media">			
+	
+	
+</loadBatch>
+
+<loadBatch name="level1Load" basePath="./media">	
+</loadBatch>
+
+<loadBatch name="level2Load" basePath="./media">
+	<asset name="level2Tmx" path="/xml/level_1.xml" type="Other"/>
+</loadBatch>
+
+<loadBatch name="level3Load" basePath="./media">
+	<asset name="level3Tmx" path="/xml/level_1.xml" type="Other"/>
+</loadBatch>
+
+<loadBatch name="level4Load" basePath="./media">
+	<asset name="level4Tmx" path="/xml/level_1.xml" type="Other"/>
+</loadBatch>
+
+<loadBatch name="level5Load" basePath="./media">
+	<asset name="level5Tmx" path="/xml/level_1.xml" type="Other"/>
+</loadBatch>
+
+<loadBatch name="level6Load" basePath="./media">
+	<asset name="level6Tmx" path="/xml/level_1.xml" type="Other"/>
+</loadBatch>

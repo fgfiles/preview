@@ -1,0 +1,431 @@
+{
+    "hierarchy": {
+        "name": "lv9_tom",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "tail"
+                    },
+                    {
+                        "name": "leg_back1",
+                        "children": [
+                            {
+                                "name": "leg_back2",
+                                "children": [
+                                    {
+                                        "name": "foot_back"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lv5_amrb",
+                        "children": [
+                            {
+                                "name": "lv8_legl2",
+                                "children": [
+                                    {
+                                        "name": "lv8_handr"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "body",
+                        "children": [
+                            {
+                                "name": "arm1",
+                                "children": [
+                                    {
+                                        "name": "arm2",
+                                        "children": [
+                                            {
+                                                "name": "hand"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "head",
+                                "children": [
+                                    {
+                                        "name": "ear",
+                                        "children": [
+                                            {
+                                                "name": "base_anim",
+                                                "children": [
+                                                    {
+                                                        "name": "base"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "animations": [
+                                            "lv5_ear_anim"
+                                        ]
+                                    },
+                                    {
+                                        "name": "nose"
+                                    },
+                                    {
+                                        "name": "line1"
+                                    },
+                                    {
+                                        "name": "line2"
+                                    },
+                                    {
+                                        "name": "line3"
+                                    },
+                                    {
+                                        "name": "line4"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "leg_front1",
+                        "children": [
+                            {
+                                "name": "leg_front2",
+                                "children": [
+                                    {
+                                        "name": "foot_front"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "shoot"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv9_tom_stand",
+            "lv9_tom_out"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "container"
+        },
+        "base/tail": {
+            "file": "lv5_tail0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -170.7,
+                "y": -28.8
+            },
+            "type": "sprite"
+        },
+        "base/leg_back1": {
+            "file": "lv8_legr1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -110.6,
+                "y": 26.8
+            },
+            "angle": -59,
+            "anchor": {
+                "x": 0,
+                "y": 0.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/leg_back1/leg_back2": {
+            "file": "lv8_legr2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 60.1,
+                "y": 13.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/leg_back1/leg_back2/foot_back": {
+            "file": "lv8_footr.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23,
+                "y": 39.7
+            },
+            "angle": 49,
+            "anchor": {
+                "x": 0.1,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "base/lv5_amrb": {
+            "file": "lv8_armr1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 28.7,
+                "y": 9.3
+            },
+            "angle": -34,
+            "anchor": {
+                "x": 0,
+                "y": 0.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/lv5_amrb/lv8_legl2": {
+            "file": "lv8_armr2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 53.1,
+                "y": 8.3
+            },
+            "angle": -12,
+            "anchor": {
+                "x": 0.4,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/lv5_amrb/lv8_legl2/lv8_handr": {
+            "file": "lv8_handr.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 19.7,
+                "y": 40.9
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "base/body": {
+            "file": "lv8_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "base/body/arm1": {
+            "file": "lv8_arml1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16.7,
+                "y": -12.2
+            },
+            "angle": 307,
+            "anchor": {
+                "x": 0.9,
+                "y": 0.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/body/arm1/arm2": {
+            "file": "lv8_arml2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -66.3,
+                "y": 0.4
+            },
+            "angle": -18,
+            "anchor": {
+                "x": 0.2,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/body/arm1/arm2/hand": {
+            "file": "lv8_handl.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 18.8,
+                "y": 39.7
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "base/body/head": {
+            "file": "lv5_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83.2,
+                "y": -44.2
+            },
+            "type": "sprite"
+        },
+        "base/body/head/ear": {
+            "position": {
+                "x": -40.2,
+                "y": -29.3
+            },
+            "type": "container"
+        },
+        "base/body/head/ear/base_anim": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/body/head/ear/base_anim/base": {
+            "file": "lv5_ear0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/body/head/nose": {
+            "file": "lv5_face1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11.7,
+                "y": 31.7
+            },
+            "type": "sprite"
+        },
+        "base/body/head/line1": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.8,
+                "y": 26.8
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/line2": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.6,
+                "y": 30.2
+            },
+            "angle": -37,
+            "anchor": {
+                "x": 1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/line3": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.1,
+                "y": 32.9
+            },
+            "angle": 32,
+            "scale": {
+                "x": -0.82,
+                "y": 0.82
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/body/head/line4": {
+            "file": "lv5_face2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.4,
+                "y": 35.1
+            },
+            "angle": 67,
+            "scale": {
+                "x": -0.82,
+                "y": 0.82
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/leg_front1": {
+            "file": "lv8_legl1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -123.8,
+                "y": 24.1
+            },
+            "angle": 26,
+            "anchor": {
+                "x": 0.3,
+                "y": 0.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/leg_front1/leg_front2": {
+            "file": "lv8_legl2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.7,
+                "y": -78.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "base/leg_front1/leg_front2/foot_front": {
+            "file": "lv8_footl.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.2,
+                "y": 64.7
+            },
+            "angle": 49,
+            "anchor": {
+                "x": 0.1,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/shoot": {
+            "file": "3_hit3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 91,
+                "y": -71
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "hierarchy": {
+        "name": "gp_tom_head",
+        "children": [
+            {
+                "name": "gp_tom_neck"
+            },
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "gp_tom_eyes1"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "gp_tom_stand",
+            "gp_tom_move"
+        ]
+    },
+    "properties": {
+        "gp_tom_neck": {
+            "file": "2gp_tom_neck.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 85.1,
+                "y": 82.3
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "2gp_tom_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 69
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "base/gp_tom_eyes1": {
+            "file": "2gp_tom_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -40.1,
+                "y": -56.7
+            },
+            "type": "sprite"
+        }
+    }
+}

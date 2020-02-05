@@ -1,0 +1,40 @@
+{
+    "hierarchy": {
+        "name": "lv10_small_door",
+        "children": [
+            {
+                "name": "right_door"
+            },
+            {
+                "name": "left_door"
+            }
+        ],
+        "animations": [
+            "lv10_small_door_anim"
+        ]
+    },
+    "properties": {
+        "right_door": {
+            "file": "lv10_small_door0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 32.9,
+                "y": 1.5
+            },
+            "type": "sprite"
+        },
+        "left_door": {
+            "file": "lv10_small_door0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -33.1,
+                "y": 1.5
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

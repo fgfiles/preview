@@ -1,0 +1,73 @@
+{
+    "name": "lv_tom_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "lvlselect_tom": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 583,
+                    "value": 1.02
+                },
+                {
+                    "frame": 1167,
+                    "value": 1
+                },
+                {
+                    "frame": 1850,
+                    "value": 1.02
+                },
+                {
+                    "frame": 2500,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 583,
+                    "value": 0.95
+                },
+                {
+                    "frame": 1167,
+                    "value": 1
+                },
+                {
+                    "frame": 1850,
+                    "value": 0.95
+                },
+                {
+                    "frame": 2500,
+                    "value": 1
+                }
+            ]
+        },
+        "lvlselect_tom/tom_eyes1": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "tom_eyes1.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "tom_eyes2.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "tom_eyes3.png"
+                },
+                {
+                    "frame": 783,
+                    "value": "tom_eyes1.png"
+                }
+            ]
+        }
+    }
+}

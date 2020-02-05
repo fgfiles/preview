@@ -1,0 +1,80 @@
+{
+    "hierarchy": {
+        "name": "lv8_umbrella_container",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "standback"
+                    },
+                    {
+                        "name": "stick"
+                    },
+                    {
+                        "name": "umbrella"
+                    },
+                    {
+                        "name": "standfront"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv8_umbrella_container_anim"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/standback": {
+            "file": "standback.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/stick": {
+            "file": "stick.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.7,
+                "y": -8.8
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/umbrella": {
+            "file": "umbrella.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 30.4,
+                "y": -6.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "base/standfront": {
+            "file": "standfront.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.5,
+                "y": -19.6
+            },
+            "type": "sprite"
+        }
+    }
+}

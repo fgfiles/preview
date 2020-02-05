@@ -1,0 +1,212 @@
+{
+    "hierarchy": {
+        "name": "lv9_vase",
+        "children": [
+            {
+                "name": "lv9_rope1_0"
+            },
+            {
+                "name": "lv9_rope2_0"
+            },
+            {
+                "name": "vase1",
+                "children": [
+                    {
+                        "name": "vase_piece0"
+                    },
+                    {
+                        "name": "vase_piece10"
+                    },
+                    {
+                        "name": "vase_piece11"
+                    },
+                    {
+                        "name": "vase_piece1"
+                    },
+                    {
+                        "name": "vase_piece2"
+                    },
+                    {
+                        "name": "vase_piece3"
+                    },
+                    {
+                        "name": "vase_piece5"
+                    },
+                    {
+                        "name": "vase_piece4"
+                    },
+                    {
+                        "name": "vase_piece6"
+                    },
+                    {
+                        "name": "vase_piece7"
+                    },
+                    {
+                        "name": "vase_piece8"
+                    },
+                    {
+                        "name": "vase_piece9"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "lv9_vase_rope",
+            "lv9_vase_rope2",
+            "lv9_vase_rope2_2"
+        ]
+    },
+    "properties": {
+        "lv9_rope1_0": {
+            "file": "lv9_rope1_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.7,
+                "y": -118
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "lv9_rope2_0": {
+            "file": "lv9_rope2_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.7,
+                "y": -40.6
+            },
+            "type": "sprite"
+        },
+        "vase1": {
+            "file": "vase1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "vase1/vase_piece0": {
+            "file": "vase_piece0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.6,
+                "y": 24.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece10": {
+            "file": "vase_piece10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.8,
+                "y": -9.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece11": {
+            "file": "vase_piece11.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.4,
+                "y": -15.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece1": {
+            "file": "vase_piece1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.9,
+                "y": -33.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece2": {
+            "file": "vase_piece2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.6,
+                "y": -43.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece3": {
+            "file": "vase_piece3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.8,
+                "y": 4.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece5": {
+            "file": "vase_piece5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 29
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece4": {
+            "file": "vase_piece4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.5,
+                "y": -10
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece6": {
+            "file": "vase_piece6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.9,
+                "y": -1.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece7": {
+            "file": "vase_piece7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.9,
+                "y": -38.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece8": {
+            "file": "vase_piece8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.1,
+                "y": -4.3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "vase1/vase_piece9": {
+            "file": "vase_piece9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.3,
+                "y": 23.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

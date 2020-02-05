@@ -1,0 +1,126 @@
+{
+    "hierarchy": {
+        "name": "lv5_plant",
+        "children": [
+            {
+                "name": "leaf3_stem",
+                "children": [
+                    {
+                        "name": "leaf3"
+                    }
+                ]
+            },
+            {
+                "name": "leaf1_stem",
+                "children": [
+                    {
+                        "name": "leaf1"
+                    }
+                ]
+            },
+            {
+                "name": "leaf2_stem"
+            },
+            {
+                "name": "plantevasel"
+            },
+            {
+                "name": "leaf2"
+            }
+        ],
+        "animations": [
+            "lv5_plant_anim",
+            "lv10_plant_anim_in",
+            "lv10_plant_anim_out"
+        ]
+    },
+    "properties": {
+        "leaf3_stem": {
+            "file": "leaf3_stem.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.3,
+                "y": -15.6
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "leaf3_stem/leaf3": {
+            "file": "leaf3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.3,
+                "y": -97.5
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "leaf1_stem": {
+            "file": "leaf1_stem.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 3.6,
+                "y": 8.2
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "leaf1_stem/leaf1": {
+            "file": "leaf1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.1,
+                "y": -88.5
+            },
+            "anchor": {
+                "x": 0.8,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "leaf2_stem": {
+            "file": "leaf2_stem.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.9,
+                "y": -14.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "plantevasel": {
+            "file": "plantevasel.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "leaf2": {
+            "file": "leaf2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 13.6,
+                "y": -79.8
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.2
+            },
+            "type": "sprite"
+        }
+    }
+}

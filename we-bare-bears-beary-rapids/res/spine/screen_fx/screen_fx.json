@@ -1,0 +1,202 @@
+{
+"skeleton": { "hash": "7jv6KG+q9b2DYE9SY7PmDtPS10A", "spine": "2.1.27", "width": 294, "height": 223, "images": "./../PNG/efecto tele/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "white_black", "parent": "root" }
+],
+"slots": [
+	{ "name": "efecto_tele_normal", "bone": "root", "attachment": "efecto_tele_normal" },
+	{ "name": "efecto_tele_normal2", "bone": "root" },
+	{ "name": "efecto_tele_normal3", "bone": "root" },
+	{ "name": "efecto_tele_normal4", "bone": "root" },
+	{ "name": "efecto_tele_normal5", "bone": "root" },
+	{ "name": "efecto_tele_normal6", "bone": "root" },
+	{ "name": "efecto_tele_normal7", "bone": "root" },
+	{ "name": "efecto_tele_normal8", "bone": "root" },
+	{ "name": "black", "bone": "white_black", "attachment": "white" }
+],
+"skins": {
+	"default": {
+		"black": {
+			"white": { "x": -5.58, "y": 46.67, "width": 290, "height": 223 }
+		},
+		"efecto_tele_normal": {
+			"efecto_tele_normal": { "x": -3.95, "y": 148.15, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal2": {
+			"efecto_tele_normal": { "x": -4.98, "y": 123.35, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal3": {
+			"efecto_tele_normal": { "x": -2.49, "y": 92.95, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal4": {
+			"efecto_tele_normal": { "x": -4.98, "y": 62.09, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal5": {
+			"efecto_tele_normal": { "x": -2.14, "y": 32.09, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal6": {
+			"efecto_tele_normal": { "x": -5.89, "y": 5.33, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal7": {
+			"efecto_tele_normal": { "x": -6.08, "y": -19.35, "width": 294, "height": 20 }
+		},
+		"efecto_tele_normal8": {
+			"efecto_tele_normal": { "x": -6.24, "y": -48.49, "width": 294, "height": 20 }
+		}
+	}
+},
+"animations": {
+	"screen_fx": {
+		"slots": {
+			"black": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"efecto_tele_normal": {
+				"attachment": [
+					{ "time": 0, "name": "efecto_tele_normal" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1333, "name": "efecto_tele_normal" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"efecto_tele_normal2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "efecto_tele_normal" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"efecto_tele_normal3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "efecto_tele_normal" },
+					{ "time": 0.3333, "name": "efecto_tele_normal" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.4666, "name": "efecto_tele_normal" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.6, "name": "efecto_tele_normal" },
+					{ "time": 0.6666, "name": null },
+					{ "time": 0.7333, "name": "efecto_tele_normal" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"efecto_tele_normal4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "efecto_tele_normal" },
+					{ "time": 0.4666, "name": null },
+					{ "time": 0.6666, "name": "efecto_tele_normal" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"efecto_tele_normal5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "efecto_tele_normal" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.7333, "name": "efecto_tele_normal" },
+					{ "time": 0.8, "name": null },
+					{ "time": 0.8666, "name": "efecto_tele_normal" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"efecto_tele_normal6": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8, "name": "efecto_tele_normal" },
+					{ "time": 0.8666, "name": null },
+					{ "time": 0.9333, "name": "efecto_tele_normal" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"efecto_tele_normal7": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.8666, "name": "efecto_tele_normal" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"efecto_tele_normal8": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": "efecto_tele_normal" }
+				]
+			}
+		}
+	},
+	"screen_fx_fade": {
+		"slots": {
+			"black": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.402, 0.99 ]
+					},
+					{
+						"time": 0.2333,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.402, 0.99 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"efecto_tele_normal": {
+				"attachment": [
+					{ "time": 0, "name": "efecto_tele_normal" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1333, "name": "efecto_tele_normal" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"efecto_tele_normal2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "efecto_tele_normal" },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"efecto_tele_normal3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "efecto_tele_normal" },
+					{ "time": 0.3333, "name": "efecto_tele_normal" },
+					{ "time": 0.4, "name": null },
+					{ "time": 0.4666, "name": "efecto_tele_normal" }
+				]
+			},
+			"efecto_tele_normal4": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4, "name": "efecto_tele_normal" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"efecto_tele_normal5": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.4666, "name": "efecto_tele_normal" }
+				]
+			},
+			"efecto_tele_normal6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"efecto_tele_normal7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"efecto_tele_normal8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	}
+}
+}

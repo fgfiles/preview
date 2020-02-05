@@ -1,0 +1,97 @@
+{
+    "name": "gp_tom_move",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        69
+                    ]
+                },
+                {
+                    "frame": 167,
+                    "value": [
+                        3.9,
+                        72.2
+                    ]
+                },
+                {
+                    "frame": 300,
+                    "value": [
+                        9.6,
+                        68.2
+                    ]
+                },
+                {
+                    "frame": 550,
+                    "value": [
+                        0,
+                        69
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 167,
+                    "value": 0.91
+                },
+                {
+                    "frame": 300,
+                    "value": 1.02
+                },
+                {
+                    "frame": 550,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": -10
+                },
+                {
+                    "frame": 300,
+                    "value": 7
+                },
+                {
+                    "frame": 550,
+                    "value": 0
+                }
+            ]
+        },
+        "base/gp_tom_eyes1": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "2gp_tom_eyes1.png"
+                },
+                {
+                    "frame": 117,
+                    "value": "2gp_tom_eyes3.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "2gp_tom_eyes1.png"
+                }
+            ]
+        }
+    }
+}

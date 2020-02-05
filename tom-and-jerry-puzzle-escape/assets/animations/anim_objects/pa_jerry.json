@@ -1,0 +1,140 @@
+{
+    "hierarchy": {
+        "name": "pa_jerry",
+        "children": [
+            {
+                "name": "jerry_arm_l1",
+                "children": [
+                    {
+                        "name": "jerry_arm_l2"
+                    }
+                ]
+            },
+            {
+                "name": "jerry_tail"
+            },
+            {
+                "name": "jerry_legs",
+                "children": [
+                    {
+                        "name": "jerry_body",
+                        "children": [
+                            {
+                                "name": "jerry_head"
+                            },
+                            {
+                                "name": "jerry_arm_r1",
+                                "children": [
+                                    {
+                                        "name": "jerry_arm_r2"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "jerry_pause_anim"
+        ]
+    },
+    "properties": {
+        "jerry_arm_l1": {
+            "file": "jerry_arm_l1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -5.9,
+                "y": -5.2
+            },
+            "anchor": {
+                "x": 0.7,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "jerry_arm_l1/jerry_arm_l2": {
+            "file": "jerry_arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9.5,
+                "y": -12.3
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "jerry_tail": {
+            "file": "jerry_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 22.2,
+                "y": 21
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "jerry_legs": {
+            "file": "jerry_legs.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 14.7,
+                "y": 35.6
+            },
+            "type": "sprite"
+        },
+        "jerry_legs/jerry_body": {
+            "file": "jerry_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9.6,
+                "y": -26.3
+            },
+            "type": "sprite"
+        },
+        "jerry_legs/jerry_body/jerry_head": {
+            "file": "jerry_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.4,
+                "y": -18.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "jerry_legs/jerry_body/jerry_arm_r1": {
+            "file": "jerry_arm_r1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.3,
+                "y": -17.1
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "jerry_legs/jerry_body/jerry_arm_r1/jerry_arm_r2": {
+            "file": "jerry_arm_r2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.6,
+                "y": 8.8
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.1
+            },
+            "type": "sprite"
+        }
+    }
+}

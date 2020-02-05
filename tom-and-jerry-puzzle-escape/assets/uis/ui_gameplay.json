@@ -1,0 +1,93 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "pause_button"
+            },
+            {
+                "name": "start_message_pivot"
+            },
+            {
+                "name": "cheese_counter",
+                "children": [
+                    {
+                        "name": "cheese_number"
+                    },
+                    {
+                        "name": "gp_cheese_counter_pivot"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "pause_button": {
+            "file": "pausebtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "pausebtn.png",
+                "pressed": "pausebtn_gray.png",
+                "hover": "pausebtn.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "TOP_RIGHT",
+                "offset": {
+                    "x": -18,
+                    "y": -20
+                }
+            }
+        },
+        "start_message_pivot": {
+            "file": "1x1.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "cheese_counter": {
+            "file": "cheese_counter.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "TOP_LEFT",
+                "offset": {
+                    "x": -18.5,
+                    "y": -19.1
+                }
+            }
+        },
+        "cheese_counter/cheese_number": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 30,
+                "lineHeight": 30
+            },
+            "text": "2/3",
+            "align": "center",
+            "position": {
+                "x": 24.6,
+                "y": -0.4
+            },
+            "color": "#027ee8",
+            "type": "text"
+        },
+        "cheese_counter/gp_cheese_counter_pivot": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        }
+    }
+}

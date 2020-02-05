@@ -1,0 +1,42 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "comic_pivot"
+            },
+            {
+                "name": "next_button_pivot"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "comic_pivot": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "next_button_pivot": {
+            "size": {
+                "width": 144,
+                "height": 118
+            },
+            "type": "container",
+            "alignment": {
+                "type": "BOTTOM_RIGHT",
+                "offset": {
+                    "x": -24.5,
+                    "y": -40.5
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "hierarchy": {
+        "name": "lv_stage",
+        "children": [
+            {
+                "name": "door_open",
+                "children": [
+                    {
+                        "name": "level_door_l"
+                    },
+                    {
+                        "name": "level_door_r"
+                    },
+                    {
+                        "name": "block3"
+                    },
+                    {
+                        "name": "block2"
+                    },
+                    {
+                        "name": "block1"
+                    },
+                    {
+                        "name": "exp"
+                    },
+                    {
+                        "name": "number"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "stage1_anim",
+            "stage1_stand",
+            "stage2_stand",
+            "stage3_stand",
+            "stage4_stand",
+            "stage5_stand",
+            "stage6_stand",
+            "stage7_stand",
+            "stage8_stand",
+            "stage9_stand",
+            "stage10_stand",
+            "stage10_anim",
+            "stage2_anim",
+            "stage3_anim",
+            "stage4_anim",
+            "stage5_anim",
+            "stage6_anim",
+            "stage7_anim",
+            "stage8_anim",
+            "stage9_anim"
+        ]
+    },
+    "properties": {
+        "door_open": {
+            "file": "door_open.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "door_open/level_door_l": {
+            "file": "level_door_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39.7,
+                "y": 36.4
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "door_open/level_door_r": {
+            "file": "level_door_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 38.9,
+                "y": 38.4
+            },
+            "anchor": {
+                "x": 1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "door_open/block3": {
+            "file": "block3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 13.5
+            },
+            "type": "sprite"
+        },
+        "door_open/block2": {
+            "file": "block2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 36.2
+            },
+            "type": "sprite"
+        },
+        "door_open/block1": {
+            "file": "block1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.7,
+                "y": 12.6
+            },
+            "type": "sprite"
+        },
+        "door_open/exp": {
+            "file": "level_exp4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.9,
+                "y": 16.5
+            },
+            "type": "sprite"
+        },
+        "door_open/number": {
+            "file": "1_red.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -30.9
+            },
+            "type": "sprite"
+        }
+    }
+}

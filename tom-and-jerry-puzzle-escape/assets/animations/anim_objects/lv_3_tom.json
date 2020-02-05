@@ -1,0 +1,93 @@
+{
+    "hierarchy": {
+        "name": "lv_3_tom",
+        "children": [
+            {
+                "name": "neck",
+                "children": [
+                    {
+                        "name": "head1",
+                        "children": [
+                            {
+                                "name": "eyes1"
+                            },
+                            {
+                                "name": "eye_left"
+                            },
+                            {
+                                "name": "eye_right"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "hit"
+            }
+        ],
+        "animations": [
+            "lv_3_tom_stand",
+            "lv_3_tom_hit"
+        ]
+    },
+    "properties": {
+        "neck": {
+            "file": "3_neck.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "neck/head1": {
+            "file": "3_head1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.3,
+                "y": 13.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "neck/head1/eyes1": {
+            "file": "3_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.5,
+                "y": -94.1
+            },
+            "type": "sprite"
+        },
+        "neck/head1/eye_left": {
+            "file": "3_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -12.2,
+                "y": -102.9
+            },
+            "type": "sprite"
+        },
+        "neck/head1/eye_right": {
+            "file": "3_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 18.3,
+                "y": -96.8
+            },
+            "type": "sprite"
+        },
+        "hit": {
+            "file": "3_hit3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12,
+                "y": -152
+            },
+            "type": "sprite"
+        }
+    }
+}

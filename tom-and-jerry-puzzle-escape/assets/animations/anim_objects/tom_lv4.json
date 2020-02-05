@@ -1,0 +1,263 @@
+{
+    "hierarchy": {
+        "name": "tom_lv4",
+        "children": [
+            {
+                "name": "4_tail",
+                "children": [
+                    {
+                        "name": "4_tail_fire1"
+                    }
+                ]
+            },
+            {
+                "name": "4_leg1",
+                "children": [
+                    {
+                        "name": "4_leg2",
+                        "children": [
+                            {
+                                "name": "4_foot"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "4_armr1",
+                "children": [
+                    {
+                        "name": "4_armr2",
+                        "children": [
+                            {
+                                "name": "4_handr"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "4_body",
+                "children": [
+                    {
+                        "name": "4_leg1",
+                        "children": [
+                            {
+                                "name": "4_leg2",
+                                "children": [
+                                    {
+                                        "name": "4_foot"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4_neck",
+                        "children": [
+                            {
+                                "name": "4_head"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4_amrl1",
+                        "children": [
+                            {
+                                "name": "4_arml2",
+                                "children": [
+                                    {
+                                        "name": "4_handl"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "lv4_tail_smoke1"
+            },
+            {
+                "name": "lv4_fxout_0"
+            }
+        ],
+        "animations": [
+            "tom_lv4_loop",
+            "tom_lv4_out"
+        ]
+    },
+    "properties": {
+        "4_tail": {
+            "file": "4_tail.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -104,
+                "y": 35.7
+            },
+            "type": "sprite"
+        },
+        "4_tail/4_tail_fire1": {
+            "file": "4_tail_fire4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "4_leg1": {
+            "file": "4_leg1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.1,
+                "y": 67.7
+            },
+            "type": "sprite"
+        },
+        "4_leg1/4_leg2": {
+            "file": "4_leg2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.7,
+                "y": 42.9
+            },
+            "type": "sprite"
+        },
+        "4_leg1/4_leg2/4_foot": {
+            "file": "4_foot.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.3,
+                "y": 26.3
+            },
+            "type": "sprite"
+        },
+        "4_armr1": {
+            "file": "4_armr1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 60.4,
+                "y": -37.9
+            },
+            "type": "sprite"
+        },
+        "4_armr1/4_armr2": {
+            "file": "4_armr2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 39.8,
+                "y": 31.7
+            },
+            "type": "sprite"
+        },
+        "4_armr1/4_armr2/4_handr": {
+            "file": "4_handr.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 31.7,
+                "y": 33.1
+            },
+            "type": "sprite"
+        },
+        "4_body": {
+            "file": "4_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.4,
+                "y": 4.5
+            },
+            "type": "sprite"
+        },
+        "4_body/4_leg1": {
+            "file": "4_leg1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -26,
+                "y": 67.7
+            },
+            "type": "sprite"
+        },
+        "4_body/4_leg1/4_leg2": {
+            "file": "4_leg2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.7,
+                "y": 42.9
+            },
+            "type": "sprite"
+        },
+        "4_body/4_leg1/4_leg2/4_foot": {
+            "file": "4_foot.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 8.3,
+                "y": 26.3
+            },
+            "type": "sprite"
+        },
+        "4_body/4_neck": {
+            "file": "4_neck.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 40.2,
+                "y": -83.4
+            },
+            "type": "sprite"
+        },
+        "4_body/4_neck/4_head": {
+            "file": "4_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15.6,
+                "y": -36.2
+            },
+            "type": "sprite"
+        },
+        "4_body/4_amrl1": {
+            "file": "4_amrl1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.4,
+                "y": -39.6
+            },
+            "type": "sprite"
+        },
+        "4_body/4_amrl1/4_arml2": {
+            "file": "4_arml2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12.3,
+                "y": 26.4
+            },
+            "type": "sprite"
+        },
+        "4_body/4_amrl1/4_arml2/4_handl": {
+            "file": "4_handl.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 39.7,
+                "y": 31.1
+            },
+            "type": "sprite"
+        },
+        "lv4_tail_smoke1": {
+            "file": "lv4_tail_smoke7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -145.9,
+                "y": -52.2
+            },
+            "type": "sprite"
+        },
+        "lv4_fxout_0": {
+            "file": "lv4_fxout_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2,
+                "y": 58
+            },
+            "type": "sprite"
+        }
+    }
+}

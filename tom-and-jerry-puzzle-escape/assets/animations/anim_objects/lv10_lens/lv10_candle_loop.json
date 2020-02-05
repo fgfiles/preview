@@ -1,0 +1,51 @@
+{
+    "name": "lv10_candle_loop",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "lv10_lens_shine0": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "lv10_candle0": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv10_candle0.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv10_candle1.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lv10_candle2.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "lv10_candle3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "lv10_candle0.png"
+                }
+            ]
+        }
+    }
+}

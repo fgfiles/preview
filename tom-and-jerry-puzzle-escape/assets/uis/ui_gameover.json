@@ -1,0 +1,97 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "restart_button"
+            },
+            {
+                "name": "home_button"
+            },
+            {
+                "name": "character_pivot"
+            },
+            {
+                "name": "title"
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 960,
+                "height": 640
+            },
+            "type": "canvas"
+        },
+        "restart_button": {
+            "file": "restart_btn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "restart_btn.png",
+                "pressed": "restartbtn_gray.png",
+                "hover": "restart_btn.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -36
+                }
+            }
+        },
+        "home_button": {
+            "file": "homebtn.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "homebtn.png",
+                "pressed": "homebtn_gray.png",
+                "hover": "homebtn.png"
+            },
+            "type": "button",
+            "alignment": {
+                "type": "BOTTOM_CENTER",
+                "offset": {
+                    "x": -145.1,
+                    "y": -50.2
+                }
+            }
+        },
+        "character_pivot": {
+            "size": {
+                "width": 1,
+                "height": 1
+            },
+            "type": "container",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": -19,
+                    "y": -319.5
+                }
+            }
+        },
+        "title": {
+            "font": {
+                "name": "supersonic_rocketshipregular",
+                "fontSize": 103,
+                "lineHeight": 110
+            },
+            "text": "GAMEOVER",
+            "align": "center",
+            "stroke": "#8a0000",
+            "strokeThickness": 10,
+            "type": "text",
+            "alignment": {
+                "type": "TOP_CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -57
+                }
+            }
+        }
+    }
+}

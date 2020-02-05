@@ -1,0 +1,24 @@
+{
+    "hierarchy": {
+        "name": "candle",
+        "children": [
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "candle_fire_loop"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "candle_fire0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

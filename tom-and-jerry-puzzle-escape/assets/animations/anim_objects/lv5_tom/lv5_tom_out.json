@@ -1,0 +1,371 @@
+{
+    "name": "lv5_tom_out",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "tail": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -170.7,
+                        -35.7
+                    ]
+                },
+                {
+                    "frame": 33,
+                    "value": [
+                        -170.3,
+                        -38.8
+                    ]
+                },
+                {
+                    "frame": 67,
+                    "value": [
+                        -170.3,
+                        -31.8
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        -170.7,
+                        -35.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 33,
+                    "value": 2
+                },
+                {
+                    "frame": 67,
+                    "value": -3
+                },
+                {
+                    "frame": 150,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv5_tail4-1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv5_tail4-2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lv5_tail4-3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "lv5_tail4-1.png"
+                }
+            ]
+        },
+        "lv5_amrb": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        124.6,
+                        10.4
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        124.6,
+                        10.4
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 150,
+                    "value": 0
+                }
+            ]
+        },
+        "body": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -36.8
+                    ]
+                },
+                {
+                    "frame": 67,
+                    "value": [
+                        0,
+                        -38
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        0,
+                        -36.8
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 150,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv5_body2-1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv5_body2-2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lv5_body2-3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "lv5_body2-1.png"
+                }
+            ]
+        },
+        "body/arm1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        87.9,
+                        37.3
+                    ]
+                },
+                {
+                    "frame": 50,
+                    "value": [
+                        86.2,
+                        37.3
+                    ]
+                },
+                {
+                    "frame": 100,
+                    "value": [
+                        89,
+                        37.3
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        87.9,
+                        37.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 50,
+                    "value": 1
+                },
+                {
+                    "frame": 100,
+                    "value": -1
+                },
+                {
+                    "frame": 150,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv5_armf-1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "lv5_armf-2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lv5_armf-3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "lv5_armf-1.png"
+                }
+            ]
+        },
+        "body/arm1/arm2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -1.3,
+                        50
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -18
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv5_arm2_2.png"
+                }
+            ]
+        },
+        "body/arm1/arm2/hand": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        4.4,
+                        45.2
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lv5_hand_2.png"
+                }
+            ]
+        },
+        "body/head": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "frameName": []
+        },
+        "body/head/lv5_ear/base_anim": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "body/head/nose": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "body/head/line1": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "body/head/line2": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "body/head/line3": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "body/head/line4": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "trap_fx0": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "trap_fx4.png"
+                }
+            ]
+        }
+    }
+}

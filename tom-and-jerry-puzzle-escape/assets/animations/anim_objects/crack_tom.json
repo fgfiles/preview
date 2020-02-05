@@ -1,0 +1,87 @@
+{
+    "hierarchy": {
+        "name": "crack_tom",
+        "children": [
+            {
+                "name": "crack",
+                "children": [
+                    {
+                        "name": "gp_tom_eyes1"
+                    },
+                    {
+                        "name": "eye_l"
+                    },
+                    {
+                        "name": "eye_r"
+                    },
+                    {
+                        "name": "head"
+                    },
+                    {
+                        "name": "nose"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "crack_tom_anim",
+            "crack_tom_anim2"
+        ]
+    },
+    "properties": {
+        "crack": {
+            "file": "crack01.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "crack/gp_tom_eyes1": {
+            "file": "gp_tom_eyes1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 78,
+                "y": 4.3
+            },
+            "type": "sprite"
+        },
+        "crack/eye_l": {
+            "file": "gp_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 47.4,
+                "y": 11
+            },
+            "type": "sprite"
+        },
+        "crack/eye_r": {
+            "file": "gp_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 99.7,
+                "y": 11.5
+            },
+            "type": "sprite"
+        },
+        "crack/head": {
+            "file": "head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 77.4,
+                "y": -21.7
+            },
+            "type": "sprite"
+        },
+        "crack/nose": {
+            "file": "nose.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 76.9,
+                "y": 44.6
+            },
+            "type": "sprite"
+        }
+    }
+}

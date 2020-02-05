@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "lv8_umbrella",
+        "children": [
+            {
+                "name": "umbrella0"
+            }
+        ],
+        "animations": [
+            "lv8_umbrella_loop",
+            "lv8_umbrella_open"
+        ]
+    },
+    "properties": {
+        "umbrella0": {
+            "file": "umbrella0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

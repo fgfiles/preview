@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4ab4e1c30d81b39980625a4094b841ba:4a1d49be1abe26be0f87956916ca9817:6b635c1945ba4f232c4468f831c45cdf$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="jerry-run.png" width="256" height="256">
+    <sprite n="jerry-run-001.png" x="2" y="150" w="78" h="80" oX="5" oY="4" oW="84" oH="84"/>
+    <sprite n="jerry-run-002.png" x="2" y="76" w="80" h="72" oX="3" oY="0" oW="84" oH="84"/>
+    <sprite n="jerry-run-003.png" x="172" y="2" w="80" h="76" oX="4" oY="6" oW="84" oH="84"/>
+    <sprite n="jerry-run-004.png" x="82" y="150" w="70" h="76" oX="13" oY="7" oW="84" oH="84"/>
+    <sprite n="jerry-run-005.png" x="2" y="2" w="84" h="72" oX="0" oY="0" oW="84" oH="84"/>
+    <sprite n="jerry-run-006.png" x="88" y="2" w="82" h="76" oX="1" oY="6" oW="84" oH="84"/>
+    <sprite n="jerry-run-007.png" x="154" y="80" w="70" h="74" oX="13" oY="9" oW="84" oH="84"/>
+</TextureAtlas>

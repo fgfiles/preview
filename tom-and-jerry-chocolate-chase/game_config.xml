@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameConfig>
+	
+	<!--
+	0 = Voice Overs; No Subtitles
+	1 = No Voice Overs; Subtitles
+	2 = Voice Overs; Subtitles -->
+	<property name="speechMode" value="1" />	
+	
+	<property name="keyLeft" value="37" />
+	<property name="keyRight" value="39" />
+	<property name="keyUp" value="38" />
+	<property name="keyDown" value="40" />
+	<property name="keyC" value="67" />
+	<property name="keySpace" value="32" />
+
+	<property name="isLandscapeAllowed" value="1" />
+	<property name="isPortraitAllowed" value="0" />
+	
+	<property name="debugDraw" value="0" /> <!-- values: 1; 0 -->
+	<property name="debugCheats" value="0" />
+	<property name="forceOrientation" value="NONE" /> <!-- values: HORIZONTAL; VERTICAL; NONE-->
+	<property name="scaleToScreenOnDesktop" value="0" /> <!-- values: 1; 0 -->
+	
+	<property name="isLandscapeAllowedIPad" value="1" />
+	<property name="isPortraitAllowedIPad" value="0" />
+	
+	<property name="isLandscapeAllowedIPhone" value="1" />
+	<property name="isPortraitAllowedIPhone" value="0" />
+	
+	<property name="homeButtonEnabled" value="1" /> <!-- values: 1; 0 -->
+	<property name="homeUrl" value="" />
+
+	<property name="browserTimerUpdate" value="0" />
+	
+	<property name="numLevels" value="6" />
+	
+	<property name="swipeUpToJump" value="0" />
+		
+	<property name="box2d.gravityX" value="0" />
+	<property name="box2d.gravityY" value="120" />
+
+	<property name="tom.initialDistance" value="400" />
+	<property name="tom.maxDistance" value="350" />
+	<property name="tom.speed" value="5" />
+	
+	<property name="cheese.meterValue" value="1" />		
+	
+	<property name="superCheese.meterValue" value="5" />		
+	<property name="superCheese.invincibilityDuration" value="3" />		
+	
+	<property name="baseCharacter.movementSpeed" value="800" />
+	<property name="baseCharacter.maxMovementSpeed" value="1200"/>
+	<property name="baseCharacter.flySpeed" value="600" />
+	<property name="baseCharacter.maxFlySpeed" value="1000"/>
+	<property name="baseCharacter.accelerationSpeed" value="1200" />
+	<property name="baseCharacter.deccelerationSpeed" value="1500" />
+	<property name="baseCharacter.jumpPower" value="1250" />
+	<property name="baseCharacter.dropThroughVelocity" value="250" />
+	<property name="baseCharacter.maxFallSpeed" value="805" />
+	<property name="baseCharacter.speedIncreasePerMeter" value="0.25"/>
+	<property name="baseCharacter.metersUntilSpeedIncrease" value="500"/>
+	
+	<property name="baseCharacter.baseHitPoints" value="3" />
+	<property name="baseCharacter.baseScale" value="1.0" />
+	<property name="baseCharacter.knockbackPower" value="950" />
+	<property name="baseCharacter.knockbackX" value="-1" />
+	<property name="baseCharacter.knockbackY" value="-2" />
+	
+	<property name="wonderWomanAlt.cost" value="1000"/>
+	<property name="wonderWoman.lassoCooldown" value="5"/>
+
+	<property name="superGirl.cost" value="1000"/>
+	<property name="superGirlAlt.cost" value="2000"/>
+	<property name="superGirl.heatVisionCooldown" value="5"/>
+
+	<property name="bumbleBee.cost" value="500"/>
+	<property name="bumbleBeeAlt.cost" value="1500"/>
+	<property name="bumbleBee.shrinkDuration" value="5" />
+	<property name="bumbleBee.shrinkCooldown" value="10"/>
+	<property name="bumbleBee.shrinkScale" value="0.5"/>
+	
+	<property name="batgirl.cost" value="1500"/>
+	<property name="batgirlAlt.cost" value="2500"/>
+	<property name="batgirl.batarangCooldown" value="5"/>
+	
+	<property name="upgrades.cheeseMagnet.level0" value="3" />
+	<property name="upgrades.cheeseMagnet.level1" value="5" />
+	<property name="upgrades.cheeseMagnet.level2" value="10" />
+	<property name="upgrades.cheeseMagnet.level3" value="15" />
+	<property name="upgrades.cheeseMagnet.level4" value="20" />
+	
+	<property name="upgrades.invincibility.level0" value="2" />
+	<property name="upgrades.invincibility.level1" value="4" />
+	<property name="upgrades.invincibility.level2" value="6" />
+	<property name="upgrades.invincibility.level3" value="8" />
+	<property name="upgrades.invincibility.level4" value="10" />
+	
+	<property name="upgrades.cheeseMultiplier.level0" value="1" />
+	<property name="upgrades.cheeseMultiplier.level1" value="1" />
+	<property name="upgrades.cheeseMultiplier.level2" value="1" />
+	<property name="upgrades.cheeseMultiplier.level3" value="1" />
+	<property name="upgrades.cheeseMultiplier.level4" value="1" />
+
+	<property name="upgrades.reduceCooldown.level0" value="0.0" />
+	<property name="upgrades.reduceCooldown.level1" value="0.2" />
+	<property name="upgrades.reduceCooldown.level2" value="0.4" />
+	<property name="upgrades.reduceCooldown.level3" value="0.6" />
+	<property name="upgrades.reduceCooldown.level4" value="0.8" />
+	
+	<property name="upgrades.health.level1" value="0" />
+	<property name="upgrades.health.level2" value="0" />
+	<property name="upgrades.health.level3" value="0" />
+	<property name="upgrades.health.level4" value="0" />
+	
+	<property name="coinMagnet.minPullPower" value="500" />
+	<property name="coinMagnet.maxPullPower" value="1750" />
+	<property name="coinMagnet.pullRange" value="500" />
+	
+	<property name="game.pixelsToMeters" value="50" />
+	<property name="game.baseItemCollectionRange" value="25" />
+	<property name="game.baseCameraZoom" value="0.8" />	
+	<property name="game.flyingLaneHeight" value="185" />
+	<property name="game.obstaclePathSpeed" value="3"/>	
+	<property name="game.minPullPower" value="750" />
+	<property name="game.maxPullPower" value="1500" />
+	<property name="game.pullRange" value="75" />
+	<property name="game.maxPowerupPullRange" value="150" />
+	<property name="game.baseCharacterLeadX" value="275" />
+	<property name="game.baseDistanceGoal" value="450" />
+	<property name="game.distanceGoalIncrementPerWin" value="50" />
+	
+	<!--maxGoals determines how many tiers of goals there are. Should be the same for each goal.-->
+	<property name="game.goal.maxGoals" value="5" />
+	
+	<property name="game.goal.piecesOfCheese1" value="50" />
+	<property name="game.goal.piecesOfCheese2" value="100" />
+	<property name="game.goal.piecesOfCheese3" value="200" />
+	<property name="game.goal.piecesOfCheese4" value="400" />
+	<property name="game.goal.piecesOfCheese5" value="600" />
+	
+	<property name="game.goal.DistanceToRun1" value="100" />
+	<property name="game.goal.DistanceToRun2" value="200" />
+	<property name="game.goal.DistanceToRun3" value="300" />
+	<property name="game.goal.DistanceToRun4" value="400" />
+	<property name="game.goal.DistanceToRun5" value="500" />
+		
+	<property name="game.goal.cheeseCharge1" value="1" />
+	<property name="game.goal.cheeseCharge2" value="3" />
+	<property name="game.goal.cheeseCharge3" value="6" />
+	<property name="game.goal.cheeseCharge4" value="9" />
+	<property name="game.goal.cheeseCharge5" value="12" />
+	
+	<property name="level1.startFlying" value="0" />
+	<property name="level1.pieces" value="groundFlat1Tmx,groundFlat1TutorialTmx,groundFlat2Tmx,groundFlat3Tmx,groundFlat4Tmx,groundFlat5Tmx,groundFlat6Tmx,groundFlat7Tmx,groundFlat8Tmx,groundFlat9Tmx,groundFlat10Tmx,groundFlat11Tmx,groundFlat12Tmx,groundFlat13Tmx,groundFlat14Tmx,groundFlat16Tmx,groundFlat18Tmx,groundFlat19Tmx,groundFlat20Tmx,groundBridge01Tmx,groundFlatTut1Tmx,groundFlatTut2Tmx,groundFlatTut3Tmx,groundFlatTut4Tmx,groundTest1Tmx,groundTest2Tmx,groundTest3Tmx" />
+	<property name="level1.pieces.mobile" value="groundFlat1Tmx,groundFlat1TutorialTmx,groundFlat2Tmx,groundFlat3Tmx,groundFlat4Tmx,groundFlat5Tmx,groundFlat6Tmx,groundFlat7Tmx,groundFlat8Tmx,groundFlat9Tmx,groundFlat10Tmx,groundFlat11Tmx,groundFlat12Tmx,groundFlat13Tmx,groundFlat14Tmx,groundFlat16Tmx,groundFlat17Tmx,groundFlat18Tmx,groundFlat19Tmx,groundFlat20Tmx,groundBridge01Tmx,groundFlatTut1TmxMobile,groundFlatTut2TmxMobile,groundFlatTut3TmxMobile,groundFlatTut4TmxMobile,groundTest1Tmx,groundTest2Tmx,groundTest3Tmx" />
+
+	<property name = "cheese.scoreValue" value = "5"/>
+
+<!-- 	<property name="level1.pieces" value="groundTile1Tmx,groundTile3Tmx,flyTile1Tmx,flyTile2Tmx,flyTile1StartTmx,flyTileCity2Tmx,flyTileCity3aTmx,flyTileCity3bTmx,flyTile3aTmx,flyTile3bTmx,flyTile3cTmx,groundTile5aTmx,groundTile5bTmx,groundTile6aTmx,groundTile6bTmx,groundTile7aTmx,groundTile7bTmx,groundTile8aTmx,groundTile8bTmx,groundTile8cTmx,groundTile9aTmx,groundTile9bTmx,groundTile9cTmx,groundTile9dTmx,groundTile10aTmx,groundTile10bTmx,groundTile10cTmx,groundTile11aTmx,groundTile11bTmx,groundTile11cTmx,groundTile11dTmx,groundTile11eTmx,groundTile12aTmx,groundTile12bTmx,groundTile12cTmx,groundTile13aTmx,groundTile13bTmx,groundTile13cTmx" /> -->
+	
+</gameConfig>

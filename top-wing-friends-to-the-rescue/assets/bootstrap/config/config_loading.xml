@@ -1,0 +1,152 @@
+<config>
+
+	<!-- CHUNKS -->
+    <!-- Define bundles of folders and other chunks to load -->
+    
+    <chunks>
+    	<!-- EX
+    	<chunk id="chunk">
+			<pack>load_part_1</pack> - loads a folder in assets named "load_part_1"
+			<pack>load_part_2</pack> - loads a folder in assets named "load_part_2"
+			<chunk>other_chunk</chunk> - loads another chunk named "other_chunk" which will have its own list of folders in assets
+		</chunk>
+    	-->
+    	
+    	<chunk id="preload">
+    		<pack>preload</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_sd">
+            <pack>initial_universal</pack>
+    	</chunk>
+    	
+    	<chunk id="main_menu">
+    		<pack>main_menu</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_hd">
+            <pack>initial_universal</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_audio_with_soundfx">
+    		<!--<pack>initial_music</pack>-->
+    		<pack>initial_soundfx</pack>
+    	</chunk>
+    	
+    	<chunk id="initial_audio_only_music">
+    		<!-- <pack>initial_music</pack> -->
+    		<pack>initial_soundfx</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_sd">
+    		<pack>gameplay_universal</pack>
+    		<!-- <pack>gameplay_sd</pack> -->
+    	</chunk>
+    	
+    	<chunk id="gameplay_hd">
+    		<pack>gameplay_universal</pack>
+    		<!-- <pack>gameplay_hd</pack> -->
+    	</chunk>
+    	
+    	<chunk id="gameplay_audio_with_soundfx">
+    		<pack>gameplay_music</pack>
+    		<pack>gameplay_soundfx</pack>
+    	</chunk>
+    	
+    	<chunk id="gameplay_audio_only_music">
+    		<pack>gameplay_music</pack>
+    		<pack>gameplay_soundfx</pack>
+    	</chunk>
+    	
+    	<chunk id="animals_universal">
+    		<pack>animals_universal</pack>
+    	</chunk>
+    	
+    	<chunk id="story_universal">
+    		<pack>story_universal</pack>
+    	</chunk>
+
+		<chunk id="ui_replay">
+    		<pack>ui_replay</pack>
+    	</chunk>
+		
+		<!-- CHARACTERS -->
+		<chunk id="character_rod">
+			<pack>character_rod</pack>
+		</chunk>
+
+		<chunk id="character_brody">
+			<pack>character_brody</pack>
+		</chunk>
+
+		<chunk id="character_swift">
+			<pack>character_swift</pack>
+		</chunk>
+
+		<chunk id="character_penny">
+			<pack>character_penny</pack>
+		</chunk>
+
+		<chunk id="character_chirpcheep">
+			<pack>character_chirpcheep</pack>
+		</chunk>
+    	
+		<chunk id="character_shirley">
+			<pack>character_shirley</pack>
+		</chunk>
+
+    	<!-- TREE CLIMB -->
+    	<chunk id="gameplay_treeclimb">
+    		<pack>gameplay_treeclimb</pack>
+    	</chunk>
+    	
+    	<chunk id="story_treeclimb">
+    		<pack>story_treeclimb</pack>
+    	</chunk>
+    	
+    	<!-- SNEEZE -->
+    	<chunk id="gameplay_sneeze">
+    		<pack>gameplay_sneeze</pack>
+    	</chunk>
+    	
+    	<chunk id="story_sneeze">
+    		<pack>story_sneeze</pack>
+    	</chunk>
+    	
+    	<!-- SHELL GAME -->
+    	<chunk id="gameplay_shellgame">
+    		<pack>gameplay_shellgame</pack>
+    	</chunk>
+    	
+    	<chunk id="story_shellgame">
+    		<pack>story_shellgame</pack>
+    	</chunk>
+
+		<!-- VINE GAME -->
+    	<chunk id="gameplay_vinegame">
+    		<pack>gameplay_vinegame</pack>
+    	</chunk>
+    	
+    	<chunk id="story_vinegame">
+    		<pack>story_vinegame</pack>
+    	</chunk>
+    	
+    	<!-- FISTBUMP -->    	
+    	<chunk id="story_fistbump">
+    		<pack>story_fistbump</pack>
+    	</chunk>
+    	
+    	<!-- SHAKES -->    	
+    	<chunk id="story_shakes">
+    		<pack>story_shakes</pack>
+    	</chunk>
+
+		<!-- CELEBRATION -->
+		<chunk id="gameplay_celebration">
+			<pack>gameplay_celebration</pack>
+		</chunk>
+
+        <!-- END OF CHUNKS -->
+    </chunks>
+	
+</config>

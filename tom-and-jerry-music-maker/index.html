@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Tom and Jerry Music Maker - Forestry Games">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Tom and Jerry Music Maker - HTML5 Game</title>
+    <meta name="theme-color" content="#784d2a">
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <!--<link rel="manifest" href="manifest.json">-->
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Tom and Jerry Music Maker">
+    <!-- <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png"> -->
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Tom and Jerry Music Maker">
+    <!-- <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png"> -->
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!-- <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png"> -->
+    <meta name="msapplication-TileColor" content="#E9513C">
+</head>
+
+<body onresize="resizeView()">
+    <!-- Game view at locked aspect -->
+    <div id="container">
+        <!-- Game view -->
+        <canvas onyx-viewport ortho-height="768" id="main-view"></canvas>
+        <!-- Error console -->
+        <div id="error-console"></div>
+    </div>
+</body>
+<style>
+    html, body {
+            margin:0;
+            padding:0;
+            height:100%;
+            background: #000;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+        	
+        /* Lock at 16:9 ratio */
+        #container {
+            margin: 0;
+            padding: 0;
+            height: 56.25vw;
+            width: 177.7777vh;
+            max-height: 100vh;
+            max-width: 100vw;
+            position: relative;
+        }
+
+        [onyx-viewport] {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+
+        canvas {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            cursor: pointer;
+            /* cursor: url(res/img/cursor.cur), pointer; */
+        }
+
+        /* canvas:active:hover {
+            cursor: url(res/img/cursor-down.cur), url(res/img/cursor.cur), pointer;
+        } */
+        
+        /* Show rotation image when rotated */
+        @media all and (orientation:portrait) {
+			[onyx-viewport] {
+				display: none;
+			}
+			
+			#container {
+				background: url(res/img/rotate_icon_white.png);
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+		}
+			
+    </style>
+<script>
+    function resizeView(){
+            var aspect = 16/9;
+            var newWidth = document.documentElement.clientWidth;
+			var newHeight = document.documentElement.clientHeight;
+            
+			if(newWidth / newHeight > aspect){
+				newWidth = newHeight * aspect;
+				newHeight = newHeight;
+			}else{ 
+				newWidth = newWidth;
+				newHeight = newWidth / aspect;
+            }
+
+            document.getElementById("container").style.height = newHeight + "px";
+            document.getElementById("container").style.width = newWidth + "px";
+        }
+
+        resizeView();
+    </script>
+<script type="module" src="scripts/main.js"></script>
+
+</html>

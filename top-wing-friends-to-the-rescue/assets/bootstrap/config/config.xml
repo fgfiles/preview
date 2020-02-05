@@ -1,0 +1,31 @@
+<config>
+
+	<!-- CODE UNLOCK -->
+	<unlockEnabled>true</unlockEnabled> <!-- Set whether or not to allow the use of the code unlock screen -->
+	<unlockCode>00000</unlockCode> <!-- Set the code unlock number here, should be less than 10 digits and you can use the number 0 -->
+
+    <!-- SERVICES -->
+    <!-- Enable, disable, and configure services here -->
+	<services>
+		<service type="analytics" enabled="true" id="wdgwdjrappsnew,wdgwatchappsroll,wdgwdjrrollup" />
+	</services>
+
+	<!-- ACHIEVEMENTS -->
+	<achievements enabled="true"/>
+
+	<!-- LOCALIZATION -->
+    <localization>
+    	<region>en</region>
+    </localization>
+
+    <!-- QUALITY -->
+    <!-- 0: Lowest quality -->
+    <!-- As the index increases the better the quality -->
+    <!-- 0, and 1 are the normal options, but more can be added if necessary (this is rare) -->
+    <!-- forceLowQualityMobile -->
+    <!-- Only affects html touch platforms -->
+    <!-- False, do not force low quality -->
+    <!-- True, force low quality -->
+    <quality index="1" forceLowQualityMobile="false"/>
+
+</config>

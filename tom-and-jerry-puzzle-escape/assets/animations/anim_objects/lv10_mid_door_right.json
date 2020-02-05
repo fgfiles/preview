@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "lv10_mid_door_right",
+        "children": [
+            {
+                "name": "right_door"
+            }
+        ],
+        "animations": [
+            "lv10_mid_door_anim_right"
+        ]
+    },
+    "properties": {
+        "right_door": {
+            "file": "lv10_mid_door0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 67.9,
+                "y": 0.5
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

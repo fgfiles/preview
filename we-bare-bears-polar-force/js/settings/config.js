@@ -41,8 +41,7 @@ game.config = game.config || {};
             screenClass: game.screens.Preloader,
             stack: false,
             events: {
-                exit: "intro",
-                IEexit: "mainmenu"
+                exit: "mainmenu",
             }
         },
         intro: {

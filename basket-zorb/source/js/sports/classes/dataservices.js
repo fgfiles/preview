@@ -4,7 +4,7 @@ var SS = {
     scoreboardAvailable: true,
     scoreboardStatic: "dat/database.json",
     // scoreboardUrl: "http://boomerang-sports.completecontrol.eu/",
-    scoreboardUrl: "http://demo.completecontrol.eu/boomerang/service/",
+    scoreboardUrl: "https://demo.completecontrol.eu/boomerang/service/",
     currentAccessToken: null,
     countryCode: "GB",
     selectedTeam: {id:0},

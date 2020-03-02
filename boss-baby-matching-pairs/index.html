@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Boss Baby Matching Pairs - License HTML5 Game</title>
+    <meta name="keywords" content="forestry games, forestrygames.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <link rel='stylesheet' href='css/reset.css' type='text/css' />
+    <link rel='stylesheet' href='css/stylesheet.css' type='text/css' />
+    <link rel='stylesheet' href='css/fonts/styles.css' type='text/css' />
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script type='text/javascript' src='js/createjs-min.js'></script>
+    <script type='text/javascript' src='src/strings.js'></script>
+    <script type='text/javascript' src='src/utils/Commons.js'></script>
+    <script type='text/javascript' src='src/app.js'></script>
+    <script type='text/javascript' src='src/Step1.js'></script>
+    <script type='text/javascript' src='src/utils/OnOffBtt.js'></script>
+    <script type='text/javascript' src='src/utils/Timer.js'></script>
+    <script type='text/javascript' src='src/Preloader.js'></script>
+    <script type='text/javascript' src='src/utils/FrameBtt.js'></script>
+    <script type='text/javascript' src='src/Main.js'></script>
+    <script type='text/javascript' src='src/GameOver.js'></script>
+    <script type='text/javascript' src='src/Game.js'></script>
+    <script type='text/javascript' src='src/Card.js'></script>
+    <script type='text/javascript' src='src/HelpAppla.js'></script>
+    <script type='text/javascript' src='src/Reset.js'></script>
+    <style>
+    #imageOverlay {
+        left: 0;
+        top: 0;
+        display: none;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+        background-image: url('img/rotate_screen.png');
+        background-color: #EFF084;
+        background-size: 100% auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+    @media only screen and (max-width:768px) and (orientation: portrait) {
+        #imageOverlay {
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width:768px) and (-webkit-min-device-pixel-ratio: 2) {
+        #imageOverlay {
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width:766px) and (orientation: landscape) {
+        #imageOverlay {
+            display: none;
+        }
+    }
+    </style>
+</head>
+
+<body class="home">
+    <!--    <div class="body-wrapper">
+
+        <div id="holder">-->
+    <canvas id='stage-canvas' width='1920' height='768'></canvas>
+    <div id="imageOverlay"></div>
+    <!--</div>
+
+    </div>-->
+</body>
+
+</html>

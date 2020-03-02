@@ -1,0 +1,24 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	
+	background: #000000;
+	color: white;
+}
+
+html, body, canvas {
+	touch-action: none;
+	touch-action-delay: none;
+}
+
+@font-face {
+	font-family: 'GROBOLD';
+	src: url('fonts/grobold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Ahkio_Regular_0';
+	src: url('fonts/ahkio_regular_0.woff') format('woff');
+}
+

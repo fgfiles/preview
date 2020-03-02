@@ -1,0 +1,898 @@
+{
+	"spine": {
+		"name": "spike_scene5",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"scale": 1
+	},
+	"slots": {
+		"head": {
+			"order": 0,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.3
+			}
+		},
+		"head_detail": {
+			"order": 1,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#E46D7A",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 4
+				}
+			},
+			"camera": {
+				"zoom": 2.45
+			}
+		},
+		"muzzle": {
+			"order": 2,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#E0BDAD",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.1
+			}
+		},
+		"muzzle_detail": {
+			"order": 3,
+			"grouped": true,
+			"groupcount": 5,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#DBD1CD",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 4
+				}
+			},
+			"camera": {
+				"zoom": 3.0
+			}
+		},
+		"ear_r": {
+			"order": 4,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#E0BDAD",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.5
+			}
+		},
+		"ear_r_detail": {
+			"order": 5,
+			"grouped": false,
+			"bodygroup": "head",
+			"type": "default",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.45
+			}
+		},
+		"ear_l": {
+			"order": 6,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "head",
+			"style": {
+				"fill": {
+					"color": "#E0BDAD",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 4.0
+			}
+		},
+		"ear_l_detail": {
+			"order": 7,
+			"grouped": false,
+			"bodygroup": "head",
+			"type": "default",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.45
+			}
+		},
+		"mouth": {
+			"order": 8,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#6D1710",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#6D1710",
+					"width": 2
+				}
+			},
+			"camera": {
+				"zoom": 5.0
+			}
+		},
+		"nose": {
+			"order": 9,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#000004",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#000004",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 5.0
+			}
+		},
+		"nose_shine": {
+			"order": 10,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#53534A",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#53534A",
+					"width": 4
+				}
+			},
+			"camera": {
+				"zoom": 5.0
+			}
+		},
+		"eye_r": {
+			"order": 11,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#FFFFFF",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#FFFFFF",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_l": {
+			"order": 12,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#FFFFFF",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#FFFFFF",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_r_lashes": {
+			"order": 13,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#030306",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#030306",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_l_lashes": {
+			"order": 14,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#030306",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#030306",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_r_pupil_colour": {
+			"order": 15,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#00ADC4",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#00ADC4",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_l_pupil_colour": {
+			"order": 16,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#00ADC4",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#00ADC4",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_r_pupil": {
+			"order": 17,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#030306",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#030306",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eye_l_pupil": {
+			"order": 18,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#030306",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#030306",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.75
+			}
+		},
+		"eyebrow_l": {
+			"order": 19,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#835243",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 5
+			}
+		},
+		"eyebrow_r": {
+			"order": 20,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#835243",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 5
+			}
+		},
+		"eyebrow_r_detail": {
+			"order": 21,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "face",
+			"style": {
+				"fill": {
+					"color": "#835243",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#835243",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 5
+			}
+		},
+		"collar_trim": {
+			"order": 22,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#E71838",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#A20010",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3
+			}
+		},
+		"collar": {
+			"order": 23,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#B32216",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#8E1009",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3
+			}
+		},
+		"collar_spike": {
+			"order": 24,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#FFFFFF",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#DBDBDB",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3
+			}
+		},
+		"body": {
+			"order": 25,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 1.1
+			}
+		},
+		"body_detail": {
+			"order": 26,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 4
+			}
+		},
+		"body_belly": {
+			"order": 27,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "body",
+			"style": {
+				"fill": {
+					"color": "#E0BDAD",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#E0BDAD",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 1.7
+			}
+		},
+		"arm_r": {
+			"order": 28,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.0
+			}
+		},
+		"arm_r_detail": {
+			"order": 29,
+			"grouped": true,
+			"groupcount": 2,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.25
+			}
+		},
+		"hand_r": {
+			"order": 30,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.25
+			}
+		},
+		"hand_r_detail": {
+			"order": 31,
+			"grouped": true,
+			"groupcount": 2,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.8
+			}
+		},
+		"arm_l": {
+			"order": 32,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.35
+			}
+		},
+		"arm_l_detail": {
+			"order": 33,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 2.8
+			}
+		},
+		"hand_l": {
+			"order": 34,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 1.85
+			}
+		},
+		"hand_l_detail": {
+			"order": 35,
+			"grouped": true,
+			"groupcount": 2,
+			"type": "default",
+			"bodygroup": "arms",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 3
+				}
+			},
+			"camera": {
+				"zoom": 2.5
+			}
+		},
+		"tail": {
+			"order": 36,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 4.5
+			}
+		},
+		"leg_r": {
+			"order": 37,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.3
+			}
+		},
+		"leg_r_detail": {
+			"order": 38,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2.5
+			}
+		},
+		"foot_r": {
+			"order": 39,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.15
+			}
+		},
+		"foot_r_detail": {
+			"order": 40,
+			"grouped": true,
+			"groupcount": 3,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 4.25
+			}
+		},
+		"leg_l": {
+			"order": 41,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 4
+			}
+		},
+		"foot_l": {
+			"order": 42,
+			"grouped": false,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#B38271",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 3.25
+			}
+		},
+		"foot_l_detail": {
+			"order": 43,
+			"grouped": true,
+			"groupcount": 3,
+			"type": "default",
+			"bodygroup": "legs",
+			"style": {
+				"fill": {
+					"color": "#845344",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#845344",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 4.5
+			}
+		}
+	}
+}

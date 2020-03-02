@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'futurakoyu';
+    src: url('assets/font/futura_koyu-webfont.eot');
+    src: url('assets/font/futura_koyu-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/font/futura_koyu-webfont.woff') format('woff'),
+    url('assets/font/futura_koyu-webfont.ttf') format('truetype'),
+    url('assets/font/futura_koyu-webfont.svg#futurakoyu') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body{
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+    margin:0;
+}
+.crosshair{
+    cursor: url("assets/cursor.png"),
+    url("assets/cursor.cur"), crosshair !important;
+}

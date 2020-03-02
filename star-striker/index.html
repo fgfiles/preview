@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <title>Star Striker - BOOMERANG All Stars - HTML5 Game</title>
+    <link rel="stylesheet" type="text/css" href="source/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="source/fnt/fred_font/font.css">
+    <link rel="stylesheet" type="text/css" href="source/fnt/fred_font_ar/font.css">
+    <link rel="stylesheet" type="text/css" href="source/fnt/fred_font_shadow/font.css">
+    <link rel="stylesheet" type="text/css" href="source/fnt/fred_font_shadow_ar/font.css">
+</head>
+<body>
+<script>
+    var assetsURL = "source/";
+    var COPY_DECK = {
+        get copy() {
+            return this.languages[this.currentLanguage];
+        },
+        currentLanguage:"en-gb",
+        languages:{
+        "en-gb":{
+            select_game:"Choose a game!",
+            select_team:"Choose a team!",
+            end_panel_game_ball:"Baskets",
+            end_panel_game_ring:"Time",
+            end_panel_game_sky:"Rings",
+            end_panel_game_pogo:"Distance",
+            end_panel_game_rocket:"Targets",
+            end_panel_score:"Score",
+            end_panel_record:"Record",
+            pause_panel_music:"Music",
+            pause_panel_sound:"Sound",
+            settings_panel_title:"Settings",
+            leader_board_title:"Leader Board",
+            pause_panel_title:"Paused",
+            end_panel_ratings:["Awesome","Amazing","Brilliant","Fantastic"]
+        }}
+    };
+</script>
+
+<script src='source/js/libs/visible.js'></script>
+<script src='source/js/libs/webfontloader.js'></script>
+<script src='source/js/libs/pixi.js'></script>
+<script src='source/js/libs/pixi-spine.js'></script>
+<script src='source/js/libs/EasePack.min.js'></script>
+<script src='source/js/libs/TweenLite.min.js'></script>
+<script src='source/js/libs/createjs.js'></script>
+<script src='source/js/libs/cordova_audio_plugin.js'></script>
+<script src='source/js/libs/lodash.js'></script>
+<script src='source/js/libs/Vector2.js'></script>
+<script src='source/js/libs/particle.js'></script>
+<script src='source/js/libs/bluebird.js'></script>
+<!--<script src='source/js/libs/soundjs_cordova.js'></script>-->
+
+<script src='source/js/cc/cc_core.js'></script>
+<script src='source/js/cc/cc_soundjs.js'></script>
+<script src='source/js/cc/cc_juggler.js'></script>
+<script src='source/js/cc/cc_loader.js'></script>
+<script src='source/js/cc/cc_math.js'></script>
+<script src='source/js/cc/cc_webapp.js'></script>
+<script src='source/js/cc/cc_matrix.js'></script>
+<script src='source/js/cc/cc_ui.js'></script>
+<script src='source/js/cc/cc_colour.js'></script>
+<script src='source/js/cc/cc_geometry.js'></script>
+<script src='source/js/cc/cc_utility.js'></script>
+
+<script src='source/js/sports/game.js'></script>
+
+<script src='source/js/sports/classes/dataservices.js'></script>
+<script src='source/js/sports/classes/physics.js'></script>
+<script src='source/js/sports/classes/goal_game.js'></script>
+<script src='source/js/sports/classes/goalie_game.js'></script>
+<script src='source/js/sports/classes/rocket_game.js'></script>
+<script src='source/js/sports/classes/skydive_game.js'></script>
+<script src='source/js/sports/classes/sports_ui.js'></script>
+<script src='source/js/sports/classes/sports_tutorial.js'></script>
+<script src='source/js/sports/classes/graphics_3d.js'></script>
+
+<script src='source/js/sports/screens/base_screen.js'></script>
+<script src='source/js/sports/screens/intro_screen.js'></script>
+<script src='source/js/sports/screens/load_screen.js'></script>
+<script src='source/js/sports/screens/start_screen.js'></script>
+<script src='source/js/sports/screens/select_screen.js'></script>
+<script src='source/js/sports/screens/select_screen_new_games.js'></script>
+<script src='source/js/sports/screens/end_screen.js'></script>
+<script src='source/js/sports/screens/leader_screen.js'></script>
+<script src='source/js/sports/screens/sky_screen.js'></script>
+<script src='source/js/sports/screens/pogo_screen.js'></script>
+<script src='source/js/sports/screens/ball_screen.js'></script>
+<script src='source/js/sports/screens/ring_screen.js'></script>
+<script src='source/js/sports/screens/rocket_screen.js'></script>
+<script src='source/js/sports/screens/goal_screen.js'></script>
+<script src='source/js/sports/screens/goalie_screen.js'></script>
+<!--<script src="https://markknol.github.io/console-log-viewer/console-log-viewer.js"></script>-->
+<div id='interactive-area'></div>
+<canvas id="webGLCanvasTest"></canvas>
+<script>
+    window.onload = function () {
+        if(window.StatusBar) {
+            StatusBar.hide();
+        }
+
+        var hidden, visibilityChange; 
+        if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support 
+            hidden = "hidden";
+            visibilityChange = "visibilitychange";
+        } else if (typeof document.msHidden !== "undefined") {
+            hidden = "msHidden";
+            visibilityChange = "msvisibilitychange";
+        } else if (typeof document.webkitHidden !== "undefined") {
+            hidden = "webkitHidden";
+            visibilityChange = "webkitvisibilitychange";
+        }
+
+        document.addEventListener("mousedown", function(e) {
+            window.focus();
+        }, false);
+
+        var hidden = false;
+        var muted;
+
+        document.addEventListener(visibilityChange, function(e) {
+            hidden = !hidden;
+            if(document.hidden) {
+                muted = Game.sound.musicMuted;
+            }
+            if(hidden) {
+                Game.sound.muteMusic();
+            } else if(!hidden && !muted ) {
+                Game.sound.unmuteMusic();
+            }
+
+        }, false);
+
+        initApp();
+    }
+</script>
+</body>
+</html>

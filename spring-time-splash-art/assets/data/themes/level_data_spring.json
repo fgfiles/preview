@@ -1,0 +1,182 @@
+{
+  "outlines": {
+    "colour_it": [
+      "colour_it_spring_bunnicula_01",
+      "colour_it_spring_bunnicula_02",
+      "colour_it_Spring_Dorothy_01",
+      "colour_it_spring_dorothy_02",
+      "colour_it_spring_happos_01",
+      "colour_it_spring_happos_02",
+      "colour_it_spring_looney_01",
+      "colour_it_spring_looney_02",
+      "colour_it_spring_mrbean_01",
+      "colour_it_spring_mrbean_02",
+      "colour_it_spring_scooby_01",
+      "colour_it_spring_scooby_02",
+      "colour_it_spring_tom_01",
+      "colour_it_spring_tom_02",
+      "colour_it_spring_wacky_01",
+      "colour_it_spring_wacky_02"
+    ],
+    "draw_it": [
+      "draw_it_spring_bunnicula_01",
+      "draw_it_spring_bunnicula_02",
+      "draw_it_spring_dorothy_01",
+      "draw_it_spring_dorothy_02",
+      "draw_it_spring_happos_01",
+      "draw_it_spring_happos_02",
+      "draw_it_spring_looney_01",
+      "draw_it_spring_looney_02",
+      "draw_it_spring_mrbean_01",
+      "draw_it_spring_mrbean_02",
+      "draw_it_spring_scooby_01",
+      "draw_it_spring_scooby_02",
+      "draw_it_spring_tom_01",
+      "draw_it_spring_tom_02",
+      "draw_it_spring_wacky_01",
+      "draw_it_spring_wacky_02"
+    ]
+  },
+  "stamps": [
+    "icon_tools_stamp_01",
+    "icon_tools_stamp_02",
+    "icon_tools_stamp_09",
+    "icon_tools_stamp_10",
+    "icon_tools_stamp_00",
+    "icon_tools_stamp_05"
+  ],
+  "splash": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "extra": [
+      {
+        "texture": "game_logo",
+        "position": {"x": 0, "y": -135},
+        "scale": {"x": 0.5, "y": 0.5},
+        "anchor": {"x": 0.5, "y": 0.5},
+        "rotation": 0
+      },
+      {
+        "texture": "SPLASH",
+        "position": {"x": 155, "y": 210},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 1},
+        "rotation": 0
+      },
+      {
+        "texture": "characters_r",
+        "position": {"x": 0, "y": 410},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 1},
+        "rotation": 0
+      },
+      {
+        "texture": "characters_l",
+        "position": {"x": 0, "y": 410},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 1},
+        "rotation": 0
+      }
+    ],
+    "title": {
+      "texture": "title_box_bg",
+      "position": {"x": 0, "y": -310},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.45},
+      "text_colour": "black",
+      "text_stroke": false
+    }
+  },
+  "type_select": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "title": {
+      "texture": "popup_box_title",
+      "position": {"x": 0, "y": -175},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    },
+    "colour_it": {
+      "texture": "colour_it_select",
+      "position": {"x": -255, "y": 75},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    },
+    "draw_it": {
+      "texture": "draw_it_select",
+      "position": {"x": 255, "y": 75},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    }
+  },
+  "gallery_select": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "frame": {
+      "colour_it": "canvas_select_colour",
+      "draw_it": "canvas_select_draw"
+    }
+  },
+  "game_scene": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "panels": {
+      "left": "left_panel",
+      "right": "right_panel"
+    },
+    "palette_panel": {
+      "offset": {"x": -30, "y": 0}
+    },
+    "include_top_bottom": false,
+    "outline_offset": -7
+  },
+  "menu_panel": {
+    "bg": {
+      "texture": "popup_box",
+      "position": {"x": 20, "y": 0},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "top_bar": {
+      "texture": "popup_box_title",
+      "position": {"x": -20, "y": -50},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "title": {
+      "position": {"x": 0, "y": -50},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "buttons": {
+      "top_row": {
+        "position": {"x": 0, "y": -40}
+      },
+      "bottom_row": {
+        "position": {"x": 0, "y": -25}
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+/* FURCHESTER */
+
+@font-face {
+    font-family: stymie;
+    src: url('../fonts/stymie.ttf');
+}
+
+.gelUIPanel.pagination {
+    bottom: 5.6%;
+    left: 49%;
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    white-space: nowrap;
+}
+
+.gelUIIcon.pagination {
+    position: relative;
+    margin-left: 10px;
+    width: 7px;
+    height: 7px;
+    background-size: 14px 7px;
+    background-repeat: no-repeat;
+    background-image: url('../images/ui/help_pagination.png');
+}
+
+.gelUIIcon.pagination[data-state='on'] {
+    background-position: 0 0 ;
+}
+
+.gelUIIcon.pagination[data-state='off'] {
+    background-position: 100% 0 ;
+}
+
+.gelUIPanel.title{
+    top: 1.6%;
+    left: 36%;
+}
+
+.gelUIPanel.title h{
+    font-family: stymie;
+    font-size: 28px;
+    color: green;
+}
+
+#gelui_title_play img {
+    top: 50%;
+    width: 106px;
+    height: 106px;
+    max-height: 150%;
+}
+
+#gelui_pause_resume img {
+    top: 50.5%;
+    width: 106px;
+    height: 106px;
+    max-height: 150%;
+}
+
+#gelui_pause_restart img{
+    left: 48.5%;
+    width: 64px;
+    height: 64px;
+    max-height: 150%;
+}
+
+#gelui_checkout_object{
+    width: 40px;
+    height: 40px;
+}
+
+#gelui_greenclaws_hedge{
+    width: 480px;
+    height: 170px;
+}
+
+#gelui_cookiecatch_lane{
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (min-device-width:700px) {
+    
+    .gelUIIcon.pagination {
+        margin-left: 16px;
+        width: 10px;
+        height: 10px;
+        background-size: 20px 10px;
+    }
+
+    /* GEL BUTTONS */
+    .gelUIButton.std.border img {
+        top: 49.5%;
+        left: 47.5%;
+        width: 74.5px;
+        height: 74.5px;
+        max-height: 150%;
+    }
+
+    .gelUIPanel.title{
+        left: 40%;
+    }
+
+    .gelUIPanel.title h{
+        font-size: 50px;
+        font-size: 4vw;
+    }
+    /* DOM UI ELEMENTS... */
+
+    /* TITLE */
+    #gelui_title_play img {
+        top: 48.5%;
+        width: 210px;
+        height: 210px;
+        max-height: 150%;
+    }
+
+    #gelui_pause_resume img {
+        top: 50%;
+        width: 210px;
+        height: 210px;
+        max-height: 150%;
+    }
+
+
+    #gelui_pause_restart img{
+        left: 49.2%;
+        width: 140px;
+        height: 140px;
+        max-height: 150%;
+    }
+}

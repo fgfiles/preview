@@ -1,0 +1,22 @@
+html {height: 100%; width: 100%; max-width: 100%; max-height: 100%; position: relative; overflow: hidden;}
+body {width: 100%; height: 100%; background: #000000; margin: 0;  max-width: 100%; max-height: 100%; position: relative; overflow: hidden;}
+
+
+
+.container {position: relative; width: 100%; height: 100%;}
+.game {position: absolute; background: #00973a}
+body .game {top: 0; bottom: 0; left: 0; right: 0; margin: auto;}
+
+.id1-loading {font: 30px header;}
+.id2-play {font: 70px header;}
+.id3-instructions {font: 78px header;}
+.id4-instructions_copy1 {font: bold 26px Verdana;}
+.id6-instructions_copy2 {font: 26px Verdana;}
+.id12-your_score {font: 55px header;}
+.id13-play_again {font: 70px header;}
+.id14-rotate_device {font: 90px header;}
+.id15-best_score {font: 41px header;}
+.end_score {font: 100px header;}
+.end_best_score {font: 70px header;}
+.in_game_score {font: 60px header;}
+

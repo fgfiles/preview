@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wacky Band | New Looney Tunes Game - HTML5 Game</title>
+    <meta name="keywords" content="forestry games, forestrygames.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style>
+        body{
+				margin:0px;
+				padding:0px;
+			}
+		@media screen and (orientation: portrait){
+			#turn{
+				display:block;
+			}
+			
+		}
+		@media screen and (orientation: landscape){
+			#turn{
+				display:none;
+			}
+			
+		}
+		#turn{
+				width:100%;
+				height:100%;
+				position:fixed;
+				top:0px;
+				left:0px;
+				background-color:black;
+				background-image:url('img/image.png');
+				background-repeat:no-repeat;
+				background-position: center center;
+				background-size: 100%;
+			}
+		canvas {
+			box-shadow: 0px 0px 30px black;
+		}
+		html {
+			height: 101%;
+			overflow: auto;
+		}
+		body {
+			height: 100%;
+    		background-image: url("img/patron2.png");
+			background-position: center top; 
+		}
+		#game{
+			height: 100%;
+		}
+		</style>
+    <title>Games</title>
+    <!--<script type="text/javascript" src="src/hide-address-bar.js"></script>
+	<script type="text/javascript" src="phaser-ce-2.10.5/build/phaser.js"></script>-->
+    <script type="text/javascript" src="src/phaser.min.js"></script>
+    <script type="text/javascript" src="src/Boot.js"></script>
+    <script type="text/javascript" src="src/Preloader.js"></script>
+    <!--<script type="text/javascript" src="src/Game.js"></script>
+	<script type="text/javascript" src="src/ie/characterClass.js"></script>
+	<script type="text/javascript" src="src/ie/bugsStar.js"></script>
+	<script type="text/javascript" src="src/ie/marvinStar.js"></script>
+	<script type="text/javascript" src="src/ie/grannyStar.js"></script>
+	<script type="text/javascript" src="src/ie/lolaStar.js"></script>
+	<script type="text/javascript" src="src/ie/silvestreStar.js"></script>
+	<script type="text/javascript" src="src/ie/porkyStar.js"></script>
+	<script type="text/javascript" src="src/ie/tazStar.js"></script>
+	<script type="text/javascript" src="src/ie/roadStar.js"></script>
+	<script type="text/javascript" src="src/ie/speedyStar.js"></script>
+	<script type="text/javascript" src="src/ie/fogStar.js"></script>
+	<script type="text/javascript" src="src/ie/samStar.js"></script>
+	<script type="text/javascript" src="src/ie/squeaksStar.js"></script>
+	<script type="text/javascript" src="src/ie/tweetyStar.js"></script>
+	<script type="text/javascript" src="src/ie/daffyStar.js"></script>
+	<script type="text/javascript" src="src/ie/willyStar.js"></script>
+	<script type="text/javascript" src="src/ie/clic.js"></script>-->
+    <script language="javascript">
+    function loadjscssfile(filename) {
+        var fileref = document.createElement('script');
+        fileref.setAttribute("type", "text/javascript");
+        fileref.setAttribute("src", filename);
+
+        if (typeof fileref != "undefined") {
+            document.getElementsByTagName("head")[0].appendChild(fileref);
+        }
+
+        return fileref;
+
+    }
+
+
+
+    ////////////////////////////
+    function isIE() {
+        var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+        var msie = ua.indexOf('MSIE '); // IE 10 or older
+        var trident = ua.indexOf('Trident/'); //IE 11
+
+        return (msie > 0 || trident > 0);
+    }
+
+    function isIpad2() {
+        var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+        var os = ua.indexOf('iPad; CPU OS 9_3_5'); // IE 10 or olde
+
+        return (os > 0);
+    }
+
+    //function to show alert if it's IE
+
+    if (isIE()) {
+        var gameloader = loadjscssfile("src/ie/Game.js");
+        loadjscssfile("src/ie/characterClass.js");
+        loadjscssfile("src/ie/bugsStar.js");
+        loadjscssfile("src/ie/marvinStar.js");
+        loadjscssfile("src/ie/grannyStar.js");
+        loadjscssfile("src/ie/lolaStar.js");
+        loadjscssfile("src/ie/silvestreStar.js");
+        loadjscssfile("src/ie/porkyStar.js");
+        loadjscssfile("src/ie/tazStar.js");
+        loadjscssfile("src/ie/roadStar.js");
+        loadjscssfile("src/ie/speedyStar.js");
+        loadjscssfile("src/ie/fogStar.js");
+        loadjscssfile("src/ie/samStar.js");
+        loadjscssfile("src/ie/squeaksStar.js");
+        loadjscssfile("src/ie/tweetyStar.js");
+        loadjscssfile("src/ie/daffyStar.js");
+        loadjscssfile("src/ie/willyStar.js");
+        loadjscssfile("src/ie/clic.js");
+    } else if (isIpad2()) {
+        var gameloader = loadjscssfile("src/ie/Game.js");
+        loadjscssfile("src/characterClass.js");
+        loadjscssfile("src/bugsStar.js");
+        loadjscssfile("src/marvinStar.js");
+        loadjscssfile("src/grannyStar.js");
+        loadjscssfile("src/lolaStar.js");
+        loadjscssfile("src/silvestreStar.js");
+        loadjscssfile("src/porkyStar.js");
+        loadjscssfile("src/tazStar.js");
+        loadjscssfile("src/roadStar.js");
+        loadjscssfile("src/speedyStar.js");
+        loadjscssfile("src/fogStar.js");
+        loadjscssfile("src/samStar.js");
+        loadjscssfile("src/squeaksStar.js");
+        loadjscssfile("src/tweetyStar.js");
+        loadjscssfile("src/daffyStar.js");
+        loadjscssfile("src/willyStar.js");
+        loadjscssfile("src/clic.js");
+    } else {
+        var gameloader = loadjscssfile("src/Game.js");
+        loadjscssfile("src/characterClass.js");
+        loadjscssfile("src/bugsStar.js");
+        loadjscssfile("src/marvinStar.js");
+        loadjscssfile("src/grannyStar.js");
+        loadjscssfile("src/lolaStar.js");
+        loadjscssfile("src/silvestreStar.js");
+        loadjscssfile("src/porkyStar.js");
+        loadjscssfile("src/tazStar.js");
+        loadjscssfile("src/roadStar.js");
+        loadjscssfile("src/speedyStar.js");
+        loadjscssfile("src/fogStar.js");
+        loadjscssfile("src/samStar.js");
+        loadjscssfile("src/squeaksStar.js");
+        loadjscssfile("src/tweetyStar.js");
+        loadjscssfile("src/daffyStar.js");
+        loadjscssfile("src/willyStar.js");
+        loadjscssfile("src/clic.js");
+    }
+
+    gameloader.onload = function() {
+        ini();
+        /*window.scrollTo(0,500);*/
+    }
+
+    //
+    /*function hideAddressBar(){
+			console.log("aja");
+			window.scrollTo(0,500);
+ 
+		}
+window.addEventListener("load",function(){hideAddressBar();});
+window.addEventListener("orientationchange",function(){hideAddressBar();});*/
+    </script>
+</head>
+
+<body id="body">
+    <div id="turn"></div>
+    <script type="text/javascript">
+    var gameRatio = window.innerWidth / window.innerHeight;
+    var game = new Phaser.Game(889, 500, Phaser.AUTO, '');
+
+    function ini() {
+
+        game.state.add('Game', GameManager.Game);
+        game.state.add('Boot', GameManager.Boot);
+        game.state.add('Preloader', GameManager.Preloader);
+        game.state.start('Boot');
+    }
+    </script>
+</body>
+
+</html>

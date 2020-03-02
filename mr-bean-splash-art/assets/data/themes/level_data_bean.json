@@ -1,0 +1,167 @@
+{
+  "outlines": {
+    "colour_it": [
+      "mr_bean_colour_it_01",
+      "mr_bean_colour_it_02",
+      "mr_bean_colour_it_03",
+      "mr_bean_colour_it_04",
+      "mr_bean_colour_it_05",
+      "mr_bean_colour_it_06",
+      "mr_bean_colour_it_07",
+      "mr_bean_colour_it_08",
+      "mr_bean_colour_it_09",
+      "mr_bean_colour_it_10"
+    ],
+    "draw_it": [
+      "mr_bean_draw_it_01",
+      "mr_bean_draw_it_02",
+      "mr_bean_draw_it_03",
+      "mr_bean_draw_it_04",
+      "mr_bean_draw_it_05",
+      "mr_bean_draw_it_06",
+      "mr_bean_draw_it_07",
+      "mr_bean_draw_it_08",
+      "mr_bean_draw_it_09",
+      "mr_bean_draw_it_10"
+    ]
+  },
+  "stamps": [
+    "icon_tools_stamp_00",
+    "icon_tools_stamp_01",
+    "icon_tools_stamp_02",
+    "icon_tools_stamp_03",
+    "icon_tools_stamp_04",
+    "icon_tools_stamp_05",
+    "icon_tools_stamp_06",
+    "icon_tools_stamp_07",
+    "icon_tools_stamp_08",
+    "icon_tools_stamp_09",
+    "icon_tools_stamp_10",
+    "icon_tools_stamp_11"
+  ],
+  "splash": {
+    "bg": [
+      {
+        "texture": "bg_splash",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "extra": [
+      {
+        "texture": "splash_brush",
+        "position": {"x": -150, "y": 350},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 1},
+        "rotation": 0
+      },
+      {
+        "texture": "splash_char",
+        "position": {"x": 275, "y": 340},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 1},
+        "rotation": 0
+      },
+      {
+        "texture": "game_logo",
+        "position": {"x": 0, "y": -135},
+        "scale": {"x": 1, "y": 1},
+        "anchor": {"x": 0.5, "y": 0.5},
+        "rotation": 0
+      }
+    ],
+    "title": {
+      "texture": "splash_logo",
+      "position": {"x": 0, "y": -310},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.45}
+    }
+  },
+  "type_select": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "title": {
+      "texture": "popup_box_title",
+      "position": {"x": 0, "y": -175},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    },
+    "colour_it": {
+      "texture": "colour_it_select",
+      "position": {"x": -255, "y": 75},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    },
+    "draw_it": {
+      "texture": "draw_it_select",
+      "position": {"x": 255, "y": 75},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5},
+      "rotation": 0
+    }
+  },
+  "gallery_select": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "frame": {
+      "colour_it": "canvas_select_colour",
+      "draw_it": "canvas_select_draw"
+    }
+  },
+  "game_scene": {
+    "bg": [
+      {
+        "texture": "gameplay_background",
+        "width": 1900,
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "panels": {
+      "left": "left_panel",
+      "right": "right_panel"
+    },
+    "palette_panel": {
+      "offset": {"x": -30, "y": 0}
+    },
+    "include_top_bottom": false,
+    "outline_offset": -7
+  },
+  "menu_panel": {
+    "bg": {
+      "texture": "popup_box",
+      "position": {"x": 20, "y": 0},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "top_bar": {
+      "texture": "popup_box_title",
+      "position": {"x": -20, "y": -50},
+      "scale": {"x": 1, "y": 1},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "title": {
+      "position": {"x": 0, "y": -50},
+      "anchor": {"x": 0.5, "y": 0.5}
+    },
+    "buttons": {
+      "top_row": {
+        "position": {"x": 0, "y": -40}
+      },
+      "bottom_row": {
+        "position": {"x": 0, "y": -25}
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" , user-scalable="no" , content="width=device-width, initial-scale=1" />
+    <title>Bunnicula: Kaotic Kitchen - License HTML5 Game</title>
+    <meta name="keywords" content="forestry games, forestrygames.com">
+    <div>
+        <script src="js/kaotickitchen.min.js"></script>
+    </div>
+</head>
+
+<body>
+    <canvas id="game-canvas" width="" height="100%"></canvas>
+    <script>
+    //This will hold all global variables for the game as property
+
+    EHDI.init = function init() {
+        EHDI.GAME = Object.create(null);
+        EHDI.GAME.id = "qweiopsadklj"
+        EHDI.GAME.sceneManager = EHDI.SceneManager(960, 540, false, true);
+        var docking = EHDI.ScaleManager.DOCKING.AUTO;
+        if (EHDI.BrowserInfo.isMobileDevice)
+            docking = EHDI.ScaleManager.DOCKING.FULLSCREEN;
+        EHDI.GAME.scaleManager = EHDI.ScaleManager(EHDI.GAME.sceneManager.getRenderer(), EHDI.GAME.sceneManager.getStage(), docking, EHDI.GAME.sceneManager.defaultWidth, EHDI.GAME.sceneManager.defaultHeight);
+        EHDI.GAME.scaleManager.addAutomaticScaling(300);
+        EHDI.GAME.updateManager = EHDI.UpdateManager(EHDI.GAME.sceneManager.getRenderer(), EHDI.GAME.sceneManager.getStage());
+        EHDI.GAME.storageManager = EHDI.StorageManager();
+
+        var cache = EHDI.GAME.storageManager.getLocalInfo(EHDI.GAME.id) || { isMuted: false, isFirstTimePlay: true, unlockCount: 0 };
+
+        /*EHDI.GAME.unlockNotif = new EHDI.popup.UnlockNotif();
+                
+        EHDI.GAME.sceneManager.addNotification(EHDI.GAME.unlockNotif);*/
+        EHDI.GAME.storageManager.setLocalInfo(EHDI.GAME.id, cache);
+
+        EHDI.GAME.soundManager = EHDI.SoundManager();
+        EHDI.GAME.soundManager.setMute(cache.isMuted);
+        EHDI.LoadManager.queueStrings(EHDI.gameStringsToPreLoad);
+        EHDI.LoadManager.start(EHDI.preload);
+
+        // EHDI.GAME.preloader = EHDI.load(EHDI.assetsToPreLoad, EHDI.loadConfigFile, EHDI.loadScene);
+
+        window.scrollTo(0, 0);
+    }
+
+    EHDI.preload = function() {
+        var config = EHDI.Assets.fetch("config");
+        var result = config.getElementsByTagName("languageID");
+        EHDI.localizationString = [];
+        if (result.length > 0) {
+            EHDI.GAME.localeID = result[0].textContent;
+            EHDI.localizationString.push("assets/localization/locale_" + EHDI.GAME.localeID + ".xml");
+        }
+        EHDI.LoadManager.queueStrings(EHDI.localizationString);
+        EHDI.LoadManager.queueAssets(EHDI.assetsToPreLoad);
+        EHDI.LoadManager.start(EHDI.loadScene);
+    }
+    window.onload = EHDI.init;
+    </script>
+</body>
+
+</html>

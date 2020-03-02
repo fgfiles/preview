@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<balance>
+<!-- SET ENEMY STATS -->
+	<!-- STEAM SMYTHE MINIONS -->
+	<bal id='ENEMY_ROBOT_FIGHTER - HP'>100</bal> <!-- NORMAL ROBOT--><!-- DEFAULT - 100 -->
+	<bal id='ENEMY_ROBOT_FIGHTER - XP'>26</bal> <!-- KEEP EVEN NUMBERS. DON'T USE ODD NUMBERS!!!!--><!-- DEFAULT - 26 -->
+	<bal id='ENEMY_ROBOT_FIGHTER - DMG'>10</bal> <!-- DMG TO PLAYER--> <!-- DEFAULT - 10 -->
+	
+	<bal id='ENEMY_ROBOT_FIGHTER2 - HP'>150</bal> <!-- BULKIER/BRONZE ROBOT--> <!-- DEFAULT - 150 -->
+	<bal id='ENEMY_ROBOT_FIGHTER2 - XP'>26</bal><!-- DEFAULT - 26 -->
+	<bal id='ENEMY_ROBOT_FIGHTER2 - DMG'>15</bal><!-- DEFAULT - 15 -->
+	
+	<bal id='ENEMY_ROBOT_SHOOTER - HP'>100</bal><!-- DEFAULT - 100 -->
+	<bal id='ENEMY_ROBOT_SHOOTER - XP'>26</bal><!-- DEFAULT - 26 -->
+	<bal id='ENEMY_ROBOT_SHOOTER - BULLET DMG'>5</bal> <!-- BULLET DMG--><!-- DEFAULT - 5 -->
+	
+	<bal id='ENEMY_ROBOT_STATIC_FIGHTER - HP'>200</bal><!-- DEFAULT - 200 -->
+	<bal id='ENEMY_ROBOT_STATIC_FIGHTER - XP'>20</bal><!-- DEFAULT - 20 -->
+	<bal id='ENEMY_ROBOT_STATIC_FIGHTER - DMG'>10</bal><!-- DEFAULT - 10 -->
+	
+	<bal id='ENEMY_ROBOT_STATIC_SHOOTER - HP'>100</bal><!-- DEFAULT - 100 -->
+	<bal id='ENEMY_ROBOT_STATIC_SHOOTER - XP'>20</bal><!-- DEFAULT - 20 -->
+	<bal id='ENEMY_ROBOT_STATIC_SHOOTER - BULLET DMG'>5</bal><!-- DEFAULT - 5 -->
+	
+	<bal id='ENEMY_ROBOT_ELITE - HP'>1400</bal><!-- DEFAULT - 1400 -->
+	<bal id='ENEMY_ROBOT_ELITE - XP'>700</bal><!-- DEFAULT - 500 -->
+	<bal id='ENEMY_ROBOT_ELITE - DMG'>30</bal><!-- DEFAULT - 30 -->
+	<bal id='ENEMY_ROBOT_ELITE - BULLET DMG'>50</bal><!-- DEFAULT - 50 -->
+	<bal id='ENEMY_ROBOT_ELITE - SPD'>300</bal><!-- DEFAULT - 300 -->
+	
+	<!-- ZOMBOZO MINIONS -->
+	<bal id='ENEMY_CLOWN_FIGHTER - HP'>250</bal> <!-- CHUBBY CLOWN --><!-- DEFAULT - 250 -->
+	<bal id='ENEMY_CLOWN_FIGHTER - XP'>60</bal><!-- DEFAULT - 60 -->
+	<bal id='ENEMY_CLOWN_FIGHTER - DMG'>20</bal><!-- DEFAULT - 20 -->
+	
+	<bal id='ENEMY_CLOWN_FIGHTER2 - HP'>300</bal> <!-- LONG LEG CLOWN --><!-- DEFAULT - 300 -->
+	<bal id='ENEMY_CLOWN_FIGHTER2 - XP'>60</bal><!-- DEFAULT - 60 -->	
+	<bal id='ENEMY_CLOWN_FIGHTER2 - DMG'>25</bal><!-- DEFAULT - 25 -->
+	
+	<bal id='ENEMY_CLOWN_SHOOTER - HP'>230</bal><!-- DEFAULT - 230 -->
+	<bal id='ENEMY_CLOWN_SHOOTER - XP'>60</bal><!-- DEFAULT - 60 -->
+	<bal id='ENEMY_CLOWN_SHOOTER - BULLET DMG'>10</bal><!-- DEFAULT - 10 -->
+	
+	<bal id='ENEMY_CLOWN_STATIC_FIGHTER - HP'>200</bal><!-- DEFAULT - 200 -->
+	<bal id='ENEMY_CLOWN_STATIC_FIGHTER - XP'>50</bal><!-- DEFAULT - 50 -->
+	<bal id='ENEMY_CLOWN_STATIC_FIGHTER - DMG'>25</bal><!-- DEFAULT - 25 -->
+	
+	<bal id='ENEMY_CLOWN_STATIC_SHOOTER - HP'>230</bal><!-- DEFAULT - 230 -->
+	<bal id='ENEMY_CLOWN_STATIC_SHOOTER - XP'>50</bal><!-- DEFAULT - 50 -->
+	<bal id='ENEMY_CLOWN_STATIC_SHOOTER - BULLET DMG'>10</bal><!-- DEFAULT - 10 -->
+	
+	<bal id='ENEMY_CLOWN_ELITE - HP'>1800</bal><!-- DEFAULT - 1800 -->
+	<bal id='ENEMY_CLOWN_ELITE - XP'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='ENEMY_CLOWN_ELITE - DMG'>40</bal><!-- DEFAULT - 40 -->
+	<bal id='ENEMY_CLOWN_ELITE - BULLET DMG'>50</bal><!-- DEFAULT - 50 -->
+	<bal id='ENEMY_CLOWN_ELITE - SPD'>300</bal><!-- DEFAULT - 300 -->
+	
+	<!-- CHARMCASTER MINIONS -->
+	<bal id='ENEMY_CHARM_FIGHTER - HP'>360</bal> <!-- PAPER KNIGHT --><!-- DEFAULT - 360 -->
+	<bal id='ENEMY_CHARM_FIGHTER - XP'>90</bal><!-- DEFAULT - 90 -->
+	<bal id='ENEMY_CHARM_FIGHTER - DMG'>30</bal><!-- DEFAULT - 30 -->
+	
+	<bal id='ENEMY_CHARM_FIGHTER2 - HP'>340</bal> <!-- kangeroo --><!-- DEFAULT - 340 -->
+	<bal id='ENEMY_CHARM_FIGHTER2 - XP'>90</bal><!-- DEFAULT - 90 -->	
+	<bal id='ENEMY_CHARM_FIGHTER2 - DMG'>35</bal><!-- DEFAULT - 35 -->
+	
+	<bal id='ENEMY_CHARM_SHOOTER - HP'>340</bal><!-- DEFAULT - 340 -->
+	<bal id='ENEMY_CHARM_SHOOTER - XP'>90</bal><!-- DEFAULT - 90 -->
+	<bal id='ENEMY_CHARM_SHOOTER - BULLET DMG'>20</bal><!-- DEFAULT - 20 -->
+	
+	<bal id='ENEMY_CHARM_STATIC_FIGHTER - HP'>350</bal><!-- DEFAULT - 350 -->
+	<bal id='ENEMY_CHARM_STATIC_FIGHTER - XP'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_CHARM_STATIC_FIGHTER - DMG'>40</bal><!-- DEFAULT - 40 -->
+	
+	<bal id='ENEMY_CHARM_STATIC_SHOOTER - HP'>320</bal><!-- DEFAULT - 320 -->
+	<bal id='ENEMY_CHARM_STATIC_SHOOTER - XP'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_CHARM_STATIC_SHOOTER - BULLET DMG'>15</bal><!-- DEFAULT - 15 -->
+	
+	<bal id='ENEMY_CHARM_ELITE - HP'>2300</bal><!-- DEFAULT - 2300 -->
+	<bal id='ENEMY_CHARM_ELITE - XP'>2000</bal><!-- DEFAULT - 2000 -->
+	<bal id='ENEMY_CHARM_ELITE - DMG'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_CHARM_ELITE - BULLET DMG'>60</bal><!-- DEFAULT - 60 -->
+	<bal id='ENEMY_CHARM_ELITE - SPD'>300</bal><!-- DEFAULT - 300 -->
+	
+	<!-- MAURICE MINIONS -->
+	<bal id='ENEMY_MAURICE_FIGHTER - HP'>380</bal> <!-- DEFAULT - 380 -->
+	<bal id='ENEMY_MAURICE_FIGHTER - XP'>110</bal><!-- DEFAULT - 110 -->
+	<bal id='ENEMY_MAURICE_FIGHTER - DMG'>35</bal><!-- DEFAULT - 35 -->
+	
+	<bal id='ENEMY_MAURICE_FIGHTER2 - HP'>360</bal> <!-- DEFAULT - 360 -->
+	<bal id='ENEMY_MAURICE_FIGHTER2 - XP'>90</bal><!-- DEFAULT - 110 -->	
+	<bal id='ENEMY_MAURICE_FIGHTER2 - DMG'>40</bal><!-- DEFAULT - 40 -->
+	
+	<bal id='ENEMY_MAURICE_SHOOTER - HP'>340</bal><!-- DEFAULT - 360 -->
+	<bal id='ENEMY_MAURICE_SHOOTER - XP'>90</bal><!-- DEFAULT - 110 -->
+	<bal id='ENEMY_MAURICE_SHOOTER - BULLET DMG'>25</bal><!-- DEFAULT - 25 -->
+	
+	<bal id='ENEMY_MAURICE_STATIC_FIGHTER - HP'>370</bal><!-- DEFAULT - 370 -->
+	<bal id='ENEMY_MAURICE_STATIC_FIGHTER - XP'>110</bal><!-- DEFAULT - 110 -->
+	<bal id='ENEMY_MAURICE_STATIC_FIGHTER - DMG'>40</bal><!-- DEFAULT - 40 -->
+	
+	<bal id='ENEMY_MAURICE_STATIC_SHOOTER - HP'>350</bal><!-- DEFAULT - 350 -->
+	<bal id='ENEMY_MAURICE_STATIC_SHOOTER - XP'>110</bal><!-- DEFAULT - 110 -->
+	<bal id='ENEMY_MAURICE_STATIC_SHOOTER - BULLET DMG'>20</bal><!-- DEFAULT - 15 -->
+	
+	<bal id='ENEMY_MAURICE_ELITE - HP'>2500</bal><!-- DEFAULT - 2500 -->
+	<bal id='ENEMY_MAURICE_ELITE - XP'>2500</bal><!-- DEFAULT - 2500 -->
+	<bal id='ENEMY_MAURICE_ELITE - DMG'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_MAURICE_ELITE - BULLET DMG'>60</bal><!-- DEFAULT - 60 -->
+	<bal id='ENEMY_MAURICE_ELITE - SPD'>300</bal><!-- DEFAULT - 300 -->
+	
+	<!-- MAURICE MINIONS -->
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER - HP'>400</bal> <!-- DEFAULT - 400 -->
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER - XP'>150</bal><!-- DEFAULT - 150 -->
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER - DMG'>40</bal><!-- DEFAULT - 40 -->
+	
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER2 - HP'>380</bal> <!-- DEFAULT - 380 -->
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER2 - XP'>150</bal><!-- DEFAULT - 150 -->	
+	<bal id='ENEMY_LORDDECIBEL_FIGHTER2 - DMG'>45</bal><!-- DEFAULT - 45 -->
+	
+	<bal id='ENEMY_LORDDECIBEL_SHOOTER - HP'>380</bal><!-- DEFAULT - 380 -->
+	<bal id='ENEMY_LORDDECIBEL_SHOOTER - XP'>150</bal><!-- DEFAULT - 150 -->
+	<bal id='ENEMY_LORDDECIBEL_SHOOTER - BULLET DMG'>30</bal><!-- DEFAULT - 30 -->
+	
+	<bal id='ENEMY_LORDDECIBEL_STATIC_FIGHTER - HP'>380</bal><!-- DEFAULT - 380 -->
+	<bal id='ENEMY_LORDDECIBEL_STATIC_FIGHTER - XP'>150</bal><!-- DEFAULT - 150 -->
+	<bal id='ENEMY_LORDDECIBEL_STATIC_FIGHTER - DMG'>40</bal><!-- DEFAULT - 40 -->
+	
+	<bal id='ENEMY_LORDDECIBEL_STATIC_SHOOTER - HP'>360</bal><!-- DEFAULT - 360 -->
+	<bal id='ENEMY_LORDDECIBEL_STATIC_SHOOTER - XP'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_LORDDECIBEL_STATIC_SHOOTER - BULLET DMG'>25</bal><!-- DEFAULT - 15 -->
+	
+	<bal id='ENEMY_LORDDECIBEL_ELITE - HP'>2800</bal><!-- DEFAULT - 8000 -->
+	<bal id='ENEMY_LORDDECIBEL_ELITE - XP'>3000</bal><!-- DEFAULT - 2000 -->
+	<bal id='ENEMY_LORDDECIBEL_ELITE - DMG'>80</bal><!-- DEFAULT - 80 -->
+	<bal id='ENEMY_LORDDECIBEL_ELITE - BULLET DMG'>60</bal><!-- DEFAULT - 60 -->
+	<bal id='ENEMY_LORDDECIBEL_ELITE - SPD'>300</bal><!-- DEFAULT - 300 -->
+	
+<!-- MAIN BOSSES  -->
+	<!-- STEAM SMYTHE - BOSS 1  -->
+	<bal id='ENEMY_BOSS1 - HP'>1200</bal> <!-- DEFAULT - 1200 -->
+	<bal id='ENEMY_BOSS1 - XP'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='ENEMY_BOSS1 - DMG'>15</bal><!-- DEFAULT - 15 -->
+	<bal id='ENEMY_BOSS1 - BULLET DMG'>30</bal><!-- DEFAULT - 30 -->
+	<bal id='ENEMY_BOSS1 - SPEED'>240</bal><!-- DEFAULT - 240 -->
+	
+	<!-- ZOMBOZO - BOSS 2  -->
+	<bal id='ENEMY_BOSS2 - HP'>1500</bal> <!-- DEFAULT - 1500 -->
+	<bal id='ENEMY_BOSS2 - XP'>2000</bal><!-- DEFAULT - 2000 -->
+	<bal id='ENEMY_BOSS2 - DMG'>25</bal><!-- DEFAULT - 25 -->
+	<bal id='ENEMY_BOSS2 - BULLET DMG'>30</bal><!-- DEFAULT - 30 -->
+	<bal id='ENEMY_BOSS2 - SPEED'>260</bal><!-- DEFAULT - 260 -->
+	
+	<!-- CHARMCASTER - BOSS 3  -->
+	<bal id='ENEMY_BOSS3 - HP'>2000</bal> <!-- DEFAULT - 2000 -->
+	<bal id='ENEMY_BOSS3 - XP'>3000</bal><!-- DEFAULT - 3000 -->
+	<bal id='ENEMY_BOSS3 - DMG'>30</bal><!-- DEFAULT - 30 -->
+	<bal id='ENEMY_BOSS3 - BULLET DMG'>40</bal><!-- DEFAULT - 40 -->
+	<bal id='ENEMY_BOSS3 - SPEED'>200</bal><!-- DEFAULT - 200 -->
+	
+	<!-- MAURICE - BOSS 4  -->
+	<bal id='ENEMY_BOSS4 - HP'>2500</bal><!-- DEFAULT - 2500 -->
+	<bal id='ENEMY_BOSS4 - XP'>4000</bal><!-- DEFAULT - 4000 -->
+	<bal id='ENEMY_BOSS4 - DMG'>35</bal><!-- DEFAULT - 35 -->
+	<bal id='ENEMY_BOSS4 - BULLET DMG'>40</bal><!-- DEFAULT - 40 -->
+	<bal id='ENEMY_BOSS4 - SPEED'>220</bal><!-- DEFAULT - 220 -->
+	
+	<!-- LORD DECIBEL - BOSS 5  -->
+	<bal id='ENEMY_BOSS5 - HP'>3000</bal> <!-- DEFAULT - 3000 -->
+	<bal id='ENEMY_BOSS5 - XP'>5000</bal><!-- DEFAULT - 5000 -->
+	<bal id='ENEMY_BOSS5 - DMG'>40</bal><!-- DEFAULT - 40 -->
+	<bal id='ENEMY_BOSS5 - BULLET DMG'>40</bal><!-- DEFAULT - 40 -->
+	<bal id='ENEMY_BOSS5 - SPEED'>220</bal><!-- DEFAULT - 220 -->
+
+	
+<!-- MINI BOSSES  -->
+	<!-- DARKMATTER - MINIBOSS 1  -->
+	<bal id='ENEMY_MINIBOSS1 - HP'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='ENEMY_MINIBOSS1 - XP'>500</bal><!-- DEFAULT - 500 -->
+	<bal id='ENEMY_MINIBOSS1 - DMG'>10</bal><!-- DEFAULT - 10 -->
+	<bal id='ENEMY_MINIBOSS1 - SPEED'>250</bal><!-- DEFAULT - 250 -->
+	
+	<!-- UNDERTOW - MINIBOSS 2  -->
+	<bal id='ENEMY_MINIBOSS2 - HP'>1300</bal> <!-- DEFAULT - 1300 -->
+	<bal id='ENEMY_MINIBOSS2 - XP'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='ENEMY_MINIBOSS2 - DMG'>25</bal><!-- DEFAULT - 25 -->
+	<bal id='ENEMY_MINIBOSS2 - BULLET DMG'>20</bal><!-- DEFAULT - 20 -->
+	<bal id='ENEMY_MINIBOSS2 - SPEED'>250</bal><!-- DEFAULT - 250 -->
+
+	<!-- WRECKINGBOLT - MINIBOSS 3  -->
+	<bal id='ENEMY_MINIBOSS3 - HP'>1700</bal><!-- DEFAULT - 1700 -->
+	<bal id='ENEMY_MINIBOSS3 - XP'>1500</bal><!-- DEFAULT - 1500 -->
+	<bal id='ENEMY_MINIBOSS3 - DMG'>30</bal><!-- DEFAULT - 30 -->
+	<bal id='ENEMY_MINIBOSS3 - SPEED'>250</bal><!-- DEFAULT - 250 -->
+	
+	<!-- HOTSHOT - MINIBOSS 4  -->
+	<bal id='ENEMY_MINIBOSS4 - HP'>1900</bal> <!-- DEFAULT - 1900 -->
+	<bal id='ENEMY_MINIBOSS4 - XP'>1700</bal><!-- DEFAULT - 1700 -->
+	<bal id='ENEMY_MINIBOSS4 - DMG'>35</bal><!-- DEFAULT - 35 -->
+	<bal id='ENEMY_MINIBOSS4 - SPEED'>280</bal><!-- DEFAULT - 270 -->
+	
+	<!-- CRYSTALFIST - MINIBOSS 5  -->
+	<bal id='ENEMY_MINIBOSS5 - HP'>2000</bal> <!-- DEFAULT - 2000 -->
+	<bal id='ENEMY_MINIBOSS5 - XP'>1900</bal><!-- DEFAULT - 1500 -->
+	<bal id='ENEMY_MINIBOSS5 - DMG'>35</bal><!-- DEFAULT - 35 -->
+	<bal id='ENEMY_MINIBOSS5 - SPEED'>270</bal><!-- DEFAULT - 250 -->
+	
+	
+<!-- UPGRADES  -->
+	<!-- ALL STAT UPGRADE COSTS  -->
+	<bal id='UPGRADE 1'>100</bal><!-- DEFAULT - 100 -->
+	<bal id='UPGRADE 2'>500</bal><!-- DEFAULT - 500 -->
+	<bal id='UPGRADE 3'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='UPGRADE 4'>1500</bal><!-- DEFAULT - 1500 -->
+	<bal id='UPGRADE 5'>2000</bal><!-- DEFAULT - 2000 -->
+	<bal id='UPGRADE 6'>2500</bal><!-- DEFAULT - 2500 -->
+	<bal id='UPGRADE 7'>3000</bal><!-- DEFAULT - 3000 -->
+	<bal id='UPGRADE 8'>3500</bal><!-- DEFAULT - 3500 -->
+	<bal id='UPGRADE 9'>4000</bal><!-- DEFAULT - 4000 -->
+	<bal id='UPGRADE 10'>5000</bal><!-- DEFAULT - 5000 -->
+	<bal id='UPGRADE 11'>6000</bal><!-- DEFAULT - 6000 -->
+	<bal id='UPGRADE 12'>7000</bal><!-- DEFAULT - 7000 -->
+	<bal id='UPGRADE 13'>8000</bal><!-- DEFAULT - 8000 -->
+	<bal id='UPGRADE 14'>9000</bal><!-- DEFAULT - 9000 -->
+	<bal id='UPGRADE 15'>10000</bal><!-- DEFAULT - 10000 -->
+	
+	<!-- HQ UPGRADE COSTS  -->
+	<bal id='HQ UPGRADE 1'>1000</bal><!-- DEFAULT - 1000 -->
+	<bal id='HQ UPGRADE 2'>2000</bal><!-- DEFAULT - 2000 -->
+	<bal id='HQ UPGRADE 3'>3000</bal><!-- DEFAULT - 3000 -->
+	<bal id='HQ UPGRADE 4'>4000</bal><!-- DEFAULT - 4000 -->
+	
+	<!-- HQ DECORATION XP REWARDS  -->
+	<bal id='HQ STARTER ITEMS XP'>25</bal><!-- DEFAULT - 25 -->
+	<bal id='HQ BRONZE ITEMS XP'>100</bal><!-- DEFAULT - 100 -->
+	<bal id='HQ SILVER ITEMS XP'>250</bal><!-- DEFAULT - 250 -->
+	<bal id='HQ GOLD ITEMS XP'>500</bal><!-- DEFAULT - 500 -->
+	
+	
+	<!-- TIME BEFORE YOU CAN VIEW AN ADD AGAIN (IN SECONDS)  -->
+	<bal id='ADS TIME'>300</bal><!-- DEFAULT - 300 (5 minutes) -->
+	
+	<!-- TIME BEFORE YOU CAN VIEW AN ADD AGAIN (IN SECONDS)  -->
+	<bal id='ADS REWARD AMOUNT'>2000</bal><!-- DEFAULT - 2000 XP-->
+
+
+</balance>

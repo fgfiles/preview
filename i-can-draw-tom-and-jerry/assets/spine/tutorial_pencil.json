@@ -1,0 +1,316 @@
+{
+"skeleton": { "hash": "ZclP+tvXyoecX3LNlirkLOrtWao", "spine": "3.6.52", "width": 207.71, "height": 170.23 },
+"bones": [
+	{ "name": "root", "rotation": 3.5 },
+	{ "name": "guide_pencil", "parent": "root", "x": 251.5, "y": -284.44 }
+],
+"slots": [
+	{ "name": "guide_pencil", "bone": "guide_pencil", "attachment": "guide_pencil" },
+	{ "name": "paths", "bone": "root", "attachment": "002_pan_face_guide" }
+],
+"path": [
+	{
+		"name": "pencil_path",
+		"order": 0,
+		"bones": [ "guide_pencil" ],
+		"target": "paths",
+		"position": 0.5765,
+		"rotateMix": 0
+	}
+],
+"skins": {
+	"default": {
+		"guide_pencil": {
+			"guide_pencil": { "x": 93.81, "y": 72.9, "scaleX": 0.4, "scaleY": 0.4, "width": 496, "height": 396 }
+		},
+		"paths": {
+			"001_pan_guide": {
+				"type": "path",
+				"closed": true,
+				"lengths": [ 240.81, 282.42, 496.56, 748.66, 851.4, 1069.67, 1130.36, 1187.39, 1440.61, 1681.52, 1750.58, 1792.8 ],
+				"vertexCount": 36,
+				"vertices": [ -49.57, 615.72, -11.5, 621.09, 51.92, 630.03, 227.76, 647.44, 227.77, 648.22, 227.98, 660.83, 227.93, 682.33, 232.94, 689.17, 263.74, 731.22, 339.65, 759.92, 418.31, 792.42, 490.86, 822.4, 638.01, 848.83, 663.48, 818.26, 678.68, 800.01, 720.14, 744.39, 719.97, 732.92, 719.56, 705.2, 657.79, 637.43, 555.53, 598.88, 542.51, 593.97, 546, 568.24, 512.07, 558.89, 479.78, 549.99, 470.14, 572.75, 457.58, 569.61, 364.74, 546.45, 230.15, 559.55, 225.7, 616.19, 225.42, 619.79, 70.7, 583.61, -10.79, 570.47, -46.36, 564.74, -70.33, 561.07, -71.77, 581.48, -73.06, 599.63 ]
+			},
+			"002_pan_face_guide": {
+				"type": "path",
+				"closed": true,
+				"lengths": [ 147.43, 208.74, 322.15, 426.99, 682.16, 943.83, 1024.97, 1066.74, 1099.24 ],
+				"vertexCount": 27,
+				"vertices": [ 273.87, 813.14, 300.72, 815.53, 302.14, 815.65, 383.69, 903.49, 419.32, 899.64, 461.03, 895.13, 449.27, 855.63, 450.91, 855.83, 529.84, 865.38, 557.99, 838.08, 561.01, 838.43, 588.77, 841.66, 638.59, 844.36, 662.05, 822.34, 693.2, 793.12, 607, 719.65, 474.27, 677.75, 286.22, 618.37, 231.69, 653.22, 228.41, 679.09, 226.25, 696.2, 250.06, 730.65, 275.6, 740.92, 276.56, 741.31, 271.31, 762.66, 281.9, 781.65, 282.33, 782.43 ]
+			},
+			"003_pan_detail_1_guide": {
+				"type": "path",
+				"lengths": [ 44.88, 101.87 ],
+				"vertexCount": 6,
+				"vertices": [ 275.96, 761.12, 275.92, 748.76, 275.9, 740, 280.84, 717.98, 286.4, 705.29, 291.36, 693.97 ]
+			},
+			"003_pan_detail_2_guide": {
+				"type": "path",
+				"lengths": [ 48.17, 107.68 ],
+				"vertexCount": 6,
+				"vertices": [ 393.33, 895.56, 384.31, 887.11, 373.91, 877.36, 363.11, 864.45, 362.32, 845.63, 361.81, 833.28 ]
+			},
+			"003_pan_detail_3_guide": {
+				"type": "path",
+				"lengths": [ 219.52, 358.39 ],
+				"vertexCount": 6,
+				"vertices": [ 457.15, 701.44, 456.78, 713.79, 453.71, 814.92, 377, 816.36, 319.39, 711.96, 313.42, 701.14 ]
+			},
+			"003_pan_detail_4_guide": {
+				"type": "path",
+				"lengths": [ 71.05, 154.07 ],
+				"vertexCount": 6,
+				"vertices": [ 465.54, 749.68, 460.2, 760.83, 452.47, 776.98, 446.14, 810.5, 443.89, 829.78, 442.46, 842.05 ]
+			},
+			"003_pan_detail_5_guide": {
+				"type": "path",
+				"lengths": [ 37.92, 88.11 ],
+				"vertexCount": 6,
+				"vertices": [ 557.04, 843.01, 568.69, 838.9, 574.51, 836.84, 591.09, 827.69, 601.89, 820.65, 612.25, 813.9 ]
+			}
+		}
+	}
+},
+"animations": {
+	"001_pan_guide": {
+		"slots": {
+			"guide_pencil": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 6.3333, "color": "ffffffff" },
+					{ "time": 6.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "guide_pencil" }
+				]
+			},
+			"paths": {
+				"attachment": [
+					{ "time": 0, "name": "001_pan_guide" }
+				]
+			}
+		},
+		"bones": {
+			"guide_pencil": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 5.31, "y": 1118.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.3333, "x": 1, "y": 1 },
+					{ "time": 6.6667, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"paths": {
+			"pencil_path": {
+				"position": [
+					{ "time": 0, "curve": "stepped" },
+					{ "time": 0.3333 },
+					{ "time": 6.3333, "position": 1, "curve": "stepped" },
+					{ "time": 6.6667, "position": 1 }
+				],
+				"mix": [
+					{ "time": 0, "rotateMix": 0, "translateMix": 0.498 },
+					{ "time": 0.3333, "rotateMix": 0, "curve": "stepped" },
+					{ "time": 6.3333, "rotateMix": 0 },
+					{ "time": 6.6667, "rotateMix": 0, "translateMix": 0.498 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"paths": {
+					"001_pan_guide": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"002_pan_face_guide": {
+		"slots": {
+			"guide_pencil": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "guide_pencil" }
+				]
+			},
+			"paths": {
+				"attachment": [
+					{ "time": 0, "name": "002_pan_face_guide" }
+				]
+			}
+		},
+		"bones": {
+			"guide_pencil": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.864, 0.86 ]
+					},
+					{
+						"time": 1.3667,
+						"angle": -47.65,
+						"curve": [ 0.175, 0.16, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 189.53, "y": 967.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.3333, "x": 1, "y": 1 },
+					{ "time": 2.6667, "x": 1.1, "y": 1.1 }
+				]
+			}
+		},
+		"paths": {
+			"pencil_path": {
+				"position": [
+					{ "time": 0, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"curve": [ 0.323, 0, 0.656, 0.34 ]
+					},
+					{ "time": 2.3333, "position": 1, "curve": "stepped" },
+					{ "time": 2.6667, "position": 1 }
+				],
+				"mix": [
+					{ "time": 0, "rotateMix": 0, "translateMix": 0.498 },
+					{ "time": 0.3333, "rotateMix": 0, "curve": "stepped" },
+					{ "time": 2.3333, "rotateMix": 0 },
+					{ "time": 2.6667, "rotateMix": 0, "translateMix": 0.498 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"paths": {
+					"002_pan_face_guide": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"003_pan_detail_guide": {
+		"slots": {
+			"guide_pencil": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.7667, "color": "ffffffff" },
+					{ "time": 1.9, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.2333, "color": "ffffff00" },
+					{ "time": 2.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.2, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.7667, "color": "ffffff00" },
+					{ "time": 3.9333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.2333, "color": "ffffffff" },
+					{ "time": 4.3667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.8, "color": "ffffff00" },
+					{ "time": 4.9667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 5.5667, "color": "ffffffff" },
+					{ "time": 5.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "guide_pencil" },
+					{ "time": 4.8, "name": "guide_pencil" }
+				]
+			},
+			"paths": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "003_pan_detail_1_guide" },
+					{ "time": 1.2, "name": "003_pan_detail_2_guide" },
+					{ "time": 2.2333, "name": "003_pan_detail_3_guide" },
+					{ "time": 3.7667, "name": "003_pan_detail_4_guide" },
+					{ "time": 4.8, "name": "003_pan_detail_5_guide" }
+				]
+			}
+		},
+		"bones": {
+			"guide_pencil": {
+				"rotate": [
+					{ "time": 0, "angle": 0.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": -187.12, "y": 31.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.044, "y": 1.044 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"paths": {
+			"pencil_path": {
+				"position": [
+					{ "time": 0, "curve": "stepped" },
+					{ "time": 0.1 },
+					{ "time": 0.7667, "position": 1, "curve": "stepped" },
+					{ "time": 1.2, "curve": "stepped" },
+					{ "time": 1.3 },
+					{ "time": 1.8, "position": 1, "curve": "stepped" },
+					{ "time": 2.2333, "curve": "stepped" },
+					{ "time": 2.3333 },
+					{ "time": 3.3333, "position": 1, "curve": "stepped" },
+					{ "time": 3.7667, "curve": "stepped" },
+					{ "time": 3.8667 },
+					{ "time": 4.3667, "position": 1, "curve": "stepped" },
+					{ "time": 4.8, "curve": "stepped" },
+					{ "time": 4.9 },
+					{ "time": 5.5667, "position": 1 }
+				],
+				"mix": [
+					{ "time": 0, "rotateMix": 0 }
+				]
+			}
+		}
+	}
+}
+}

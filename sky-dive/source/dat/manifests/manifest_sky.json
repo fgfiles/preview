@@ -1,0 +1,65 @@
+{
+  "id": "game",
+  "anim": [
+
+    "anim/boost.json",
+    "anim/skydive_splash.json",
+    "anim/skydive_bird.json",
+    "anim/skydive_crate.json",
+    {
+      "url": "anim/skydive_character_[n].json",
+      "id": "skydive_character_[n]",
+      "count": 16
+    },
+    "anim/countdown.json",
+    "anim/cloud.json",
+    {
+      "url": "anim/end_character_[n].json",
+      "id": "end_character_[n]",
+      "count": 16
+    }
+  ],
+  "json": [
+    "fnt/zorb_ball_font.fnt",
+    "fnt/zorb_ball_font_outline.fnt",
+    "fnt/fred_font.fnt",
+    "fnt/fred_font_shadow.fnt",
+    "dat/boomerang_all_stars_ar-sa.json",
+    "dat/boomerang_all_stars_da-dk.json",
+    "dat/boomerang_all_stars_de-de.json",
+    "dat/boomerang_all_stars_en-gb.json",
+    "dat/boomerang_all_stars_es-es.json",
+    "dat/boomerang_all_stars_fr-fr.json",
+    "dat/boomerang_all_stars_hu-hu.json",
+    "dat/boomerang_all_stars_it-it.json",
+    "dat/boomerang_all_stars_nl-nl.json",
+    "dat/boomerang_all_stars_no-no.json",
+    "dat/boomerang_all_stars_pl-pl.json",
+    "dat/boomerang_all_stars_pt-pt.json",
+    "dat/boomerang_all_stars_ro-ro.json",
+    "dat/boomerang_all_stars_ru-ru.json",
+    "dat/boomerang_all_stars_sv-se.json",
+    "dat/boomerang_all_stars_tr-tr.json",
+    "dat/boomerang_all_stars_es-mx.json",
+    "dat/boomerang_all_stars_pt-br.json"
+
+
+  ],
+  "atlas": [
+    {
+      "url": "img/sky_screen_atlas_[n]_[v].json",
+      "id": "sky_screen_atlas_[n]",
+      "count": 2
+    },
+    {
+      "url": "img/ui_atlas_[n]_[v].json",
+      "id": "ui_atlas_[n]",
+      "count": 2
+    },
+    {
+      "url": "img/game_screens_atlas_[n]_[v].json",
+      "id": "game_screens_atlas_[n]",
+      "count": 1
+    }
+  ]
+}

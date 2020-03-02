@@ -1,0 +1,172 @@
+{
+  "name": "Barrel Rolling",
+  "webFont": "adlib_btregular",
+  "bmFont": "clare_bold",
+  "monsterTimeout": 5,
+  "cameraTrackX": 50,
+  "oneStar": 90,
+  "twoStars": 75,
+  "threeStars": 60,
+  "difficultySecs": 5,
+  "coinValue": 10,
+  "killValue": 100,
+  "distanceValue": 0.5,
+  "levels": [
+    {
+      "index": 0,
+      "location": 1,
+      "difficulty": "easy",
+      "src": "maps/easy_market.json"
+    },
+    {
+      "index": 1,
+      "location": 0,
+      "difficulty": "easy",
+      "src": "maps/easy_canyon.json"
+    },
+    {
+      "index": 2,
+      "location": 2,
+      "difficulty": "easy",
+      "src": "maps/easy_rooftop.json"
+    },
+    {
+      "index": 3,
+      "location": 1,
+      "difficulty": "medium",
+      "src": "maps/medium_market.json"
+    },
+    {
+      "index": 4,
+      "location": 0,
+      "difficulty": "medium",
+      "src": "maps/medium_canyon.json"
+    },
+    {
+      "index": 5,
+      "location": 2,
+      "difficulty": "medium",
+      "src": "maps/medium_rooftop.json"
+    },
+    {
+      "index": 6,
+      "location": 1,
+      "difficulty": "hard",
+      "src": "maps/hard_market.json"
+    },
+    {
+      "index": 7,
+      "location": 0,
+      "difficulty": "hard",
+      "src": "maps/hard_canyon.json"
+    },
+    {
+      "index": 8,
+      "location": 2,
+      "difficulty": "hard",
+      "src": "maps/hard_rooftop.json"
+    }
+  ],
+  "assets": {
+
+    "end_music": {
+      "src": "end_game_congratulations",
+      "id": "end_loop",
+      "loop": true
+    },
+
+    "location_0_1x": [
+      {
+        "src": "red_rock_canyon/red_rock_canyon_1_@1x.json",
+        "id": "red_rock_canyon_1"
+      }
+    ],
+    "location_0_2x": [
+      {
+        "src": "red_rock_canyon/red_rock_canyon_1_@2x.json",
+        "id": "red_rock_canyon_1"
+      }
+    ],
+    "location_1_1x": [
+      {
+        "src": "thieves_market/thieves_market_1_@1x.json",
+        "id": "thieves_market_1"
+      },
+      {
+        "src": "thieves_market/thieves_market_2_@1x.json",
+        "id": "thieves_market_2"
+      }
+    ],
+    "location_1_2x": [
+      {
+        "src": "thieves_market/thieves_market_1_@2x.json",
+        "id": "thieves_market_1"
+      },
+      {
+        "src": "thieves_market/thieves_market_2_@2x.json",
+        "id": "thieves_market_2"
+      }
+    ],
+    "location_2_1x": [
+      {
+        "src": "rooftop/rooftop_1_@1x.json",
+        "id": "rooftop_1"
+      },
+      {
+        "src": "rooftop/rooftop_2_@1x.json",
+        "id": "rooftop_2"
+      }
+    ],
+    "location_2_2x": [
+      {
+        "src": "rooftop/rooftop_1_@2x.json",
+        "id": "rooftop_1"
+      },
+      {
+        "src": "rooftop/rooftop_2_@2x.json",
+        "id": "rooftop_2"
+      }
+    ],
+    "location_0_music": [
+      {
+        "src": "canyon_music_loop",
+        "id": "music_loop"
+      },
+      {
+        "src": "canyon_music_intro",
+        "id": "theme_start"
+      }
+    ],
+    "location_1_music": [
+      {
+        "src": "market_music_loop",
+        "id": "music_loop"
+      },
+      {
+        "src": "market_music_intro",
+        "id": "theme_start"
+      }
+    ],
+    "location_2_music": [
+      {
+        "src": "rooftop_music_loop",
+        "id": "music_loop"
+      },
+      {
+        "src": "rooftop_music_intro",
+        "id": "theme_start"
+      }
+    ]
+  },
+  "layout": {
+    "red_rock_canyon": {
+      "sky": "sunset_flat.png"
+    },
+    "thieves_market": {
+      "sky": "sky_flat.png"
+    },
+    "rooftop": {
+      "sky": "rooftop_background.png"
+    }
+  }
+}

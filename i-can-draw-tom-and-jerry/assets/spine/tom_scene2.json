@@ -1,0 +1,9949 @@
+{
+"skeleton": { "hash": "ID/ji6GLKV7Bi0GMSdqQGd6LKZU", "spine": "3.6.52", "width": 924, "height": 1081.08 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hip", "parent": "root" },
+	{ "name": "body", "parent": "hip", "length": 324.79, "rotation": 90.62, "x": -11.47, "y": -205.63 },
+	{ "name": "arm_l", "parent": "body", "length": 271.3, "rotation": -140.52, "x": 266.16, "y": -78.36, "transform": "noScale" },
+	{ "name": "arm_r", "parent": "body", "length": 194.76, "rotation": 158.69, "x": 307.26, "y": 36.87, "transform": "noScale" },
+	{ "name": "head", "parent": "body", "length": 230.18, "rotation": -0.08, "x": 330.52, "y": 4.63, "transform": "noScale" },
+	{ "name": "ear_l", "parent": "head", "length": 193.25, "rotation": -31.05, "x": 167.09, "y": -115.32 },
+	{ "name": "ear_r", "parent": "head", "length": 173.58, "rotation": 24.65, "x": 209.61, "y": 64.01 },
+	{ "name": "eyes", "parent": "head", "rotation": -2.27, "x": 120.31, "y": 6.36 },
+	{ "name": "eye_l", "parent": "eyes", "rotation": -0.86, "x": 0.3, "y": -45.29 },
+	{ "name": "eye_r", "parent": "eyes", "rotation": 3.76, "x": -9.94, "y": 38.81 },
+	{ "name": "eyebrows", "parent": "head", "rotation": -1.46, "x": 169.22, "y": 5.7 },
+	{ "name": "mouth", "parent": "head", "rotation": 1.7, "x": 26.51, "y": 9.43 },
+	{ "name": "pupils", "parent": "eyes", "rotation": 2.93, "x": 17.27, "y": 0.23 },
+	{ "name": "pupil_l", "parent": "pupils", "rotation": 0.09, "x": -6.73, "y": -44.49 },
+	{ "name": "pupil_r", "parent": "pupils", "rotation": 0.47, "x": -9.3, "y": 39.28 }
+],
+"slots": [
+	{ "name": "arm_r", "bone": "arm_r", "attachment": "arm_r" },
+	{ "name": "body", "bone": "body", "attachment": "body" },
+	{ "name": "clipping_ear_l", "bone": "ear_l", "attachment": "clipping_ear_l" },
+	{ "name": "ear_l", "bone": "ear_l", "attachment": "ear_l" },
+	{ "name": "arm_l", "bone": "arm_l", "attachment": "arm_l" },
+	{ "name": "clipping_ear_r", "bone": "ear_r", "attachment": "clipping_ear_r" },
+	{ "name": "ear_r", "bone": "ear_r", "attachment": "ear_r" },
+	{ "name": "ear_r_detail", "bone": "ear_r", "attachment": "ear_r_detail" },
+	{ "name": "head", "bone": "head", "attachment": "head" },
+	{ "name": "ear_l_detail", "bone": "ear_l", "attachment": "ear_l_detail" },
+	{ "name": "face_marking", "bone": "head", "attachment": "face_marking" },
+	{ "name": "eye_l_lashes", "bone": "eye_l", "attachment": "eye_l_lashes" },
+	{ "name": "eye_l", "bone": "eye_l", "attachment": "eye_l" },
+	{ "name": "eye_l_pupil_colour", "bone": "pupil_l", "attachment": "eye_l_pupil_colour" },
+	{ "name": "eye_l_pupil", "bone": "pupil_l", "attachment": "eye_l_pupil" },
+	{ "name": "eye_r_lashes", "bone": "eye_r", "attachment": "eye_r_lashes" },
+	{ "name": "eye_r", "bone": "eye_r", "attachment": "eye_r" },
+	{ "name": "eye_r_pupil_colour", "bone": "pupil_r", "attachment": "eye_r_pupil_colour" },
+	{ "name": "eye_r_pupil", "bone": "pupil_r", "attachment": "eye_r_pupil" },
+	{ "name": "eyebrow", "bone": "eyebrows", "attachment": "eyebrow" },
+	{ "name": "eyebrow_detail", "bone": "eyebrows", "attachment": "eyebrow_detail" },
+	{ "name": "muzzle", "bone": "mouth", "attachment": "muzzle" },
+	{ "name": "muzzle_detail", "bone": "mouth", "attachment": "muzzle_detail" },
+	{ "name": "nose", "bone": "mouth", "attachment": "nose" },
+	{ "name": "nose_shine", "bone": "mouth", "attachment": "nose_shine" },
+	{ "name": "cheek_l", "bone": "head", "attachment": "cheek_l" },
+	{ "name": "cheek_r", "bone": "head", "attachment": "cheek_r" },
+	{ "name": "whiskers", "bone": "mouth", "attachment": "whiskers" },
+	{ "name": "023_whiskers_guide", "bone": "mouth", "attachment": "whiskers_guide" },
+	{ "name": "022_cheek_l_guide", "bone": "head", "attachment": "cheek_l_guide" },
+	{ "name": "021_cheek_r_guide", "bone": "head", "attachment": "cheek_r_guide" },
+	{ "name": "020_eyebrow_detail_guide", "bone": "eyebrows", "attachment": "eyebrow_detail_guide" },
+	{ "name": "019_eyebrow_guide", "bone": "eyebrows", "attachment": "eyebrow_guide" },
+	{ "name": "018_eye_l_pupil_guide", "bone": "pupil_l", "attachment": "eye_l_pupil_guide" },
+	{ "name": "017_eye_r_pupil_guide", "bone": "pupil_r", "attachment": "eye_r_pupil_guide" },
+	{ "name": "016_eye_l_pupil_colour_guide", "bone": "pupil_l", "attachment": "eye_l_pupil_colour_guide" },
+	{ "name": "015_eye_r_pupil_colour_guide", "bone": "pupil_r", "attachment": "eye_r_pupil_colour_guide" },
+	{ "name": "014_eye_l_lashes_guide", "bone": "eye_l", "attachment": "eye_l_lashes_guide" },
+	{ "name": "013_eye_r_lashes_guide", "bone": "eye_r", "attachment": "eye_r_lashes_guide" },
+	{ "name": "012_eye_l_guide", "bone": "eye_l", "attachment": "eye_l_guide" },
+	{ "name": "011_eye_r_guide", "bone": "eye_r", "attachment": "eye_r_guide" },
+	{ "name": "010_face_marking_guide", "bone": "head", "attachment": "face_marking_guide" },
+	{ "name": "009_nose_shine_guide", "bone": "mouth", "attachment": "nose_shine_guide" },
+	{ "name": "008_nose_guide", "bone": "mouth", "attachment": "nose_guide" },
+	{ "name": "007_muzzle_detail_guide", "bone": "mouth", "attachment": "muzzle_detail_guide" },
+	{ "name": "006_muzzle_guide", "bone": "mouth", "attachment": "muzzle_guide" },
+	{ "name": "005_ear_l_detail_guide", "bone": "ear_l", "attachment": "ear_l_detail_guide" },
+	{ "name": "004_ear_l_guide", "bone": "ear_l", "attachment": "ear_l_guide" },
+	{ "name": "003_ear_r_detail_guide", "bone": "ear_r", "attachment": "ear_r_detail_guide" },
+	{ "name": "002_ear_r_guide", "bone": "ear_r", "attachment": "ear_r_guide" },
+	{ "name": "001_head_guide", "bone": "head", "attachment": "head_guide" },
+	{ "name": "guide", "bone": "root", "color": "ffffff85" },
+	{ "name": "static", "bone": "root", "attachment": "static" }
+],
+"skins": {
+	"default": {
+		"001_head_guide": {
+			"head_guide": { "x": 159.26, "y": -21.55, "rotation": -90.4, "width": 420, "height": 380 }
+		},
+		"002_ear_r_guide": {
+			"ear_r_guide": { "x": 49.6, "y": -8.87, "rotation": -115.26, "width": 180, "height": 240 }
+		},
+		"003_ear_r_detail_guide": {
+			"ear_r_detail_guide": { "x": 58.98, "y": -7.99, "rotation": -115.19, "width": 180, "height": 240 }
+		},
+		"004_ear_l_guide": {
+			"ear_l_guide": { "x": 63.51, "y": 1.45, "rotation": -59.56, "width": 200, "height": 268 }
+		},
+		"005_ear_l_detail_guide": {
+			"ear_l_detail_guide": { "x": 81.8, "y": 7.92, "rotation": -59.48, "width": 200, "height": 240 }
+		},
+		"006_muzzle_guide": {
+			"muzzle_guide": { "x": -1.73, "y": -4.28, "rotation": -91.9, "width": 200, "height": 140 }
+		},
+		"007_muzzle_detail_guide": {
+			"muzzle_detail_guide": { "x": -2.87, "y": -4.61, "rotation": -92.2, "width": 140, "height": 72 }
+		},
+		"008_nose_guide": {
+			"nose_guide": { "x": 36.58, "y": 4.26, "rotation": -91.93, "width": 64, "height": 40 }
+		},
+		"009_nose_shine_guide": {
+			"nose_shine_guide": { "x": 45.38, "y": 12.77, "rotation": -93.02, "width": 40, "height": 20 }
+		},
+		"010_face_marking_guide": {
+			"face_marking_guide": { "x": 126, "y": 6.02, "rotation": -90.53, "width": 68, "height": 128 }
+		},
+		"011_eye_r_guide": {
+			"eye_r_guide": { "x": 17.29, "y": -0.13, "rotation": -89.92, "width": 60, "height": 132 }
+		},
+		"012_eye_l_guide": {
+			"eye_l_guide": { "x": 13.59, "y": 2.34, "rotation": -87.18, "width": 72, "height": 140 }
+		},
+		"013_eye_r_lashes_guide": {
+			"eye_r_lashes_guide": { "x": 45.93, "y": 9.25, "rotation": -92.68, "width": 44, "height": 80 }
+		},
+		"014_eye_l_lashes_guide": {
+			"eye_l_lashes_guide": { "x": 35.8, "y": -3.85, "rotation": -87.18, "width": 68, "height": 100 }
+		},
+		"015_eye_r_pupil_colour_guide": {
+			"eye_r_pupil_colour_guide": { "x": 0.14, "y": 0.4, "rotation": -90.9, "width": 28, "height": 68 }
+		},
+		"016_eye_l_pupil_colour_guide": {
+			"eye_l_pupil_colour_guide": { "x": -1.8, "y": 0.14, "rotation": -91.39, "width": 36, "height": 80 }
+		},
+		"017_eye_r_pupil_guide": {
+			"eye_r_pupil_guide": { "x": 0.05, "y": 0.13, "rotation": -91.44, "width": 24, "height": 52 }
+		},
+		"018_eye_l_pupil_guide": {
+			"eye_l_pupil_guide": { "x": -0.2, "y": 0.31, "rotation": -90.2, "width": 24, "height": 56 }
+		},
+		"019_eyebrow_guide": {
+			"eyebrow_guide": { "x": 8.58, "y": -6.11, "rotation": -89.22, "width": 180, "height": 68 }
+		},
+		"020_eyebrow_detail_guide": {
+			"eyebrow_detail_guide": { "x": -9.76, "y": 3.72, "rotation": -89.54, "width": 12, "height": 20 }
+		},
+		"021_cheek_r_guide": {
+			"cheek_r_guide": { "x": 100.21, "y": 90.17, "rotation": -90.53, "width": 80, "height": 72 }
+		},
+		"022_cheek_l_guide": {
+			"cheek_l_guide": { "x": 83.26, "y": -88.29, "rotation": -90.53, "width": 100, "height": 100 }
+		},
+		"023_whiskers_guide": {
+			"whiskers_guide": { "x": 43.29, "y": -5.67, "rotation": -92.46, "width": 540, "height": 160 }
+		},
+		"arm_l": {
+			"arm_l": { "x": 167.9, "y": 13.35, "rotation": 49.58, "width": 272, "height": 408 }
+		},
+		"arm_r": {
+			"arm_r": { "x": 186.27, "y": -38.29, "rotation": 117.08, "width": 328, "height": 372 }
+		},
+		"body": {
+			"body": { "x": 135.03, "y": -25.33, "rotation": -90.62, "width": 280, "height": 520 }
+		},
+		"cheek_l": {
+			"cheek_l": { "x": 83.26, "y": -88.29, "rotation": -90.53, "width": 100, "height": 100 }
+		},
+		"cheek_r": {
+			"cheek_r": { "x": 100.21, "y": 90.17, "rotation": -90.53, "width": 80, "height": 72 }
+		},
+		"clipping_ear_l": {
+			"clipping_ear_l": {
+				"type": "clipping",
+				"end": "ear_l",
+				"vertexCount": 14,
+				"vertices": [ 103.44, 66.47, 49.32, 72.79, -73.35, -12.65, -59.61, -81.29, -31.16, -131.58, 16.45, -164.96, 74.2, -173.83, 139.39, -158.17, 183.82, -131.23, 215.73, -88.01, 224.95, -44.33, 213.1, -7.97, 188.68, 23.49, 150.79, 50.07 ]
+			}
+		},
+		"clipping_ear_r": {
+			"clipping_ear_r": {
+				"type": "clipping",
+				"end": "ear_r",
+				"vertexCount": 14,
+				"vertices": [ 188.78, 91.12, 140.71, 143.19, 65.98, 171.21, -8.85, 162.53, -61, 106.32, -74.76, 33.56, -42.04, -34.19, -4.98, -58.7, 33.57, -66.13, 75.35, -64.08, 113.6, -50.26, 154.45, -23.6, 183.4, 4.14, 198.15, 31.48 ]
+			}
+		},
+		"ear_l": {
+			"ear_l": { "x": 63.51, "y": 1.45, "rotation": -59.56, "width": 200, "height": 268 }
+		},
+		"ear_l_detail": {
+			"ear_l_detail": { "x": 81.57, "y": 8.43, "rotation": -58.81, "width": 200, "height": 240 }
+		},
+		"ear_r": {
+			"ear_r": { "x": 49.6, "y": -8.87, "rotation": -115.26, "width": 180, "height": 240 }
+		},
+		"ear_r_detail": {
+			"ear_r_detail": { "x": 59.99, "y": -8.8, "rotation": -114.51, "width": 180, "height": 240 }
+		},
+		"eye_l": {
+			"eye_l": { "x": 13.61, "y": 2.3, "rotation": -87.18, "width": 72, "height": 140 }
+		},
+		"eye_l_lashes": {
+			"eye_l_lashes": { "x": 35.8, "y": -3.8, "rotation": -87.18, "width": 68, "height": 100 }
+		},
+		"eye_l_pupil": {
+			"eye_l_pupil": { "x": -0.22, "y": 0.27, "rotation": -90.2, "width": 24, "height": 56 }
+		},
+		"eye_l_pupil_colour": {
+			"eye_l_pupil_colour": { "x": -1.8, "y": 0.14, "rotation": -91.39, "width": 36, "height": 80 }
+		},
+		"eye_r": {
+			"eye_r": { "x": 17.28, "y": -0.13, "rotation": -89.92, "width": 60, "height": 132 }
+		},
+		"eye_r_lashes": {
+			"eye_r_lashes": { "x": 45.95, "y": 9.26, "rotation": -92.68, "width": 44, "height": 80 }
+		},
+		"eye_r_pupil": {
+			"eye_r_pupil": { "x": 0.09, "y": 0.14, "rotation": -91.44, "width": 24, "height": 52 }
+		},
+		"eye_r_pupil_colour": {
+			"eye_r_pupil_colour": { "x": 0.17, "y": 1.22, "rotation": -90.9, "width": 28, "height": 68 }
+		},
+		"eyebrow": {
+			"eyebrow": { "x": 8.58, "y": -6.11, "rotation": -89.22, "width": 180, "height": 68 }
+		},
+		"eyebrow_detail": {
+			"eyebrow_detail": { "x": -9.76, "y": 3.72, "rotation": -89.54, "width": 12, "height": 20 }
+		},
+		"face_marking": {
+			"face_marking": { "x": 126, "y": 6.02, "rotation": -90.53, "width": 68, "height": 128 }
+		},
+		"guide": {
+			"guide": { "width": 1000, "height": 1200 }
+		},
+		"head": {
+			"head": { "x": 159.26, "y": -21.55, "rotation": -90.4, "width": 420, "height": 380 }
+		},
+		"muzzle": {
+			"muzzle": { "x": -1.73, "y": -4.25, "rotation": -91.9, "width": 200, "height": 140 }
+		},
+		"muzzle_detail": {
+			"muzzle_detail": { "x": -2.87, "y": -4.61, "rotation": -92.2, "width": 140, "height": 72 }
+		},
+		"nose": {
+			"nose": { "x": 36.58, "y": 4.22, "rotation": -91.93, "width": 64, "height": 40 }
+		},
+		"nose_shine": {
+			"nose_shine": { "x": 43.71, "y": 11.19, "rotation": -93.02, "width": 40, "height": 20 }
+		},
+		"static": {
+			"static": { "y": -326.16, "width": 924, "height": 484 }
+		},
+		"whiskers": {
+			"whiskers": { "x": 43.29, "y": -5.67, "rotation": -92.46, "width": 540, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"001_head_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": "head_guide" }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"002_ear_r_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r_guide" }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"003_ear_r_detail_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r_detail" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"004_ear_l_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_guide" }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r_detail" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				},
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"005_ear_l_detail_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail_guide" }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r_detail" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				},
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"006_muzzle_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_guide" }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"ear_r_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r_detail" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				},
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"007_muzzle_detail_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail_guide" }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"008_nose_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": "nose_guide" }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"009_nose_shine_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine_guide" }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"010_face_marking_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking_guide" }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"011_eye_r_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_guide" }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"012_eye_l_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_guide" }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"013_eye_r_lashes_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes_guide" }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"014_eye_l_lashes_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes_guide" }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"015_eye_r_pupil_colour_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour_guide" }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"016_eye_l_pupil_colour_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour_guide" }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"017_eye_r_pupil_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_guide" }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"018_eye_l_pupil_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_guide" }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"019_eyebrow_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_guide" }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"020_eyebrow_detail_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail_guide" }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail" }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"021_cheek_r_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_r_guide" }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_r" }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail" }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"022_cheek_l_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_l_guide" }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_l" }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_r" }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail" }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"023_whiskers_guide": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": "whiskers_guide" }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_l" }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_r" }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_l_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil_colour" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eye_r_pupil_colour": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil_colour" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail" }
+				]
+			},
+			"face_marking": {
+				"attachment": [
+					{ "time": 0, "name": "face_marking" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"whiskers": {
+				"attachment": [
+					{ "time": 0, "name": "whiskers" }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"eyes": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.967, 0.83 ]
+					},
+					{
+						"time": 0.4667,
+						"x": 0.214,
+						"y": 1,
+						"curve": [ 0.061, 0.17, 0.75, 1 ]
+					},
+					{ "time": 0.5667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"ani": {
+		"slots": {
+			"001_head_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"002_ear_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"003_ear_r_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"004_ear_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"005_ear_l_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"006_muzzle_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"007_muzzle_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"008_nose_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"009_nose_shine_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"010_face_marking_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"011_eye_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"012_eye_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"013_eye_r_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"014_eye_l_lashes_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"015_eye_r_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"016_eye_l_pupil_colour_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"017_eye_r_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"018_eye_l_pupil_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"019_eyebrow_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"020_eyebrow_detail_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"021_cheek_r_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"022_cheek_l_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"023_whiskers_guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_l": {
+				"attachment": [
+					{ "time": 0, "name": "arm_l" }
+				]
+			},
+			"arm_r": {
+				"attachment": [
+					{ "time": 0, "name": "arm_r" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body" }
+				]
+			},
+			"cheek_l": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_l" }
+				]
+			},
+			"cheek_r": {
+				"attachment": [
+					{ "time": 0, "name": "cheek_r" }
+				]
+			},
+			"clipping_ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_l" }
+				]
+			},
+			"clipping_ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "clipping_ear_r" }
+				]
+			},
+			"ear_l": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l" }
+				]
+			},
+			"ear_l_detail": {
+				"attachment": [
+					{ "time": 0, "name": "ear_l_detail" }
+				]
+			},
+			"ear_r": {
+				"attachment": [
+					{ "time": 0, "name": "ear_r" }
+				]
+			},
+			"eye_l": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l" }
+				]
+			},
+			"eye_l_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_lashes" }
+				]
+			},
+			"eye_l_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_l_pupil" }
+				]
+			},
+			"eye_r": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r" }
+				]
+			},
+			"eye_r_lashes": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_lashes" }
+				]
+			},
+			"eye_r_pupil": {
+				"attachment": [
+					{ "time": 0, "name": "eye_r_pupil" }
+				]
+			},
+			"eyebrow": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow" }
+				]
+			},
+			"eyebrow_detail": {
+				"attachment": [
+					{ "time": 0, "name": "eyebrow_detail" }
+				]
+			},
+			"guide": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head" }
+				]
+			},
+			"muzzle": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle" }
+				]
+			},
+			"muzzle_detail": {
+				"attachment": [
+					{ "time": 0, "name": "muzzle_detail" }
+				]
+			},
+			"nose": {
+				"attachment": [
+					{ "time": 0, "name": "nose" }
+				]
+			},
+			"nose_shine": {
+				"attachment": [
+					{ "time": 0, "name": "nose_shine" }
+				]
+			},
+			"static": {
+				"attachment": [
+					{ "time": 0, "name": "static" }
+				]
+			}
+		},
+		"bones": {
+			"ear_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 3,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.1333,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.2667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.5667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.7,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"eyebrows": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"angle": -4.66,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "angle": 8.64, "curve": "stepped" },
+					{
+						"time": 3,
+						"angle": 8.64,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.2667, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 0.955,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"mouth": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"pupil_l": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7333, "angle": 4.88, "curve": "stepped" },
+					{
+						"time": 1.8333,
+						"angle": 4.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.9333, "angle": 0, "curve": "stepped" },
+					{
+						"time": 3,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.1, "angle": 3.52, "curve": "stepped" },
+					{
+						"time": 3.9333,
+						"angle": 3.52,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.0333, "angle": 0 }
+				]
+			},
+			"pupil_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7333, "angle": 4.88, "curve": "stepped" },
+					{
+						"time": 1.8333,
+						"angle": 4.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0, "curve": "stepped" },
+					{ "time": 3.1, "angle": 0, "curve": "stepped" },
+					{ "time": 3.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 4.0333, "angle": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"pupils": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 7.04, "y": -1.21, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"x": 7.04,
+						"y": -1.21,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7333, "x": -8.35, "y": 0.11, "curve": "stepped" },
+					{
+						"time": 1.8333,
+						"x": -8.35,
+						"y": 0.11,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.9333, "x": 7.04, "y": -3.02, "curve": "stepped" },
+					{
+						"time": 3,
+						"x": 7.04,
+						"y": -3.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.1, "x": 19.49, "y": -6.63, "curve": "stepped" },
+					{
+						"time": 3.9333,
+						"x": 19.49,
+						"y": -6.63,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.0333, "x": 7.04, "y": -1.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.4333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9333, "angle": 4.72, "curve": "stepped" },
+					{
+						"time": 2.9667,
+						"angle": 4.72,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.3667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 0.955,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"arm_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0.68, "curve": "stepped" },
+					{
+						"time": 0.5333,
+						"angle": 0.68,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9667, "angle": -3.23, "curve": "stepped" },
+					{
+						"time": 3.0667,
+						"angle": -3.23,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.6333, "angle": 0.68 }
+				]
+			},
+			"arm_l": {
+				"rotate": [
+					{ "time": 0, "angle": -3.31, "curve": "stepped" },
+					{ "time": 0.3667, "angle": -3.31 },
+					{ "time": 0.9667, "angle": -0.24, "curve": "stepped" },
+					{ "time": 2.9667, "angle": -0.24 },
+					{ "time": 3.5667, "angle": -3.31 }
+				]
+			},
+			"eyes": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.856, 0.79 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 0.307,
+						"y": 1,
+						"curve": [ 0.085, 0.18, 0.75, 1 ]
+					},
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 3.0333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.856, 0.79 ]
+					},
+					{
+						"time": 3.0667,
+						"x": 0.307,
+						"y": 1,
+						"curve": [ 0.085, 0.18, 0.75, 1 ]
+					},
+					{ "time": 3.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			},
+			"ear_r": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 4.6667, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4.6667, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 3,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.1333,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.2667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.4,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.5667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.7,
+						"x": 0.903,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4.6667, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"deform": {
+			"default": {
+				"clipping_ear_l": {
+					"clipping_ear_l": [
+						{ "time": 0 }
+					]
+				},
+				"clipping_ear_r": {
+					"clipping_ear_r": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	}
+}
+}

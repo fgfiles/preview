@@ -1,0 +1,68 @@
+{
+	"meta": {
+		"name": "comic7",
+		"index": 7
+	},
+	"objects": {
+		"scene_bg": {
+			"type": "sprite",
+			"texName": "scene7",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-5, -10],
+			"anchor": [0.5, 0.5],
+			"container": "background",
+			"visible": true
+		},
+		"jerry_scene7": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "jerry_scene7_data",
+			"scale": 0.2,
+			"pos": ["mid", "mid"],
+			"pad": [-240, 40],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "middleground",
+			"visible": false
+		},
+		"jerry_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene7_jerry",
+			"spineName": "jerry_scene7_data",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-240, 120],
+			"anchor": [0.5, 0.5],
+			"container": "middleground",
+			"visible": true
+		},
+		"tom_scene7": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "tom_scene7_data",
+			"scale": 0.45,
+			"pos": ["mid", "mid"],
+			"pad": [180, -120],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "middleground",
+			"visible": false
+		},
+		"tom_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene7_tom",
+			"spineName": "tom_scene7_data",
+			"scale": 0.9,
+			"pos": ["mid", "mid"],
+			"pad": [200, 40],
+			"anchor": [0.5, 0.5],
+			"container": "middleground",
+			"visible": true
+		}
+	}
+}

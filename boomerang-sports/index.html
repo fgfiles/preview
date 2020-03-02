@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <title>BOOMERANG Sport Showdown - License HTML5 Games</title>
+    <meta name="keywords" content="forestry games, forestrygames.com">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="fnt/fred_font/font.css">
+    <link rel="stylesheet" type="text/css" href="fnt/fred_font_shadow/font.css">
+</head>
+
+<body>
+    <script>
+    var assetsURL = "";
+    </script>
+    <script src='js/lib.min.js'></script>
+    <script src='js/sports.min.js'></script>
+    <div id='interactive-area'></div>
+    <script>
+    window.onload = function() {
+        window.forcePause = false;
+        initApp();
+        var canvas;
+        window.interactiveArea = document.getElementById("interactive-area");
+        if (!CC.isMobile) {
+            interactiveArea.style.backgroundColor = "black";
+        }
+        setInterval(function() {
+            //window.scrollTo(0, 0);
+            if (window.sound && sound._loaded) {
+                if (sound._isFocused && visibly.visibilityState() === "hidden") {
+                    Interface.blur();
+                }
+                if (!sound._isFocused && visibly.visibilityState() === "visible") {
+                    Interface.focus();
+                }
+            }
+            if (!canvas && CC.WebApp.current.renderer) {
+                canvas = CC.WebApp.current.renderer.view;
+            }
+            if (canvas) {
+                canvas.style.marginLeft = Math.floor((window.innerWidth - canvas.offsetWidth) * 0.5) + "px";
+                if (CC.isMobile) {
+                    if (window.innerHeight > window.innerWidth) {
+                        if (canvas.style.display !== "none") {
+
+                            canvas.style.display = "none";
+                            interactiveArea.style.backgroundColor = "#EF168E";
+                            forcePause = true;
+                        }
+                    } else {
+                        if (canvas.style.display !== "block") {
+
+                            canvas.style.display = "block";
+                            interactiveArea.style.backgroundColor = "black";
+                            forcePause = false;
+                        }
+                    }
+                }
+            }
+        }, 100);
+    }
+    </script>
+    <div class="spacer"></div>
+</body>
+
+</html>

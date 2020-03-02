@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	
+	
+	<!-- SET LANGUAGE HERE -->
+	<string id='LANGUAGE'>en</string>
+	<!-- This will set the logo as well, as long as the source folder contains a PNG with a name matching the language - For example - logo.en.png, logo.sp.png, etc. -->
+	<!-- You can drop in logo pngs into the games source folder -->
+	
+	<!-- LOGO POSITION -->
+	<string id='LOGO_X'>1024</string> <!-- Default: 1024 -->
+	<string id='LOGO_Y'>140</string> <!-- Default: 140 -->
+	
+	<!-- BONUS CONTENT -->
+	<!-- Here you can set the content version for the game.  -->
+	<!-- 0 = Base game (Scotland, London, Everest levels)  -->
+	<!-- 1 = Bonus Contant 1 (Adds Paris levels)  -->
+	<!-- 2 = Bonus Contant 2 (Adds Tokyo levels)  -->
+	<string id='BONUS CONTENT VERSION'>0</string>
+	<!-- Went you want to "Release" a new content update, you don't need to upload any additional files, etc. Simply set this number to the version you want and the game will account for that.  -->
+
+</strings>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="description" content="Take on the role of Spider-Man.">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <script src="game_html_headScripts.js"></script>
+    <script src="game.min.js"></script>
+    <script>
+    (function() {
+        var isFileProtocol = 'file:' === document.location.protocol;
+        if (isFileProtocol) {
+            window.runISL = function() {
+                if (window.gameStart && typeof window.gameStart === 'function') {
+                    window.gameStart();
+                }
+            }
+        } else {
+            var isl = document.createElement('script');
+            isl.type = 'text/javascript';
+            isl.src = 'isl.js';
+
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(isl, node);
+        }
+    })();
+    </script>
+    <script>
+    function gameStart() {
+        require(['start'], function(start) {
+            start();
+        });
+    };
+    window.addEventListener('load', function() {
+        runISL();
+    });
+    </script>
+    <title>Spider Man Web Shooter - License HTML5 Game</title>
+</head>
+
+<body></body>
+
+</html>

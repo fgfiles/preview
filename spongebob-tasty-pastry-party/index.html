@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tasty Pastry Party - SpongeBob HTML5 Game</title>
+<script>
+			/*** iOS 6+ Safari defaults with audio sampleRate of 48000, which distorts our audio* this discards the initial audio context so the next one isn't 48000* solution based on: https://github.com/Jam3/ios-safe-audio-context* stackoverflow:* http://stackoverflow.com/questions/26336040/how-to-fix-changing-sample-rate-bug* http://stackoverflow.com/questions/29901577/distorted-audio-in-ios-7-1-with-webaudio-api*/
+			(function refreshAudioContext() {
+				var desiredSampleRate = 44100;
+				var AudioCtor = window.AudioContext || window.webkitAudioContext;
+				var context = AudioCtor && new AudioCtor();
+				if (context && context.close && (context.sampleRate !== desiredSampleRate)) {
+					context.close();
+				}
+			})();
+		</script>
+<script src="exposesdk.js"></script>
+<script src="scripts/jsembed.js"></script>
+<script type="text/javascript">
+			jsembed.embed("flambe.js", "embedtarget", "960", "560", {
+				"scaletype": "fit",
+				"autoscale": true,
+				"width": 960,
+				"height": 560,
+                "api": "flambe",
+                "indexroot": "true",
+				"base": ""
+			}, {});
+		</script>
+</head>
+<body style="padding: 0; margin: 0; background-color: black">
+<div id="embedtarget"></div>
+</body>
+</html>

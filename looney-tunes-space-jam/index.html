@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space Jam | Looney Tunes - HTML5 Game</title>
+    <meta name="keywords" content="forestry games, forestrygames.com">s
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,minimal-ui" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/cannon.min.js"></script>
+    <script type="text/javascript" src="js/createjs-2013.12.12.min.js"></script>
+    <script type="text/javascript" src="js/ctl_utils.js"></script>
+    <script type="text/javascript" src="js/sprite_lib.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/CLang.js"></script>
+    <script type="text/javascript" src="js/CPreloader.js"></script>
+    <script type="text/javascript" src="js/CMain.js"></script>
+    <script type="text/javascript" src="js/CTextButton.js"></script>
+    <script type="text/javascript" src="js/CGfxButton.js"></script>
+    <script type="text/javascript" src="js/CToggle.js"></script>
+    <script type="text/javascript" src="js/CMenu.js"></script>
+    <script type="text/javascript" src="js/CHelpPanel.js"></script>
+    <script type="text/javascript" src="js/CGame.js"></script>
+    <script type="text/javascript" src="js/CBall.js"></script>
+    <script type="text/javascript" src="js/CInterface.js"></script>
+    <SCRIPT TYPE="text/javascript" src="js/CSceneStatic.js"></SCRIPT>
+    <SCRIPT TYPE="text/javascript" src="js/CPlayer.js"></SCRIPT>
+    <script type="text/javascript" src="js/CEndPanel.js"></script>
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <script>
+    $(document).ready(function() {
+        var oMain = new CMain({
+            errorMultiplier: 1000, //INCREASE/DECREASE (500-1500) THIS VALUE TO INCREASE/DECREASE SHOT DIFFICULTY
+            timeAvailable: 60000, //GAME TIME IN MILLISECONDS
+            selectorSpeed: 15, //SELECTOR SPEED (DECREASE THIS TO GET A EASIER GAME
+            point_per_ball: 1, //POINTS TO ASSIGN WHEN PLAYER SCORES WITH NORMAL BALL
+            point_per_special_ball: 2 //POINTS TO ASSIGN WHEN PLAYER SCORES WITH SPECIAL BALL
+        });
+
+        $(oMain).on("start_session", function(evt) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeStartSession();
+            }
+            //...ADD YOUR CODE HERE EVENTUALLY
+        });
+
+        $(oMain).on("end_session", function(evt) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeEndSession();
+            }
+            //...ADD YOUR CODE HERE EVENTUALLY
+        });
+
+        $(oMain).on("start_level", function(evt, iLevel) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeStartLevel({ level: iLevel });
+            }
+        });
+
+        $(oMain).on("end_level", function(evt, iLevel) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeEndLevel({ level: iLevel });
+            }
+        });
+
+        $(oMain).on("save_score", function(evt, iScore) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeSaveScore({ score: iScore });
+            }
+            //...ADD YOUR CODE HERE EVENTUALLY
+        });
+
+        $(oMain).on("show_interlevel_ad", function(evt) {
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeShowInterlevelAD();
+            }
+            //...ADD YOUR CODE HERE EVENTUALLY
+        });
+
+        $(oMain).on("share_event", function(evt, iScore) {
+            trace("share_event: " + iScore)
+            if (getParamValue('ctl-arcade') === "true") {
+                parent.__ctlArcadeShareEvent({
+                    img: TEXT_SHARE_IMAGE,
+                    title: TEXT_SHARE_TITLE,
+                    msg: TEXT_SHARE_MSG1 + iScore + TEXT_SHARE_MSG2,
+                    msg_share: TEXT_SHARE_SHARE1 + iScore + TEXT_SHARE_SHARE1
+                });
+            }
+        });
+
+        if (isIOS()) {
+            setTimeout(function() { sizeHandler(); }, 200);
+        } else {
+            sizeHandler();
+        }
+    });
+    </script>
+    <canvas id="canvas" class='ani_hack' width="1024" height="768"> </canvas>
+    <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+</body>
+
+</html>

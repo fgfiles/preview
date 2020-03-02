@@ -1,0 +1,41 @@
+{
+	"meta": {
+		"name": "comic1",
+		"index": 1
+	},
+	"objects": {
+		"scene_bg": {
+			"type": "sprite",
+			"texName": "scene1",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-5, -10],
+			"anchor": [0.5, 0.5],
+			"container": "background",
+			"visible": true
+		},
+		"jerry_scene1": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "jerry_scene1_data",
+			"scale": 0.5,
+			"pos": ["mid", "mid"],
+			"pad": [0, -150],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "background"
+		},
+		"jerry_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene1_jerry",
+			"spineName": "jerry_scene1_data",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-12, 50],
+			"anchor": [0.5, 0.5],
+			"container": "middleground"
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+  "json_1x": [
+    {
+      "src": "title/title_@1x.json",
+      "id": "title"
+    },
+    {
+      "src": "menu/menu_@1x.json",
+      "id": "menu"
+    }
+  ],
+  "json_2x": [
+    {
+      "src": "title/title_@2x.json",
+      "id": "title"
+    },
+    {
+      "src": "menu/menu_@2x.json",
+      "id": "menu"
+    }
+  ],
+  "json": [
+    {
+      "src": "skeletons/puss_title_skeleton.json",
+      "id": "puss_title"
+    },
+    {
+      "src": "skeletons/thief_title_skeleton.json",
+      "id": "thief_title"
+    }
+  ],
+  "bm_font_1x": [
+    {
+      "src": "clare_bold_30.xml",
+      "id": "clare_bold"
+    }
+  ],
+  "bm_font_2x": [
+    {
+      "src": "clare_bold_60.xml",
+      "id": "clare_bold"
+    }
+  ],
+  "snd_webaudio": [
+    {
+      "src": "title_sfx",
+      "id": "title_sfx",
+      "sprites": [
+        {"id": "select", "start": 3.011, "duration": 1.888},
+        {"id": "page_turn", "start": 6.033, "duration": 0.662},
+        {"id": "adventure", "start": 7.775, "duration": 1.533},
+        {"id": "im_good", "start": 10.469, "duration": 1.681}
+      ]
+    },
+    {
+      "src": "end_music_loop",
+      "id": "title_loop",
+      "loop": true
+    }
+  ],
+  "snd_sprite": {
+    "src": "title_sfx",
+    "id": "title_sfx",
+    "sprites": [
+      {"id": "select", "start": 3.011, "duration": 1.888},
+      {"id": "page_turn", "start": 6.033, "duration": 0.662},
+      {"id": "adventure", "start": 7.775, "duration": 1.533},
+      {"id": "im_good", "start": 10.469, "duration": 1.681}
+    ]
+  },
+  "img_1x": [],
+  "img_2x": []
+}

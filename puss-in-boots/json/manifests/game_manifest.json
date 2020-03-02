@@ -1,0 +1,128 @@
+{
+  "json_1x": [
+    {
+      "src": "game/game_@1x.json",
+      "id": "game"
+    }
+  ],
+  "json_2x": [
+    {
+      "src": "game/game_@2x.json",
+      "id": "game"
+    }
+  ],
+  "json": [
+    {
+      "src": "skeletons/puss_game_skeleton.json",
+      "id": "puss_on_barrel"
+    },
+    {
+      "src": "skeletons/flag_animation_skeleton.json",
+      "id": "flag_animation"
+    },
+    {
+      "src": "skeletons/checkpoint_flag_skeleton.json",
+      "id": "checkpoint"
+    }
+  ],
+  "bm_font_1x": [
+    {
+      "src": "clare_bold_30.xml",
+      "id": "clare_bold"
+    }
+  ],
+  "bm_font_2x": [
+    {
+      "src": "clare_bold_60.xml",
+      "id": "clare_bold"
+    }
+  ],
+  "snd_webaudio": [
+    {
+      "src": "game_sfx",
+      "id": "GAME_AUDIO_SPRITE",
+      "sprites": [
+        {"id": "coin", "start": 3.003, "duration": 0.430},
+        {"id": "barrel_smash", "start": 4.467, "duration": 1.463},
+        {"id": "cheer", "start": 6.996, "duration": 2.374},
+        {"id": "hit_hazard_1", "start": 10.418, "duration": 1.103},
+        {"id": "puss_die", "start": 12.514, "duration": 1.982},
+        {"id": "fanfare", "start": 15.464, "duration": 4.238},
+        {"id": "respawn", "start": 20.771, "duration": 4.214},
+        {"id": "hit_hazard_2", "start": 26.028, "duration": 2.136},
+        {"id": "powerup", "start": 29.094, "duration": 5.589},
+        {"id": "puss_hit_1", "start": 35.655, "duration": 1.010},
+        {"id": "monster_appear", "start": 37.745, "duration": 3.147},
+        {"id": "monster_attack", "start": 41.866, "duration": 3.553},
+        {"id": "puss_hit_2", "start": 46.266, "duration": 0.644},
+        {"id": "yay", "start": 48.071, "duration": 0.997},
+        {"id": "jump_1", "start": 50.073, "duration": 0.172},
+        {"id": "jump_2", "start": 51.252, "duration": 0.330},
+        {"id": "jump_3", "start": 52.565, "duration": 0.320},
+        {"id": "jump_4", "start": 53.909, "duration": 0.721},
+        {"id": "jump_5", "start": 55.651, "duration": 0.364},
+        {"id": "jump_6", "start": 57.001, "duration": 0.266},
+        {"id": "jump_7", "start": 58.303, "duration": 0.246},
+        {"id": "jump_8", "start": 59.543, "duration": 0.613},
+        {"id": "puss_hit_3", "start": 61.167, "duration": 0.700},
+        {"id": "jump_9", "start": 62.915, "duration": 0.584},
+        {"id": "thief_1", "start": 64.510, "duration": 1.150},
+        {"id": "thief_2", "start": 66.732, "duration": 0.717},
+        {"id": "thief_3", "start": 68.456, "duration": 0.436},
+        {"id": "thief_4", "start": 69.901, "duration": 0.554},
+        {"id": "vo_come_on", "start": 71.435, "duration": 0.574},
+        {"id": "vo_i_am_puss", "start": 73.006, "duration": 2.030},
+        {"id": "mayor", "start": 75.994, "duration": 2.667},
+        {"id": "mayor_scared", "start": 79.708, "duration": 0.636},
+        {"id": "barrel_land", "start": 81.378, "duration": 0.522},
+        {"id": "mayor_canyon", "start": 82.895, "duration": 2.031},
+        {"id": "mayor_rooftop", "start": 85.929, "duration": 2.069},
+        {"id": "thief_vo_1", "start": 88.991, "duration": 2.450},
+        {"id": "thief_vo_2", "start": 92.511, "duration": 1.140},
+        {"id": "thief_vo_3", "start": 94.442, "duration": 1.370},
+        {"id": "thief_vo_4", "start": 96.865, "duration": 3.425},
+        {"id": "thief_vo_5", "start": 101.228, "duration": 0.801},
+        {"id": "power_end", "start": 102.998, "duration": 1.820},
+        {"id": "puss_end_1", "start": 105.904, "duration": 2.902},
+        {"id": "puss_end_2", "start": 109.903, "duration": 2.229},
+        {"id": "puss_end_3", "start": 113.182, "duration": 4.653}
+      ]
+    }
+  ],
+  "snd_sprite": {
+    "src": "game_sfx",
+    "id": "GAME_AUDIO_SPRITE",
+    "sprites": [
+      {"id": "cheer", "start": 6.996, "duration": 2.374},
+      {"id": "hit_hazard_1", "start": 10.418, "duration": 1.103},
+      {"id": "puss_die", "start": 12.514, "duration": 1.982},
+      {"id": "fanfare", "start": 15.464, "duration": 4.238},
+      {"id": "respawn", "start": 20.771, "duration": 4.214},
+      {"id": "hit_hazard_2", "start": 26.028, "duration": 2.136},
+      {"id": "powerup", "start": 29.094, "duration": 5.589},
+      {"id": "puss_hit_1", "start": 35.655, "duration": 1.010},
+      {"id": "monster_appear", "start": 37.745, "duration": 3.147},
+      {"id": "monster_attack", "start": 41.866, "duration": 3.553},
+      {"id": "puss_hit_2", "start": 46.266, "duration": 0.644},
+      {"id": "yay", "start": 48.071, "duration": 0.997},
+      {"id": "puss_hit_3", "start": 61.167, "duration": 0.700},
+      {"id": "thief_1", "start": 64.510, "duration": 1.150},
+      {"id": "thief_2", "start": 66.732, "duration": 0.717},
+      {"id": "thief_3", "start": 68.456, "duration": 0.436},
+      {"id": "thief_4", "start": 69.901, "duration": 0.554},
+      {"id": "vo_come_on", "start": 71.435, "duration": 0.574},
+      {"id": "vo_i_am_puss", "start": 73.006, "duration": 2.030},
+      {"id": "mayor", "start": 75.994, "duration": 2.667},
+      {"id": "mayor_scared", "start": 79.708, "duration": 0.636},
+      {"id": "mayor_canyon", "start": 82.895, "duration": 2.031},
+      {"id": "mayor_rooftop", "start": 85.929, "duration": 2.069},
+      {"id": "thief_vo_1", "start": 88.991, "duration": 2.450},
+      {"id": "thief_vo_2", "start": 92.511, "duration": 1.140},
+      {"id": "thief_vo_3", "start": 94.442, "duration": 1.370},
+      {"id": "thief_vo_4", "start": 96.865, "duration": 3.425},
+      {"id": "thief_vo_5", "start": 101.228, "duration": 0.801}
+    ]
+  },
+  "img_1x": [],
+  "img_2x": []
+}

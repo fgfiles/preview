@@ -1,0 +1,17 @@
+locale = {
+	preloader_title:"preloader_title_en",
+	main_menu_title:"title_en",
+	win_screen_title:"win_en_title",
+	lose_screen_title:"lose_en_title",
+	endless_over_title:"endless_en_title",
+	pause_title:"en_title",
+	character_title:"character_title_en",
+	monday:"en_level_1",
+	tuesday:"en_level_2",
+	wednesday:"en_level_3",
+	thursday:"en_level_4",
+	friday:"en_level_5",
+	saturday:"en_level_6",
+	sunday:"en_level_7",
+	score_text:"score_en",
+}

@@ -1,0 +1,41 @@
+{
+	"meta": {
+		"name": "comic0",
+		"index": 0
+	},
+	"objects": {
+		"scene_bg": {
+			"type": "sprite",
+			"texName": "scene_tutorial",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-5, -10],
+			"anchor": [0.5, 0.5],
+			"container": "background",
+			"visible": true
+		},
+		"tutorial_scene0": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "tutorial_scene0_data",
+			"scale": 0.4,
+			"pos": ["mid", "mid"],
+			"pad": [0, 20],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "middleground"
+		},
+		"tutorial_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene0_tutorial",
+			"spineName": "tutorial_scene0_data",
+			"scale": 0.9,
+			"pos": ["mid", "mid"],
+			"pad": [50, 50],
+			"anchor": [0.5, 0.5],
+			"container": "middleground"
+		}
+	}
+}

@@ -1,0 +1,145 @@
+{
+  "Recipes":[
+    {
+      "type": "cookie",
+      "request": [
+        {
+          "type": "ingredient",
+          "displayText": "Likes Strawberry Cookies",
+          "requestTexture": "ing_strawberry_shelf",
+          "wants": true,
+          "requestedParts": [
+            "ing_strawberry_shelf"
+          ],
+          "colour": "0xD4585C"
+        },
+        {
+          "type": "ingredient",
+          "displayText": "Likes Lemon Cookies",
+          "requestTexture": "ing_lemon_shelf",
+          "wants": true,
+          "requestedParts": [
+            "ing_lemon_shelf"
+          ],
+          "colour": "0xFDF861"
+        },
+        {
+          "type": "ingredient",
+          "displayText": "Likes Chocolate Cookies",
+          "requestTexture": "ing_chocolate_dark_shelf",
+          "wants": true,
+          "requestedParts": [
+            "ing_chocolate_dark_shelf"
+          ],
+          "colour": "0x624528"
+        },
+        {
+          "type": "ingredient",
+          "displayText": "Likes Cookies Without Chocolate",
+          "requestTexture": "ing_chocolate_dark_shelf",
+          "wants": false,
+          "requestedParts": [
+            "ing_chocolate_dark_shelf"
+          ],
+          "colour": "0x624528"
+        },
+        {
+          "type": "shape",
+          "displayText": "Likes Rounded Cookies",
+          "requestTexture": "cookie_shape_5",
+          "wants": true,
+          "requestedParts": [
+            "metal_shape_5"
+          ]
+        },
+        {
+          "type": "shape",
+          "displayText": "Likes Star-Shaped Cookies",
+          "requestTexture": "cookie_shape_2",
+          "wants": true,
+          "requestedParts": [
+            "metal_shape_2", "metal_shape_4"
+          ]
+        },
+        {
+          "type": "decoration",
+          "displayText": "Likes Cookies With All Toppings",
+          "requestTexture": "request_no_dec",
+          "wants": true,
+          "requestedParts": [
+            "deco_candies", "deco_chocolate", "deco_iced_sugar", "deco_mms", "deco_sprinkles"
+          ]
+        },
+        {
+          "type": "decoration",
+          "displayText": "Likes Cookies With Hearts On Them",
+          "requestTexture": "deco_candies",
+          "wants": true,
+          "requestedParts": [
+            "deco_candies"
+          ]
+        }
+      ]
+    }
+  ],
+  "Builds":[
+    {
+      "type": "cookie",
+      "stages": [1,2,3,4,5],
+      "mainIngredients": [
+        {
+          "img": "ing_flour_shelf",
+          "emitter": "particle_ing_flour",
+          "emitterTexture": ["particle_ing_flour_002.png","particle_ing_flour_003.png","particle_ing_flour_004.png"]
+        },
+        {
+          "img": "ing_eggs_static",
+          "emitter": "particle_ing_egg",
+          "emitterTexture": ["ing_eggs_shelf.png"]
+        },
+        {
+          "img": "ing_butter_shelf",
+          "emitter": "particle_ing_butter",
+          "emitterTexture": ["ing_butter.png"]
+        },
+        {
+          "img": "ing_sugar_shelf",
+          "emitter": "particle_ing_sugar",
+          "emitterTexture": ["particle_ing_sugar_001.png","particle_ing_sugar_002.png"]
+        }
+      ],
+      "secondaryIngredients": [
+        {"img": ["ing_chocolate_dark_shelf"], "colour": "0xBC8971", "emitter": "particle_ing_choc_dark", "emitterTexture": ["ing_chocolate_dark.png"]},
+        {"img": ["ing_chocolate_white_shelf"], "colour": "0xFDF4C6", "emitter": "particle_ing_choc_white", "emitterTexture": ["ing_chocolate_white.png"]},
+        {"img": ["ing_orange_shelf"], "colour": "0xFFB648", "emitter": "particle_ing_choc_orange", "emitterTexture": ["ing_orange.png"]},
+        {"img": ["ing_lemon_shelf"], "colour": "0xFFEA57", "emitter": "particle_ing_choc_lemon", "emitterTexture": ["ing_lemon.png"]},
+        {"img": ["ing_strawberry_shelf"], "colour": "0xFF9D9B", "emitter": "particle_ing_strawberry", "emitterTexture": ["particle_ing_strawberry_001.png","particle_ing_strawberry_002.png"]}
+      ],
+      "cuttingTools":[
+        {
+          "shapes":["metal_shape_1", "metal_shape_2", "metal_shape_3", "metal_shape_4", "metal_shape_5"]
+        },
+        {
+          "renderTexture": ["mask_dough_shape_1", "mask_dough_shape_2", "mask_dough_shape_3", "mask_dough_shape_4", "mask_dough_shape_5"]
+        },
+        {
+          "cookieCutouts":["dough_shape_1", "dough_shape_2", "dough_shape_3", "dough_shape_4", "dough_shape_5"]
+        }
+      ],
+      "decorationTextures":[
+        {
+          "group": [
+            "deco_candies", "deco_chocolate", "deco_iced_sugar", "deco_mms", "deco_sprinkles"
+          ],
+          "individual":[
+            ["dec_heart_001","dec_heart_002","dec_heart_003","dec_heart_004"],
+            ["dec_choc_001","dec_choc_002","dec_choc_003","dec_choc_004"],
+            ["dec_sugar_001"],
+            ["dec_mm_001","dec_mm_002","dec_mm_003","dec_mm_004"],
+            ["dec_sprinkle_001","dec_sprinkle_002","dec_sprinkle_003","dec_sprinkle_004"]
+          ]
+        }
+      ]
+    }
+  ]
+}

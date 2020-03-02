@@ -1,0 +1,68 @@
+{
+	"meta": {
+		"name": "comic6",
+		"index": 6
+	},
+	"objects": {
+		"scene_bg": {
+			"type": "sprite",
+			"texName": "scene6",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-5, -10],
+			"anchor": [0.5, 0.5],
+			"container": "background",
+			"visible": true
+		},
+		"jerry_scene6": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "jerry_scene6_data",
+			"scale": 0.2,
+			"pos": ["mid", "mid"],
+			"pad": [240, 75],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "middleground",
+			"visible": false
+		},
+		"jerry_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene6_jerry",
+			"spineName": "jerry_scene6_data",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [240, 150],
+			"anchor": [0.5, 0.5],
+			"container": "middleground",
+			"visible": true
+		},
+		"tom_scene6": {
+			"type": "spine",
+			"excludeFromDrawing": false,
+			"texName": "tom_scene6_data",
+			"scale": 0.45,
+			"pos": ["mid", "mid"],
+			"pad": [-100, -175],
+			"anchor": [0.5, 0.5],
+			"animation": "ani",
+			"finish_animation": "ani",
+			"container": "middleground",
+			"visible": false
+		},
+		"tom_sprite": {
+			"type": "sprite",
+			"excludeFromDrawing": true,
+			"texName": "scene6_tom",
+			"spineName": "tom_scene6_data",
+			"scale": 1,
+			"pos": ["mid", "mid"],
+			"pad": [-100, -30],
+			"anchor": [0.5, 0.5],
+			"container": "middleground",
+			"visible": true
+		}
+	}
+}

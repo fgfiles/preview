@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Stunt Happo | The Happos Family Game - HTML5 Game</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <!-- This is to enable fullscreen when you save the page as a bookmark to the phone desktop. -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!--[if lt IE 7 ]> <html class="ie6 ie"> <![endif]-->
+        <!--[if IE 7 ]>    <html class="ie7 ie"> <![endif]-->
+        <!--[if IE 8 ]>    <html class="ie8 ie"> <![endif]-->
+        <!--[if IE 9 ]>    <html class="ie9 ie"> <![endif]-->
+        <!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+
+        <script src="libs/pixi/pixi.js"></script>
+        <script src="libs/pixi/pixi-spine.js"></script>
+        <script src="libs/pixi/pixi-particles.min.js"></script>
+		<script src="libs/pixi/pixi-filters.js"></script>
+        <script src="libs/p2/p2.js"></script>
+        <script src="libs/signals.min.js"></script>
+        <script src="libs/greensock/TweenMax.min.js"></script>
+        <script src="libs/howler.js"></script>
+        <script src="libs/bowser/bowser.min.js"></script>
+        <script src="libs/jquery-2.1.4.min.js"></script>
+        <script src="libs/md5.min.js"></script>
+
+        <script src="libs/p3.min.js"></script>
+		
+		<script src="bin/bundle.min.js"></script>
+		
+		<script src="libs/Tween.js"></script>
+
+        <style>
+            body {
+                background-image: none;
+                background-color: #000000;
+            }
+            #game {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="game"></div>
+        <script>
+            if ($("html").hasClass("ie") || (Function("/*@cc_on return document.documentMode===10@*/")())) {
+                var nowebgl = $("<div />").attr({
+                    "width": "100%",
+                    "height": "100%",
+                    "background-position": "50% 50%",
+                    "background-repeat": "no-repeat",
+                    "background-image": "url('./unsupported.jpg')",
+                    "background-color": "#000000",
+                    "background-size": "auto 100%"
+                }).appendTo("#game");
+            } else {
+                var language = "en";
+                //var webfont = false;
+
+                var main = new Main(1024, 768);
+                main.init();
+            }
+        </script>
+    </body>
+</html>
+    
+

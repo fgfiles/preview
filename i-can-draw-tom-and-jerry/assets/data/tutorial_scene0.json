@@ -1,0 +1,73 @@
+{
+	"spine": {
+		"name": "tutorial_scene0",
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"scale": 1
+	},
+	"slots": {
+		"pan": {
+			"order": 0,
+			"grouped": false,
+			"bodygroup": "pan",
+			"type": "default",
+			"style": {
+				"fill": {
+					"color": "#060606",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#404040",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 1.2
+			}
+		},
+		"pan_face": {
+			"order": 1,
+			"grouped": false,
+			"bodygroup": "pan",
+			"type": "default",
+			"style": {
+				"fill": {
+					"color": "#666666",
+					"stroke": true,
+					"enabled": true
+				},
+				"stroke": {
+					"color": "#404040",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2
+			}
+		},
+		"pan_detail": {
+			"order": 2,
+			"grouped": true,
+			"groupcount": 5,
+			"bodygroup": "pan",
+			"type": "default",
+			"style": {
+				"fill": {
+					"color": "#F48365",
+					"stroke": true,
+					"enabled": false
+				},
+				"stroke": {
+					"color": "#515153",
+					"width": 5
+				}
+			},
+			"camera": {
+				"zoom": 2
+			}
+		}
+	}
+}

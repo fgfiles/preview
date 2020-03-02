@@ -1,0 +1,192 @@
+{
+    "localize":{
+        "EASY": "EASY",
+        "MEDIUM": "MEDIUM",
+        "HARD": "HARD",
+        "LEVEL": "LEVEL",
+        "COMPLETE!": "COMPLETE!",
+        "YOUR SCORE": "YOUR SCORE",
+        "BEST SCORE": "YOUR BEST SCORE",
+        "MISSION": "MISSION",
+        "GAME": "GAME",
+        "FAILED": "INCOMPLETE",
+        "RELOADING": "RELOADING"
+    },
+
+    "levels": [{
+        "playTime": 120,
+        "boss": "rhino"
+    },{
+        "playTime": 120,
+        "boss": "lizard"
+    },{
+        "playTime": 120,
+        "boss": "octobot"
+    },{
+        "playTime": 120,
+        "boss": "electro"
+    },{
+        "playTime": 120,
+        "boss": "goblin"
+    }],
+
+    "bosses":{
+        "goblin":{
+            "health":100,
+            "bulletSpeed": 0.2,
+            "bulletDamage": -10,
+            "webDamage": -10,
+            "recoverTime": 1500,
+            "movementbox":[150,150,650,350],
+            "bulletTarget": [100,100,650,300],
+            "bulletSpinTime": 4000,
+            "scorePerBullet": 200,
+            "scorePerHit": 500,
+            "scorePerHPLeft": 20,
+
+            "difficulty": {
+                "easy": {
+                    "bulletNum": 1
+                },
+                "medium": {
+                    "bulletNum": 2
+                },
+                "hard": {
+                    "bulletNum": 3
+                }
+            }
+
+        },
+
+        "octobot":{
+            "health":100,
+            "bulletSpeed": 0.4,
+            "bulletDamage": -10,
+            "webDamage": -10,
+            "recoverTime": 1500,
+            "movementbox":[150,100,650,250],
+            "bulletTarget": [400,200,500,300],
+            "bulletSpinTime": 4000,
+            "scorePerBullet": 200,
+            "scorePerHit": 500,
+            "scorePerHPLeft": 20,
+
+            "deathRayChance": 0.2,
+            "deathRayChargeTime": 1500,
+            "deathRayHitNum": 4,
+            "deathRayHitTimeEach": 500,
+            "deathRayDamage": -5,
+
+            "falldownMark": [70,40, 0],
+
+            "difficulty": {
+                "easy": {
+                    "bulletNum": 1
+                },
+                "medium": {
+                    "bulletNum": 2
+                },
+                "hard": {
+                    "bulletNum": 3
+                }
+            }
+
+        },
+
+        "electro":{
+            "health":100,
+            "bulletSpeed": 0.6,
+            "bulletDamage": -10,
+            "webDamage": -10,
+            "recoverTime": 1500,
+            "movementbox":[50,285,430,285],
+            "bulletTarget": [400,200,500,300],
+            "bulletSpinTime": 4000,
+            "scorePerBullet": 200,
+            "scorePerHit": 500,
+            "scorePerHPLeft": 20,
+
+            "deathRayChance": 0.2,
+            "deathRayChargeTime": 1500,
+            "deathRayHitNum": 4,
+            "deathRayHitTimeEach": 500,
+            "deathRayDamage": -5,
+
+            "difficulty": {
+                "easy": {
+                    "bulletNum": 1
+                },
+                "medium": {
+                    "bulletNum": 2
+                },
+                "hard": {
+                    "bulletNum": 3
+                }
+            }
+
+        },
+
+        "lizard":{
+            "health":100,
+            "bulletSpeed": 0.4,
+            "bulletDamage":-10,
+            "webDamage": -10,
+            "recoverTime": 1500,
+            "movementbox":[[172,245],[335,456],[703,794]],
+            "bulletTarget": [100,100,650,300],
+            "bulletSpinTime": 12000,
+            "scorePerBullet": 200,
+            "scorePerHit": 500,
+            "scorePerHPLeft": 20,
+
+            "chargeDamage": -20,
+
+            "difficulty": {
+                "easy": {
+                    "bulletNum": 2
+                },
+                "medium": {
+                    "bulletNum": 3
+                },
+                "hard": {
+                    "bulletNum": 4
+                }
+            }
+
+        },
+
+        "rhino":{
+            "health":100,
+            "bulletSpeed": 0.4,
+            "bulletDamage": -10,
+            "webDamage": -10,
+            "recoverTime": 1500,
+            "movementbox":[[100,240],[430,470],[620,790]],
+            "bulletTarget": [100,100,650,300],
+            "bulletSpinTime": 12000,
+            "scorePerBullet": 200,
+            "scorePerHit": 500,
+            "scorePerHPLeft": 20,
+
+            "chargeDamage": -20,
+
+            "difficulty": {
+                "easy": {
+                    "bulletNum": 2
+                },
+                "medium": {
+                    "bulletNum": 3
+                },
+                "hard": {
+                    "bulletNum": 4
+                }
+            }
+
+        }
+    },
+
+    "spidey": {
+        "webSpeed": 2.7
+    }
+
+}

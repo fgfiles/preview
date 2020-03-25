@@ -26809,7 +26809,7 @@
 }, function(t, e, i) {
     var n = (i(63), i(64)),
         r = function() {
-            this.targetFile = "https://tooncup-2018-asia.teamgbaws.net/", this.sharedKey = null, this.lastEncryption = !1, this.defaultPerPage = 20, this.defaultPageNumber = 1, this.cachedResult = null
+            this.targetFile = "#", this.sharedKey = null, this.lastEncryption = !1, this.defaultPerPage = 20, this.defaultPageNumber = 1, this.cachedResult = null
         };
     r.prototype.setSharedKey = function(t) {
         this.sharedKey = t
@@ -34992,7 +34992,7 @@
                         this.app.breadcrumb.hidden ? this.nextScreen && this.app.screenManager.gotoScreenByID(this.nextScreen) : this.app.breadcrumb.next();
                         break;
                     case this.buttons.exit:
-                        window.location.href = "http://www.goodboydigital.com/"
+                        window.location.href = "https://www.forestrygames.com/"
                 }
             }, e.prototype.onMuteToggle = function() {
                 v["default"].music.isMuted && v["default"].sfx.isMuted ? this.buttons.mute.setIcon("icon-sound-off.png") : this.buttons.mute.setIcon("icon-sound-on.png")
@@ -35406,4 +35406,4 @@
     e["default"] = l, t.exports = e["default"]
 }]);
 
-console.log(' BUILD VERSION: d7abea8e');
+console.log(' BUILD VERSION: 8324cn3n3');

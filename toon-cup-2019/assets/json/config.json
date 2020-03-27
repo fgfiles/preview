@@ -1,0 +1,46 @@
+{
+  "config": {
+    "FLIP_LANGUAGE":"false",
+    "ENABLE_LEADERBOARDS":"true",
+    "FORMAT_SCORE_WITH_COMMAS":"true",
+    "SCORE_PATH":"https://www.goodboydigital.com/client/disney/scores/public_html/Scores.php",
+    "ENABLE_TRACKING":"false",
+    "LOCALE":"_uk",
+    "FONTS_EXTENDED":"true",
+    "REMOVE_LOADER_LOGO":"false",
+    "TOURNAMENT": {
+      "TITLE": "STR_LEADERBOARD_WINTER2019",
+      "START": "Dec 17 2019",
+      "END": "Feb 1 2020"
+    },
+    "WINTER_SKIN": {
+      "START": "Dec 17",
+      "END": "Feb 1",
+      "INCLUDES": [
+        "REGION_1",
+        "REGION_2",
+        "REGION_3",
+        "REGION_4",
+        "JP",
+        "KR",
+        "CN",
+        "TW"
+      ],
+      "EXCLUDES": [
+        "BR",
+        "MX",
+        "CO",
+        "AR",
+        "PE",
+        "VE",
+        "CL",
+        "EC",
+        "BO",
+        "PY",
+        "CR",
+        "PA",
+        "UY"
+      ]
+    }
+  }
+}

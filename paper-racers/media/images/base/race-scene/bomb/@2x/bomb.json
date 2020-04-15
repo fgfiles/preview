@@ -1,0 +1,48 @@
+{"frames": {
+
+"bomb-1.png":
+{
+	"frame": {"x":2,"y":2,"w":157,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":53,"w":157,"h":157},
+	"sourceSize": {"w":205,"h":210}
+},
+"bomb-2.png":
+{
+	"frame": {"x":161,"y":2,"w":150,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":58,"w":150,"h":152},
+	"sourceSize": {"w":205,"h":210}
+},
+
+"bomb-3.png":
+{
+	"frame": {"x":2,"y":161,"w":157,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":53,"w":157,"h":157},
+	"sourceSize": {"w":205,"h":210}
+},
+"bomb-4.png":
+{
+	"frame": {"x":161,"y":156,"w":150,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":58,"w":150,"h":152},
+	"sourceSize": {"w":205,"h":210}
+}},
+"animations": {
+	"bomb": ["bomb-1.png","bomb-2.png", "bomb-1.png","bomb-2.png", "bomb-3.png","bomb-4.png", "bomb-3.png","bomb-4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bomb.png",
+	"format": "RGBA8888",
+	"size": {"w":313,"h":320},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a86761e149ec2cf68f595ff85ae90467:c996e4a518d3cde9b553dfefc9ba351b:f63ee348f1e457e41f792cb710b5b64f$"
+}
+}

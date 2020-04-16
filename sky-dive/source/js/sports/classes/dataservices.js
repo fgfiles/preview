@@ -1,10 +1,10 @@
 var SS = {
     version: '0.0.12',
-    applicationAccessKey: '#',
+    applicationAccessKey: '562c56392d786cbae3497c84d3534511',
     scoreboardAvailable: true,
     scoreboardStatic: "dat/database.json",
     // scoreboardUrl: "http://boomerang-sports.completecontrol.eu/",
-    scoreboardUrl: "#",
+    scoreboardUrl: "http://demo.completecontrol.eu/boomerang/service/",
     currentAccessToken: null,
     countryCode: "GB",
     selectedTeam: {id:0},

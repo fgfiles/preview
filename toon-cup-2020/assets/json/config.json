@@ -1,0 +1,37 @@
+{
+    "config":
+    {
+        "FLIP_LANGUAGE": "false",
+        "ENABLE_LEADERBOARDS": "true",
+        "FORMAT_SCORE_WITH_COMMAS": "true",
+        "SCORE_PATH": "http://www.goodboydigital.com/client/disney/scores/public_html/Scores.php",
+        "ENABLE_TRACKING": "false",
+        "LOCALE": "_uk",
+        "FONTS_EXTENDED": "true",
+        "REMOVE_LOADER_LOGO": "false",
+        "CHALLENGES":
+        {
+            "TYPE": "DAILY",
+            "MAX": 3,
+            "REWARDS":
+            {
+                "DIFFICULTY_1": 50,
+                "DIFFICULTY_2": 100,
+                "DIFFICULTY_3": 300
+            }
+        },
+        "TOURNAMENT":
+        {
+            "TITLE": "STR_LEADERBOARD_SUMMER",
+            "START": "Jun 11 2020",
+            "END": "Aug 6 2020"
+        },
+        "WINTER_SKIN":
+        {
+            "START": "Jun 11",
+            "END": "Aug 6",
+            "INCLUDES": ["BR", "VE", "CH", "CO", "EC", "AR", "PE", "UY", "PA", "BO", "BV", "FK", "GF", "GY"],
+            "EXCLUDES": []
+        }
+    }
+}

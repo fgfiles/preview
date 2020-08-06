@@ -1,0 +1,451 @@
+{
+    "goals": {
+        "completeLevel1": {
+            "desc": "STR_ACH_COMPLETELEVEL1",
+            "property": "levels",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld1": {
+            "desc": "STR_ACH_COMPLETEWORLD1",
+            "property": "world1",
+            "type": "=",
+            "target": 5,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld2": {
+            "desc": "STR_ACH_COMPLETEWORLD2",
+            "property": "world2",
+            "type": "=",
+            "target": 5,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld3": {
+            "desc": "STR_ACH_COMPLETEWORLD3",
+            "property": "world3",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld4": {
+            "desc": "STR_ACH_COMPLETEWORLD4",
+            "property": "world4",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "threeStarsFinish": {
+            "desc": "STR_ACH_THREESTARSFINISH",
+            "property": "threeStarsFinish",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld1Perfect": {
+            "desc": "STR_ACH_COMPLETEWORLD1PERFECT",
+            "property": "world1perfect",
+            "type": "=",
+            "target": 5,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld2Perfect": {
+            "desc": "STR_ACH_COMPLETEWORLD2PERFECT",
+            "property": "world2perfect",
+            "type": "=",
+            "target": 5,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld3Perfect": {
+            "desc": "STR_ACH_COMPLETEWORLD3PERFECT",
+            "property": "world3perfect",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "completeWorld4Perfect": {
+            "desc": "STR_ACH_COMPLETEWORLD4PERFECT",
+            "property": "world4perfect",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "threeStarsAllLevels": {
+            "desc": "STR_ACH_THREESTARSALLLEVELS",
+            "property": "threeStarsAllLevels",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "swapCharacters100": {
+            "desc": "STR_ACH_SWAPCHARACTERS100",
+            "property": "swapCharacters",
+            "type": "=",
+            "target": 100,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "swapCharacters250": {
+            "desc": "STR_ACH_SWAPCHARACTERS250",
+            "property": "swapCharacters",
+            "type": "=",
+            "target": 250,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "swapCharacters500": {
+            "desc": "STR_ACH_SWAPCHARACTERS500",
+            "property": "swapCharacters",
+            "type": "=",
+            "target": 500,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "useForce10": {
+            "desc": "STR_ACH_USEFORCE10",
+            "property": "useForce",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "useForce50": {
+            "desc": "STR_ACH_USEFORCE50",
+            "property": "useForce",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "useForce250": {
+            "desc": "STR_ACH_USEFORCE250",
+            "property": "useForce",
+            "type": "=",
+            "target": 250,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "bombsLevel1": {
+            "desc": "STR_ACH_BOMBSLEVEL1",
+            "property": "bombs",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "bombsLevel2": {
+            "desc": "STR_ACH_BOMBSLEVEL2",
+            "property": "bombs",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "bombsLevel3": {
+            "desc": "STR_ACH_BOMBSLEVEL3",
+            "property": "bombs",
+            "type": "=",
+            "target": 200,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "jumpLevel1": {
+            "desc": "STR_ACH_JUMPLEVEL1",
+            "property": "jumps",
+            "type": "=",
+            "target": 100,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "jumpLevel2": {
+            "desc": "STR_ACH_JUMPLEVEL2",
+            "property": "jumps",
+            "type": "=",
+            "target": 500,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "jumpLevel3": {
+            "desc": "STR_ACH_JUMPLEVEL3",
+            "property": "jumps",
+            "type": "=",
+            "target": 1000,
+            "value": 0,
+            "achieved": true,
+            "cumulative": false,
+            "hidden": false
+        },
+        "destroyITODroid1": {
+            "desc": "STR_ACH_DESTROYITODROID1",
+            "property": "ITODroid",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "destroyITODroid2": {
+            "desc": "STR_ACH_DESTROYITODROID2",
+            "property": "ITODroid",
+            "type": "=",
+            "target": 25,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "destroyITODroid3": {
+            "desc": "STR_ACH_DESTROYITODROID3",
+            "property": "ITODroid",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "switchesLevel1": {
+            "desc": "STR_ACH_SWITCHESLEVEL1",
+            "property": "switches",
+            "type": "=",
+            "target": 20,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "switchesLevel2": {
+            "desc": "STR_ACH_SWITCHESLEVEL2",
+            "property": "switches",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "deactivateLasers": {
+            "desc": "STR_ACH_DEACTIVATELASERS",
+            "property": "lasers",
+            "type": "=",
+            "target": 30,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "venting": {
+            "desc": "STR_ACH_VENTING",
+            "property": "venting",
+            "type": "=",
+            "target": 20,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "symbolsLevel1": {
+            "desc": "STR_ACH_SYMBOLSLEVEL1",
+            "property": "symbols",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "symbolsLevel2": {
+            "desc": "STR_ACH_SYMBOLSLEVEL2",
+            "property": "symbols",
+            "type": "=",
+            "target": 200,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "symbolsLevel3": {
+            "desc": "STR_ACH_SYMBOLSLEVEL3",
+            "property": "symbols",
+            "type": "=",
+            "target": 500,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "stormtrooperLevel1": {
+            "desc": "STR_ACH_STORMTROOPERLEVEL1",
+            "property": "stormtroopers",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "stormtrooperLevel2": {
+            "desc": "STR_ACH_STORMTROOPERLEVEL2",
+            "property": "stormtroopers",
+            "type": "=",
+            "target": 30,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "stormtrooperLevel3": {
+            "desc": "STR_ACH_STORMTROOPERLEVEL3",
+            "property": "stormtroopers",
+            "type": "=",
+            "target": 50,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "chainReaction": {
+            "desc": "STR_ACH_CHAINREACTION",
+            "property": "chainReaction",
+            "type": "=",
+            "target": 1,
+            "value": 0,
+            "achieved": false,
+            "cumulative": false,
+            "hidden": false
+        },
+        "hangerTokensLevel1": {
+            "desc": "STR_ACH_HANGERTOKENSLEVEL1",
+            "property": "hangerToken",
+            "type": "=",
+            "target": 10,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "hangerTokensLevel2": {
+            "desc": "STR_ACH_HANGERTOKENSLEVEL2",
+            "property": "hangerToken",
+            "type": "=",
+            "target": 20,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        },
+        "hangerTokensLevel3": {
+            "desc": "STR_ACH_HANGERTOKENSLEVEL3",
+            "property": "hangerToken",
+            "type": "=",
+            "target": 30,
+            "value": 0,
+            "achieved": false,
+            "cumulative": true,
+            "hidden": false
+        }
+    },
+    "groups": {
+        "level1": {
+            "desc": "STR_GOALS_LEVEL_1_TITLE",
+            "achievements": [
+                "completeLevel1",
+                "completeWorld1",
+                "completeWorld2",
+                "completeWorld3",
+                "completeWorld4",
+                "threeStarsFinish",
+                "completeWorld1Perfect",
+                "completeWorld2Perfect",
+                "completeWorld3Perfect",
+                "completeWorld4Perfect",
+                "threeStarsAllLevels",
+                "swapCharacters100",
+                "swapCharacters250",
+                "swapCharacters500",
+                "useForce10",
+                "useForce50",
+                "useForce250",
+                "bombsLevel1",
+                "bombsLevel2",
+                "bombsLevel3",
+                "jumpLevel1",
+                "jumpLevel2",
+                "jumpLevel3",
+                "destroyITODroid1",
+                "destroyITODroid2",
+                "destroyITODroid3",
+                "switchesLevel1",
+                "switchesLevel2",
+                "deactivateLasers",
+                "venting",
+                "symbolsLevel1",
+                "symbolsLevel2",
+                "symbolsLevel3",
+                "stormtrooperLevel1",
+                "stormtrooperLevel2",
+                "stormtrooperLevel3",
+                "chainReaction",
+                "hangerTokensLevel1",
+                "hangerTokensLevel2",
+                "hangerTokensLevel3"
+            ]
+        }
+    }
+}

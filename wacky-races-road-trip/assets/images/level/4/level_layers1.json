@@ -1,0 +1,80 @@
+{"frames": {
+
+"level_foreground1.png":
+{
+	"frame": {"x":274,"y":400,"w":70,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":520,"y":92,"w":70,"h":292},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_foreground2.png":
+{
+	"frame": {"x":550,"y":678,"w":114,"h":228},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":644,"y":156,"w":114,"h":228},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_foreground3.png":
+{
+	"frame": {"x":274,"y":698,"w":154,"h":270},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":532,"y":114,"w":154,"h":270},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_foreground4.png":
+{
+	"frame": {"x":350,"y":400,"w":132,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":296,"y":104,"w":132,"h":280},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_midground1.png":
+{
+	"frame": {"x":550,"y":400,"w":230,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":538,"y":112,"w":230,"h":272},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_midground2.png":
+{
+	"frame": {"x":4,"y":400,"w":392,"h":264},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":220,"y":120,"w":392,"h":264},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_midground3.png":
+{
+	"frame": {"x":4,"y":198,"w":744,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":188,"w":744,"h":196},
+	"sourceSize": {"w":950,"h":384}
+},
+"level_midground4.png":
+{
+	"frame": {"x":4,"y":4,"w":784,"h":188},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":196,"w":784,"h":188},
+	"sourceSize": {"w":950,"h":384}
+}},
+"animations": {
+	"level_foreground": ["level_foreground1.png","level_foreground2.png","level_foreground3.png","level_foreground4.png"],
+	"level_midground": ["level_midground1.png","level_midground2.png","level_midground3.png","level_midground4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level_layers1.png",
+	"format": "RGBA8888",
+	"size": {"w":792,"h":856},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6c21e57f2206336410c99edc93906329:12111da676599757d8af63a38f954513:72ab69309d8f8acfbaa24b779efabc0d$"
+}
+}

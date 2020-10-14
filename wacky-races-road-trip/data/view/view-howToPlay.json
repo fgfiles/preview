@@ -1,0 +1,150 @@
+{
+	"howToPlayView" :
+	{
+		"dim" :
+		{
+			"color"    : "#00071a",
+			"alpha"    : 0.5,
+			"duration" : 0.2
+		},
+		
+		"dialog" :
+		{
+			"main" :
+			{
+				"texture"  : "pause_panel",
+				"anchorXY" : 0.5,
+				"x"        : 950,
+				"y"        : 384,
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.2,
+						
+						"data" :
+						{
+							"x"        : 1.1,
+							"y"        : 1.1,					
+							"ease"     : "Back.easeOut"
+						},
+						
+						"label" : "start"
+					},
+
+					{
+						"property" : "fromAlpha",
+						"duration" : 0.2,
+						
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+						
+						"label" : "start"
+					}				
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toScale",
+						"duration" : 0.2,
+						
+						"data" :
+						{
+							"x"        : 1.1,
+							"y"        : 1.1,					
+							"ease"     : "Back.easeIn"
+						},
+						
+						"label" : "start"
+					},
+
+					{
+						"property" : "toAlpha",
+						"duration" : 0.2,
+						
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+						
+						"label" : "start"
+					}				
+				]			
+			},
+				
+			"children" :
+			{
+				"howToPlayText" :
+				{
+					"textID"   : "howToPlay",
+					"x"        : 0, 
+					"y"        : -150,
+					"anchorXY" : 0.5,
+					"style"    :
+					{
+						"fontFamily" : "Vectipede",
+						"fontSize"   : 75,
+						"fill"       : "#6e2314",
+						"align"      : "center",
+						"padding"    : 20
+					}
+				},
+
+				"howToPlayDescription" :
+				{
+					"text"     : "",
+					"x"        : 0, 
+					"y"        : 170,
+					"anchorXY" : 0.5,
+					"style"    :
+					{
+						"fontFamily" : "Vectipede",
+						"fontSize"   : 25,
+						"fill"       : "#6e2314",
+						"align"      : "center",
+						"padding"    : 20
+					}
+				},
+				
+				"howToPlayImages" :
+				{
+					"textures" : ["help_001", "help_002", "help_003"],
+					"anchorXY" : 0.5,
+					"x"        : 0,
+					"y"        : 20
+				},	
+
+				"leftButton" :
+				{
+					"textures" : ["icon_previous_off"],
+					"x"        : -278,
+					"y"        : 20,
+					"sounds"   : ["btn_press", "btn_over"]
+				},
+
+				"rightButton" :
+				{
+					"textures" : ["icon_next_off"],
+					"x"        : 278,
+					"y"        : 20,
+					"sounds"   : ["btn_press", "btn_over"]
+				},
+				
+				"closeButton" :
+				{
+					"textures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+					"icons"    : ["icon_cross_off"],
+					"x"        : 350,
+					"y"        : -240,
+					"sounds"   : ["btn_press", "btn_over"]
+				}
+			}
+		}
+	}
+}

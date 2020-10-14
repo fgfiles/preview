@@ -1,0 +1,67 @@
+{
+	"mapGameView" :
+	{
+		"backgroundImage" :
+		{
+			"texture"  : "mapBackground",
+			"anchorXY" : 0.5,
+			"x"        : 950,
+			"y"        : 384
+		},
+
+		"ui" :
+		{
+            "soundButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_sound_off"],
+				"switchTextures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"switchIcons"    : ["icon_mute_off"],
+				"dynamicPosition" : "topRight",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"y"    : -100,
+							"ease" : "Cubic.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+            "homeButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_home_off"],
+				"dynamicPosition" : "topLeft",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"y"    : -100,
+							"ease" : "Cubic.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			}
+		}
+	}
+}

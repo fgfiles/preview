@@ -1,0 +1,131 @@
+{
+	"wheelGameView" :
+	{
+		"backgroundImage" :
+		{
+			"texture"  : "wheelBackground",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"scaleX"   : 1.85546875,
+			"x"        : 0,
+			"y"        : 384
+		},
+		
+		"carImage" :
+		{
+			"texture"  : "challenge_wheel_bg_car_#CARCOLOR#",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0,
+			"scaleX"   : 60,
+			"x"        : 0,
+			"y"        : -384
+		},
+		
+		"hubImage" :
+		{
+			"texture"  : "challenge_wheel_hub",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"y"        : -76
+		},
+		
+		"wheelImage" :
+		{
+			"texture"  : "challenge_wheel_#CARCOLOR#",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"scaleXY"  : 0.77
+		},
+		
+		"nutImage" :
+		{
+			"texture"    : "challenge_wheel_nut",
+			"anchorX"    : 0.4625,
+			"anchorY"    : 0.475,
+			"scaleXY"    : 0.77,
+			"responsive" : true,
+			"visible"    : false
+		},
+		
+		"shadowImage" :
+		{
+			"texture"    : "challenge_wheel_dril_shadow",
+			"anchorX"    : 0,
+			"anchorY"    : 0.2,
+			"scaleXY"    : 0.77
+		},		
+		
+		"drillImage" :
+		{
+			"texture"    : "challenge_wheel_drill",
+			"anchorX"    : 0.137,
+			"anchorY"    : 0.341,
+			"scaleXY"    : 0.77
+		},
+		
+		"ui" :
+		{
+			"scoreBar" :
+			{
+				"texture"         : "challenge_wheel_score_bg",
+				"dynamicPosition" : "top",
+				"anchorXY"        : 0.5,
+				"dynamicOffset"   : [0, 10],
+				"visible"         : false,
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			},
+			
+			"pauseButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_pause_off"],
+				"dynamicPosition" : "topRight",
+				"sounds"          : ["btn_press", "btn_over"],
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,175 @@
+{
+	"wayGameView" :
+	{
+		"bgImage" :
+		{
+			"texture"  : "level_background",
+			"anchorXY" : 0.5,
+			"scaleXY"  : 3.8,
+			"x"        : 950,
+			"y"        : 384
+		},
+		
+		"signBgImage" :
+		{
+			"texture"  : "challenge_way_sign_bg",
+			"anchorXY" : 0.5,
+			"x"        : 950,
+			"y"        : 344
+		},
+
+		"leftLegImage" :
+		{
+			"texture"  : "challenge_way_sign_leg",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0,
+			"x"        : 776,
+			"y"        : 626
+		},	
+		
+		"rightLegImage" :
+		{
+			"texture"  : "challenge_way_sign_leg",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0,
+			"x"        : 1086,
+			"y"        : 626
+		},
+		
+		"routeImage" :
+		{
+			"texture"  : "challenge_way_route_1_path1",
+			"anchorXY" : 0.5,
+			"x"        : 950,
+			"y"        : 358
+		},	
+
+		"routeIcon" :
+		{
+			"texture"  : "challenge_way_icon_hazard",
+			"anchorXY" : 0.5
+		},			
+		
+		"buttonLeft" :
+		{
+			"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+			"icons"           : ["icon_tick_off"],
+			"x"               : 774,
+			"y"               : 660,
+			"sounds"          : ["btn_press", "btn_over"]
+		},
+		
+		"buttonMiddle" :
+		{
+			"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+			"icons"           : ["icon_tick_off"],
+			"x"               : 950,
+			"y"               : 660,
+			"sounds"          : ["btn_press", "btn_over"]
+		},		
+		
+		"buttonRight" :
+		{
+			"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+			"icons"           : ["icon_tick_off"],
+			"x"               : 1126,
+			"y"               : 660,
+			"sounds"          : ["btn_press", "btn_over"]
+		},
+		
+		"ui" :
+		{
+			"progressBar" :
+			{
+				"texture"         : "challenge_progressbar_bg",
+				"dynamicPosition" : "top",
+				"dynamicOffset"   : [0, 10],
+				
+				"bar" :
+				{
+					"texture" : "challenge_way_progressbar_fg",
+					"anchorX" : 0,
+					"anchorY" : 0.5,
+					"x"       : -146,
+					"y"       : 0
+				},
+				
+				"icon" :
+				{
+					"texture" : "challenge_way_icon",
+					"anchorX" : 0.5,
+					"anchorY" : 0.5,
+					"x"       : -177
+				},
+								
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			},
+			
+			"pauseButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_pause_off"],
+				"dynamicPosition" : "topRight",
+				"sounds"          : ["btn_press", "btn_over"],
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			}
+		}
+	}
+}

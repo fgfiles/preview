@@ -1,0 +1,48 @@
+{
+	"loaderView" :
+	{
+		"bg" :
+		{
+			"texture"  : "ui_loading_bg",
+			"anchorXY" : 0.5,
+			"scaleX"   : 120,
+			"scaleY"   : 2,
+			"x"        : 950,
+			"y"        : 384
+		},
+
+		"wheel" :
+		{
+			"texture" : "ui_loading_wheel",
+			"anchorX" : 0.5,
+			"anchorY" : 0.5,
+			"x"       : 950,
+			"y"       : 424
+		},
+
+		"logo" :
+		{
+			"texture" : "ui_loading_logo",
+			"anchorX" : 0.5,
+			"anchorY" : 0.5,
+			"x"       : 940,
+			"y"       : 244
+		},
+
+		"progressBar" :
+		{
+			"texture" : "ui_loading_progressbar_bg",
+			"x"        : 950,
+			"y"        : 560,
+
+			"bar" :
+			{
+				"texture" : "ui_loading_progressbar_fg",
+				"anchorX" : 0,
+				"anchorY" : 0.5,
+				"x"       : -150,
+				"y"       : 0
+			}
+		}
+	}
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head id="ht">
+    <title>Tom And Jerry Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+    <link rel='stylesheet' href='css/fonts/styles.css' type='text/css' />
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script type='text/javascript' src='js/createjs-2015.11.26.min.js'></script>
+    <script type='text/javascript' src='src/utils/BrowserTest.js'></script>
+    <script type='text/javascript' src='src/Main.js'></script>
+    <script type='text/javascript' src='src/Step1.js'></script>
+    <script type='text/javascript' src='src/Question.js'></script>
+    <script type='text/javascript' src='src/utils/Podest.js'></script>
+    <script type='text/javascript' src='src/GameOver.js'></script>
+    <script type='text/javascript' src='src/utils/Preloader.js'></script>
+    <script type='text/javascript' src='src/utils/FrameBtt.js'></script>
+    <script type='text/javascript' src='src/utils/OnOffBtt.js'></script>
+	<script type='text/javascript' src='src/utils/FullScreenBtt.js?v21'></script>
+    <style>
+        html,body{
+            width:100%;
+            height:100%;
+            margin:0;
+            padding: 0;
+            background-color: #F8EB46;
+
+            overflow:hidden;
+        }
+        .cont{
+            width:100%;
+            height:100%;
+            display:table;
+        }
+        .inner{
+            margin:0 auto;
+            width:100%;
+            height:100%;
+            display: table;
+        }
+        .iframe-container{
+            width:100%;
+            height:100%;
+            vertical-align: middle;
+            display: table-cell;
+        }
+        canvas{
+            padding: 0;
+            margin:auto;
+            display:block;
+        }
+        #imageOverlay{
+            left:0;
+            top:0;
+            display:none;
+            position:fixed;
+            margin-left: auto;
+            margin-right: auto;
+            width:100%;
+            height:100%;
+            background-image: url('img/rotate_screen.png');
+            background-color: #EC008C;
+            background-size: auto 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+        }
+        @media only screen and (max-width:768px)  and (orientation: portrait){
+            #imageOverlay{
+                display:block;
+            }
+        }
+
+        @media only screen and (max-width:768px) and (-webkit-min-device-pixel-ratio: 2){
+            #imageOverlay{
+                display: block;
+            }
+        }
+
+        @media only screen and (max-width:766px)  and (orientation: landscape) {
+            #imageOverlay {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div class="cont" id="content">
+    <div class="inner">
+        <div class="iframe-container">
+            <canvas id='stageCanvas' width='100%' height='100%'><img src='img/error_bgd.jpg' alt='Your browser does not support the canvas tag.'/></canvas>
+            <audio id='music' loop>
+
+                <source src="sounds/music.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+    </div>
+    <div id="imageOverlay"></div>
+</div>
+</body>
+<script>
+    var strings;
+     if(  document.addEventListener  ){    
+        $(document).ready(function(){
+            var music = document.getElementById("music");
+            music.volume = 0.2;
+          
+            loadLocally();
+        });
+        function loadLocally()
+        {
+
+            $.getJSON( "strings/strings.json?rand="+Math.random(), function( data ) {
+                console.log('dograne');
+                strings = data.game2;
+
+                main.init();
+            });
+
+        }
+    }
+	window.addEventListener("orientationchange", resizeCanvas, false);
+    window.addEventListener('resize', resizeCanvas, false);
+
+    function resizeCanvas() {
+
+        main.resize();
+    }
+</script>
+</html>

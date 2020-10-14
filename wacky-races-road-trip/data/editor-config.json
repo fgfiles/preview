@@ -1,0 +1,139 @@
+{
+	"path":
+	{
+		"fill":
+		[
+			"level_fill"
+		],
+		"ground":
+		[
+			"level_ground"
+		],
+		"ground_edge":
+		[
+			"level_ground_edge"
+		],
+		"wall":
+		[
+			"level_wall"
+		]
+	},
+	"objects":
+	[
+		{
+			"id"      : "camera_zoom",
+			"texture" : "editor_cameraZoom",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"zoom\":1,\"time\":0.0}",
+			"scale"   : 5
+		},
+
+		{
+			"id"      : "level_end",
+			"texture" : "editor_end",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		
+		{
+			"id"      : "level_gameover",
+			"texture" : "editor_gameOver",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"scale"   : 5
+		},
+		
+		{
+			"id"      : "tutorial",
+			"texture" : "editor_tutorial",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"text\":\"HELP_{VALUE}\", \"time\":\"5\"}"
+		},
+		
+		{
+			"id"      : "hint",
+			"texture" : "editor_hint",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"text\":\"HINT_{VALUE}\", \"time\":\"5\"}"
+		},
+			
+		{
+			"id"      : "challenge",
+			"texture" : "level_challenge",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"challenge\":\"random\", \"id\": 0}"
+		},
+			
+		{
+			"id"      : "challengeDummy",
+			"texture" : "editor_challengeDummy",
+			"anchor"  : {"x":0.5, "y":0.9},
+			"data"    : "{\"id\": 0}"
+		},
+			
+		{
+			"id"      : "challengeParticle",
+			"texture" : "editor_challengeParticle",
+			"anchor"  : {"x":0.5, "y":1},
+			"data"    : "{\"type\":\"random\"}"
+		},
+			
+		{
+			"id"      : "powerup",
+			"texture" : "level_powerup",
+			"anchor"  : {"x":0.5, "y":0.5},
+			"data"    : "{\"id\": 0}"
+		},
+		
+		{"id" : "challengeStart",                "texture" : "challenge_start_object",             "anchor" : {"x":0.5, "y":1}},
+		{"id" : "challengeFinish",               "texture" : "challenge_finish_object",            "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "coin",                          "texture" : "level_pickable",                     "anchor" : {"x":0.5, "y":0.5}},
+		
+		{"id" : "building_0",                    "texture" : "level_building_0",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "building_1",                    "texture" : "level_building_1",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "building_2",                    "texture" : "level_building_2",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "building_3",                    "texture" : "level_building_3",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "building_4",                    "texture" : "level_building_4",                   "anchor" : {"x":0.5, "y":1}},
+
+		{"id" : "roadside_0",                    "texture" : "level_roadside_0",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_1",                    "texture" : "level_roadside_1",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_2",                    "texture" : "level_roadside_2",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_3",                    "texture" : "level_roadside_3",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_4",                    "texture" : "level_roadside_4",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_5",                    "texture" : "level_roadside_5",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_6",                    "texture" : "level_roadside_6",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_7",                    "texture" : "level_roadside_7",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_8",                    "texture" : "level_roadside_8",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_9",                    "texture" : "level_roadside_9",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_10",                   "texture" : "level_roadside_10",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_11",                   "texture" : "level_roadside_11",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_12",                   "texture" : "level_roadside_12",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_13",                   "texture" : "level_roadside_13",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_14",                   "texture" : "level_roadside_14",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_15",                   "texture" : "level_roadside_15",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_16",                   "texture" : "level_roadside_16",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_17",                   "texture" : "level_roadside_17",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_18",                   "texture" : "level_roadside_18",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_19",                   "texture" : "level_roadside_19",                  "anchor" : {"x":0.5, "y":1}},
+		{"id" : "roadside_20",                   "texture" : "level_roadside_20",                  "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "tree_0",                        "texture" : "level_tree_0",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_1",                        "texture" : "level_tree_1",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_2",                        "texture" : "level_tree_2",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_3",                        "texture" : "level_tree_3",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_4",                        "texture" : "level_tree_4",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_5",                        "texture" : "level_tree_5",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_6",                        "texture" : "level_tree_6",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_7",                        "texture" : "level_tree_7",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_8",                        "texture" : "level_tree_8",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_9",                        "texture" : "level_tree_9",                       "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_10",                       "texture" : "level_tree_10",                      "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_11",                       "texture" : "level_tree_11",                      "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_12",                       "texture" : "level_tree_12",                      "anchor" : {"x":0.5, "y":1}},
+		{"id" : "tree_13",                       "texture" : "level_tree_13",                      "anchor" : {"x":0.5, "y":1}},
+		
+		{"id" : "treesBg_0",                     "texture" : "level_trees_bg_0",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "treesBg_1",                     "texture" : "level_trees_bg_1",                   "anchor" : {"x":0.5, "y":1}},
+		{"id" : "treesBg_2",                     "texture" : "level_trees_bg_2",                   "anchor" : {"x":0.5, "y":1}}
+	]
+}

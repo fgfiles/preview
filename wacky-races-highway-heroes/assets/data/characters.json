@@ -1,0 +1,132 @@
+{
+  "characters": [
+    {
+      "id": 0,
+      "names": {
+        "first": "character_name_penelope_first",
+        "second": "character_name_penelope_second",
+        "vehicle": "vehicle_name_pussycat"
+      },
+      "driver": {
+        "texture": "ui_char_01",
+        "offset": {"x": 4, "y": 46}
+      },
+      "vehicle": {
+        "texture": "ui_car_01",
+        "offset": {"x": -30, "y": 20},
+
+        "shadow": {
+          "texture": "ui_car_shadow_01",
+          "offset": {"x": 0, "y": 0}
+        }
+      },
+      "avatar": {
+        "texture": "ui_icon_char_01"
+      }
+    },
+    {
+      "id": 1,
+      "names": {
+        "first": "character_name_peter_first",
+        "second": "character_name_peter_second",
+        "vehicle": "vehicle_name_turbo"
+      },
+      "driver": {
+        "texture": "ui_char_02",
+        "offset": {"x": 40, "y": 40}
+      },
+      "vehicle": {
+        "texture": "ui_car_02",
+        "offset": {"x": -30, "y": -30},
+
+        "shadow": {
+          "texture": "ui_car_shadow_02",
+          "offset": {"x": 0, "y": 0}
+        }
+      },
+      "avatar": {
+        "texture": "ui_icon_char_02"
+      }
+    },
+    {
+      "id": 2,
+      "names": {
+        "first": "character_name_dastardly_first",
+        "second": "character_name_dastardly_second",
+        "vehicle": "vehicle_name_machine"
+      },
+      "driver": {
+        "texture": "ui_char_04a",
+        "offset": {"x": 100, "y": 40}
+      },
+      "sidekick": {
+        "texture": "ui_char_04b",
+        "offset": {"x": -100, "y": 40}
+      },
+      "vehicle": {
+        "texture": "ui_car_04",
+        "offset": {"x": -30, "y": -50},
+
+        "shadow": {
+          "texture": "ui_car_shadow_04",
+          "offset": {"x": 0, "y": 0}
+        }
+      },
+      "avatar": {
+        "texture": "ui_icon_char_04"
+      }
+    },
+    {
+      "id": 3,
+      "names": {
+        "first": "character_name_gruesome_first",
+        "second": "character_name_gruesome_second",
+        "vehicle": "vehicle_name_doombuggy"
+      },
+      "driver": {
+        "texture": "ui_char_03b",
+        "offset": {"x": -160, "y": 40}
+      },
+      "sidekick": {
+        "texture": "ui_char_03a",
+        "offset": {"x": 80, "y": 60}
+      },
+      "vehicle": {
+        "texture": "ui_car_03",
+        "offset": {"x": -80, "y": -46},
+
+        "shadow": {
+          "texture": "ui_car_shadow_03",
+          "offset": {"x": 0, "y": 0}
+        }
+      },
+      "avatar": {
+        "texture": "ui_icon_char_03"
+      }
+    },
+    {
+      "id": 4,
+      "names": {
+        "first": "character_name_iq_first",
+        "second": "character_name_iq_second",
+        "vehicle": "vehicle_name_car"
+      },
+      "driver": {
+        "texture": "ui_char_05",
+        "offset": {"x": 4, "y": 40}
+      },
+      "vehicle": {
+        "texture": "ui_car_05",
+        "offset": {"x": -20, "y": 40},
+
+        "shadow": {
+          "texture": "ui_car_shadow_05",
+          "offset": {"x": 0, "y": 0}
+        }
+      },
+      "avatar": {
+        "texture": "ui_icon_char_05"
+      }
+    }
+  ]
+}

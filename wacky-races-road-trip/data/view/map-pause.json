@@ -1,0 +1,121 @@
+{
+	"mapPauseView" :
+	{
+		"dim" :
+		{
+			"color"    : "#00071a",
+			"alpha"    : 0.5,
+			"duration" : 0.2
+		},
+
+		"dialog" :
+		{
+			"main" :
+			{
+				"texture"  : "paused_panel",
+				"anchorXY" : 0.5,
+				"x"        : 950,
+				"y"        : 384,
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"x"        : 1.1,
+							"y"        : 1.1,
+							"ease"     : "Back.easeOut"
+						},
+
+						"label" : "start"
+					},
+
+					{
+						"property" : "fromAlpha",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+
+						"label" : "start"
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toScale",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"x"        : 1.1,
+							"y"        : 1.1,
+							"ease"     : "Back.easeIn"
+						},
+
+						"label" : "start"
+					},
+
+					{
+						"property" : "toAlpha",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"children" :
+			{
+				"pausedText" :
+				{
+					"textID"   : "paused",
+					"x"        : 0,
+					"y"        : -184,
+					"anchorXY" : 0.5,
+					"style"    :
+					{
+						"fontFamily" : "Vectipede",
+						"fontSize"   : 75,
+						"fill"       : "#c12a2a",
+						"align"      : "center",
+						"padding"    : 20
+					}
+				},
+
+				"continueButton" :
+				{
+					"textures" : ["btn_primary_large_off", "btn_primary_large_over", "btn_primary_large_down"],
+					"icons"    : ["icon_play_large_off"],
+					"x"        : 0,
+					"y"        : 60,
+					"sounds"   : ["btn_press", "btn_over"]
+				},
+
+				"soundButton" :
+				{
+					"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+                    "icons"          : ["icon_sound_off"],
+                    "switchTextures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+                    "switchIcons"    : ["icon_mute_off"],
+					"x"              : -230,
+					"y"              : 60,
+					"sounds"         : ["btn_press", "btn_over"]
+				}
+			}
+		}
+	}
+}

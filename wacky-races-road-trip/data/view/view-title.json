@@ -1,0 +1,274 @@
+{
+	"splashView" :
+	{
+		"bg" :
+		{
+			"texture"  : "splashBg",
+			"anchorXY" : 0.5,
+			"scaleX"   : 1.8555,
+			"x"        : 950,
+			"y"        : 384
+		},
+
+		"logo" :
+		{
+			"texture"  : "gameLogo",
+			"anchorXY" : 0.5,
+			"x"        : 10,
+			"y"        : 55
+		},
+
+		"logo2" :
+		{
+			"texture"  : "wr_logo",
+			"anchorXY" : 0.5,
+			"x"        : 0,
+			"y"        : -55
+		},
+
+		"boomLogo" :
+		{
+			"texture"         : "boomerang_logo",
+			"anchorXY"        : 0.5,
+            "dynamicPosition" : "bottomLeft"
+		},
+
+		"ui" :
+		{
+            "soundButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_sound_off"],
+				"switchTextures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"switchIcons"    : ["icon_mute_off"],
+				"dynamicPosition" : "topRight",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"y"    : -100,
+							"ease" : "Cubic.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"playButton" :
+			{
+				"textures"        : ["btn_primary_large_off", "btn_primary_large_over", "btn_primary_large_down"],
+				"icons"           : ["icon_play_large_off"],
+				"x"               : 1310,
+				"y"               : 630,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button1" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 850,
+				"y"               : 140,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button2" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 1050,
+				"y"               : 140,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button3" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 750,
+				"y"               : 284,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button4" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 950,
+				"y"               : 284,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button5" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 1150,
+				"y"               : 284,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button6" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 850,
+				"y"               : 430,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"button7" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_tick_off"],
+				"x"               : 1050,
+				"y"               : 430,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			}
+		}
+	}
+}

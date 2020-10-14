@@ -1,0 +1,58 @@
+{
+	"preloaderView" :
+	{
+		"boom" :
+		{
+			"textures" :
+			[ 
+				"loader_animation0001",
+				"loader_animation0002",
+				"loader_animation0003",
+				"loader_animation0004",
+				"loader_animation0005",
+				"loader_animation0006",
+				"loader_animation0007",
+				"loader_animation0008",
+				"loader_animation0009",
+				"loader_animation0010"
+			],
+			
+			"animations" :
+			[
+				{
+					"name"        : "boom",
+					"framesRange" : [0, 9],
+					"framerate"   : 10,
+					"loop"        : false
+				}			
+			],
+			
+			"anchorX" : 0.4,
+			"anchorY" : 1,
+			"x"       : 950,
+			"y"       : 520
+		},
+
+		"progressBar" :
+		{
+			"texture" : "preloader_bg",
+			"x"        : 950,			
+			"y"        : 560,
+			
+			"bar" :
+			{
+				"texture" : "preloader_bar",
+				"anchorX" : 0,
+				"anchorY" : 0.5,
+				"x"       : -245,
+				"y"       : 0
+			},
+			
+			"top" :
+			{
+				"texture"  : "preloader_overlay",
+				"anchorXY" : 0.5
+			}
+		}
+	}
+}

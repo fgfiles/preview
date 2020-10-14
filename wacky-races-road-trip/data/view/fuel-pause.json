@@ -1,0 +1,235 @@
+{
+	"fuelPauseView" :
+	{
+		"dim" :
+		{
+			"color"    : "#00071a",
+			"alpha"    : 0.5,
+			"duration" : 0.2
+		},
+
+		"board" :
+		{
+			"texture"  : "ui_help_bg",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"x"        : 950,
+			"y"        : 768
+		},
+
+		"pausedText" :
+		{
+			"textID"   : "paused",
+			"anchorXY" : 0.5,
+			"x"        : 0,
+			"y"        : -705,
+
+			"style"    :
+			{
+				"fontFamily" : "Vectipede",
+				"fontSize"   : 46,
+				"fill"       : "#ffffff",
+				"align"      : "center",
+				"padding"    : 20
+			}
+		},
+
+		"page" :
+		{
+			"texture"  : "ui_help_01",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"visible"  : false,
+			"x"        : 0,
+			"y"        : -66
+		},
+
+		"roll" :
+		{
+			"texture"  : "ui_help_roll",
+			"anchorXY" : 0.5
+		},
+
+		"pagination" :
+		{
+			"texture"  : "ui_pagination_off",
+			"anchorXY" : 0.5
+		},
+
+		"ui" :
+		{
+			"homeButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_home_off"],
+				"dynamicPosition" : "topLeft",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"delay" : 0,
+							"y"     : -100,
+							"ease"  : "Back.easeOut"
+						}
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+
+						"data" :
+						{
+							"delay"    : 0,
+							"y"        : -100,
+							"ease"     : "Back.easeIn"
+						}
+					}
+				]
+			},
+
+			"soundButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_sound_off"],
+				"switchTextures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"switchIcons"    : ["icon_mute_off"],
+				"dynamicPosition" : "topRight",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"]
+			},
+
+			"continueButton" :
+			{
+				"textures"        : ["btn_primary_large_off", "btn_primary_large_over", "btn_primary_large_down"],
+				"icons"           : ["icon_play_large_off"],
+				"dynamicPosition" : "bottomRight",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"delay" : 0,
+							"y"     : 900,
+							"ease"  : "Back.easeOut"
+						}
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+
+						"data" :
+						{
+							"delay"    : 0,
+							"y"        : 900,
+							"ease"     : "Back.easeIn"
+						}
+					}
+				]
+			},
+
+			"nextButton" :
+			{
+				"textures"        : ["icon_next_off"],
+				"dynamicPosition" : "right",
+				"dynamicOffset"   : [-80, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toScale",
+						"duration" : 0.25,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"previousButton" :
+			{
+				"textures"        : ["icon_previous_off"],
+				"dynamicPosition" : "left",
+				"dynamicOffset"   : [80, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toScale",
+						"duration" : 0.25,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			}
+		}
+	}
+}

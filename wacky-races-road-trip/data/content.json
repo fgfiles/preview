@@ -1,0 +1,248 @@
+{
+	"preloader" :
+	{
+	},
+
+	"loader" :
+	{
+		"preloaderAtlas" :
+		{
+			"type" : "atlas",
+			"url"  : "preloader/preloader_1x.json"
+		}
+	},
+
+	"data" :
+	{
+		"config" :
+		{
+			"type" : "json",
+			"url"  : "config.json"
+		},
+
+		"languages" :
+		{
+			"type" : "json",
+			"url"  : "languages.json"
+		},
+
+		"loaderView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-loader.json"
+		},
+
+		"titleView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-title.json"
+		},
+
+		"characterView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-character.json"
+		},
+
+		"gameView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-game.json"
+		},
+
+		"howToPlayView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-howToPlay.json"
+		},
+
+		"pauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-pause.json"
+		},
+
+		"resultsView" :
+		{
+			"type" : "json",
+			"url"  : "view/view-results.json"
+		},
+
+		"mapGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/map-game.json"
+		},
+
+		"mapPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/map-pause.json"
+		},
+
+		"fuelGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/fuel-game.json"
+		},
+
+		"fuelPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/fuel-pause.json"
+		},
+
+		"wheelGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/wheel-game.json"
+		},
+
+		"wheelPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/wheel-pause.json"
+		},
+
+		"cleanGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/clean-game.json"
+		},
+
+		"cleanPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/clean-pause.json"
+		},
+
+		"coolGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/cool-game.json"
+		},
+
+		"coolPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/cool-pause.json"
+		},
+
+		"wayGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/way-game.json"
+		},
+
+		"wayPauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/way-pause.json"
+		},
+
+		"tyreGameView" :
+		{
+			"type" : "json",
+			"url"  : "view/tyre-game.json"
+		},
+
+		"tyrePauseView" :
+		{
+			"type" : "json",
+			"url"  : "view/tyre-pause.json"
+		},
+
+		"challengeResultsView" :
+		{
+			"type" : "json",
+			"url"  : "view/challenge-results.json"
+		},
+
+		"rewardStarsBurst" :
+		{
+			"type" : "json",
+			"url"  : "particles/star_reward_burst_emitter.json"
+		}
+	},
+
+	"images" :
+	{
+		"loaderAtlas" :
+		{
+			"type" : "atlas",
+			"url"  : "loader/loading_1x.json"
+		},
+
+		"defaultUiAtlas0" :
+		{
+			"type" : "atlas",
+			"url"  : "ui/ui_default_0_1x.json"
+		},
+
+        "defaultUiAtlas1" :
+		{
+			"type" : "atlas",
+			"url"  : "ui/ui_default_1_1x.json"
+		},
+
+		"splashBg" :
+		{
+			"type" : "image",
+			"url"  : "title/splash_bg.jpg"
+		},
+
+		"gameLogo" :
+		{
+			"type" : "image",
+			"url"  : "localisation/title/title_#LANGUAGE#.png"
+		},
+
+		"characterBg" :
+		{
+			"type" : "image",
+			"url"  : "character/ui_char_bg.jpg"
+		}
+	},
+
+	"fonts" :
+	{
+		"Vectipede" :
+		{
+			"type" : "webfont",
+			"url"  : "Vectipede"
+		}
+	},
+
+	"sounds" :
+	{
+		"btn_over" :
+		{
+			"type" : "sound",
+			"url"  : "button/sfx_btn_rollover_01"
+		},
+
+		"btn_press" :
+		{
+			"type" : "sound",
+			"url"  : "button/sfx_btn_press_00"
+		},
+
+		"titleMusic" :
+		{
+			"type" : "sound",
+			"url"  : "music/music_intro_loop_00"
+		},
+
+		"titleSoundStart" :
+		{
+			"type" : "sound",
+			"url"  : "music/music_intro_start_00"
+		},
+
+		"titleSoundEnd" :
+		{
+			"type" : "sound",
+			"url"  : "music/music_intro_end_00"
+		}
+	}
+}

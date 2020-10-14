@@ -1,0 +1,145 @@
+{
+	"cleanGameView" :
+	{
+		"backgroundImage" :
+		{
+			"texture"  : "level_background",
+			"anchorXY" : 0.5,
+			"scaleXY"  : 3.8,
+			"x"        : 950,
+			"y"        : 384
+		},
+
+		"playerImage" :
+		{
+			"texture"  : "ui_char_#CARCOLOR#",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"x"        : 1300,
+			"y"        : 768
+		},	
+
+		"playerImage2" :
+		{
+			"texture"  : "ui_char_#CARCOLOR#_2",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"visible"  : false,
+			"x"        : 1040,
+			"y"        : 768
+		},
+		
+		"windshieldImage" :
+		{
+			"texture"  : "challenge_clean_windscreen",
+			"anchorXY" : 0.5,
+			"scaleX"   : 60,
+			"x"        : 950,
+			"y"        : 384
+		},			
+		
+		"carImage" :
+		{
+			"texture"  : "challenge_clean_chassis_#CARCOLOR#",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"x"        : 950,
+			"y"        : 768
+		},		
+		
+		"ui" :
+		{
+			"progressBar" :
+			{
+				"texture"         : "challenge_progressbar_bg",
+				"dynamicPosition" : "top",
+				"dynamicOffset"   : [0, 10],
+				
+				"bar" :
+				{
+					"texture" : "challenge_clean_progressbar_fg",
+					"anchorX" : 0,
+					"anchorY" : 0.5,
+					"x"       : -146,
+					"y"       : 0
+				},
+				
+				"icon" :
+				{
+					"texture" : "challenge_clean_icon",
+					"anchorX" : 0.5,
+					"anchorY" : 0.5,
+					"x"       : -177
+				},
+								
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			},
+			
+			"pauseButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_pause_off"],
+				"dynamicPosition" : "topRight",
+				"sounds"          : ["btn_press", "btn_over"],
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			}
+		}
+	}
+}

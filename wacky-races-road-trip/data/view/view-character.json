@@ -1,0 +1,196 @@
+{
+	"characterView" :
+	{
+		"bg" :
+		{
+			"texture"  : "characterBg",
+			"anchorXY" : 0.5,
+			"scaleX"   : 1.8555,
+			"x"        : 950,
+			"y"        : 384
+		},
+
+		"shadow" :
+		{
+			"texture"  : "ui_car_shadow_blue",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1
+		},
+
+		"car" :
+		{
+			"texture"  : "ui_car_blue",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1
+		},
+
+		"character1" :
+		{
+			"texture"  : "ui_char_blue",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1
+		},
+
+		"character2" :
+		{
+			"texture"  : "ui_char_blue",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1
+		},
+
+		"characterNameBg" :
+		{
+			"texture"  : "ui_char_name_bg",
+			"x"        : 840,
+			"y"        : 80,
+			"anchorXY" : 0.5
+		},
+
+		"characterNameText" :
+		{
+			"x"        : -30,
+			"y"        : 10,
+			"anchorXY" : 0.5,
+			"style"    :
+			{
+				"fontFamily" : "Vectipede",
+				"fontSize"   : 50,
+				"fill"       : "#ffffff",
+				"align"      : "center",
+				"lineHeight" : 40,
+				"padding"    : 20
+			}
+		},
+
+		"ui" :
+		{
+            "soundButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_sound_off"],
+				"switchTextures" : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"switchIcons"    : ["icon_mute_off"],
+				"dynamicPosition" : "topRight",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"y"    : -100,
+							"ease" : "Cubic.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+            "homeButton" :
+			{
+				"textures"       : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"          : ["icon_home_off"],
+				"dynamicPosition" : "topLeft",
+				"dynamicOffset"   : [0, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+
+						"data" :
+						{
+							"y"    : -100,
+							"ease" : "Cubic.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"playButton" :
+			{
+				"textures"        : ["btn_primary_large_off", "btn_primary_large_over", "btn_primary_large_down"],
+				"icons"           : ["icon_play_large_off"],
+				"x"               : 950,
+				"y"               : 640,
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"nextButton" :
+			{
+				"textures"        : ["icon_next_off"],
+				"dynamicPosition" : "right",
+				"dynamicOffset"   : [-80, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"previousButton" :
+			{
+				"textures"        : ["icon_previous_off"],
+				"dynamicPosition" : "left",
+				"dynamicOffset"   : [80, 0],
+				"sounds"          : ["btn_press", "btn_over"],
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.7,
+
+						"data" :
+						{
+							"x"    : 0,
+							"y"    : 0,
+							"ease" : "Back.easeOut"
+						},
+
+						"label" : "start"
+					}
+				]
+			}
+		}
+	}
+}

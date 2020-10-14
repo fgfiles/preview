@@ -1,0 +1,84 @@
+{
+	"gameView" :
+	{
+		"lights" :
+		{
+			"texture"  : "lights",
+			"anchorXY" : 0.5,
+			"x"        : 950,
+			"y"        : 100
+		},
+		
+		"ui" :
+		{
+			"pickupsBar" :
+			{
+				"texture"         : "pickups_box",
+				"dynamicPosition" : "topLeft",
+				"dynamicOffset"   : [20, 20],
+				
+				"text" :
+				{
+					"x"        : 30, 
+					"y"        : -2,
+					"anchorXY" : 0.5,
+					"style"    :
+					{
+						"fontFamily" : "Vectipede",
+						"fontSize"   : 46,
+						"fill"       : "#fafafa",
+						"align"      : "center",
+						"padding"    : 20
+					}
+				},
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"y"        : -100,					
+							"ease"     : "Cubic.easeOut"
+						}
+					}				
+				]
+			},
+						
+			"pauseButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_pause_off"],
+				"dynamicPosition" : "topRight",
+				"sounds"          : ["btn_press", "btn_over"],
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"y"    : -100,					
+							"ease" : "Cubic.easeOut"
+						},
+						
+						"label" : "start"
+					}			
+				]
+			},
+						
+			"powerupButton" :
+			{
+				"textures"        : ["btn_powerup_out", "btn_powerup_over", "btn_powerup_down"],
+				"icons"           : ["game_powerup_balloons"],
+				"dynamicPosition" : "bottomRight",
+                "visible"         : false,
+				"sounds"          : ["btn_press", "btn_over"]
+			}		
+		}
+	}
+}

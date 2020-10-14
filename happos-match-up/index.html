@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Happos Family Match Up!</title>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.01, minimal-ui" />
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			overflow:hidden
+		}	
+
+		canvas {	
+			-ms-touch-action: none;
+			image-rendering: -o-crisp-edges;           
+			image-rendering: optimize-contrast;        
+			-ms-interpolation-mode: nearest-neighbor;  
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			-moz-tap-highlight-color: rgba(0,0,0,0);
+			tap-highlight-color: rgba(0,0,0,0);
+			user-select: none;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+		} 
+	</style>
+	
+
+		<style type="text/css">
+		/*
+		This CSS resource incorporates links to font software which is the valuable copyrighted
+		property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+		redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+		Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+		*/
+		
+		@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=c6729a14-674e-413c-b34e-69026924c6da");
+
+		@font-face{
+		font-family:"Ahkio W00 Regular";
+		src:url("Fonts/f0bcb16c-1024-47ef-b11c-b89d7f673478.eot?#iefix");
+		src:url("Fonts/f0bcb16c-1024-47ef-b11c-b89d7f673478.eot?#iefix") format("eot"),url("Fonts/66657371-c960-43f4-9cc9-d090e6a7c786.woff2") format("woff2"),url("Fonts/67bf4dd5-9b4b-4f6c-9010-9c1f06cfd611.woff") format("woff"),url("Fonts/0ad292db-d75d-4912-a611-5aa16367273d.ttf") format("truetype"),url("Fonts/29e01205-5d75-4112-8efd-33c13e1e9e3d.svg#29e01205-5d75-4112-8efd-33c13e1e9e3d") format("svg");
+		}
+		
+		@font-face{
+		font-family:"Fred Fredburger Cyrillic";
+		src:url("Fonts/FREDFREDBURGER-BOLD.woff") format("woff"), url("Fonts/FREDFREDBURGER-BOLD.OTF") format("opentype");
+		}
+		
+		@font-face{
+		font-family:"Fred Fredburger Arabic";
+		src:url("Fonts/FREDFREDBURGERARAHEADBLACK.woff") format("woff"), url("Fonts/FREDFREDBURGERARAHEADBLACK.TTF") format("truetype");
+		}
+
+	</style>
+	<script src="webfontloader.js"></script>
+	<script>
+	  WebFont.load({
+		google: {
+		  families: ['BenchNine', 'PT Sans Narrow', 'Ahkio W00 Regular', 'Fred Fredburger Cyrillic', 'Fred Fredburger Arabic']
+		}
+	  });
+	</script>
+</head>
+	
+	<body> 
+		<div id="canvas-wrapper" style="overflow:hidden; width:100%; height:100%; margin:0; padding:0; position:absolute;">
+		   <canvas id="canvas" moz-opaque></canvas>
+		</div>
+	</body>
+   
+	<script src="TweenMax.min.js"></script>
+	<script src="Howler.min.js"></script>
+	<script src="VisibilityManager.js"></script>
+	<script src="app.js"></script>
+	
+</html>

@@ -1,0 +1,242 @@
+{
+	"challengesSetup" :
+	{
+		"clean" :
+		{
+			"barComplete" : 0.80
+		},
+
+		"cool" :
+		{
+			"spot" :
+			{
+				"radius" : 180
+			},
+
+			"debugSpot" : false
+		},
+
+		"fuel" :
+		{
+			"barGain"   : 0.101,
+			"spawnTick" : 60,
+			"radius"    : 106,
+			"speed" :
+			{
+				"min" : 4,
+				"max" : 6
+			}
+		},
+
+		"tyre" :
+		{
+			"barDelay" : 200,
+			"barGain"  : 0.03,
+			"barDecay" : 0.002
+		},
+
+		"way" :
+		{
+			"sprayIntensity" : 0.1,
+			"sprayDecay"     : 0.002
+		},
+
+		"wheel" :
+		{
+			"gunGhostOpacity"  : 0.2,
+			"gunToNutDistance" :
+			{
+				"x" : 50,
+				"y" : 50
+			},
+			"nutGain"          : 0.02,
+			"nutRotation"      : 0.9,
+			"nutMax"           : 1.175
+		},
+
+		"results" :
+		{
+			"dismiss" : 3
+		}
+	},
+
+	"numOpponents" : 2,
+
+	"wheelSpeedMultiplier" : 0.0005,
+
+	"data":
+    {
+        "unit" : 100
+    },
+
+	"time" : 90,
+
+	"lives" : 3,
+
+	"distance" : 630,
+
+	"pickables" : 190,
+
+	"mapScale" :
+	{
+		"x" : 1,
+		"y" : 0.5
+	},
+
+	"parallax" :
+	{
+		"backGround" :
+		{
+			"texture"  : "level_background",
+			"scale"    : 2
+		},
+
+		"middleGround" :
+		{
+			"textures" : ["level_midground1", "level_midground2"],
+			"scale"    : 1,
+			"speed"    : 0.2
+		},
+
+		"foreGround" :
+		{
+			"textures" : ["level_foreground1", "level_foreground2"],
+			"scale"    : 1,
+			"speed"    : 0.4
+		}
+	},
+
+	"player" :
+	{
+		"speed"           : 1.55,
+		"collisionRadius" : 60,
+		"pickupRadius"    : 150,
+
+		"speedup" :
+		{
+			"max"        : 1.6,
+			"step"       : 0.06,
+			"decay"      : 0.998,
+			"decayAfter" : 0.6
+		},
+
+		"lives" : 3
+	},
+
+	"pickable" :
+	{
+		"texture"  : "level_pickable",
+		"anchorXY" : 0.5,
+
+		"setup" :
+		{
+			"density" :
+			{
+				"horizontal" : 4,
+				"vertical"   : 3,
+				"parabola"   : 5
+			},
+
+			"offset"  : -80,
+			"sound"   : "sfx_pickup"
+		}
+	},
+
+	"challenges" :
+	[
+		{
+			"texture"  : "level_challenge",
+			"anchorXY" : 0.5,
+
+			"setup" :
+			{
+				"offset"  : -40,
+				"rotates" : true,
+				"gap"     : 100,
+				"sound"   : "sfx_hit"
+			}
+		}
+	],
+
+	"chunks" :
+	{
+		"ground"  :
+		{
+			"texFillPadding" : 3000,
+			"texFillSize"    : 240,
+			"texGroundSize"  : 144,
+			"texGroundDelta" : 0.3
+		},
+
+		"platform"  :
+		{
+			"texFillPadding" : 98,
+			"texFillSize"    : 240,
+			"texGroundSize"  : 144,
+			"texGroundDelta" : 0.3
+		}
+	},
+
+	"powerup" :
+	[
+		{
+			"texture"  : "level_powerup1",
+			"anchorXY" : 0.5,
+
+			"setup" :
+			{
+				"offset"   : -140,
+				"addTime"  : 10,
+				"sound"    : "sfx_pickup"
+			}
+		},
+
+		{
+			"texture"  : "level_powerup2",
+			"anchorXY" : 0.5,
+
+			"setup" :
+			{
+				"offset"   : -140,
+				"duration" : 4.5,
+				"onSound"  : "sfx_pickup",
+				"offSound" : "sfx_hit"
+			}
+		},
+
+		{
+			"texture"  : "level_powerup3",
+			"anchorXY" : 0.5,
+
+			"setup" :
+			{
+				"offset"   : -140,
+				"addValue" : 5,
+				"sound"    : "sfx_pickup"
+			}
+		}
+	],
+
+	"level" :
+	{
+		"map" :
+		[
+			0,0,1,2,3,0,0,1,3,0,4,5,6,0,0,0,0
+		],
+
+		"pickables" :
+		[
+			0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		],
+
+		"challenges" :
+		[
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+		],
+
+		"powerups" :
+		[
+			0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		]
+	}
+}

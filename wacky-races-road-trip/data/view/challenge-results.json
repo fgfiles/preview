@@ -1,0 +1,186 @@
+{
+	"challengeResultsView" :
+	{
+		"bg" :
+        {
+			"texture"  : "screenBg",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"scaleX"   : 1.85546875,
+			"x"        : 950,
+			"y"        : 384
+        },
+
+		"shine1" :
+        {
+			"texture"  : "ui_result_shine_1",
+			"anchorXY" : 0.5,
+            "scaleXY"  : 3.5,
+			"x"        : 950,
+			"y"        : 384,
+            "alpha"    : 0.3
+        },
+
+		"shine2" :
+        {
+			"texture"  : "ui_result_shine_2",
+			"anchorXY" : 0.5,
+			"scaleXY"  : 3.5,
+			"x"        : 950,
+			"y"        : 384,
+            "alpha"    : 0.1
+        },
+
+		"character" :
+		{
+			"texture"  : "ui_char_#CARCOLOR#",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"x"        : 700,
+			"y"        : 730
+		},
+
+		"character2" :
+		{
+			"texture"  : "ui_char_#CARCOLOR#_2",
+			"anchorX"  : 0.5,
+			"anchorY"  : 1,
+			"visible"  : false,
+			"x"        : 1200,
+			"y"        : 730
+		},
+
+		"dialog" :
+		{
+			"main" :
+			{
+				"texture"  : "ui_result_bg",
+				"anchorXY" : 0.5,
+				"x"        : 950,
+				"y"        : 350,
+
+				"showTweens" :
+				[
+					{
+						"property" : "fromScale",
+						"duration" : 0.4,
+
+						"data" :
+						{
+							"x"        : 0.9,
+							"y"        : 0.9,
+							"ease"     : "Back.easeOut"
+						},
+
+						"label" : "start"
+					},
+
+					{
+						"property" : "fromAlpha",
+						"duration" : 0.4,
+
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+
+						"label" : "start"
+					}
+				],
+
+				"hideTweens" :
+				[
+					{
+						"property" : "toScale",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"x"        : 0.9,
+							"y"        : 0.9,
+							"ease"     : "Back.easeIn"
+						},
+
+						"label" : "start"
+					},
+
+					{
+						"property" : "toAlpha",
+						"duration" : 0.2,
+
+						"data" :
+						{
+							"alpha"    : 0,
+							"ease"     : "Linear.easeNone"
+						},
+
+						"label" : "start"
+					}
+				]
+			},
+
+			"children" :
+			{
+				"star1" :
+				{
+					"texture"  : "ui_result_star_off",
+					"x"        : -130,
+					"y"        : 80,
+					"rotation" : -0.35,
+					"scaleXY"  : 0.65,
+					"anchorXY" : 0.5,
+					"hasSound" : false
+				},
+
+				"star2" :
+				{
+					"texture"  : "ui_result_star_off",
+					"x"        : 130,
+					"y"        : 80,
+					"rotation" : 0.35,
+					"scaleXY"  : 0.65,
+					"anchorXY" : 0.5,
+					"hasSound" : false
+				},
+
+				"star3" :
+				{
+					"texture"  : "ui_result_star_off",
+					"x"        : 0,
+					"y"        : 20,
+					"rotation" : 0,
+					"scaleXY"  : 1,
+					"anchorXY" : 0.5,
+					"hasSound" : false
+				},
+
+				"amazing" :
+				{
+					"texture"  : "ui_result_sign",
+					"x"        : 0,
+					"y"        : 240,
+					"scaleXY"  : 0.5,
+					"anchorXY" : 0.5
+				},
+
+				"amazingText" :
+				{
+					"text"     : "default",
+					"x"        : 0,
+					"y"        : 238,
+					"rotation" : -0.03,
+					"anchorXY" : 0.5,
+					"style"    :
+					{
+						"fontFamily" : "Vectipede",
+						"fontSize"   : 46,
+						"fill"       : "#481145",
+						"align"      : "center",
+						"padding"    : 20
+					}
+				}
+			}
+		}
+	}
+}

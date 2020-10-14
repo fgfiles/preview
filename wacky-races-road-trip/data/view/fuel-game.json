@@ -1,0 +1,174 @@
+{
+	"fuelGameView" :
+	{
+		"backgroundImage" :
+		{
+			"texture"  : "challenge_fuel_bg_car_#CARCOLOR#",
+			"anchorXY" : 0.5,
+			"scaleX"   : 60,
+			"x"        : 950,
+			"y"        : 384
+		},
+		
+		"holeImage" :
+		{
+			"texture"  : "challenge_fuel_hole",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"x"        : 950,
+			"y"        : 340
+		},		
+		
+		"capImage" :
+		{
+			"texture"  : "challenge_fuel_hole_cap",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"x"        : 950,
+			"y"        : 340,
+			"alpha"    : 0,
+			"visible"  : false
+		},
+		
+		"trimLeft" :
+		{
+			"texture"  : "challenge_fuel_trim",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"scaleX"   : -1,
+			"x"        : 600,
+			"y"        : 384
+		},
+		
+		"trimRight" :
+		{
+			"texture"  : "challenge_fuel_trim",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"x"        : 1300,
+			"y"        : 384
+		},
+		
+		"shadowImage" :
+		{
+			"texture"  : "challenge_fuel_nozzle_shadow",
+			"anchorX"  : 0,
+			"anchorY"  : 0.02,
+			"x"        : 0,
+			"y"        : 0
+		},		
+		
+		"nozzleImage" :
+		{
+			"texture"  : "challenge_fuel_nozzle",
+			"anchorX"  : 0.04,
+			"anchorY"  : 0.12,
+			"x"        : 0,
+			"y"        : 0
+		},
+
+		"extensionImage" :
+		{
+			"texture"  : "challenge_fuel_nozzle_extension",
+			"anchorX"  : 0.5,
+			"anchorY"  : 0.5,
+			"x"        : 0,
+			"y"        : 8
+		},
+		
+		"ui" :
+		{
+			"progressBar" :
+			{
+				"texture"         : "challenge_progressbar_bg",
+				"dynamicPosition" : "top",
+				"dynamicOffset"   : [0, 20],
+				
+				"bar" :
+				{
+					"texture" : "challenge_fuel_progressbar_fg",
+					"anchorX" : 0,
+					"anchorY" : 0.5,
+					"x"       : -146,
+					"y"       : 0
+				},
+				
+				"icon" :
+				{
+					"texture" : "challenge_fuel_icon_noozle",
+					"anchorX" : 0.5,
+					"anchorY" : 0.5,
+					"x"       : -177
+				},
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.1,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			},
+
+			"pauseButton" :
+			{
+				"textures"        : ["btn_primary_small_off", "btn_primary_small_over", "btn_primary_small_down"],
+				"icons"           : ["icon_pause_off"],
+				"dynamicPosition" : "topRight",
+				"sounds"          : ["btn_press", "btn_over"],
+				
+				"showTweens" :
+				[
+					{
+						"property" : "fromPosition",
+						"duration" : 0.5,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeOut"
+						}
+					}				
+				],
+				
+				"hideTweens" :
+				[
+					{
+						"property" : "toPosition",
+						"duration" : 0.25,
+						
+						"data" :
+						{
+							"delay"    : 0.05,
+							"y"        : -100,					
+							"ease"     : "Back.easeIn"
+						}
+					}				
+				]
+			}
+		}
+	}
+}

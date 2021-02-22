@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html class="locale-en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Puss In Boots - Catch the Thief</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="styles/css/trials.css">
+        <link rel="stylesheet" type="text/css" href="styles/site.css">
+        <script>
+            if (typeof console == "undefined"){ window.console = { log: function() {} }};
+        </script>
+        <script>
+            window.gameCopy = {
+            			stumbleWarning: "Watch out! Don't slow down",
+            			levelEnd: "The thief got away!",
+            			airborneAttackBonus: "Airborne knock down!",
+            			startCountdown: "The thief is escaping",
+            			showWarning: "Collect coins to catch up!",
+            		};
+        </script>
+        <script>
+            var digitalData = digitalData || {};
+            	digitalData = {
+            		page : {
+            			pageInfo : {
+                     		franchise : "dwtv",
+                     		siteTerritory : "us",
+                     		siteLanguage : "en", /* still needs to vary based on curr language*/
+                     		channel : "games",
+                     		show : "apib",
+                     		pageName : "us:dwtv:games:catch_the_thief"
+                     	},
+					category : {
+						primaryCategory : "games",	
+						subCategory1 : "catch_the_thief"
+					} 
+            	}
+            };
+        </script>
+         <script src="ok.js"></script>
+        <script>
+            _satellite.track("virtual_page_view");
+        </script>
+    </head>
+    
+    <body data-game="thief">
+        <div class="rotate-device">
+            <div class="background image-el" data-src="images/site/characters/rotate-your-device-guy.png"></div>
+            <div class="bubble image-el" data-src="images/site/backgrounds/bubble.png">
+                <div class="mobile">Please rotate your device</div>
+                <div class="desktop">Please resize your window</div>
+            </div>
+        </div>
+        <main>
+            <div class="interface-holder">
+                <button class="audio"></button>
+            </div>
+            <div class="modal-holder page-el active" data-url="preloader, intro-page, how-to, game-over">
+                <div class="page-el preloader modal" data-url="preloader">
+                    <div class="background image-el" data-src="images/site/backgrounds/preloader.png"></div>
+                    <div class="content">
+                        <div class="logo image-el" data-src="images/site/text/en/main-logo.png"></div>
+                        <div class="title image-el" data-src="images/site/text/en/to-catch-a-thief.png"></div>
+                        <div class="progress-container">
+                            <div class="bar-wrapper">
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-el intro-page modal" data-url="intro-page">
+                    <div class="play image-el" data-src="images/site/backgrounds/play-button.png">
+                        <div class="text">Play</div>
+                        <div class="image-el puss" data-src="images/site/characters/intro-puss.png"></div>
+                    </div>
+                    <div class="how-to">
+                        <div class="text">	<span class="text-scale-el" data-width="220">How to</span>
+	<span class="text-scale-el"
+                            data-width="220">Play</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="page-el how-to-page modal" data-url="how-to">
+                    <div class="container image-el" data-src="images/site/backgrounds/how-to.png">
+                        <div class="close-button image-el" data-src="images/site/icons/close-button.png"></div>
+                        <div class="headline">How To Play</div>
+                        <div class="pages">
+                            <div class="page">
+                                <div class="image-el" data-src="images&#x2F;site&#x2F;how-to&#x2F;thief&#x2F;1.jpg"></div>
+                                <p>Click&#x2F;Tap to jump. Hold to jump higher.</p>
+                            </div>
+                            <div class="page">
+                                <div class="image-el" data-src="images&#x2F;site&#x2F;how-to&#x2F;thief&#x2F;2.jpg"></div>
+                                <p>Collect coins to catch up with the thief!</p>
+                            </div>
+                        </div>
+                        <div class="buttons">	<i class="image-el" data-src="images/site/icons/pagination-button.png"></i>
+
+                            <i
+                            class="image-el" data-src="images/site/icons/pagination-button.png"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-el game-over-page modal" data-url="game-over">
+                    <div class="headline">Congratulations</div>
+                    <div class="score">	<span>Score</span>
+	<span class="score-holder"></span>
+
+                    </div>
+                    <div class="play-again big-play-button image-el" data-src="images/site/icons/play-button.png">
+                        <div class="text">	<span class="text-scale-el" data-width="170">Play</span>
+	<span class="text-scale-el"
+                            data-width="170">Again?</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-el game-holder" data-url="game">
+                <div id="thief" class="game_thief">
+                    <canvas id="view" class="view_thief"></canvas>
+                    <canvas id="viewDebug" class="view_thief" width="11360" height="6400"
+                    style="background-color:#000000"></canvas>
+                </div>
+            </div>
+            <ul class="background-holder">
+                <li class="page-el orange" data-url="game, intro-page, how-to"></li>
+                <li class="page-el purple" data-url="game-over"></li>
+                <li class="page-el sky" data-url="preloader"></li>
+                <li class="page-el game-over" data-url="game-over"></li>
+            </ul>
+        </main>
+        
+        <script src="scripts/vendor/pixi.dev.js"></script>
+        <script src="scripts/vendor/jquery-2.0.0.min.js"></script>
+        <script src="scripts/vendor/underscore-min.js"></script>
+        <script src="scripts/vendor/soundjs-0.5.2.min.js"></script>
+        <script src="scripts/vendor/preloadjs-0.4.1.min.js"></script>
+        <script src="scripts/vendor/object-pool.min.js"></script>
+        <script src="scripts/vendor/TweenMax.min.js"></script>
+        <script type="text/javascript">
+            _satellite.pageBottom();
+        </script>
+        <script data-main="scripts/pussinboots/thief/Config" src="scripts/vendor/require.js"></script>
+    </body>
+
+</html>

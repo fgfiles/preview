@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/grizzly_fx.png"
+],
+
+"frames": [
+    [2, 2, 450, 450, 0, 0, 0],
+    [455, 2, 450, 450, 0, 0, 0],
+    [908, 2, 450, 450, 0, 0, 0],
+    [1361, 2, 450, 450, 0, 0, 0],
+    [2, 455, 450, 450, 0, 0, 0],
+    [455, 455, 450, 450, 0, 0, 0],
+    [908, 455, 450, 450, 0, 0, 0],
+    [1361, 455, 450, 450, 0, 0, 0],
+    [2, 908, 450, 450, 0, 0, 0],
+    [455, 908, 450, 450, 0, 0, 0]
+],
+
+"animations": {
+    "grizzly_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next" : false},
+    "grizzly_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next" : false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:359e198bffe35a3d03d38aa26996e184:a35a1890a2802c5fef5d49621b85d77f:efd3476320db9d12ced9755d9c813614$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

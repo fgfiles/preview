@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/transportpod_fx.png"
+],
+
+"frames": [
+    [2, 2, 460, 460, 0, 0, 0],
+    [465, 2, 460, 460, 0, 0, 0],
+    [928, 2, 460, 460, 0, 0, 0],
+    [1391, 2, 460, 460, 0, 0, 0],
+    [2, 465, 460, 460, 0, 0, 0],
+    [465, 465, 460, 460, 0, 0, 0],
+    [928, 465, 460, 460, 0, 0, 0],
+    [1391, 465, 460, 460, 0, 0, 0],
+    [2, 928, 460, 460, 0, 0, 0],
+    [465, 928, 460, 460, 0, 0, 0]
+],
+
+"animations": {
+    "transportpod_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next" : false},
+    "transportpod_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next" : false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:f45f805e1838a50b3a43bb0a87131bb3:82e856f90c96ba600424640484dac931:0aafbfb3042fc23a87efe81882b682fa$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

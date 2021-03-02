@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/bomber_fx.png"
+],
+
+"frames": [
+    [2, 2, 450, 460, 0, 0, 0],
+    [455, 2, 450, 460, 0, 0, 0],
+    [908, 2, 450, 460, 0, 0, 0],
+    [1361, 2, 450, 460, 0, 0, 0],
+    [2, 465, 450, 460, 0, 0, 0],
+    [455, 465, 450, 460, 0, 0, 0],
+    [908, 465, 450, 460, 0, 0, 0],
+    [1361, 465, 450, 460, 0, 0, 0],
+    [2, 928, 450, 460, 0, 0, 0],
+    [455, 928, 450, 460, 0, 0, 0]
+],
+
+"animations": {
+    "bomber_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next":false},
+    "bomber_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next":false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:4c79bc745047a5172036a76c5fbf0e5f:72f88c94a3942b3c9243d8a1eec33ee0:05ee9e6203051bf24e0687bee8681532$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

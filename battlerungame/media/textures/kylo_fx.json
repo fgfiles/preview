@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/kylo_fx.png"
+],
+
+"frames": [
+    [2, 2, 679, 411, 0, 0, 0],
+    [684, 2, 679, 411, 0, 0, 0],
+    [1366, 2, 679, 411, 0, 0, 0],
+    [2, 416, 679, 411, 0, 0, 0],
+    [684, 416, 679, 411, 0, 0, 0],
+    [1366, 416, 679, 411, 0, 0, 0],
+    [2, 830, 679, 411, 0, 0, 0],
+    [684, 830, 679, 411, 0, 0, 0],
+    [1366, 830, 679, 411, 0, 0, 0],
+    [2, 1244, 679, 411, 0, 0, 0]
+],
+
+"animations": {
+    "kylo_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next" : false},
+    "kylo_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next" : false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:23ffcd0570ad2cfe247f780c300d440b:eb2ab1b36dbc89c2019cf8644c26c8c2:1b75bcdbabe81e59647c20cec590b433$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

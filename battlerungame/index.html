@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Star Wars Battle Run - Interactive Voice HTML5 Game</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=0, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">  
+	
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+	<!-- <div id="loadingHolder"></div> -->
+	<div id="loaderHolder">
+		<div class="load">
+			<div class="spinner">
+				<div class="loading"></div>
+				<div class="inner"><span class="percent-loaded">0</span>%</div>
+			</div>
+		</div>
+	</div>
+	<div id="gameHolder"></div>
+	<div id="vrview"></div>
+	<div id="menu">
+		<div class="bar">
+			<div class="inner">
+				<a href="#toggle" class="locale toggle-locales"></a>
+
+				<ul class="menu-legal"></ul>
+
+				<p class="copy-legal"></p>
+			</div>
+		</div>
+
+		<div class="menu-locales" class="drawer">
+			<ul></ul>
+		</div>
+
+		<a class="toggle-header" href></a>
+		<a class="toggle-sound" href></a>
+	</div>
+	<div id="border"></div>
+
+	<!-- This helps load the font for later -->
+	<div id="font-preloader">
+		<span style="font-family: Eund-Medium"> abc123 </span>
+		<span style="font-family: Eund-Heavy"> abc123s </span>
+		<span style="font-family: Eund-S-Heavy"> abc123s </span>
+		<span style="font-family: Eund-S-Medium"> abc123s </span>
+	</div>
+
+	<!-- Age gate -->
+	<div id="overlay-gate" class="overlay">
+		<div class="content">
+			<div class="top"></div>
+			<div class="textCopy"></div>
+			<div class="buttons">
+				<a href="#" class="cancel"></a>
+				<a href="#" class="confirm" target="_blank"></a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Rotation for mobile display -->
+	<div id="overlay-rotate" class="overlay">
+		<div class="content">
+			<div class="top"></div>
+			<div class="textCopy"></div>
+			<img src="media/images/overlay-rotate.png"/>
+		</div>
+	</div>
+	
+	<!-- Expand for desktop display -->
+	<div id="overlay-expand" class="overlay">
+		<div class="content">
+			<div class="top"></div>
+			<div class="textCopy"></div>
+			<img src="media/images/overlay-expand.png"/>
+		</div>
+	</div>
+
+	<!-- Not supported desktop display -->
+	<div id="overlay-notsupported" class="overlay">
+		<div class="content">
+			<div class="top"></div>
+			<div class="textCopy"></div>
+			<img src="media/images/overlay-notsupported.png"/>
+		</div>
+	</div>
+
+	<script src="js/game.min.js"></script>
+
+	<!-- Once content is loaded -->
+	<script>	
+		cm.deploy();
+	</script>
+</body>
+</html>

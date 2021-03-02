@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/carver_fx.png"
+],
+
+"frames": [
+    [2, 2, 679, 492, 0, 0, 0],
+    [684, 2, 679, 492, 0, 0, 0],
+    [1366, 2, 679, 492, 0, 0, 0],
+    [2, 497, 679, 492, 0, 0, 0],
+    [684, 497, 679, 492, 0, 0, 0],
+    [1366, 497, 679, 492, 0, 0, 0],
+    [2, 992, 679, 492, 0, 0, 0],
+    [684, 992, 679, 492, 0, 0, 0],
+    [1366, 992, 679, 492, 0, 0, 0],
+    [2, 1487, 679, 492, 0, 0, 0]
+],
+
+"animations": {
+    "carver_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next" : false},
+    "carver_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next" : false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:cad20c18e8613733a35914e854647199:ab9a2e08b05c4cb93676812e5adb086d:c47b641daf4861f27967b7ff4a12e4cc$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

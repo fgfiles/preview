@@ -1,0 +1,804 @@
+{
+	"Vignette1" : {
+		"PlayTimes" : {				
+			"start" : 0,
+			"end" : 5.25
+		},
+		"BuildUpTimes" : {				
+			"start" : 6,
+			"end" : 8.5
+		},
+		"PreviousPath" : "BattlePackPath",
+		"Model" : "BattlePack",
+		"VoiceGame" : {
+			"gameType" : "duration",
+			"timeFrame" : 5,
+			"winCondition" : 1,
+			"instructionText" : "Vignette1VoiceInstruction1",
+			"choice1Text" : "Vignette1VoiceBubbleChoice1",
+			"choice1Result" : "Vignette1MotionBubbleChoice1",
+			"choice1Waveform" : "duration"
+		},
+		"MotionGame" : {
+			"gameType" : "skill",
+			"timeFrame" : 5,
+			"winCondition" : "circle",					
+			"choice1Icon" : "circle_gesture",
+			"instructionText" : "Vignette1MotionInstruction1",	
+			"choice1Text" : "Vignette1MotionBubbleChoice1"
+		},
+		"NextClip" : "Vignette2",
+		"TimelineLock" : "battlePackLock",
+		"TimelinePath" :{
+			"Voice" : [
+				"Line1",
+				"Line3"
+			],
+			"Motion" : [
+				"Line2",
+				"Line3"
+			]
+		}
+	},
+	"Vignette2" : {
+		"PlayTimes" : {
+			"BattlePackPath" : {				
+				"start" : 9,
+				"end" : 29.75
+			}
+		},	
+		"BuildUpTimes" : {
+			"BattlePackPath" : {
+				"start" : 30,
+				"end" : 32.5
+			}
+		},
+		"PreviousPath" : "TransportPodPath",
+		"Model" : "TransportPod",
+		"VoiceGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette2VoiceInstruction1",
+			"instructionText2" : "Vignette2VoiceInstruction2",
+			"choice1" : "duration",
+			"choice1Text" : "Vignette2VoiceBubbleChoice1",
+			"choice1Waveform" : "duration",
+			"choice2" : "peaks",
+			"choice2Text" : "Vignette2VoiceBubbleChoice2",
+			"choice2Waveform" : "peaks",
+			"choice1Result" : "Vignette2MotionBubbleChoice1",
+			"choice2Result" : "Vignette2MotionBubbleChoice2",
+			"timeFrame" : 5,
+			"winCondition" : {
+				"peaks" : 2,
+				"duration" : 2.5
+			}
+		},
+		"MotionGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette2MotionInstruction1",
+			"instructionText2" : "Vignette2MotionInstruction2",
+			"choice1" : "zig-zag",
+			"choice1Icon" : "zigzag_gesture",
+			"choice1Text" : "Vignette2MotionBubbleChoice1",
+			"choice2" : "triangle",
+			"choice2Icon" : "triangle_gesture",
+			"choice2Text" : "Vignette2MotionBubbleChoice2",
+			"timeFrame" : 5
+		},
+		"NextClip" : {
+			"choice1" : "Vignette4",
+			"choice2" : "Vignette3"
+		},
+		"TimelineLock" : "transportPodLock",
+		"TimelinePath" :{
+			"BattlePackPath" : [
+				"Line4"
+			]
+		}
+	},
+	"Vignette3" : {
+		"PlayTimes" : {
+			"TransportPodPath" : {
+				"start" : 33,
+				"end" : 43.25
+			}
+		},	
+		"BuildUpTimes" : {
+			"TransportPodPath" : {
+				"start" : 58,
+				"end" : 63.25
+			}
+		},	
+		"PreviousPath" : "CarverPath",
+		"Model" : "Carver",
+		"VoiceGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette3VoiceInstruction1",
+			"instructionText2" : "Vignette3VoiceInstruction2",
+			"choice1" : "peaks",
+			"choice1Text" : "Vignette3VoiceBubbleChoice1",
+			"choice1Waveform" : "peaks",
+			"choice2" : "duration",
+			"choice2Text" : "Vignette3VoiceBubbleChoice2",
+			"choice2Waveform" : "duration",
+			"choice1Result" : "Vignette3MotionBubbleChoice1",
+			"choice2Result" : "Vignette3MotionBubbleChoice2",
+			"timeFrame" : 5,
+			"winCondition" : {
+				"peaks" : 2,
+				"duration" : 2.5
+			}
+		},
+		"MotionGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette3MotionInstruction1",
+			"instructionText2" : "Vignette3MotionInstruction2",
+			"choice1" : "zig-zag",
+			"choice1Icon" : "zigzag_gesture",
+			"choice1Text" : "Vignette3MotionBubbleChoice1",
+			"choice2" : "circle",
+			"choice2Icon" : "circle_gesture",
+			"choice2Text" : "Vignette3MotionBubbleChoice2",
+			"timeFrame" : 5
+		},
+		"NextClip" : {
+			"choice1" : "Vignette6",
+			"choice2" : "Vignette5"
+		},
+		"TimelineLock" : "carverLock",
+		"TimelinePath" :{
+			"TransportPodPath" : [
+				"Line5",
+				"Line7"
+			]
+		}
+	},
+	"Vignette4" : {
+		"PlayTimes" : {
+			"TransportPodPath" : {				
+				"start" : 44,
+				"end" : 57.25
+			}
+		},	
+		"BuildUpTimes" : {	
+			"TransportPodPath" : {
+				"start" : 90,
+				"end" : 94.5
+			}
+		},	
+		"PreviousPath" : "BomberPath",
+		"Model" : "Bomber",
+		"VoiceGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette4VoiceInstruction1",
+			"instructionText2" : "Vignette4VoiceInstruction2",
+			"choice1" : "duration",
+			"choice1Text" : "Vignette4VoiceBubbleChoice1",
+			"choice1Waveform" : "duration",
+			"choice2" : "peaks",
+			"choice2Text" : "Vignette4VoiceBubbleChoice2",
+			"choice2Waveform" : "peaks",
+			"choice1Result" : "Vignette4MotionBubbleChoice1",
+			"choice2Result" : "Vignette4MotionBubbleChoice2",
+			"timeFrame" : 5,
+			"winCondition" : {
+				"peaks" : 2,
+				"duration" : 2.5
+			}
+		},
+		"MotionGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette4MotionInstruction1",
+			"instructionText2" : "Vignette4MotionInstruction2",
+			"choice1" : "triangle",
+			"choice1Icon" : "triangle_gesture",
+			"choice1Text" : "Vignette4MotionBubbleChoice1",
+			"choice2" : "zig-zag",
+			"choice2Icon" : "zigzag_gesture",
+			"choice2Text" : "Vignette4MotionBubbleChoice2",
+			"timeFrame" : 5
+		},
+		"NextClip" : {
+			"choice1" : "Vignette6",
+			"choice2" : "Vignette5"
+		},
+		"TimelineLock" : "bomberLock",
+		"TimelinePath" :{
+			"TransportPodPath" : [
+				"Line5",
+				"Line6"
+			]
+		}
+	},
+	"Vignette5" : {
+		"PlayTimes" : {
+			"CarverPath" : {
+				"start" : 64,
+				"end" : 73
+			},
+			"BomberPath" : {
+				"start" : 105,
+				"end" : 120.5
+			}
+		},	
+		"BuildUpTimes" : {				
+			"CarverPath" : {
+				"start" : 121,
+				"end" : 123
+			},
+			"BomberPath" : {
+				"start" : 121,
+				"end" : 123
+			}
+		},
+		"PreviousPath" : "WalkerPath",
+		"Model" : "Walker",
+		"VoiceGame" : {
+			"gameType" : "duration",
+			"timeFrame" : 5,
+			"winCondition" : 1,
+			"instructionText" : "Vignette5VoiceInstruction1",
+			"choice1Text" : "Vignette5VoiceBubbleChoice1",
+			"choice1Result" : "Vignette5MotionBubbleChoice1",
+			"choice1Waveform" : "duration"
+		},
+		"MotionGame" : {
+			"gameType" : "skill",
+			"timeFrame" : 5,
+			"winCondition" : "circle",					
+			"choice1Icon" : "circle_gesture",
+			"instructionText" : "Vignette5MotionInstruction1",	
+			"choice1Text" : "Vignette5MotionBubbleChoice1"
+		},
+		"NextClip" : "Vignette7",
+		"TimelineLock" : "walkerLock",
+		"TimelinePath" :{
+			"CarverPath" : [				
+				"Line9",
+				"largeBottomLine",
+				"Line15"
+			],
+			"BomberPath" : [
+				"Line8",
+				"Line10",
+				"topTrenchLine",
+				"trenchOval",
+				"Line13",
+				"Line15"
+			]
+		}
+	},
+	"Vignette6" : {
+		"PlayTimes" : {
+			"CarverPath" : {
+				"start" : 74,
+				"end" : 88.75
+			},
+			"BomberPath" : {
+				"start" : 95,
+				"end" : 104
+			}
+		},	
+		"BuildUpTimes" : {				
+			"CarverPath" : {
+				"start" : 137,
+				"end" : 139
+			},
+			"BomberPath" : {
+				"start" : 137,
+				"end" : 139
+			}
+		},
+		"PreviousPath" : "GrizzlyPath",
+		"Model" : "Grizzly",
+		"VoiceGame" : {
+			"gameType" : "duration",
+			"timeFrame" : 5,
+			"winCondition" : 1,
+			"instructionText" : "Vignette6VoiceInstruction1",
+			"choice1Text" : "Vignette6VoiceBubbleChoice1",
+			"choice1Result" : "Vignette6MotionBubbleChoice1",
+			"choice1Waveform" : "duration"
+		},
+		"MotionGame" : {
+			"gameType" : "skill",
+			"timeFrame" : 5,
+			"winCondition" : "triangle",					
+			"choice1Icon" : "triangle_gesture",
+			"instructionText" : "Vignette6MotionInstruction1",	
+			"choice1Text" : "Vignette6MotionBubbleChoice1"
+		},
+		"NextClip" : "Vignette7",
+		"TimelineLock" : "grizzlyLock",
+		"TimelinePath" :{
+			"BomberPath" : [
+				"Line8",
+				"largeTopLine",
+				"Line14"
+			],
+			"CarverPath" : [				
+				"Line9",
+				"Line11",
+				"bottomTrenchLine",
+				"trenchOval",
+				"Line12",
+				"Line14"
+			]
+		}
+	},
+	"Vignette7" : {
+		"PlayTimes" : {
+			"WalkerPath" : {
+				"start" : 124,
+				"end" : 136.5
+			},
+			"GrizzlyPath" : {
+				"start" : 140,
+				"end" : 150.5
+			}
+		},
+		"BuildUpTimes" : {				
+			"WalkerPath" : {
+				"start" : 151,
+				"end" : 153.75
+			},
+			"GrizzlyPath" : {
+				"start" : 151,
+				"end" : 153.75
+			}
+		},
+		"PreviousPath" : "KyloPath",
+		"Model" : "Kylo",
+		"VoiceGame" : {
+			"gameType" : "duration",
+			"timeFrame" : 5,
+			"winCondition" : 1,
+			"instructionText" : "Vignette7VoiceInstruction1",
+			"choice1Text" : "Vignette7VoiceBubbleChoice1",
+			"choice1Result" : "Vignette7MotionBubbleChoice1",
+			"choice1Waveform" : "duration"
+		},
+		"MotionGame" : {
+			"gameType" : "skill",
+			"timeFrame" : 5,
+			"winCondition" : "zig-zag",					
+			"choice1Icon" : "zigzag_gesture",
+			"instructionText" : "Vignette7MotionInstruction1",	
+			"choice1Text" : "Vignette7MotionBubbleChoice1"
+		},
+		"NextClip" : "Vignette8",
+		"TimelineLock" : "kyloLock",
+		"TimelinePath" :{
+			"WalkerPath" : [
+				"Line17",
+				"Line18"
+			],
+			"GrizzlyPath" : [
+				"Line16",
+				"Line18"
+			]
+		}
+	},
+
+	"Vignette8" : {
+		"PlayTimes" : {
+			"KyloPath" : {				
+				"start" : 154,
+				"end" : 173.5
+			},
+			"BattlePackPath" : {				
+				"start" : 154,
+				"end" : 173.5
+			}
+		},	
+		"BuildUpTimes" : {				
+			"KyloPath" : {				
+				"start" : 174,
+				"end" : 178.25
+			},
+			"BattlePackPath" : {				
+				"start" : 174,
+				"end" : 178.25
+			}
+		},
+		"PreviousPath" : "DestroyerPath",
+		"Model" : "Destroyer",
+		"VoiceGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette8VoiceInstruction1",
+			"instructionText2" : "Vignette8VoiceInstruction2",
+			"choice1" : "duration",
+			"choice1Text" : "Vignette8VoiceBubbleChoice1",
+			"choice1Waveform" : "duration",
+			"choice2" : "peaks",
+			"choice2Text" : "Vignette8VoiceBubbleChoice2",
+			"choice1Result" : "Vignette8MotionBubbleChoice1",
+			"choice2Result" : "Vignette8MotionBubbleChoice2",
+			"choice2Waveform" : "peaks",
+			"timeFrame" : 5,
+			"winCondition" : {
+				"peaks" : 2,
+				"duration" : 1.5
+			}
+		},
+		"MotionGame" : {
+			"gameType" : "fork",
+			"instructionText" : "Vignette8MotionInstruction1",
+			"instructionText2" : "Vignette8MotionInstruction2",
+			"choice1" : "zig-zag",
+			"choice1Icon" : "zigzag_gesture",
+			"choice1Text" : "Vignette8MotionBubbleChoice1",
+			"choice2" : "triangle",
+			"choice2Icon" : "triangle_gesture",
+			"choice2Text" : "Vignette8MotionBubbleChoice2",
+			"timeFrame" : 5
+		},
+		"LastVignette" : true,
+		"NextClip" : {
+			"choice1" : "DarkSideEnding",
+			"choice2" : "LightSideEnding"
+		},
+		"TimelineLock" : "destroyerLock",
+		"TimelinePath" :{
+			"KyloPath" : [
+				"Line19"
+			],
+			"BattlePackPath" : [
+				"Line19"
+			]
+		}
+	},	
+	"DarkSideEnding" : {
+		"PlayTimes" : {
+			"DestroyerPath" : {				
+				"start" : 185,
+				"end" : 194.5
+			}
+		},
+		"TimelinePath" :{
+			"DestroyerPath" : [
+				"Line20",
+				"Line21"
+			]
+		},
+		"EndGame" : "EndDark"
+	},
+	"LightSideEnding" : {
+		"PlayTimes" : {
+			"DestroyerPath" : {
+				"start" : 178.5,
+				"end" : 184.5
+			}
+		},
+		"TimelinePath" :{
+			"DestroyerPath" : [
+				"Line20",
+				"Line22"
+			]
+		},
+		"EndGame" : "EndLight"
+	},
+	"EndDark" : {
+		"Side" : "WelcomeDark",
+		"Faction" : "FirstOrderText",
+		"Logo" : "First Order",
+		"OvalName" : "DarkSideOval",
+		"OvalSpriteName" : "timeline_darkside_red"
+	},
+	"EndLight" : {
+		"Side" : "WelcomeLight",
+		"Faction" : "ResistanceText",
+		"Logo" : "Resistance",
+		"OvalName" : "LightSideOval",
+		"OvalSpriteName" : "timeline_lightside_red"
+	},
+	"BattlePack" : {
+		"Scene" : "battlepack",
+		"Rotation" : {
+			"x" : -2.7,
+			"y" : -0.55,
+			"z" : 3.14
+		},
+		"HologramName" : "BattlePack Hologram",
+		"ModelFaction" : "BattlePackSKU",
+		"ModelName" : "BattlepackText",		
+		"ModelLogo" : "First Order",
+		"Hotspots" : [
+			{
+				"Type" : "Single",
+				"SpriteSheet" : "battlepack_ss",
+				"Images" : "battlepack_still_1"
+			},
+			{
+				"Type" : "Single",
+				"SpriteSheet" : "battlepack_ss",
+				"Images" : "battlepack_still_2"
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "battlepack_ss",
+				"Images" : [
+					"battlepack_sigfig_1",
+					"battlepack_sigfig_2",
+					"battlepack_sigfig_3"
+				]
+			}
+		]
+	},
+	"Bomber" : {
+		"Scene" : "bomber",
+		"Rotation" : {
+			"x" : -2.69,
+			"y" : 0.65,
+			"z" : 3.14
+		},
+		"HologramName" : "Bomber Hologram",
+		"ModelFaction" : "BomberSKU",
+		"ModelName" : "BomberText",		
+		"ModelLogo" : "Resistance",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "bomber_ss",
+				"Images" : [
+					"bomber_gallery_1",
+					"bomber_gallery_2",
+					"bomber_gallery_3",
+					"bomber_gallery_4",
+					"bomber_gallery_5",
+					"bomber_gallery_6"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "bomber_ss",
+				"Images" : [
+					"bomber_sigfig_1",
+					"bomber_sigfig_2",
+					"bomber_sigfig_3",
+					"bomber_sigfig_4",
+					"bomber_sigfig_5"
+				]
+			},
+			{
+				"Type" : "Animation",
+				"SpriteSheet" : "bomber_sequence",
+				"Images" : "bomber"
+			}
+		]
+	},
+	"Carver" : {
+		"Scene" : "carver",
+		"Rotation" : {
+			"x" : -2.49,
+			"y" : 0.99,
+			"z" : -3.14
+		},
+		"HologramName" : "Carver Hologram",
+		"ModelFaction" : "CarverSKU",
+		"ModelName" : "CarverText",		
+		"ModelLogo" : "Resistance",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "carver_ss",
+				"Images" : [
+					"carver_gallery_1",
+					"carver_gallery_2"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "carver_ss",
+				"Images" : [
+					"carver_gallery_3",
+					"carver_gallery_4"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "carver_ss",
+				"Images" : [
+					"carver_sigfig_1",
+					"carver_sigfig_2",
+					"carver_sigfig_3",
+					"carver_sigfig_4"
+				]
+			}
+		]
+	},
+	"Grizzly" : {
+		"Scene" : "grizzly",
+		"Rotation" : {
+			"x" : 0.35,
+			"y" : -0.76,
+			"z" : 0
+		},
+		"HologramName" : "Grizzly Hologram",
+		"ModelFaction" : "GrizzlySKU",
+		"ModelName" : "GrizzlyText",		
+		"ModelLogo" : "First Order",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "grizzly_ss",
+				"Images" : [
+					"grizzly_gallery_1",
+					"grizzly_gallery_2",
+					"grizzly_gallery_3"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "grizzly_ss",
+				"Images" : [
+					"grizzly_gallery_4",
+					"grizzly_gallery_5"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "grizzly_ss",
+				"Images" : [
+					"grizzly_sigfig_1",
+					"grizzly_sigfig_2",
+					"grizzly_sigfig_3",
+					"grizzly_sigfig_4"
+				]
+			}
+		]
+	},
+	"Kylo" : {
+		"Scene" : "kylo_ship",
+		"Rotation" : {
+			"x" : -2.59,
+			"y" : -0.62,
+			"z" : -3.14
+		},
+		"HologramName" : "Kylo Hologram",
+		"ModelFaction" : "KyloShipSKU",
+		"ModelName" : "KyloText",		
+		"ModelLogo" : "First Order",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "kylo_ss",
+				"Images" : [
+					"kyloship_sigfig_1",
+					"kyloship_sigfig_2",
+					"kyloship_sigfig_3",
+					"kyloship_sigfig_4"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "kylo_ss",
+				"Images" : [
+					"kyloship_gallery_1",
+					"kyloship_gallery_2"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "kylo_ss",
+				"Images" : [
+					"kyloship_gallery_3",
+					"kyloship_gallery_4"
+				]
+			}
+		]
+	},
+	"Walker" : {
+		"Scene" : "large_walker",
+		"Rotation" : {
+			"x" : 0.1,
+			"y" : -0.59,
+			"z" : 0
+		},
+		"HologramName" : "Walker Hologram",
+		"ModelFaction" : "WalkerSKU",
+		"ModelName" : "WalkerText",		
+		"ModelLogo" : "First Order",
+		"Hotspots" : [
+			{
+				"Type" : "Single",
+				"SpriteSheet" : "walker_ss",
+				"Images" : "large_walker_still"
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "walker_ss",
+				"Images" : [
+					"large_walker_gallery_1",
+					"large_walker_gallery_2",
+					"large_walker_gallery_3"
+				]
+			}
+		]
+	},
+	"Destroyer" : {
+		"Scene" : "star_destroyer",
+		"Rotation" : {
+			"x" : -2.49,
+			"y" : -0.6,
+			"z" : 3.14
+		},
+		"HologramName" : "Destroyer Hologram",
+		"ModelFaction" : "DestroyerSKU",
+		"ModelName" : "DestroyerText",		
+		"ModelLogo" : "First Order",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "destroyer_ss",
+				"Images" : [
+					"star_destroyer_sigfig_1",
+					"star_destroyer_sigfig_2",
+					"star_destroyer_sigfig_3"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "destroyer_ss",
+				"Images" : [
+					"star_destroyer_gallery_1",
+					"star_destroyer_gallery_2"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "destroyer_ss",
+				"Images" : [
+					"star_destroyer_gallery_3",
+					"star_destroyer_gallery_4"
+				]
+			},
+			{
+				"Type" : "Animation",
+				"SpriteSheet" : "destroyer_sequence",
+				"Images" : "destroyer"
+			}
+		]
+	},
+	"TransportPod" : {
+		"Scene" : "transport_pod",
+		"Rotation" : {
+			"x" : -2.44,
+			"y" : 0.95,
+			"z" : -3.14
+		},
+		"HologramName" : "Transport Pod Hologram",
+		"ModelFaction" : "TransportPodSKU",
+		"ModelName" : "TransportPodText",		
+		"ModelLogo" : "Resistance",
+		"Hotspots" : [
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "transport_ss",
+				"Images" : [
+					"transportpod_sigfig_1",
+					"transportpod_sigfig_2",
+					"transportpod_sigfig_3"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "transport_ss",
+				"Images" : [
+					"transportpod_gallery_1",
+					"transportpod_gallery_2",
+					"transportpod_gallery_3",
+					"transportpod_gallery_4"
+				]
+			},
+			{
+				"Type" : "Gallery",
+				"SpriteSheet" : "transport_ss",
+				"Images" : [
+					"transportpod_gallery_5",
+					"transportpod_gallery_6"
+				]
+			}
+		]
+	}
+}

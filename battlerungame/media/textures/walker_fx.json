@@ -1,0 +1,30 @@
+{
+
+"images": [
+    "media/textures/walker_fx.png"
+],
+
+"frames": [
+    [2, 2, 400, 500, 0, 0, 0],
+    [405, 2, 400, 500, 0, 0, 0],
+    [808, 2, 400, 500, 0, 0, 0],
+    [1211, 2, 400, 500, 0, 0, 0],
+    [1614, 2, 400, 500, 0, 0, 0],
+    [2, 505, 400, 500, 0, 0, 0],
+    [405, 505, 400, 500, 0, 0, 0],
+    [808, 505, 400, 500, 0, 0, 0],
+    [1211, 505, 400, 500, 0, 0, 0],
+    [1614, 505, 400, 500, 0, 0, 0]
+],
+
+"animations": {
+    "walker_show": {"frames":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "next" : false},
+    "walker_hide": {"frames":[9, 8, 7, 6, 5, 4, 3, 2, 1, 0], "next" : false}
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:d98a5be48940ba34fc02cdf04cb8ae34:a8c5f87a75811fd7ecba06abfd01f239:02e58ee0fb044f4c83968eb62b451318$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

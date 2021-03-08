@@ -1,0 +1,646 @@
+{
+  "frames": {
+    "atlas/popups/bgPopupLost.png": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 560,
+        "h": 430
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 70,
+        "w": 560,
+        "h": 430
+      },
+      "sourceSize": {
+        "w": 580,
+        "h": 500
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/bgGame/wallL2.png": {
+      "frame": {
+        "x": 566,
+        "y": 2,
+        "w": 380,
+        "h": 600
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 600
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 600
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/popups/bgPopupWin.png": {
+      "frame": {
+        "x": 2,
+        "y": 436,
+        "w": 560,
+        "h": 430
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 70,
+        "w": 560,
+        "h": 430
+      },
+      "sourceSize": {
+        "w": 580,
+        "h": 500
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/end/char2.png": {
+      "frame": {
+        "x": 566,
+        "y": 606,
+        "w": 338,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 13,
+        "w": 338,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 360,
+        "h": 360
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/popups/star2.png": {
+      "frame": {
+        "x": 908,
+        "y": 606,
+        "w": 110,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 5,
+        "w": 110,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 120
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground1.png": {
+      "frame": {
+        "x": 908,
+        "y": 724,
+        "w": 94,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground2.png": {
+      "frame": {
+        "x": 908,
+        "y": 822,
+        "w": 94,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground3.png": {
+      "frame": {
+        "x": 908,
+        "y": 920,
+        "w": 94,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/popups/acept.png": {
+      "frame": {
+        "x": 2,
+        "y": 870,
+        "w": 120,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 120,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/popups/reject.png": {
+      "frame": {
+        "x": 126,
+        "y": 870,
+        "w": 120,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 120,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/popups/reload.png": {
+      "frame": {
+        "x": 250,
+        "y": 870,
+        "w": 120,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 10,
+        "w": 120,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 140
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground4.png": {
+      "frame": {
+        "x": 374,
+        "y": 870,
+        "w": 94,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground1ToRight1.png": {
+      "frame": {
+        "x": 472,
+        "y": 870,
+        "w": 79,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 1,
+        "w": 79,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground3ToDown1.png": {
+      "frame": {
+        "x": 555,
+        "y": 929,
+        "w": 94,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 16,
+        "w": 94,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground4ToDown3.png": {
+      "frame": {
+        "x": 374,
+        "y": 968,
+        "w": 92,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 44,
+        "w": 92,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/enemies/beetle14.png": {
+      "frame": {
+        "x": 470,
+        "y": 968,
+        "w": 72,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 27,
+        "w": 72,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground3ToUp1.png": {
+      "frame": {
+        "x": 653,
+        "y": 929,
+        "w": 94,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground4ToDown1.png": {
+      "frame": {
+        "x": 751,
+        "y": 929,
+        "w": 94,
+        "h": 79
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 16,
+        "w": 94,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground4ToLeft3.png": {
+      "frame": {
+        "x": 849,
+        "y": 929,
+        "w": 51,
+        "h": 92
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 51,
+        "h": 92
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/ground4ToRight3.png": {
+      "frame": {
+        "x": 950,
+        "y": 2,
+        "w": 51,
+        "h": 92
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 44,
+        "y": 3,
+        "w": 51,
+        "h": 92
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/tiles/hazard4.png": {
+      "frame": {
+        "x": 950,
+        "y": 98,
+        "w": 70,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 70,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/Player/sideDig6.png": {
+      "frame": {
+        "x": 950,
+        "y": 182,
+        "w": 68,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 0,
+        "w": 68,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/Player/sideDig2.png": {
+      "frame": {
+        "x": 950,
+        "y": 266,
+        "w": 66,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 0,
+        "w": 66,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/Player/idleFront05.png": {
+      "frame": {
+        "x": 950,
+        "y": 350,
+        "w": 60,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 60,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/Player/idleSide00.png": {
+      "frame": {
+        "x": 950,
+        "y": 434,
+        "w": 60,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 0,
+        "w": 60,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "atlas/Player/walk1.png": {
+      "frame": {
+        "x": 950,
+        "y": 518,
+        "w": 66,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 2,
+        "w": 66,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "https://github.com/odrick/webpack-free-tex-packer",
+    "version": "0.3.0",
+    "image": "autoPackedAtlas-2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "relatedMultiPacks":[
+        "autoPackedAtlas.json",
+        "autoPackedAtlas-1.json",
+        "autoPackedAtlas-3.json",
+        "autoPackedAtlas-4.json",
+        "autoPackedAtlas-5.json"
+    ],
+    "scale": 1
+  }
+}
